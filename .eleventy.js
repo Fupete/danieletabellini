@@ -38,7 +38,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight)
 	eleventyConfig.addPlugin(EleventyPluginReadingTime)
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
-		defaultLanguage: "en",
+		defaultLanguage: "it",
 		errorMode: "allow-fallback"
 	})
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
