@@ -3,6 +3,7 @@ const EleventyPluginRss = require('@11ty/eleventy-plugin-rss')
 const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const EleventyPluginReadingTime = require('eleventy-plugin-reading-time')
 const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite')
+const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const rollupPluginCritical = require('rollup-plugin-critical').default
 
 const filters = require('./utils/filters.js')
@@ -34,6 +35,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyPluginRss)
 	eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight)
 	eleventyConfig.addPlugin(EleventyPluginReadingTime)
+	eleventyConfig.addPlugin(EleventyI18nPlugin, {
+		defaultLanguage: "it",
+		errorMode: "allow-fallback"
+	})
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite', 
 		viteOptions: {
