@@ -1,0 +1,27 @@
+---
+layout: base
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+<div class="container home">
+  
+  <h1>Amiamo la pizza&nbsp;🍕, i pirati&nbsp;🏴‍☠️ e&nbsp;gli&nbsp;arcobaleni&nbsp;🌈</h1>
+  <p>Facciamo pensieri, design, arte, e insegnamento. Questo sito web sarà il nostro nuovo playground e portfolio, tutto è in divenire,
+    al momento è solo un sito sandbox di test, rimanete sintonizzati 📻🖖</p>
+
+  <label for="site-search" class="input-search-label">Cerca nelle collezioni</label>
+  <div id="search" class="search"></div>
+
+  <h2 style="margin-top:4rem; padding-top:4rem;">Ultime annotazioni</h2>
+
+  {% set noteslist = collections.notes %}
+  {% include "home-noteslist.njk" %}
+
+  {% set tagUrl %}/tags/{% endset %}
+  {% set noteUrl %}/notes/{% endset %}
+  <p style="margin-top:6rem"><a href="{{tagUrl | url}}">Esplora tutti i tag</a></p>
+  <p><a href="{{noteUrl| url}}">Esplora tutte le note</a></p>
+
+</div>
