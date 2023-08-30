@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-        <loc>https://fupete.github.io/nasonero/notes/2023-03-19-post-with-video-test/</loc>
+        <loc>https://fupete.github.io/nasonero/en/notes/2023-03-19-post-with-video-test/</loc>
         <lastmod>2023-03-19</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/</loc>
+        <loc>https://fupete.github.io/nasonero/it/notes/2023-03-19-post-with-video-test/</loc>
+        <lastmod>2023-03-19</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/</loc>
         <lastmod>2023-03-20</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/notes/2023-04-01-test-again/</loc>
+        <loc>https://fupete.github.io/nasonero/it/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/</loc>
+        <lastmod>2023-03-20</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/notes/2023-04-01-test-again/</loc>
         <lastmod>2023-04-01</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/notes/2023-04-21-style-guide/</loc>
+        <loc>https://fupete.github.io/nasonero/it/notes/2023-04-01-test-again/</loc>
+        <lastmod>2023-04-01</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/notes/2023-04-21-style-guide/</loc>
+        <lastmod>2023-04-21</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/it/notes/2023-04-21-style-guide/</loc>
         <lastmod>2023-04-21</lastmod>
     </url><url>
         <loc>https://fupete.github.io/nasonero/en/about/</loc>
@@ -21,6 +33,30 @@
         <loc>https://fupete.github.io/nasonero/en/notes/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/data/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/art/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/video/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/design/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/gallery/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/notes-en/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/notes-it/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/en/tags/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
         <loc>https://fupete.github.io/nasonero/it/about/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
@@ -30,21 +66,27 @@
         <loc>https://fupete.github.io/nasonero/it/notes/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/tags/data/</loc>
+        <loc>https://fupete.github.io/nasonero/it/tags/data/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/tags/art/</loc>
+        <loc>https://fupete.github.io/nasonero/it/tags/art/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/tags/video/</loc>
+        <loc>https://fupete.github.io/nasonero/it/tags/video/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/tags/design/</loc>
+        <loc>https://fupete.github.io/nasonero/it/tags/design/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/tags/gallery/</loc>
+        <loc>https://fupete.github.io/nasonero/it/tags/gallery/</loc>
         <lastmod>2023-08-30</lastmod>
     </url><url>
-        <loc>https://fupete.github.io/nasonero/tags/</loc>
+        <loc>https://fupete.github.io/nasonero/it/tags/notes-en/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/it/tags/notes-it/</loc>
+        <lastmod>2023-08-30</lastmod>
+    </url><url>
+        <loc>https://fupete.github.io/nasonero/it/tags/</loc>
         <lastmod>2023-08-30</lastmod>
     </url></urlset>
