@@ -16,7 +16,7 @@ eleventyNavigation:
 
   <h2 style="margin-top:4rem; padding-top:4rem;">Ultime annotazioni</h2>
 
-  {% set noteslist = collections.notes %}
+  {% set noteslist = collections["notes_" + page.lang] %}
   {% include "home-noteslist.njk" %}
 
   {% set tagUrl %}/it/tags/{% endset %}

@@ -2,13 +2,16 @@
     {# Nav Links  #}
     <ul class="nav__menu">
         <li class="nav__item">
-            <a class="nav__link" href="{{ "/" | locale_url }}">Home</a>
+            {% set homeUrl %}/{{page.lang}}/{% endset %}
+            <a class="nav__link" href="{{homeUrl | url}}">Home</a>
         </li>
         <li class="nav__item">
-            <a class="nav__link" href="{{ "/about/" | locale_url }}">About</a>
+            {% set aboutUrl %}/{{page.lang}}/about/{% endset %}
+            <a class="nav__link" href="{{aboutUrl | url}}">About</a>
         </li>
         <li class="nav__item">
-            <a class="nav__link" href="{{ "/notes/" | locale_url }}">Notes</a>
+            {% set notesUrl %}/{{page.lang}}/notes/{% endset %}
+            <a class="nav__link" href="{{notesUrl | url}}">Notes</a>
         </li>
 {#         
         {%- for item in collections.all | eleventyNavigation -%}
