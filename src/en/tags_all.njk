@@ -9,7 +9,7 @@ title: Tags
   <ul class="taglist">
     {% set orderedCollection = collections | sortObjectByKey %}
     {%- for tag, notes in orderedCollection %}
-    {% if tag !== 'all' and tag !== 'notes' %}
+    {% if tag !== 'all' and tag !== 'notes' and tag !== 'notes_en' and tag !== 'notes_it' %}
     {% set tagUrl %}/en/tags/{{ tag | slug }}/{% endset %}
     <li class="taglist-item">
       <a href="{{tagUrl|url}}" class="taglist-link">
