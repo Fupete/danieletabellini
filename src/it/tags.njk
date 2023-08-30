@@ -11,13 +11,13 @@ pagination:
   addAllPagesToCollections: true
 layout: base
 eleventyComputed:
-  title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag | slugify }}/
+  title: Taggati “{{ tag }}”
+permalink: /it/tags/{{ tag | slugify }}/
 ---
 
 <div class="container">
-  <h1>Notes tagged "{{ tag }}"</h1>
-  {% set tagUrl %}/tags/{% endset %}
+  <h1>Note taggate "{{ tag }}"</h1>
+  {% set tagUrl %}/it/tags/{% endset %}
   <p><a href="{{tagUrl | url}}">Browse all tags</a></p>
   {% set noteslist = collections[tag] %}
   {% include "noteslist.njk" %}

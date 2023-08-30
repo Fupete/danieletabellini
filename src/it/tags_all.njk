@@ -1,0 +1,22 @@
+---
+layout: base
+permalink: /it/tags/
+title: Tag
+---
+
+<div class="container">
+  <h1>Tags</h1>
+  <ul class="taglist">
+    {% set orderedCollection = collections | sortObjectByKey %}
+    {%- for tag, notes in orderedCollection %}
+    {% if tag !== 'all' and tag !== 'notes' %}
+    {% set tagUrl %}/it/tags/{{ tag | slug }}/{% endset %}
+    <li class="taglist-item">
+      <a href="{{tagUrl|url}}" class="taglist-link">
+        {{ tag }}</a> 
+        <sup>{{ notes | length }} notes</sup>
+      </li>
+    {% endif %}
+    {%- endfor -%}
+  </ul>
+</div>

@@ -30,7 +30,7 @@ module.exports = function (eleventyConfig) {
 	// eleventyConfig.setServerPassthroughCopyBehavior('copy')
 	eleventyConfig.addPassthroughCopy("public")
 
-    // plugins
+	// plugins
 	eleventyConfig.addPlugin(EleventyPluginNavigation)
 	eleventyConfig.addPlugin(EleventyPluginRss)
 	eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight)
@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
 		errorMode: "allow-fallback"
 	})
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
-		tempFolderName: './.11ty-vite', 
+		tempFolderName: './.11ty-vite',
 		viteOptions: {
 			base: '/nasonero/',
 			publicDir: 'public',
@@ -60,10 +60,10 @@ module.exports = function (eleventyConfig) {
 						assetFileNames: (assetInfo) => {
 							var info = assetInfo.name.split('.')
 							var extType = info[info.length - 1]
-							if (/png|avif|webp|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType)) 
-							    return `imgs/[name][extname]`
-							else 
-							    return `css/[name]-[hash][extname]`
+							if (/png|avif|webp|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType))
+								return `imgs/[name][extname]`
+							else
+								return `css/[name]-[hash][extname]`
 						},
 						chunkFileNames: 'assets/js/[name]-[hash].js',
 						entryFileNames: 'assets/js/[name]-[hash].js',
@@ -131,10 +131,10 @@ module.exports = function (eleventyConfig) {
 		let imageSrc = `${path.dirname(this.page.inputPath)}/${src}`
 		let lightboxImageWidth = LANDSCAPE_LIGHTBOX_IMAGE_WIDTH
 		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
-		
+
 		let metadata = await sharp(imageSrc).metadata()
 		if (metadata.height > metadata.width) lightboxImageWidth = PORTRAIT_LIGHTBOX_IMAGE_WIDTH
-		
+
 		let genMetadata = await Image(imageSrc, {
 			widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
 			formats: ["avif", "webp", "jpeg"],
@@ -189,6 +189,15 @@ module.exports = function (eleventyConfig) {
 	// Build pagefind index 
 	eleventyConfig.on('eleventy.after', async () => {
 		execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+	})
+
+	// Localized notes
+	eleventyConfig.addCollection("notes_en", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/en/notes/**/*.md");
+	})
+
+	eleventyConfig.addCollection("notes_it", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/it/notes/**/*.md");
 	})
 
 	return {

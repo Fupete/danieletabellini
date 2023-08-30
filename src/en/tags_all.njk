@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /tags/
+permalink: /en/tags/
 title: Tags
 ---
 
@@ -10,7 +10,7 @@ title: Tags
     {% set orderedCollection = collections | sortObjectByKey %}
     {%- for tag, notes in orderedCollection %}
     {% if tag !== 'all' and tag !== 'notes' %}
-    {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+    {% set tagUrl %}/en/tags/{{ tag | slug }}/{% endset %}
     <li class="taglist-item">
       <a href="{{tagUrl|url}}" class="taglist-link">
         {{ tag }}</a> 
