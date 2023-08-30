@@ -55,6 +55,8 @@
 	<div class="layout" role="document">
 		{% include "header.njk" %}
 		<main id="main" class="main">
+			{{ content | safe }}
+
 			<div id="langAlternatives">
 				{% for link in page.url | locale_links %}
 					{%- if loop.first %}
@@ -65,7 +67,6 @@
 				{% endfor %}
 			</div>
 
-			{{ content | safe }}
 		</main>
 		{% include "footer.njk" %}
 	</div>
