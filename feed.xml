@@ -138,16 +138,6 @@ Banana | <a href="https://example.com/SomeDifferentReallyReallyReallyReallyReall
             ]]></content>
         </entry>
         <entry>
-            <title>Testando ancora</title>
-            <link href="https://fupete.github.io/nasonero/it/notes/2023-04-01-test-again/"/>
-            <updated>2023-04-01T00:00:00Z</updated>
-            <id>https://fupete.github.io/nasonero/it/notes/2023-04-01-test-again/</id>
-            <content type="html"><![CDATA[
-                <p>Lorem Ipsum Dolor Test Again.</p>
-
-            ]]></content>
-        </entry>
-        <entry>
             <title>Test again</title>
             <link href="https://fupete.github.io/nasonero/en/notes/2023-04-01-test-again/"/>
             <updated>2023-04-01T00:00:00Z</updated>
