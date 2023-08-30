@@ -1,6 +1,16 @@
 <nav class="nav nav--primary" role="navigation" tabindex="-1">
     {# Nav Links  #}
     <ul class="nav__menu">
+        <li class="nav__item">
+            <a class="nav__link" href="{{ "/" | locale_url }}">Home</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="{{ "/about/" | locale_url }}">About</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="{{ "/notes/" | locale_url }}">Notes</a>
+        </li>
+{#         
         {%- for item in collections.all | eleventyNavigation -%}
             {%- if item.url -%}
                 {%- set isCurrent = (item.url == page.url) -%}
@@ -11,6 +21,6 @@
                     </a>
                 </li>
             {%- endif -%}
-        {%- endfor -%}
+        {%- endfor -%} #}
     </ul>
 </nav>
