@@ -2,8 +2,8 @@
     
     &__container {
         position: relative;
-        display: flex;
-        justify-content: space-between;
+        // display: flex;
+        // justify-content: space-between;
         max-width: var(--container-max-width);
         margin: 0 auto;
         padding: 2rem 1rem; // fallback
@@ -13,19 +13,27 @@
     .nav--primary {
         
         ul {
-            font-size: var(--fluid-1);
+            font-size: var(--fluid-0);
+            font-weight: 400;
             margin: 0;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            align-items: baseline;
         }
 
         li {
             margin-left: 2rem;
         &.nav__item--active {
             a {
-                font-weight: 500;
+                font-weight: 600;
                 text-decoration: none;
+            }
+        }
+        &.nav__lang {
+            a {
+                margin-left: 1rem;
+                font-size: var(--fluid-0);
             }
         }
         }
