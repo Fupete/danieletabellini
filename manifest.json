@@ -1,9 +1,9 @@
 {
-  "_main-f894fb35.js": {
+  "_main-b50cda29.js": {
     "css": [
-      "css/main-77515c43.css"
+      "css/main-e74dafbc.css"
     ],
-    "file": "assets/js/main-f894fb35.js",
+    "file": "assets/js/main-b50cda29.js",
     "imports": [
       "_videojs-cacfeca3.js"
     ]
@@ -48,7 +48,7 @@
     "src": "imgs/RPijnX0kkx-640.webp"
   },
   "main.css": {
-    "file": "css/main-77515c43.css",
+    "file": "css/main-e74dafbc.css",
     "src": "main.css"
   }
 }
