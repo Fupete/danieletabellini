@@ -7,20 +7,17 @@ eleventyNavigation:
 
 <div class="container home">
   
-  <h1>nasonero.studio</h1>
-  <p>Una sandbox</p>
-
-  <h2 style="margin-top:4rem; padding-top:4rem;">Note</h2>
+  <h1>Note dal futuro</h1>
 
   {% set noteslist = collections["notes_" + page.lang] %}
   {% include "home-noteslist.njk" %}
 
-  {% set tagUrl %}/it/tags/{% endset %}
-  {% set noteUrl %}/it/notes/{% endset %}
-  <p style="margin-top:6rem"><a href="{{tagUrl | url}}">Esplora tutti i tag</a></p>
-  <p><a href="{{noteUrl| url}}">Esplora tutte le note</a></p>
-
   <label for="site-search" class="input-search-label">Cerca</label>
   <div id="search" class="search"></div>
+
+  {% set noteUrl %}/en/notes/{% endset %}
+  <p style="margin-top:6rem"><a href="{{noteUrl| url}}">Esplora tutte le note</a></p>
+  {% set tagUrl %}/en/tags/{% endset %}
+  <p><a href="{{tagUrl | url}}">Esplora tutti i tag</a></p>
 
 </div>
