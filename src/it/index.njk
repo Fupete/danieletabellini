@@ -7,14 +7,10 @@ eleventyNavigation:
 
 <div class="container home">
   
-  <h1>Amiamo la pizza&nbsp;🍕, i pirati&nbsp;🏴‍☠️ e&nbsp;gli&nbsp;arcobaleni&nbsp;🌈</h1>
-  <p>Facciamo pensieri, design, arte, e insegnamento. Questo sito web sarà il nostro nuovo playground e portfolio, tutto è in divenire,
-    al momento è solo un sito sandbox di test, rimanete sintonizzati 📻🖖</p>
+  <h1>nasonero.studio</h1>
+  <p>Una sandbox</p>
 
-  <label for="site-search" class="input-search-label">Cerca nelle collezioni</label>
-  <div id="search" class="search"></div>
-
-  <h2 style="margin-top:4rem; padding-top:4rem;">Ultime annotazioni</h2>
+  <h2 style="margin-top:4rem; padding-top:4rem;">Note</h2>
 
   {% set noteslist = collections["notes_" + page.lang] %}
   {% include "home-noteslist.njk" %}
@@ -23,5 +19,8 @@ eleventyNavigation:
   {% set noteUrl %}/it/notes/{% endset %}
   <p style="margin-top:6rem"><a href="{{tagUrl | url}}">Esplora tutti i tag</a></p>
   <p><a href="{{noteUrl| url}}">Esplora tutte le note</a></p>
+
+  <label for="site-search" class="input-search-label">Cerca</label>
+  <div id="search" class="search"></div>
 
 </div>
