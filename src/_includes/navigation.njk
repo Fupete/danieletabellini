@@ -1,29 +1,30 @@
 <nav class="nav nav--primary" role="navigation" tabindex="-1">
-    {# Nav Links  #}
+    {# Nav Links #}
     <ul class="nav__menu">
         <li class="nav__item">
             {% set homeUrl %}/{{page.lang}}/{% endset %}
-            <a class="nav__link" href="{{homeUrl | url}}">Home</a>
+            <a class="nav__link" href="{{homeUrl | url}}">
+            {% if page.lang == 'en' %}Cover{% else %}Copertina{% endif %}
+            </a>
         </li>
         <li class="nav__item">
             {% set aboutUrl %}/{{page.lang}}/about/{% endset %}
-            <a class="nav__link" href="{{aboutUrl | url}}">About</a>
+            <a class="nav__link" href="{{aboutUrl | url}}">
+            {% if page.lang == 'en' %}About{% else %}Chi siamo{% endif %}
+            </a>
         </li>
         <li class="nav__item">
             {% set notesUrl %}/{{page.lang}}/notes/{% endset %}
-            <a class="nav__link" href="{{notesUrl | url}}">Notes</a>
+            <a class="nav__link" href="{{notesUrl | url}}">
+            {% if page.lang == 'en' %}Notes{% else %}Note{% endif %}
+            </a>
         </li>
-{#         
-        {%- for item in collections.all | eleventyNavigation -%}
-            {%- if item.url -%}
-                {%- set isCurrent = (item.url == page.url) -%}
-                {%- set isParent = item.url != '/' and item.url in page.url -%}
-                <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}" {% if isCurrent %} aria-current="page" {% endif %}>
-                        {{ item.title }}
-                    </a>
-                </li>
-            {%- endif -%}
-        {%- endfor -%} #}
+        <li class="nav__item nav__lang">
+            {% if page.lang == 'en' %}
+                <a class="nav__link" href="{{"/it/" | url}}">Italiano</a>
+            {% else %}
+                <a class="nav__link" href="{{"/en/" | url}}">English</a>
+            {% endif %}
+        </li>
     </ul>
 </nav>
