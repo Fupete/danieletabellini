@@ -1,9 +1,9 @@
 {
-  "_main-827916c3.js": {
+  "_main-3ece9dfa.js": {
     "css": [
-      "css/main-845685f4.css"
+      "css/main-6b255d41.css"
     ],
-    "file": "assets/js/main-827916c3.js",
+    "file": "assets/js/main-3ece9dfa.js",
     "imports": [
       "_videojs-cacfeca3.js"
     ]
@@ -48,7 +48,7 @@
     "src": "imgs/RPijnX0kkx-640.webp"
   },
   "main.css": {
-    "file": "css/main-845685f4.css",
+    "file": "css/main-6b255d41.css",
     "src": "main.css"
   }
 }
