@@ -1,11 +1,11 @@
 :root {
     --pagefind-ui-scale: 1;
     --pagefind-ui-primary: #0066cc;
-    --pagefind-ui-text: #222222;
-    --pagefind-ui-background: #0066cc;
-    --pagefind-ui-border: #e9e9e9;
-    --pagefind-ui-tag: #e9e9e9;
-    --pagefind-ui-border-width: 0;
+    --pagefind-ui-text: #212121;
+    --pagefind-ui-background: #eaeaea;
+    --pagefind-ui-border: #666666;
+    --pagefind-ui-tag: #666666;
+    --pagefind-ui-border-width: 1;
     --pagefind-ui-border-radius: 4px;
     --pagefind-ui-image-border-radius: 4px;
     --pagefind-ui-image-box-ratio: 1 / 1;
@@ -15,12 +15,16 @@
 // Very basic support for a dark color scheme
 @media (prefers-color-scheme: dark) {
     :root:not([data-user-color-scheme]) {
-        --pagefind-ui-primary: #ffffff;
-        --pagefind-ui-text: #eeeeee;
-        --pagefind-ui-background: #0066cc;
-        --pagefind-ui-border: #e9e9e9;
-        --pagefind-ui-tag: #e9e9e9;
+        --pagefind-ui-primary: #0066cc;
+        --pagefind-ui-text: #ffffff;
+        --pagefind-ui-background: #212121;
+        --pagefind-ui-border: #666;
+        --pagefind-ui-tag: #666;
     }
+}
+
+.search {
+    max-width: 480px;
 }
 
 .input-search-label {
@@ -297,6 +301,7 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
     pointer-events: none;
 }
 .pagefind-ui__search-input.svelte-1bkqzc5 {
+    color: var(--pagefind-ui-text);
     height: calc(64px * var(--pagefind-ui-scale));
     padding: 0 calc(70px * var(--pagefind-ui-scale)) 0 calc(54px * var(--pagefind-ui-scale));
     background-color: var(--pagefind-ui-background);
