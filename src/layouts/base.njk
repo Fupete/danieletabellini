@@ -55,18 +55,7 @@
 	<div class="layout" role="document">
 		{% include "header.njk" %}
 		<main id="main" class="main">
-			{{ content | safe }}
-
-			<div id="langAlternatives">
-				{% for link in page.url | locale_links %}
-					{%- if loop.first %}
-					This page is also available in:
-					{% endif %}
-					{%- if not loop.first %},{% endif %}
-					<a href="{{link.url | url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
-				{% endfor %}
-			</div>
-
+			{{ content | safe }
 		</main>
 		{% include "footer.njk" %}
 	</div>
