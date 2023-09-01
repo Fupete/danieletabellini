@@ -2,6 +2,10 @@ p {
     font-size: var(--fluid-0);
     line-height: 1.5;
     max-width: 75ch;
+    &.lead {
+        font-size: var(--fluid-1);
+        margin-top:-1rem;
+    }
 }
 
 span.marker {
