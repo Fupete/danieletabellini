@@ -5,10 +5,10 @@
     justify-content: flex-start;
     gap: 8px;
     @media screen and (min-width: 48em) {
-        gap: 16px;
+        gap: 8px;
     }
     @media screen and (min-width: 64.0625em) {
-        gap: 24px;
+        gap: 16px;
     }
     padding: 3.33rem 0;
 }
@@ -28,7 +28,7 @@
     border-radius: 4px;
   }
 
-.gallery::after {
+// .gallery::after {
    /* content: "";
     flex-grow: 999;*/
-}
+// }
