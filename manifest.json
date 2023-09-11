@@ -1,15 +1,15 @@
 {
-  "_main-8f46d75c.js": {
+  "_main-bed9b85b.js": {
     "css": [
       "css/main-2ca017e4.css"
     ],
-    "file": "assets/js/main-8f46d75c.js",
+    "file": "assets/js/main-bed9b85b.js",
     "imports": [
-      "_videojs-cacfeca3.js"
+      "_videojs-8431ea91.js"
     ]
   },
-  "_videojs-cacfeca3.js": {
-    "file": "assets/js/videojs-cacfeca3.js"
+  "_videojs-8431ea91.js": {
+    "file": "assets/js/videojs-8431ea91.js"
   },
   "imgs/RPijnX0kkx-1280.avif": {
     "file": "imgs/RPijnX0kkx-1280.avif",
