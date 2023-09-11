@@ -1,9 +1,9 @@
 {
-  "_main-bed9b85b.js": {
+  "_main-b6369176.js": {
     "css": [
-      "css/main-2ca017e4.css"
+      "css/main-46c90a47.css"
     ],
-    "file": "assets/js/main-bed9b85b.js",
+    "file": "assets/js/main-b6369176.js",
     "imports": [
       "_videojs-8431ea91.js"
     ]
@@ -48,7 +48,7 @@
     "src": "imgs/RPijnX0kkx-640.webp"
   },
   "main.css": {
-    "file": "css/main-2ca017e4.css",
+    "file": "css/main-46c90a47.css",
     "src": "main.css"
   }
 }
