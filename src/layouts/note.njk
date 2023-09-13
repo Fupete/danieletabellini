@@ -17,16 +17,18 @@ layout: base
   {{ content | safe }}
 
   {%- if collections.notes %}
-    {%- set previousnote = collections.notes | getPreviousCollectionItem %}
+    {%- set previousnote = collections.notes | getPreviousCollectionItem %} 
     {%- set nextnote = collections.notes | getNextCollectionItem %}
     {%- if nextnote or previousnote %}
       <ul class="links-nextprev" data-pagefind-ignore>
         {%- if previousnote %}
-          <li>Previous: <a href="{{ previousnote.url | url }}">{{ previousnote.data.title }}</a>
+          <li>
+            {%- if page.lang == 'it' %}Precedente{% else %}Previous{% endif %}: <a href="{{ previousnote.url | url }}">{{ previousnote.data.title }}</a>
           </li>
         {% endif %}
         {%- if nextnote %}
-          <li>Next: <a href="{{ nextnote.url | url }}">{{ nextnote.data.title }}</a>
+          <li>
+            {%- if page.lang == 'it' %}Successiva{% else %}Next{% endif %}: <a href="{{ nextnote.url | url }}">{{ nextnote.data.title }}</a>
           </li>
         {% endif %}
       </ul>
