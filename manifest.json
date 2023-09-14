@@ -1,9 +1,9 @@
 {
-  "_main-f8ca8d70.js": {
+  "_main-5aa00a5b.js": {
     "css": [
-      "css/main-b245c957.css"
+      "css/main-87caf639.css"
     ],
-    "file": "assets/js/main-f8ca8d70.js",
+    "file": "assets/js/main-5aa00a5b.js",
     "imports": [
       "_videojs-8431ea91.js"
     ]
@@ -48,7 +48,7 @@
     "src": "imgs/RPijnX0kkx-640.webp"
   },
   "main.css": {
-    "file": "css/main-b245c957.css",
+    "file": "css/main-87caf639.css",
     "src": "main.css"
   }
 }
