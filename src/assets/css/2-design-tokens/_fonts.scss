@@ -15,11 +15,9 @@ Use like this in your CSS:
 ------------------------- static ------------------------- */
 
 @font-face {
-  font-family: 'Inter Starter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/assets/fonts/inter/Inter-Regular.woff2?v=3.19") format("woff2");
+  font-family: 'Inter Subset';
+  src: url("/assets/fonts/inter/Inter-Regular-subset.woff2") format("woff2");
+  unicode-range: U+21-80,U+91-94,U+BF-D6,U+D8-F6,U+F8-122;
 }
 
 @font-face {
@@ -161,7 +159,7 @@ body {
   font-family: sans-serif;
 }
 .fonts-loaded-1 body {
-  font-family: 'Inter Starter';
+  font-family: 'Inter Subset';
 }
 .fonts-loaded-2 body {
   font-family: 'Inter';

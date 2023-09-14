@@ -12,7 +12,7 @@
 	<title>{{ meta.title }}</title>
 
 	
-	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular.woff2' | url }}" as="font" type="font/woff2"
+	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular-subset.woff2' | url }}" as="font" type="font/woff2"
 		crossorigin=""> 
 
 	{% include "meta.njk" %}
@@ -27,7 +27,7 @@
 					return;
 				}
 
-				document.fonts.load("1em 'Inter Starter'").then(function () {
+				document.fonts.load("1em 'Inter Subset'").then(function () {
 					document.documentElement.className += " fonts-loaded-1";
 
 					Promise.all([
