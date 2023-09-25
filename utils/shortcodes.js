@@ -4,8 +4,7 @@ const path = require('path')
 module.exports = {
 
 	video: async function (id, mp4, webm) {
-		return `
-		<div>
+		return `<div>
 			<video id="${id}" class="video-js" data-setup='{
 				"fluid": true, 
 				"responsive": true,
@@ -15,13 +14,11 @@ module.exports = {
 			<source src="${mp4}" type="video/mp4">
 			<source src="${webm}" type="video/webm">
 			</video>
-		</div>
-		`
+		</div>`
 	},
 
 	videoYoutube: async function (id, url) {
-		return `
-		<div>
+		return `<div>
 			<video id="${id}" class="video-js" data-setup='{
 				"fluid": true, 
 				"responsive": true,
@@ -31,8 +28,7 @@ module.exports = {
 			}'>
 			<source src="${url}" type="video/youtube">
 			</video>
-		</div>
-		`
+		</div>`
 	},
 
 	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280]) {
