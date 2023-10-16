@@ -1,9 +1,9 @@
 {
-  "_main-df93beed.js": {
+  "_main-3b6b95bf.js": {
     "css": [
-      "css/main-e83b02eb.css"
+      "css/main-903ce10e.css"
     ],
-    "file": "assets/js/main-df93beed.js",
+    "file": "assets/js/main-3b6b95bf.js",
     "imports": [
       "_videojs-f66871d6.js"
     ]
@@ -48,7 +48,7 @@
     "src": "imgs/RPijnX0kkx-640.webp"
   },
   "main.css": {
-    "file": "css/main-e83b02eb.css",
+    "file": "css/main-903ce10e.css",
     "src": "main.css"
   }
 }
