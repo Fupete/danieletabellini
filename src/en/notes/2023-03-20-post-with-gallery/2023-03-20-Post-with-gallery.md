@@ -1,9 +1,12 @@
 ---
 title: Post with gallery
-tags: [Data,Gallery]
+tags:
+  - Data
+  - Gallery
 ---
-
 ## Galleria con titolo sopra
+
+![Alt](improvvisation.jpg)
 
 {% gallery "uzupis" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
