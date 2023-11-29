@@ -4,11 +4,6 @@ tags:
   - Data
   - Art
   - Video
-tag:
-  - Design
-  - Test
-  - Art
-  - Video
 ---
 
 Lorem Ipsum Dolor.
