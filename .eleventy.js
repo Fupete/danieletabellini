@@ -184,9 +184,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias('note', 'note.njk')
 
 	// Copy/pass-through files
-	eleventyConfig.addPassthroughCopy('src/assets/css')
-	eleventyConfig.addPassthroughCopy('src/assets/js')
-	eleventyConfig.addPassthroughCopy('src/admin/config.yml') // decap CMS config
+	eleventyConfig.addPassthroughCopy('./src/assets/css')
+	eleventyConfig.addPassthroughCopy('./src/assets/js')
 
 	// Build pagefind index 
 	eleventyConfig.on('eleventy.after', async () => {
