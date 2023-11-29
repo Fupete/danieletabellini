@@ -1,14 +1,14 @@
 backend:
-  # name: git-gateway
-  branch: main
   name: github
   repo: fupete/nasonero
+  branch: main
+  
 media_folder: "src/assets/media"
 public_folder: "/media"
 publish_mode: editorial_workflow
 
 collections:
-  - label: "Notes"
+  - label: "Notes in english"
     name: "notes-en"
     folder: "src/en/notes"
     create: true
@@ -17,9 +17,9 @@ collections:
     #   preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Tags", name: "tag", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Notes"
+  - label: "Note in italiano"
     name: "notes-it"
     folder: "src/it/notes"
     create: true
@@ -28,5 +28,5 @@ collections:
     #   preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Tags", name: "tag", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
