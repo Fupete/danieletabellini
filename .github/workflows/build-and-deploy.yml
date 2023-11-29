@@ -2,7 +2,7 @@ name: Build and deploy nasonero 11ty pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "decap-cms" ]
   # pull_request:
   #  branches: [ "main" ]
   # Allows you to run this workflow manually from the Actions tab
