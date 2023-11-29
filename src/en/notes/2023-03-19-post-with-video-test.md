@@ -1,6 +1,14 @@
 ---
 title: Post with video test
-tags: [Data,Art,Video]
+tags:
+  - Data
+  - Art
+  - Video
+tag:
+  - Design
+  - Test
+  - Art
+  - Video
 ---
 
 Lorem Ipsum Dolor.
