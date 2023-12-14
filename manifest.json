@@ -1,15 +1,15 @@
 {
-  "_main-cf7cff23.js": {
+  "_main-4e674c47.js": {
     "css": [
-      "css/main-1c4b7adf.css"
+      "css/main-49c758e8.css"
     ],
-    "file": "assets/js/main-cf7cff23.js",
+    "file": "assets/js/main-4e674c47.js",
     "imports": [
-      "_videojs-7e852ad8.js"
+      "_videojs-c6e52aa5.js"
     ]
   },
-  "_videojs-7e852ad8.js": {
-    "file": "assets/js/videojs-7e852ad8.js"
+  "_videojs-c6e52aa5.js": {
+    "file": "assets/js/videojs-c6e52aa5.js"
   },
   "imgs/RPijnX0kkx-1280.avif": {
     "file": "imgs/RPijnX0kkx-1280.avif",
@@ -48,7 +48,7 @@
     "src": "imgs/RPijnX0kkx-640.webp"
   },
   "main.css": {
-    "file": "css/main-1c4b7adf.css",
+    "file": "css/main-49c758e8.css",
     "src": "main.css"
   }
 }
