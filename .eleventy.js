@@ -83,8 +83,6 @@ module.exports = function (eleventyConfig) {
 							{ uri: 'it/notes/index.html', template: 'notes/index' },
 							{ uri: 'en/404.html', template: '404' },
 							{ uri: 'it/404.html', template: '404' },
-							{ uri: 'en/about/index.html', template: 'about/index' },
-							{ uri: 'it/about/index.html', template: 'about/index' },
 						],
 						criticalConfig: {
 							inline: true,
