@@ -13,39 +13,39 @@
     <id>https://fupete.github.io/danieletabellini//</id>
         <entry>
             <title>Guida di stile</title>
-            <link href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/"/>
+            <link href="https://fupete.github.io/it/notes/2023-04-21-style-guide/"/>
             <updated>2023-04-21T00:00:00Z</updated>
-            <id>https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/</id>
+            <id>https://fupete.github.io/it/notes/2023-04-21-style-guide/</id>
             <content type="html"><![CDATA[
-                <h2 id="headings-(h2)" tabindex="-1">headings (h2) <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#headings-(h2)" aria-hidden="true">#</a></h2>
-<h3 id="h3" tabindex="-1">h3 <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#h3" aria-hidden="true">#</a></h3>
-<h4 id="h4" tabindex="-1">h4 <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#h4" aria-hidden="true">#</a></h4>
-<h5 id="h5" tabindex="-1">h5 <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#h5" aria-hidden="true">#</a></h5>
-<h6 id="h6" tabindex="-1">h6 <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#h6" aria-hidden="true">#</a></h6>
-<h2 id="list" tabindex="-1">List <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#list" aria-hidden="true">#</a></h2>
-<h3 id="simple" tabindex="-1">Simple <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#simple" aria-hidden="true">#</a></h3>
+                <h2 id="headings-(h2)" tabindex="-1">headings (h2) <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#headings-(h2)" aria-hidden="true">#</a></h2>
+<h3 id="h3" tabindex="-1">h3 <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#h3" aria-hidden="true">#</a></h3>
+<h4 id="h4" tabindex="-1">h4 <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#h4" aria-hidden="true">#</a></h4>
+<h5 id="h5" tabindex="-1">h5 <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#h5" aria-hidden="true">#</a></h5>
+<h6 id="h6" tabindex="-1">h6 <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#h6" aria-hidden="true">#</a></h6>
+<h2 id="list" tabindex="-1">List <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#list" aria-hidden="true">#</a></h2>
+<h3 id="simple" tabindex="-1">Simple <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#simple" aria-hidden="true">#</a></h3>
 <ul>
 <li>List item</li>
 <li>list iten</li>
 <li>list item</li>
 </ul>
-<h3 id="numbered" tabindex="-1">Numbered <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#numbered" aria-hidden="true">#</a></h3>
+<h3 id="numbered" tabindex="-1">Numbered <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#numbered" aria-hidden="true">#</a></h3>
 <ol>
 <li>numbered list item</li>
 <li>numbered list item</li>
 <li>numbered list item</li>
 </ol>
-<h2 id="styles" tabindex="-1">Styles <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#styles" aria-hidden="true">#</a></h2>
+<h2 id="styles" tabindex="-1">Styles <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#styles" aria-hidden="true">#</a></h2>
 <p><strong>Bold</strong> and <em>italic</em></p>
-<h3 id="code-inline" tabindex="-1">Code inline <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#code-inline" aria-hidden="true">#</a></h3>
+<h3 id="code-inline" tabindex="-1">Code inline <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#code-inline" aria-hidden="true">#</a></h3>
 <p>You'll want to run <code>really_cool_script.sh arg</code>.<br />
 Pay attention to the <code>foo_bar_whammy</code> field in that table.</p>
-<h3 id="code-block-with-highlight" tabindex="-1">Code block with highlight <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#code-block-with-highlight" aria-hidden="true">#</a></h3>
+<h3 id="code-block-with-highlight" tabindex="-1">Code block with highlight <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#code-block-with-highlight" aria-hidden="true">#</a></h3>
 <pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">Foo</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> bar<span class="token punctuation">)</span><span class="token punctuation">:</span>
   self<span class="token punctuation">.</span>bar <span class="token operator">=</span> bar</code></pre>
-<p>See the syntax guide for more info: <a href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/syntax_guide.md">link</a>.<br />
-Or, check out the style guide <a href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/style_guide.md">here</a>.</p>
-<h2 id="table-md" tabindex="-1">Table md <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#table-md" aria-hidden="true">#</a></h2>
+<p>See the syntax guide for more info: <a href="https://fupete.github.io/it/notes/2023-04-21-style-guide/syntax_guide.md">link</a>.<br />
+Or, check out the style guide <a href="https://fupete.github.io/it/notes/2023-04-21-style-guide/style_guide.md">here</a>.</p>
+<h2 id="table-md" tabindex="-1">Table md <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#table-md" aria-hidden="true">#</a></h2>
 <table>
 <thead>
 <tr>
@@ -67,7 +67,7 @@ Or, check out the style guide <a href="https://fupete.github.io/danieletabellini
 </tr>
 </tbody>
 </table>
-<h3 id="another-table" tabindex="-1">Another table <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-04-21-style-guide/#another-table" aria-hidden="true">#</a></h3>
+<h3 id="another-table" tabindex="-1">Another table <a class="direct-link" href="https://fupete.github.io/it/notes/2023-04-21-style-guide/#another-table" aria-hidden="true">#</a></h3>
 <table>
 <thead>
 <tr>
@@ -99,39 +99,39 @@ Or, check out the style guide <a href="https://fupete.github.io/danieletabellini
         </entry>
         <entry>
             <title>Style guide</title>
-            <link href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/"/>
+            <link href="https://fupete.github.io/en/notes/2023-04-21-style-guide/"/>
             <updated>2023-04-21T00:00:00Z</updated>
-            <id>https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/</id>
+            <id>https://fupete.github.io/en/notes/2023-04-21-style-guide/</id>
             <content type="html"><![CDATA[
-                <h2 id="headings-(h2)" tabindex="-1">headings (h2) <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#headings-(h2)" aria-hidden="true">#</a></h2>
-<h3 id="h3" tabindex="-1">h3 <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#h3" aria-hidden="true">#</a></h3>
-<h4 id="h4" tabindex="-1">h4 <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#h4" aria-hidden="true">#</a></h4>
-<h5 id="h5" tabindex="-1">h5 <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#h5" aria-hidden="true">#</a></h5>
-<h6 id="h6" tabindex="-1">h6 <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#h6" aria-hidden="true">#</a></h6>
-<h2 id="list" tabindex="-1">List <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#list" aria-hidden="true">#</a></h2>
-<h3 id="simple" tabindex="-1">Simple <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#simple" aria-hidden="true">#</a></h3>
+                <h2 id="headings-(h2)" tabindex="-1">headings (h2) <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#headings-(h2)" aria-hidden="true">#</a></h2>
+<h3 id="h3" tabindex="-1">h3 <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#h3" aria-hidden="true">#</a></h3>
+<h4 id="h4" tabindex="-1">h4 <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#h4" aria-hidden="true">#</a></h4>
+<h5 id="h5" tabindex="-1">h5 <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#h5" aria-hidden="true">#</a></h5>
+<h6 id="h6" tabindex="-1">h6 <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#h6" aria-hidden="true">#</a></h6>
+<h2 id="list" tabindex="-1">List <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#list" aria-hidden="true">#</a></h2>
+<h3 id="simple" tabindex="-1">Simple <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#simple" aria-hidden="true">#</a></h3>
 <ul>
 <li>List item</li>
 <li>list iten</li>
 <li>list item</li>
 </ul>
-<h3 id="numbered" tabindex="-1">Numbered <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#numbered" aria-hidden="true">#</a></h3>
+<h3 id="numbered" tabindex="-1">Numbered <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#numbered" aria-hidden="true">#</a></h3>
 <ol>
 <li>numbered list item</li>
 <li>numbered list item</li>
 <li>numbered list item</li>
 </ol>
-<h2 id="styles" tabindex="-1">Styles <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#styles" aria-hidden="true">#</a></h2>
+<h2 id="styles" tabindex="-1">Styles <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#styles" aria-hidden="true">#</a></h2>
 <p><strong>Bold</strong> and <em>italic</em></p>
-<h3 id="code-inline" tabindex="-1">Code inline <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#code-inline" aria-hidden="true">#</a></h3>
+<h3 id="code-inline" tabindex="-1">Code inline <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#code-inline" aria-hidden="true">#</a></h3>
 <p>You'll want to run <code>really_cool_script.sh arg</code>.<br />
 Pay attention to the <code>foo_bar_whammy</code> field in that table.</p>
-<h3 id="code-block-with-highlight" tabindex="-1">Code block with highlight <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#code-block-with-highlight" aria-hidden="true">#</a></h3>
+<h3 id="code-block-with-highlight" tabindex="-1">Code block with highlight <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#code-block-with-highlight" aria-hidden="true">#</a></h3>
 <pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">Foo</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> bar<span class="token punctuation">)</span><span class="token punctuation">:</span>
   self<span class="token punctuation">.</span>bar <span class="token operator">=</span> bar</code></pre>
-<p>See the syntax guide for more info: <a href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/syntax_guide.md">link</a>.<br />
-Or, check out the style guide <a href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/style_guide.md">here</a>.</p>
-<h2 id="table-md" tabindex="-1">Table md <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#table-md" aria-hidden="true">#</a></h2>
+<p>See the syntax guide for more info: <a href="https://fupete.github.io/en/notes/2023-04-21-style-guide/syntax_guide.md">link</a>.<br />
+Or, check out the style guide <a href="https://fupete.github.io/en/notes/2023-04-21-style-guide/style_guide.md">here</a>.</p>
+<h2 id="table-md" tabindex="-1">Table md <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#table-md" aria-hidden="true">#</a></h2>
 <table>
 <thead>
 <tr>
@@ -153,7 +153,7 @@ Or, check out the style guide <a href="https://fupete.github.io/danieletabellini
 </tr>
 </tbody>
 </table>
-<h3 id="another-table" tabindex="-1">Another table <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-04-21-style-guide/#another-table" aria-hidden="true">#</a></h3>
+<h3 id="another-table" tabindex="-1">Another table <a class="direct-link" href="https://fupete.github.io/en/notes/2023-04-21-style-guide/#another-table" aria-hidden="true">#</a></h3>
 <table>
 <thead>
 <tr>
@@ -185,9 +185,9 @@ Or, check out the style guide <a href="https://fupete.github.io/danieletabellini
         </entry>
         <entry>
             <title>Test again</title>
-            <link href="https://fupete.github.io/danieletabellini/en/notes/2023-04-01-test-again/"/>
+            <link href="https://fupete.github.io/en/notes/2023-04-01-test-again/"/>
             <updated>2023-04-01T00:00:00Z</updated>
-            <id>https://fupete.github.io/danieletabellini/en/notes/2023-04-01-test-again/</id>
+            <id>https://fupete.github.io/en/notes/2023-04-01-test-again/</id>
             <content type="html"><![CDATA[
                 <p>Lorem Ipsum Dolor Test Again.</p>
 
@@ -195,13 +195,13 @@ Or, check out the style guide <a href="https://fupete.github.io/danieletabellini
         </entry>
         <entry>
             <title>Post con galleria</title>
-            <link href="https://fupete.github.io/danieletabellini/it/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/"/>
+            <link href="https://fupete.github.io/it/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/"/>
             <updated>2023-03-20T00:00:00Z</updated>
-            <id>https://fupete.github.io/danieletabellini/it/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/</id>
+            <id>https://fupete.github.io/it/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/</id>
             <content type="html"><![CDATA[
-                <div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/wrMHxJkl2p-720.jpeg" data-pswp-width="720" data-pswp-height="806" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/wrMHxJkl2p-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/86oVvjh92r-720.jpeg" data-pswp-width="720" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/86oVvjh92r-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
+                <div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/wrMHxJkl2p-720.jpeg" data-pswp-width="720" data-pswp-height="806" target="_blank">					<img src="https://fupete.github.io/media/gallery/wrMHxJkl2p-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/86oVvjh92r-720.jpeg" data-pswp-width="720" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/86oVvjh92r-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.</p>
-<div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
+<div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci. Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimentum tellus mauris, vel porttitor ante hendrerit vel. Ut interdum tellus sit amet massa ultrices sollicitudin. Integer dictum est vel lacus pharetra, vitae cursus orci vestibulum. Nulla tincidunt elementum porttitor. Duis eu efficitur tortor. Donec vestibulum lacus a justo efficitur molestie sed vel urna. In at dignissim nisl. Praesent viverra magna quam, at malesuada est dictum a. Quisque tincidunt ac elit nec venenatis. Sed ullamcorper eros tincidunt lorem pharetra, sed interdum nibh lobortis.</p>
 <p><picture><source type="image/avif" srcset="https://fupete.github.io/imgs/RPijnX0kkx-320.avif 320w, https://fupete.github.io/imgs/RPijnX0kkx-640.avif 640w, https://fupete.github.io/imgs/RPijnX0kkx-1280.avif 1280w" sizes="100vw" /><source type="image/webp" srcset="https://fupete.github.io/imgs/RPijnX0kkx-320.webp 320w, https://fupete.github.io/imgs/RPijnX0kkx-640.webp 640w, https://fupete.github.io/imgs/RPijnX0kkx-1280.webp 1280w" sizes="100vw" /><source type="image/jpeg" srcset="https://fupete.github.io/imgs/RPijnX0kkx-320.jpeg 320w, https://fupete.github.io/imgs/RPijnX0kkx-640.jpeg 640w, https://fupete.github.io/imgs/RPijnX0kkx-1280.jpeg 1280w" sizes="100vw" /><img alt="photo of my tabby cat" loading="lazy" decoding="auto" src="https://fupete.github.io/imgs/RPijnX0kkx-320.jpeg" width="1280" height="1279" /></picture></p>
 <p>Duis quis arcu at elit congue interdum. Curabitur vestibulum felis eget vulputate egestas. Proin finibus commodo diam, non viverra magna mollis ut. Etiam vel convallis nisi. Curabitur gravida, enim in imperdiet hendrerit, leo nunc vestibulum sem, et rhoncus velit nisi nec sapien. Cras pretium, arcu mattis ornare maximus, tortor turpis accumsan nisi, at volutpat libero sapien sed leo. Cras odio felis, pharetra id porta vitae, consequat in magna. Ut id velit metus. Quisque sed leo dictum, viverra metus quis, viverra mauris. Nulla facilisi. Quisque quis dui nunc. Duis erat eros, tempus sed lorem id, blandit malesuada neque. Phasellus lobortis ipsum a imperdiet blandit. Duis eget ornare nisl.</p>
@@ -211,22 +211,22 @@ Or, check out the style guide <a href="https://fupete.github.io/danieletabellini
         </entry>
         <entry>
             <title>Post with gallery</title>
-            <link href="https://fupete.github.io/danieletabellini/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/"/>
+            <link href="https://fupete.github.io/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/"/>
             <updated>2023-03-20T00:00:00Z</updated>
-            <id>https://fupete.github.io/danieletabellini/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/</id>
+            <id>https://fupete.github.io/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/</id>
             <content type="html"><![CDATA[
-                <h2 id="galleria-con-titolo-sopra" tabindex="-1">Galleria con titolo sopra <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/#galleria-con-titolo-sopra" aria-hidden="true">#</a></h2>
-<div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/wrMHxJkl2p-720.jpeg" data-pswp-width="720" data-pswp-height="806" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/wrMHxJkl2p-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/86oVvjh92r-720.jpeg" data-pswp-width="720" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/86oVvjh92r-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
+                <h2 id="galleria-con-titolo-sopra" tabindex="-1">Galleria con titolo sopra <a class="direct-link" href="https://fupete.github.io/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/#galleria-con-titolo-sopra" aria-hidden="true">#</a></h2>
+<div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/wrMHxJkl2p-720.jpeg" data-pswp-width="720" data-pswp-height="806" target="_blank">					<img src="https://fupete.github.io/media/gallery/wrMHxJkl2p-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/86oVvjh92r-720.jpeg" data-pswp-width="720" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/86oVvjh92r-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.</p>
-<div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/danieletabellini/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
+<div>			<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://fupete.github.io/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" target="_blank">					<img src="https://fupete.github.io/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" target="_blank">					<img src="https://fupete.github.io/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    				<li>				<a href="https://fupete.github.io/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" target="_blank">					<img src="https://fupete.github.io/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags" />				</a>			</li>    					</ul>			</div>		</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci.</p>
-<h3 id="altra-galleria" tabindex="-1">Altra galleria <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/#altra-galleria" aria-hidden="true">#</a></h3>
+<h3 id="altra-galleria" tabindex="-1">Altra galleria <a class="direct-link" href="https://fupete.github.io/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/#altra-galleria" aria-hidden="true">#</a></h3>
 <p>Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimentum tellus mauris, vel porttitor ante hendrerit vel. Ut interdum tellus sit amet massa ultrices sollicitudin. Integer dictum est vel lacus pharetra, vitae cursus orci vestibulum. Nulla tincidunt elementum porttitor. Duis eu efficitur tortor. Donec vestibulum lacus a justo efficitur molestie sed vel urna. In at dignissim nisl. Praesent viverra magna quam, at malesuada est dictum a. Quisque tincidunt ac elit nec venenatis. Sed ullamcorper eros tincidunt lorem pharetra, sed interdum nibh lobortis.</p>
 <p><picture><source type="image/avif" srcset="https://fupete.github.io/imgs/RPijnX0kkx-320.avif 320w, https://fupete.github.io/imgs/RPijnX0kkx-640.avif 640w, https://fupete.github.io/imgs/RPijnX0kkx-1280.avif 1280w" sizes="100vw" /><source type="image/webp" srcset="https://fupete.github.io/imgs/RPijnX0kkx-320.webp 320w, https://fupete.github.io/imgs/RPijnX0kkx-640.webp 640w, https://fupete.github.io/imgs/RPijnX0kkx-1280.webp 1280w" sizes="100vw" /><source type="image/jpeg" srcset="https://fupete.github.io/imgs/RPijnX0kkx-320.jpeg 320w, https://fupete.github.io/imgs/RPijnX0kkx-640.jpeg 640w, https://fupete.github.io/imgs/RPijnX0kkx-1280.jpeg 1280w" sizes="100vw" /><img alt="photo of my tabby cat" loading="lazy" decoding="auto" src="https://fupete.github.io/imgs/RPijnX0kkx-320.jpeg" width="1280" height="1279" /></picture></p>
 <p>Duis quis arcu at elit congue interdum. Curabitur vestibulum felis eget vulputate egestas. Proin finibus commodo diam, non viverra magna mollis ut. Etiam vel convallis nisi. Curabitur gravida, enim in imperdiet hendrerit, leo nunc vestibulum sem, et rhoncus velit nisi nec sapien. Cras pretium, arcu mattis ornare maximus, tortor turpis accumsan nisi, at volutpat libero sapien sed leo. Cras odio felis, pharetra id porta vitae, consequat in magna.</p>
-<h4 id="altra-galleria-1" tabindex="-1">Altra galleria <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/#altra-galleria-1" aria-hidden="true">#</a></h4>
+<h4 id="altra-galleria-1" tabindex="-1">Altra galleria <a class="direct-link" href="https://fupete.github.io/en/notes/2023-03-20-post-with-gallery/2023-03-20-Post-with-gallery/#altra-galleria-1" aria-hidden="true">#</a></h4>
 <p>Ut id velit metus. Quisque sed leo dictum, viverra metus quis, viverra mauris. Nulla facilisi. Quisque quis dui nunc. Duis erat eros, tempus sed lorem id, blandit malesuada neque. Phasellus lobortis ipsum a imperdiet blandit. Duis eget ornare nisl.</p>
 <p>Suspendisse rutrum bibendum lectus, vel auctor ligula consectetur vitae. Vivamus luctus sapien vel ex viverra, non faucibus ex rutrum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lectus lacus, egestas et sollicitudin in, lacinia a justo. Nullam et mauris sit amet lorem porttitor mollis vulputate a nunc. Morbi diam turpis, mollis non aliquam nec, sodales vitae turpis. Mauris nisl ante, maximus sit amet risus non, semper vestibulum mauris. Quisque in sagittis leo. Etiam ultrices pellentesque feugiat. Nullam mauris mi, maximus quis finibus eu, pharetra sit amet massa. Sed a consectetur augue. In hac habitasse platea dictumst. Mauris elit quam, viverra quis euismod ut, eleifend non libero. Proin semper laoreet neque in hendrerit.</p>
 
@@ -234,12 +234,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
         </entry>
         <entry>
             <title>Post con video test</title>
-            <link href="https://fupete.github.io/danieletabellini/it/notes/2023-03-19-post-with-video-test/"/>
+            <link href="https://fupete.github.io/it/notes/2023-03-19-post-with-video-test/"/>
             <updated>2023-03-19T00:00:00Z</updated>
-            <id>https://fupete.github.io/danieletabellini/it/notes/2023-03-19-post-with-video-test/</id>
+            <id>https://fupete.github.io/it/notes/2023-03-19-post-with-video-test/</id>
             <content type="html"><![CDATA[
                 <p>Lorem Ipsum Dolor.</p>
-<h2 id="stream-zencdn" tabindex="-1">Stream zencdn <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-03-19-post-with-video-test/#stream-zencdn" aria-hidden="true">#</a></h2>
+<h2 id="stream-zencdn" tabindex="-1">Stream zencdn <a class="direct-link" href="https://fupete.github.io/it/notes/2023-03-19-post-with-video-test/#stream-zencdn" aria-hidden="true">#</a></h2>
 <div>
 			<video id="videoHomeId" class="video-js" data-setup='{
 				"fluid": true, 
@@ -251,7 +251,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 			<source src="https://vjs.zencdn.net/v/oceans.webm" type="video/webm" />
 			</video>
 		</div>
-<h2 id="youtube" tabindex="-1">Youtube <a class="direct-link" href="https://fupete.github.io/danieletabellini/it/notes/2023-03-19-post-with-video-test/#youtube" aria-hidden="true">#</a></h2>
+<h2 id="youtube" tabindex="-1">Youtube <a class="direct-link" href="https://fupete.github.io/it/notes/2023-03-19-post-with-video-test/#youtube" aria-hidden="true">#</a></h2>
 <div>
 			<video id="videoYTId" class="video-js" data-setup='{
 				"fluid": true, 
@@ -268,12 +268,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
         </entry>
         <entry>
             <title>Post with video test</title>
-            <link href="https://fupete.github.io/danieletabellini/en/notes/2023-03-19-post-with-video-test/"/>
+            <link href="https://fupete.github.io/en/notes/2023-03-19-post-with-video-test/"/>
             <updated>2023-03-19T00:00:00Z</updated>
-            <id>https://fupete.github.io/danieletabellini/en/notes/2023-03-19-post-with-video-test/</id>
+            <id>https://fupete.github.io/en/notes/2023-03-19-post-with-video-test/</id>
             <content type="html"><![CDATA[
                 <p>Lorem Ipsum Dolor.</p>
-<h2 id="stream-zencdn" tabindex="-1">Stream zencdn <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-03-19-post-with-video-test/#stream-zencdn" aria-hidden="true">#</a></h2>
+<h2 id="stream-zencdn" tabindex="-1">Stream zencdn <a class="direct-link" href="https://fupete.github.io/en/notes/2023-03-19-post-with-video-test/#stream-zencdn" aria-hidden="true">#</a></h2>
 <div>
 			<video id="videoHomeId" class="video-js" data-setup='{
 				"fluid": true, 
@@ -285,7 +285,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 			<source src="https://vjs.zencdn.net/v/oceans.webm" type="video/webm" />
 			</video>
 		</div>
-<h2 id="youtube" tabindex="-1">Youtube <a class="direct-link" href="https://fupete.github.io/danieletabellini/en/notes/2023-03-19-post-with-video-test/#youtube" aria-hidden="true">#</a></h2>
+<h2 id="youtube" tabindex="-1">Youtube <a class="direct-link" href="https://fupete.github.io/en/notes/2023-03-19-post-with-video-test/#youtube" aria-hidden="true">#</a></h2>
 <div>
 			<video id="videoYTId" class="video-js" data-setup='{
 				"fluid": true, 
