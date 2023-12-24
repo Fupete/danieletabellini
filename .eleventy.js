@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
 		viteOptions: {
-			base: '/danieletabellini/',
+			base: '/' // '/danieletabellini/',
 			publicDir: 'public',
 			clearScreen: false,
 			server: {
