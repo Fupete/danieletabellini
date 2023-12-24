@@ -1,8 +1,8 @@
 :root {
-    --textColor: #1a1a1a;
+    --textColor: #212121;
     --primaryColor: #0066cc;
     --focusColor: #cc6600;
-    --backgroundColor: #fefefe;
+    --backgroundColor: #ffffff;
 }
 
 // Very basic support for a dark color scheme
@@ -11,8 +11,8 @@
         --color-mode: 'dark';
     }
     :root:not([data-user-color-scheme]) {
-        --backgroundColor: #020202;
-        --textColor: #fefefe;
+        --backgroundColor: #212121;
+        --textColor: #ffffff;
         --primaryColor: #0066cc;
         --focusColor: #ff6600;
     }
