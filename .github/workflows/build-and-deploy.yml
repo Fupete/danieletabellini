@@ -1,4 +1,4 @@
-name: Build and deploy nasonero 11ty pages
+name: Build and deploy danieletabellini 11ty pages
 
 on:
   push:
