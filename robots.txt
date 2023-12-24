@@ -3,4 +3,4 @@
 User-agent: *
 Disallow: /build.txt
 
-Sitemap: https://fupete.github.io/nasonero//sitemap.xml
+Sitemap: https://fupete.github.io/danieletabellini//sitemap.xml

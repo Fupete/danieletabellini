@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: fupete/nasonero
+  repo: fupete/danieletabellini
   branch: main
   
 media_folder: "src/assets/media"
