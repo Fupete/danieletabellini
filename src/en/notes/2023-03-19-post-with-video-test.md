@@ -1,6 +1,9 @@
 ---
 title: Post with video test
-tags: [Data,Art,Video]
+tags:
+  - Data
+  - Art
+  - Video
 ---
 
 Lorem Ipsum Dolor.

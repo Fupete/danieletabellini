@@ -16,7 +16,7 @@ const initSearch = () => {
     new PagefindUI({
         element: '#search',
         showImages: true,
-        bundlePath: "/nasonero/_pagefind/"
+        bundlePath: "/danieletabellini/_pagefind/"
     })
     const inputSearch = document.querySelector("input")
     inputSearch.setAttribute("id", "site-search")

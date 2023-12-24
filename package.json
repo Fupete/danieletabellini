@@ -1,6 +1,6 @@
 {
-  "name": "nasonero-11ty-vite",
-  "version": "0.1",
+  "name": "danieletabellini-11ty-vite",
+  "version": "1.0.0-alpha.1",
   "description": "Our personal digital playground",
   "browserslist": [
     "> 0.5%",
@@ -12,21 +12,21 @@
     "watch": "npx @11ty/eleventy --watch",
     "serve": "npx @11ty/eleventy --serve",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "build": "env NODE_ENV=production npx @11ty/eleventy --pathprefix 'nasonero'",
+    "build": "env NODE_ENV=production npx @11ty/eleventy --pathprefix 'danieletabellini'",
     "postbuild": "env NODE_ENV=production npx pagefind --source _site --glob '**/*.html'",
     "clean": "del-cli _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Fupete@github.com/Fupete/nasonero.git"
+    "url": "git+https://Fupete@github.com/Fupete/danieletabellini.git"
   },
   "author": "Fupete",
   "license": "GPL3",
   "bugs": {
-    "url": "https://github.com/Fupete/nasonero/issues"
+    "url": "https://github.com/Fupete/danieletabellini/issues"
   },
-  "homepage": "https://github.com/Fupete/nasonero/",
+  "homepage": "https://github.com/Fupete/danieletabellini/",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.0",
@@ -53,7 +53,7 @@
     "rollup-plugin-critical": "^1.0.12",
     "sass": "^1.53.0",
     "video.js": "^8.0.4",
-    "vite": "^4.3.9"
+    "vite": "^4.5.1"
   },
   "dependencies": {
     "child_process": "^1.0.2",
