@@ -8,12 +8,6 @@
             </a>
         </li>
         <li class="nav__item">
-            {% set aboutUrl %}/{{page.lang}}/about/{% endset %}
-            <a class="nav__link" href="{{aboutUrl | url}}">
-            {% if page.lang == 'en' %}About{% else %}Chi siamo{% endif %}
-            </a>
-        </li>
-        <li class="nav__item">
             {% set notesUrl %}/{{page.lang}}/notes/{% endset %}
             <a class="nav__link" href="{{notesUrl | url}}">
             {% if page.lang == 'en' %}Notes{% else %}Note{% endif %}
