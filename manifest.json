@@ -1,9 +1,9 @@
 {
-  "_main-a512396c.js": {
+  "_main-073b101a.js": {
     "css": [
-      "css/main-d95bc6a5.css"
+      "css/main-beebe083.css"
     ],
-    "file": "assets/js/main-a512396c.js",
+    "file": "assets/js/main-073b101a.js",
     "imports": [
       "_videojs-c6e52aa5.js"
     ]
@@ -48,7 +48,7 @@
     "src": "imgs/RPijnX0kkx-640.webp"
   },
   "main.css": {
-    "file": "css/main-d95bc6a5.css",
+    "file": "css/main-beebe083.css",
     "src": "main.css"
   }
 }
