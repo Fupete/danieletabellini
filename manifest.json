@@ -1,15 +1,9 @@
 {
-  "_main-f125c9ab.js": {
+  "_main-5e62404e.js": {
     "css": [
-      "css/main-2d12be0a.css"
+      "css/main-62ef4742.css"
     ],
-    "file": "assets/js/main-f125c9ab.js",
-    "imports": [
-      "_videojs-c6e52aa5.js"
-    ]
-  },
-  "_videojs-c6e52aa5.js": {
-    "file": "assets/js/videojs-c6e52aa5.js"
+    "file": "assets/js/main-5e62404e.js"
   },
   "imgs/RPijnX0kkx-1280.avif": {
     "file": "imgs/RPijnX0kkx-1280.avif",
@@ -47,8 +41,44 @@
     "file": "imgs/RPijnX0kkx-640.webp",
     "src": "imgs/RPijnX0kkx-640.webp"
   },
+  "imgs/TleYM9ngOu-1280.avif": {
+    "file": "imgs/TleYM9ngOu-1280.avif",
+    "src": "imgs/TleYM9ngOu-1280.avif"
+  },
+  "imgs/TleYM9ngOu-1280.jpeg": {
+    "file": "imgs/TleYM9ngOu-1280.jpeg",
+    "src": "imgs/TleYM9ngOu-1280.jpeg"
+  },
+  "imgs/TleYM9ngOu-1280.webp": {
+    "file": "imgs/TleYM9ngOu-1280.webp",
+    "src": "imgs/TleYM9ngOu-1280.webp"
+  },
+  "imgs/TleYM9ngOu-320.avif": {
+    "file": "imgs/TleYM9ngOu-320.avif",
+    "src": "imgs/TleYM9ngOu-320.avif"
+  },
+  "imgs/TleYM9ngOu-320.jpeg": {
+    "file": "imgs/TleYM9ngOu-320.jpeg",
+    "src": "imgs/TleYM9ngOu-320.jpeg"
+  },
+  "imgs/TleYM9ngOu-320.webp": {
+    "file": "imgs/TleYM9ngOu-320.webp",
+    "src": "imgs/TleYM9ngOu-320.webp"
+  },
+  "imgs/TleYM9ngOu-640.avif": {
+    "file": "imgs/TleYM9ngOu-640.avif",
+    "src": "imgs/TleYM9ngOu-640.avif"
+  },
+  "imgs/TleYM9ngOu-640.jpeg": {
+    "file": "imgs/TleYM9ngOu-640.jpeg",
+    "src": "imgs/TleYM9ngOu-640.jpeg"
+  },
+  "imgs/TleYM9ngOu-640.webp": {
+    "file": "imgs/TleYM9ngOu-640.webp",
+    "src": "imgs/TleYM9ngOu-640.webp"
+  },
   "main.css": {
-    "file": "css/main-2d12be0a.css",
+    "file": "css/main-62ef4742.css",
     "src": "main.css"
   }
 }
