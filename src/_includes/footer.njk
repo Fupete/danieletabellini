@@ -1,16 +1,5 @@
 <footer class="site-footer" role="contentinfo">
     <div class="site-footer__inner container">
-
-			<div id="langAlternatives">
-				{% for link in page.url | locale_links %}
-					{%- if loop.first %}
-					<p><small>{%- if page.lang == 'it' %}This page is also available in {% else %}Questa pagina è disponibile anche in {% endif %}
-					{% endif %}
-					{%- if not loop.first %},{% endif %}
-					<a href="{{link.url | url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a></small></p>
-				{% endfor %}
-			</div>
-
         <p><small><a href="https://github.com/fupete/danieletabellini/blob/main/{{ page.inputPath }}">
 			{%- if page.lang == 'it' %}Modifica questa pagina su GitHub{% else %}Edit this page on GitHub{% endif %}</a> <br />
 			<span>&copy; {{ build.timestamp | dateToFormat('yyyy') }} - Daniele Tabellini</span></small></p>

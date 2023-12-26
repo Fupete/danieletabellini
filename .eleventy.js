@@ -70,7 +70,6 @@ module.exports = function (eleventyConfig) {
 						manualChunks: {
 							// PhotoSwipe: ['photoswipe'],
 							// PhotoSwipeLightbox: ['photoswipe/lightbox'],
-							videojs: ['video.js'],
 						}
 					},
 					plugins: [rollupPluginCritical({

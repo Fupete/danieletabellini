@@ -1,6 +1,14 @@
 <header class="site-header" role="banner">
     <div class="site-header__container">
-      ⬤
+      <div id="langAlternatives">
+        {% for link in page.url | locale_links %}
+            {%- if loop.first %}
+            <p lang="{{link.lang}}"><small> {%- if page.lang == 'it' %}This page is also available in{% else %}Questa pagina è disponibile anche in{% endif %}
+            {% endif %}
+            {%- if not loop.first %},{% endif %}
+            <a href="{{link.url | url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a></small></p>
+        {% endfor %}
+    </div>
         {# <div class="site-header__left">
             <p>Sandbox</p>
         </div> #}
