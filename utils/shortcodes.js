@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
 
-	video: async function (id, mp4, webm) {
+	/* video: async function (id, mp4, webm) {
 		return `<div>
 			<video id="${id}" class="video-js" data-setup='{
 				"fluid": true, 
@@ -30,7 +30,8 @@ module.exports = {
 			</video>
 		</div>`
 	},
-
+*/
+	
 	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280]) {
 		let imageSrc = `${path.dirname(this.page.inputPath)}/${src}`
 		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
