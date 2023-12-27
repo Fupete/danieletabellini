@@ -1,7 +1,7 @@
 const EleventyPluginNavigation = require('@11ty/eleventy-navigation')
 const EleventyPluginRss = require('@11ty/eleventy-plugin-rss')
 const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const EleventyPluginReadingTime = require('eleventy-plugin-reading-time')
+// const EleventyPluginReadingTime = require('eleventy-plugin-reading-time')
 const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite')
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const rollupPluginCritical = require('rollup-plugin-critical').default
@@ -34,7 +34,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyPluginNavigation)
 	eleventyConfig.addPlugin(EleventyPluginRss)
 	eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight)
-	eleventyConfig.addPlugin(EleventyPluginReadingTime)
+	// eleventyConfig.addPlugin(EleventyPluginReadingTime)
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: "en",
 		errorMode: "allow-fallback"
@@ -68,8 +68,8 @@ module.exports = function (eleventyConfig) {
 						chunkFileNames: 'assets/js/[name]-[hash].js',
 						entryFileNames: 'assets/js/[name]-[hash].js',
 						manualChunks: {
-							// PhotoSwipe: ['photoswipe'],
-							// PhotoSwipeLightbox: ['photoswipe/lightbox'],
+							 // PhotoSwipe: ['photoswipe'],
+							 // PhotoSwipeLightbox: ['photoswipe/lightbox'],
 						}
 					},
 					plugins: [rollupPluginCritical({
