@@ -11,6 +11,10 @@ ol {
 
 li > {
 
+	  a {
+			padding: var(--spacing-xx-small);
+	  }
+	
     ul,
     ol {
         margin-left: var(--spacing-medium);
