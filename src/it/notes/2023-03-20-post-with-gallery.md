@@ -5,18 +5,18 @@ tags: [Data,Gallery]
 
 {% gallery "uzupis" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
-{% galleryImage "buddha.jpg", "Tibetan Flags" %}
-{% galleryImage "holiday.jpg", "Tibetan Flags" %}
-{% galleryImage "shiva.jpg", "Tibetan Flags" %}
-{% galleryImage "english.jpg", "Tibetan Flags" %}
+{% galleryImage "buddha.jpg", "Tibetan Flags 5" %}
+{% galleryImage "holiday.jpg", "Tibetan Flags 6" %}
+{% galleryImage "shiva.jpg", "Tibetan Flags 7" %}
+{% galleryImage "english.jpg", "Tibetan Flags 8" %}
 {% endgallery %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
 
-{% gallery "uzupis" %}
+{% gallery "uzupis2" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
-{% galleryImage "buddha.jpg", "Tibetan Flags" %}
-{% galleryImage "holiday.jpg", "Tibetan Flags" %}
+{% galleryImage "buddha.jpg", "Tibetan Flags 1" %}
+{% galleryImage "holiday.jpg", "Tibetan Flags 2" %}
 {% endgallery %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci. Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimentum tellus mauris, vel porttitor ante hendrerit vel. Ut interdum tellus sit amet massa ultrices sollicitudin. Integer dictum est vel lacus pharetra, vitae cursus orci vestibulum. Nulla tincidunt elementum porttitor. Duis eu efficitur tortor. Donec vestibulum lacus a justo efficitur molestie sed vel urna. In at dignissim nisl. Praesent viverra magna quam, at malesuada est dictum a. Quisque tincidunt ac elit nec venenatis. Sed ullamcorper eros tincidunt lorem pharetra, sed interdum nibh lobortis.

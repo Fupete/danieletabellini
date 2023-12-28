@@ -31,12 +31,17 @@ module.exports = {
 		</div>`
 	},
 */
-	
+
 	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280, "auto"]) {
-		let imageSrc = `${path.dirname(this.page.inputPath)}/${src}`
+		let imageSrc
+		const fileSlug = this.page.fileSlug
+		if (fileSlug !== 'en' && fileSlug !== 'it') 
+			imageSrc = `./src/imgs/${this.page.fileSlug}/${src}`
+		else
+			imageSrc = `./src/imgs/${src}` // home
 		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
 
-		let metadata = await Image(imageSrc, {
+		const metadata = await Image(imageSrc, {
 			widths: widths,
 			formats: ["avif", "webp", "jpeg"],
 			urlPath: "/imgs/",

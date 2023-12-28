@@ -11,27 +11,27 @@ tags:
 
 {% gallery "uzupis" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
-{% galleryImage "buddha.jpg", "Tibetan Flags" %}
-{% galleryImage "holiday.jpg", "Tibetan Flags" %}
-{% galleryImage "shiva.jpg", "Tibetan Flags" %}
-{% galleryImage "english.jpg", "Tibetan Flags" %}
+{% galleryImage "buddha.jpg", "Tibetan Flags 1" %}
+{% galleryImage "holiday.jpg", "Tibetan Flags 2" %}
+{% galleryImage "shiva.jpg", "Tibetan Flags 3" %}
+{% galleryImage "english.jpg", "Tibetan Flags 4" %}
 {% endgallery %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
 
-{% gallery "uzupis" %}
+{% gallery "uzupis2" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
-{% galleryImage "buddha.jpg", "Tibetan Flags" %}
-{% galleryImage "holiday.jpg", "Tibetan Flags" %}
-{% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
-{% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
-{% galleryImage "buddha.jpg", "Tibetan Flags" %}
-{% galleryImage "buddha.jpg", "Tibetan Flags" %}
-{% galleryImage "holiday.jpg", "Tibetan Flags" %}
-{% galleryImage "buddha.jpg", "Tibetan Flags" %}
-{% galleryImage "holiday.jpg", "Tibetan Flags" %}
+{% galleryImage "buddha.jpg", "Tibetan Flags 5" %}
+{% galleryImage "holiday.jpg", "Tibetan Flags 6" %}
+{% galleryImage "improvvisation.jpg", "Tiberto Skveras 7" %}
+{% galleryImage "improvvisation.jpg", "Tiberto Skveras 8" %}
+{% galleryImage "buddha.jpg", "Tibetan Flags 9" %}
+{% galleryImage "buddha.jpg", "Tibetan Flags 10" %}
+{% galleryImage "holiday.jpg", "Tibetan Flags 11" %}
+{% galleryImage "buddha.jpg", "Tibetan Flags 12" %}
+{% galleryImage "holiday.jpg", "Tibetan Flags 13" %}
 {% endgallery %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci. 
@@ -40,7 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 
 Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimentum tellus mauris, vel porttitor ante hendrerit vel. Ut interdum tellus sit amet massa ultrices sollicitudin. Integer dictum est vel lacus pharetra, vitae cursus orci vestibulum. Nulla tincidunt elementum porttitor. Duis eu efficitur tortor. Donec vestibulum lacus a justo efficitur molestie sed vel urna. In at dignissim nisl. Praesent viverra magna quam, at malesuada est dictum a. Quisque tincidunt ac elit nec venenatis. Sed ullamcorper eros tincidunt lorem pharetra, sed interdum nibh lobortis.
 
-{% image "improvvisation.jpg", "photo of my tabby cat" %}
+{% image "improvvisation.jpg", "photo of my tabby cat 99" %}
 
 ### Titoletto h3
 

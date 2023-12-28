@@ -124,7 +124,7 @@ module.exports = function (eleventyConfig) {
 	})
 	eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 	eleventyConfig.addShortcode("galleryImage", async function (src, alt) {
-		let imageSrc = `${path.dirname(this.page.inputPath)}/${src}`
+		let imageSrc = `./src/imgs/${this.page.fileSlug}/${src}`
 		let lightboxImageWidth = LANDSCAPE_LIGHTBOX_IMAGE_WIDTH
 		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
 		let metadata = await sharp(imageSrc).metadata()
