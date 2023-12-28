@@ -37,7 +37,7 @@ module.exports = function (eleventyConfig) {
 	// eleventyConfig.addPlugin(EleventyPluginReadingTime)
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: "en",
-		errorMode: "allow-fallback"
+		errorMode: "never"
 	})
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
