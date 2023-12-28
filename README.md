@@ -1,8 +1,12 @@
 # Playground portfolio
 
-This could be the repository for my/our new upcoming portfolio and digital playground. Let's see. Gently.
+This will be the repository for my new portfolio and digital playground. Let's see. Gently.
 
 The `code foundation` is based on the repo [11ty + Vite starter project](https://github.com/matthiasott/eleventy-plus-vite)
+
+----
+
+[![Build and deploy](https://github.com/Fupete/danieletabellini/actions/workflows/build-and-deploy.yml/badge.svg?branch=main)](https://github.com/Fupete/danieletabellini/actions/workflows/build-and-deploy.yml)
 
 ----
 
