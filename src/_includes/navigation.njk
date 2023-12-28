@@ -4,7 +4,7 @@
         <li class="nav__item">
             {% set homeUrl %}/{{page.lang}}/{% endset %}
             <a class="nav__link" href="{{homeUrl | url}}">
-            {% if page.lang == 'en' %}Cover{% else %}Copertina{% endif %}
+            {% if page.lang == 'en' %}Home{% else %}Home{% endif %}
             </a>
         </li>
         <li class="nav__item">
@@ -13,12 +13,12 @@
             {% if page.lang == 'en' %}Notes{% else %}Note{% endif %}
             </a>
         </li>
-        <li class="nav__item nav__lang">
+        {# <li class="nav__item nav__lang">
             {% if page.lang == 'en' %}
                 <a class="nav__link" href="{{"/it/" | url}}">Italiano</a>
             {% else %}
                 <a class="nav__link" href="{{"/en/" | url}}">English</a>
             {% endif %}
-        </li>
+        </li> #}
     </ul>
 </nav>

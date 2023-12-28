@@ -1,9 +1,14 @@
 .site-header {
-    
+
     &__container {
         position: relative;
-        // display: flex;
-        // justify-content: space-between;
+
+        @media(min-width: 47.9375em) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         max-width: var(--container-max-width);
         margin: 0 auto;
         padding: 2rem 1rem; // fallback
@@ -11,7 +16,7 @@
     }
 
     .nav--primary {
-        
+
         ul {
             font-size: var(--fluid-0);
             font-weight: 400;
@@ -23,21 +28,16 @@
         }
 
         li {
-            margin-left: 2rem;
-        &.nav__item--active {
-            a {
-                font-weight: 600;
-                text-decoration: none;
+            margin-right: var(--spacing-small);
+
+            &.nav__item--active {
+                a {
+                    font-weight: 600;
+                    text-decoration: none;
+                }
             }
         }
-        &.nav__lang {
-            a {
-                margin-left: 1rem;
-                font-size: var(--fluid-0);
-            }
-        }
-        }
-        
+
         a {
             display: block;
             padding: 0.25em 0;
