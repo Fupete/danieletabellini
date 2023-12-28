@@ -1,9 +1,19 @@
 {
-  "_main-4d7ba330.js": {
+  "_PhotoSwipe-0117c151.js": {
+    "file": "assets/js/PhotoSwipe-0117c151.js"
+  },
+  "_PhotoSwipeLightbox-36b1ec8a.js": {
+    "file": "assets/js/PhotoSwipeLightbox-36b1ec8a.js"
+  },
+  "_main-1a59d916.js": {
     "css": [
-      "css/main-6938d91f.css"
+      "css/main-b216a6e2.css"
     ],
-    "file": "assets/js/main-4d7ba330.js"
+    "file": "assets/js/main-1a59d916.js",
+    "imports": [
+      "_PhotoSwipe-0117c151.js",
+      "_PhotoSwipeLightbox-36b1ec8a.js"
+    ]
   },
   "imgs/RPijnX0kkx-1280.avif": {
     "file": "imgs/RPijnX0kkx-1280.avif",
@@ -78,7 +88,7 @@
     "src": "imgs/TleYM9ngOu-640.webp"
   },
   "main.css": {
-    "file": "css/main-6938d91f.css",
+    "file": "css/main-b216a6e2.css",
     "src": "main.css"
   }
 }
