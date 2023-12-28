@@ -4,7 +4,7 @@
 <head>
 	{# <link rel="alternate" hreflang="{{ page.lang }}" href="{{page.url}}"> #}
 	{% for link in page.url | locale_links %}
-		<link rel="alternate" hreflang="{{link.lang}}" href="https://fupete.github.io/danieletabellini{{link.url}}">
+		<link rel="alternate" hreflang="{{link.lang}}" href="https://danieletabellini.com{{link.url}}">
 	{% endfor %}
 
 	<meta charset="UTF-8">
@@ -12,8 +12,7 @@
 	<title>{{ meta.title }}</title>
 
 	
-	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular-subset.woff2' | url }}" as="font" type="font/woff2"
-		crossorigin=""> 
+	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular-subset.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
 
 	{% include "meta.njk" %}
 
@@ -32,9 +31,10 @@
 
 					Promise.all([
 						document.fonts.load("400 1em 'Inter'"),
+						document.fonts.load("500 1em 'Inter'"),
+						document.fonts.load("600 1em 'Inter'"),
 						document.fonts.load("700 1em 'Inter'"),
-						document.fonts.load("italic 1em 'Inter'"),
-						document.fonts.load("italic 700 1em 'Inter'")
+						document.fonts.load("900 1em 'Inter'"),
 					]).then(function () {
 						document.documentElement.className += " fonts-loaded-2";
 
