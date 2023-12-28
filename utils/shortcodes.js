@@ -32,7 +32,7 @@ module.exports = {
 	},
 */
 	
-	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280]) {
+	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280, "auto"]) {
 		let imageSrc = `${path.dirname(this.page.inputPath)}/${src}`
 		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
 
