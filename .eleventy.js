@@ -1,7 +1,6 @@
 const EleventyPluginNavigation = require('@11ty/eleventy-navigation')
 const EleventyPluginRss = require('@11ty/eleventy-plugin-rss')
 const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-// const EleventyPluginReadingTime = require('eleventy-plugin-reading-time')
 const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite')
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const rollupPluginCritical = require('rollup-plugin-critical').default
@@ -17,6 +16,7 @@ const { execSync } = require('child_process')
 // markdown
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
+const markdownItTocDoneRight = require('markdown-it-toc-done-right')
 
 // image gallery
 const Image = require('@11ty/eleventy-img')
@@ -27,14 +27,12 @@ const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
 const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 720;
 
 module.exports = function (eleventyConfig) {
-	// eleventyConfig.setServerPassthroughCopyBehavior('copy')
 	eleventyConfig.addPassthroughCopy("public")
 
 	// plugins
 	eleventyConfig.addPlugin(EleventyPluginNavigation)
 	eleventyConfig.addPlugin(EleventyPluginRss)
 	eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight)
-	// eleventyConfig.addPlugin(EleventyPluginReadingTime)
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: "en",
 		errorMode: "never"
@@ -42,7 +40,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
 		viteOptions: {
-			base: '/', // '/danieletabellini/',
+			base: '/',
 			publicDir: 'public',
 			clearScreen: false,
 			server: {
@@ -68,8 +66,8 @@ module.exports = function (eleventyConfig) {
 						chunkFileNames: 'assets/js/[name]-[hash].js',
 						entryFileNames: 'assets/js/[name]-[hash].js',
 						manualChunks: {
-							 // PhotoSwipe: ['photoswipe'],
-							 // PhotoSwipeLightbox: ['photoswipe/lightbox'],
+							PhotoSwipe: ['photoswipe'],
+							PhotoSwipeLightbox: ['photoswipe/lightbox'],
 						}
 					},
 					plugins: [rollupPluginCritical({
@@ -129,10 +127,8 @@ module.exports = function (eleventyConfig) {
 		let imageSrc = `${path.dirname(this.page.inputPath)}/${src}`
 		let lightboxImageWidth = LANDSCAPE_LIGHTBOX_IMAGE_WIDTH
 		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
-
 		let metadata = await sharp(imageSrc).metadata()
 		if (metadata.height > metadata.width) lightboxImageWidth = PORTRAIT_LIGHTBOX_IMAGE_WIDTH
-
 		let genMetadata = await Image(imageSrc, {
 			widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
 			formats: ["avif", "webp", "jpeg"],
@@ -143,7 +139,6 @@ module.exports = function (eleventyConfig) {
 		const imageWidth = genMetadata.jpeg[1].width
 		const imageHeight = genMetadata.jpeg[1].height
 		const thumbUrl = eleventyConfig.getFilter("url")(genMetadata.jpeg[0].url)
-
 		return `
 			<li>
 				<a href="${imageUrl}" 
@@ -155,6 +150,7 @@ module.exports = function (eleventyConfig) {
 			</li>
     	`.replace(/(\r\n|\n|\r)/gm, "")
 	})
+
 	// Paired shortcodes
 	Object.keys(pairedShortcodes).forEach((pairedShortcodeName) => {
 		eleventyConfig.addPairedLiquidShortcode(pairedShortcodeName, pairedShortcodes[pairedShortcodeName])
@@ -166,12 +162,12 @@ module.exports = function (eleventyConfig) {
 		breaks: true,
 		linkify: true
 	}).use(markdownItAnchor, {
-		permalink: markdownItAnchor.permalink.ariaHidden({
-			placement: 'after',
-			class: 'direct-link',
-			symbol: '#',
-			level: [1, 2, 3, 4]
-		}),
+		level: [2],
+		slugify: eleventyConfig.getFilter('slug')
+	}).use(markdownItTocDoneRight, {
+		containerClass: "toc",
+		containerId: "toc",
+		level: [2],
 		slugify: eleventyConfig.getFilter('slug')
 	})
 	eleventyConfig.setLibrary('md', markdownLibrary)
