@@ -3,7 +3,7 @@ title: Guida di stile
 tags: [Design]
 ---
 
-[[toc]]
+[toc]
 
 ## headings (h2)
 ### h3
