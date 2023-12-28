@@ -1,25 +1,23 @@
-ul, ol {
-  font-size: var(--fluid-0);
-  line-height: 1.5;
-}
-
 ul,
 ol {
+  font-size: var(--fluid-0);
+  line-height: 1.5;
   list-style: none;
   padding: 0;
+
+  li {
+    margin-bottom: var(--spacing-xx-small);
+  }
+
 }
 
-li > {
+li> {
 
-	  a {
-			padding: var(--spacing-x-small);
-	  }
-	
-    ul,
-    ol {
-        margin-left: var(--spacing-medium);
-        margin-bottom: 0;
-    }
+  ul,
+  ol {
+    margin-left: var(--spacing-medium);
+    margin-bottom: 0;
+  }
 
 }
 
