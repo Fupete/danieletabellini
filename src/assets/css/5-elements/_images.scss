@@ -2,12 +2,19 @@ img {
     display: block;
     max-width: 100%;
 }
+
 article.container div.img {
     padding: 2rem 0;
+
     img {
-        margin-bottom:4px;
+        margin-bottom: 4px;
     }
 }
+
+p img {
+    padding: 2rem 0;
+}
+
 div.cover-image {
     padding: 2rem 0;
 }
