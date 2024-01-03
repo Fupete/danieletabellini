@@ -3,8 +3,8 @@
 // Focus Visible Polyfill
 import 'focus-visible'
 
-// Internal Modules
-import './modules/nav'
+// // Internal Modules
+// import './modules/nav'
 
 // pagefind-ui
 import '../../_pagefind/pagefind-ui.js'
