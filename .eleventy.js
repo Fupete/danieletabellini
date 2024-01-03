@@ -17,7 +17,7 @@ const { execSync } = require('child_process')
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
 const markdownItTocDoneRight = require('markdown-it-toc-done-right')
-
+const markdownItFootnote = require('markdown-it-footnote')
 // image gallery
 const Image = require('@11ty/eleventy-img')
 const path = require('path')
@@ -157,10 +157,9 @@ module.exports = function (eleventyConfig) {
 	})
 
 	// Customize Markdown lib
-	let markdownLibrary = markdownIt({
-		html: true,
-		breaks: true,
-		linkify: true
+	const markdownLibrary = markdownIt({
+		linkify: true,
+		typographer: true,
 	}).use(markdownItAnchor, {
 		level: [2],
 		slugify: eleventyConfig.getFilter('slug')
@@ -169,7 +168,12 @@ module.exports = function (eleventyConfig) {
 		containerId: "toc",
 		level: [2],
 		slugify: eleventyConfig.getFilter('slug')
-	})
+	}).use(markdownItFootnote)
+	markdownLibrary.renderer.rules.footnote_block_open = () => (
+		'<h2 class="visually-hidden">Note</h4>\n' +
+		'<section class="footnotes">\n' +
+		'<ol class="footnotes-list">\n'
+	  );
 	eleventyConfig.setLibrary('md', markdownLibrary)
 
 	// Layouts

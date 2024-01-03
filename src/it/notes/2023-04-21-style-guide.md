@@ -11,6 +11,10 @@ tags: [Design]
 ##### h5
 ###### h6
 
+In questo paragrafo c'è anche una nota. ^[Inlines notes are easier to write, since
+you don't have to pick an identifier and move down to type the
+note.]
+
 ## List
 ### Simple
 - List item

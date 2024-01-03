@@ -1,0 +1,25 @@
+section.footnotes {
+
+    padding-top: var(--spacing-medium);
+    padding-bottom: var(--spacing-medium);
+
+    ol {
+        counter-reset: footnotesIndex;
+    }
+
+    li {
+        display: block;
+        counter-increment: footnotesIndex;
+
+        &:before {
+            font-size: 14px;
+            content: counters(footnotesIndex, '.') '.';
+        }
+
+        p {
+            font-size: 14px;
+            display: inline;
+            margin-left: var(--spacing-small);
+        }
+    }
+}
