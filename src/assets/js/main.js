@@ -30,7 +30,9 @@ galleries.forEach(galleryX => {
         children: 'a',
         showHideAnimationType: 'zoom',
         pswpModule: PhotoSwipe,
-        preload: [1, 1]
+        bgOpacity: 1,
+        preload: [1, 1],
+        padding: { top: 16, bottom: 16, left: 16, right: 16 },
     });
     lightbox.init();
 })

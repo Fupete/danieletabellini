@@ -40,7 +40,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 
 Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimentum tellus mauris, vel porttitor ante hendrerit vel. Ut interdum tellus sit amet massa ultrices sollicitudin. Integer dictum est vel lacus pharetra, vitae cursus orci vestibulum. Nulla tincidunt elementum porttitor. Duis eu efficitur tortor. Donec vestibulum lacus a justo efficitur molestie sed vel urna. In at dignissim nisl. Praesent viverra magna quam, at malesuada est dictum a. Quisque tincidunt ac elit nec venenatis. Sed ullamcorper eros tincidunt lorem pharetra, sed interdum nibh lobortis.
 
-{% image "improvvisation.jpg", "photo of my tabby cat 99" %}
+<div class="img">
+{% image "holiday.jpg", "photo of my tabby cat 99" %}
+{% image "holiday.jpg", "Tibetan Flags 10" %}
+</div>
 
 ### Titoletto h3
 

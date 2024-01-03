@@ -144,6 +144,7 @@ module.exports = function (eleventyConfig) {
 				<a href="${imageUrl}" 
 				data-pswp-width="${imageWidth}" 
 				data-pswp-height="${imageHeight}" 
+				data-cropped="true"
 				target="_blank">
 					<img src="${thumbUrl}" alt="${alt}"/>
 				</a>

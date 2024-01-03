@@ -2,8 +2,11 @@ img {
     display: block;
     max-width: 100%;
 }
-p img {
+article.container div.img {
     padding: 2rem 0;
+    img {
+        margin-bottom:4px;
+    }
 }
 div.cover-image {
     padding: 2rem 0;
