@@ -1,19 +1,21 @@
 :root {
     --textColor: #111;
-    --primaryColor: #0066cc;
+    --primaryColor: hsl(210, 100%, 40%);
     --focusColor: #cc6600;
     --backgroundColor: #fdfdfd;
+    --tableBorderColor: #111;
 }
 
-// Very basic support for a dark color scheme
 @media (prefers-color-scheme: dark) {
     :root {
         --color-mode: 'dark';
     }
+
     :root:not([data-user-color-scheme]) {
         --backgroundColor: #111;
         --textColor: #fdfdfd;
         --primaryColor: #0080ff;
         --focusColor: #ff5c00;
+        --tableBorderColor: #fdfdfd;
     }
 }

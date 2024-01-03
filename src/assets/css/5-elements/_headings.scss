@@ -1,30 +1,35 @@
 h1 {
     font-size: var(--fluid-5);
-    font-weight:900;
+    font-weight: 900;
     margin-bottom: 2rem;
 }
 
 h2 {
     font-size: var(--fluid-4);
     margin-bottom: 1rem;
+    margin-top: 4rem;
 }
 
 h3 {
     font-size: var(--fluid-3);
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 
 h4 {
- font-size: var(--fluid-2);
- margin-bottom: 1rem;
+    font-size: var(--fluid-2);
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
 
 h5 {
     font-size: var(--fluid-1);
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 
 h6 {
     font-size: var(--fluid-0);
-    margin-bottom:1rem;
+        font-weight:900;
+    margin-bottom: 1rem;
 }

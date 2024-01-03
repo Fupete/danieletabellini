@@ -1,4 +1,7 @@
 nav.toc {
+
+    margin: 2rem 0;
+
     ol {
         counter-reset: index;
     }
@@ -8,6 +11,8 @@ nav.toc {
         counter-increment: index;
 
         &:before {
+            font-size: .875rem;
+            margin-right: .5rem;
             content: counters(index, '.', decimal-leading-zero) ' ';
         }
     }

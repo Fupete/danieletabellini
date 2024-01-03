@@ -14,7 +14,7 @@ layout: base
 
   {{ content | safe }}
 
-  {%- if collections.notes %}
+  {# {%- if collections.notes %}
     {%- set previousnote = collections.notes | getPreviousCollectionItem %} 
     {%- set nextnote = collections.notes | getNextCollectionItem %}
     {%- if nextnote or previousnote %}
@@ -31,5 +31,5 @@ layout: base
         {% endif %}
       </ul>
     {%- endif %}
-  {%- endif %}
+  {%- endif %} #}
 </article>

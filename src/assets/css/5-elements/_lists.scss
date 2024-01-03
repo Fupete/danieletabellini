@@ -24,3 +24,19 @@ li> {
 section.list {
   margin: var(--spacing-xx-large) 0;
 }
+
+article.container {
+  ul {
+    list-style: inside circle;
+  }
+
+  ol {
+    list-style: inside decimal;
+  }
+
+  div.gallery {
+    ul {
+      list-style: none;
+    }
+  }
+}
