@@ -1,5 +1,6 @@
 ---
 title: Post with gallery
+image: holiday.jpg
 tags:
   - Data
   - Gallery

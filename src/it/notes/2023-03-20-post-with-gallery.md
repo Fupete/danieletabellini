@@ -1,5 +1,6 @@
 ---
 title: Post con galleria
+image: holiday.jpg
 tags: [Data,Gallery]
 ---
 

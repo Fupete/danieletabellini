@@ -14,6 +14,12 @@
     {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
     <a href="{{ tagUrl | url }}" class="note-tag">{{ tag }}</a>
     {% endfor %}
+    {% if note.data.image %}
+    {% set imgSrc %}{{ note.fileSlug}}/{{note.data.image}}{% endset %}
+    <div class="notelist-image">
+      {% image imgSrc, ""%}
+    </div>
+    {% endif %}
   </li>
   {% endfor %}
 </ol>
