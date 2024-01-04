@@ -1,23 +1,23 @@
 <nav class="nav nav--primary" role="navigation" tabindex="-1">
     {# Nav Links #}
     <ul class="nav__menu">
-        <li class="nav__item">
-            {% set homeUrl %}/{{page.lang}}/{% endset %}
+        {% set homeUrl %}/{{page.lang}}/{% endset %}
+        <li class="nav__item {% if homeUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{homeUrl | url}}">
-            {% if page.lang == 'en' %}Home{% else %}Home{% endif %}
+                {% if page.lang == 'en' %}Daniele Tabellini{% else %}Daniele Tabellini{% endif %}
             </a>
         </li>
-        <li class="nav__item">
-            {% set notesUrl %}/{{page.lang}}/notes/{% endset %}
+        {% set notesUrl %}/{{page.lang}}/notes/{% endset %}
+        <li class="nav__item {% if notesUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{notesUrl | url}}">
-            {% if page.lang == 'en' %}Notes{% else %}Note{% endif %}
+                {% if page.lang == 'en' %}Notes{% else %}Note{% endif %}
             </a>
         </li>
         {# <li class="nav__item nav__lang">
             {% if page.lang == 'en' %}
-                <a class="nav__link" href="{{"/it/" | url}}">Italiano</a>
+            <a class="nav__link" href="{{" /it/" | url}}">Italiano</a>
             {% else %}
-                <a class="nav__link" href="{{"/en/" | url}}">English</a>
+            <a class="nav__link" href="{{" /en/" | url}}">English</a>
             {% endif %}
         </li> #}
     </ul>

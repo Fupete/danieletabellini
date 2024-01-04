@@ -12,8 +12,13 @@ nav.toc {
 
         &:before {
             font-size: .875rem;
+            font-weight: 500;
             margin-right: .5rem;
-            content: counters(index, '.', decimal-leading-zero) ' ';
+            content: counters(index, '.', decimal) '0';
+        }
+
+        a {
+            font-weight: 600;
         }
     }
 }

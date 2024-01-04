@@ -6,9 +6,10 @@
 }
 
 .gallery ul li {
-    flex-grow: 1;
+    flex: 1 1 auto;
     cursor: pointer;
     height: 124px;
+    width: auto;
     position: relative;
     margin: 0;
     @media screen and (min-width: 48em) {
@@ -20,14 +21,13 @@
 }
 
 .gallery ul li img {
-    // border-radius: 8px;
     object-fit: cover;
+    object-position: 50% 50%;
     width: 100%;
     height: 100%;
-    vertical-align: middle;
   }
 
  .gallery ul::after {
     content: "";
-    flex-grow: 11;
+    flex-grow: 22;
  }

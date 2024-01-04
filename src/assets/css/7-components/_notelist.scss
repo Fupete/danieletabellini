@@ -7,3 +7,9 @@ ol.notelist {
 .notelist-item:has(a + time) h2 {
     margin-bottom: 1rem;
 }
+
+.note-metadata {
+    margin: 4rem 0;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
