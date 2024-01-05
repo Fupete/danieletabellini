@@ -3,7 +3,7 @@ backend:
   repo: fupete/danieletabellini
   branch: main
   
-media_folder: "src/assets/media"
+media_folder: "src/assets/imgs"
 public_folder: "/media"
 publish_mode: editorial_workflow
 
@@ -17,6 +17,7 @@ collections:
     #   preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Note in italiano"
@@ -28,5 +29,6 @@ collections:
     #   preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }

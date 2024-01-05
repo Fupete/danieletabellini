@@ -1,8 +1,9 @@
-{% if page.fileSlug === 'notes' %} 
+{% if page.fileSlug === 'notes' %}
 {% set noteslist = collections["notes_" + page.lang] %}
 {% endif %}
 <ol reversed class="notelist">
   {% for note in noteslist | reverse %}
+  {% if note.data.lang === page.lang %}
   <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
     <h2>
       <a href="{{ note.url | url }}" class="notelist-link">
@@ -22,5 +23,6 @@
     </div>
     {% endif %}
   </li>
+  {% endif %}
   {% endfor %}
 </ol>
