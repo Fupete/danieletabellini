@@ -4,39 +4,38 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 4px;
-}
 
-.gallery ul li {
-    // flex-grow: 1;
-    height: 124px;
-    position: relative;
-    margin: 0;
+    li {
+        height: 124px;
+        position: relative;
+        margin: 0;
 
-    @media screen and (min-width: 48em) {
-        height: 172px;
+        @media screen and (min-width: 48em) {
+            height: 172px;
+        }
+
+        @media screen and (min-width: 64.0625em) {
+            height: 240px;
+        }
+
+        a {
+            cursor: zoom-in;
+            width: 100%;
+            display: block;
+            height: 100%;
+
+            img {
+                object-fit: cover;
+                object-position: 50% 50%;
+                height: 100%;
+            }
+        }
     }
 
-    @media screen and (min-width: 64.0625em) {
-        height: 240px;
+    &::after {
+        content: "";
+        flex-grow: 999;
     }
-}
-
-.gallery ul li a {
-    cursor: zoom-in;
-    width: 100%;
-    display: block;
-    height: 100%;
-}
-
-.gallery ul li img {
-    object-fit: cover;
-    object-position: 50% 50%;
-    height: 100%;
-}
-
-.gallery ul::after {
-    content: "";
-    flex-grow: 999;
 }
 
 .pswp__button {
