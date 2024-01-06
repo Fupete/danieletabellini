@@ -9,6 +9,7 @@ nav.toc {
     li {
         display: block;
         counter-increment: index;
+        padding: var(--spacing-xx-small) 0;
 
         &:before {
             font-size: .875rem;
