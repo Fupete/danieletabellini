@@ -40,18 +40,12 @@ module.exports = function (eleventyConfig) {
 		errorMode: "never"
 	})
 	eleventyConfig.addPlugin(embedEverything, {
+		use: ['youtube'],
 		youtube: {
 			options: {
 				lite: true,
-				noCookie: true,
-				lazy: true,
 				modestBranding: true,
 				recommendSelfOnly: true,
-			}
-		},
-		spotify: {
-			options: {
-				width: "100%",
 			}
 		}
 	})
