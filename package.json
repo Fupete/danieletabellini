@@ -7,6 +7,7 @@
     "not IE 11"
   ],
   "scripts": {
+    "postinstall": "npx patch-package",
     "start": "npx @11ty/eleventy --serve",
     "dev": "npx @11ty/eleventy --serve",
     "watch": "npx @11ty/eleventy --watch",

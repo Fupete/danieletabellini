@@ -1,0 +1,13 @@
+diff --git a/node_modules/eleventy-plugin-youtube-embed/lib/embed.js b/node_modules/eleventy-plugin-youtube-embed/lib/embed.js
+index e770d46..c0f85d3 100644
+--- a/node_modules/eleventy-plugin-youtube-embed/lib/embed.js
++++ b/node_modules/eleventy-plugin-youtube-embed/lib/embed.js
+@@ -95,7 +95,7 @@ function liteEmbed({id, url}, options, index) {
+   
+   out += `<div id="${id}" class="${options.embedClass}">`;
+   out += `<lite-youtube videoid="${id}" style="background-image: url('https://i.ytimg.com/vi/${id}/${liteOpt.thumbnailQuality}.jpg');"${params ? ` params="${params}"` : ''}>`;
+-  out += '<div class="lty-playbtn"></div></lite-youtube></div>';
++  out += '<button type="button" class="lty-playbtn"></button></lite-youtube></div>';
+   return out;
+ }
+ 
