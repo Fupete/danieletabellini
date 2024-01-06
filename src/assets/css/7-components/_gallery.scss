@@ -1,3 +1,17 @@
+.pswp--custom-icon-colors {
+    --pswp-icon-color: #00fffc;
+    --pswp-icon-color-secondary: #333;
+}
+
+.pswp {
+    --pswp-bg: var(--backgroundColor);
+}
+
+.pswp__button, .pswp__counter {
+    color: var(--textColor);
+    text-shadow: 1px 1px 3px var(--backgroundColor);
+}
+
 .gallery ul {
     padding: 2rem 0;
     display: flex;
@@ -36,8 +50,4 @@
         content: "";
         flex-grow: 999;
     }
-}
-
-.pswp__button {
-    text-shadow: 1px 1px 3px var(--pswp-icon-color-secondary);
 }

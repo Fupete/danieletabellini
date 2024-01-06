@@ -27,6 +27,7 @@ const galleries = document.querySelectorAll('.gallery')
 galleries.forEach(galleryX => {
     const lightbox = new PhotoSwipeLightbox({
         zoomSVG: "",
+        zoom: false,
         closeSVG: "",
         arrowPrevSVG: "",
         arrowNextSVG: "",
@@ -34,7 +35,7 @@ galleries.forEach(galleryX => {
         children: 'a',
         showHideAnimationType: 'zoom',
         pswpModule: PhotoSwipe,
-        bgOpacity: 1,
+        bgOpacity: 0.9,
         preload: [1, 1],
         padding: { top: 48, bottom: 48, left: 16, right: 16 },
     });
