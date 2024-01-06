@@ -10,6 +10,38 @@ tags:
 
 ## Galleria con titolo sopra
 
+https://open.spotify.com/track/1ViY9SK6FatXbmsZ2SgPMn
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+
+https://twitter.com/Fupete/status/717274631347036160
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+
+https://vimeo.com/92295898
+
+{% image "holiday.jpg", "Tibetan Flags 10" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+
+https://www.instagram.com/p/BExfquSkgHh/?utm_source=ig_embed&ig_rid=e025dd15-dbd4-46f8-a31c-8b54e312d4cc
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+
+https://www.youtube.com/watch?v=NfTbgmJf_-E
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+
 {% gallery "uzupis" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
 {% galleryImage "buddha.jpg", "Tibetan Flags 1" %}

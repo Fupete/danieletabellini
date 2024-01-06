@@ -1,0 +1,13 @@
+.eleventy-plugin-embed-instagram,
+.eleventy-plugin-embed-twitter,
+.eleventy-plugin-vimeo-embed,
+.eleventy-plugin-youtube-embed,
+.eleventy-plugin-embed-spotify {
+    width: 100%;
+    max-width: 76.5ch;
+    margin: 3rem 0 !important;
+}
+
+.eleventy-plugin-vimeo-embed {
+    padding-top: calc(76.5ch / (16 / 9)) !important;
+}

@@ -25,6 +25,8 @@ const sharp = require('sharp')
 const GALLERY_IMAGE_WIDTH = 320;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
 const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 720;
+// embed everything
+const embedEverything = require('eleventy-plugin-embed-everything')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("public")
@@ -36,6 +38,22 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: "en",
 		errorMode: "never"
+	})
+	eleventyConfig.addPlugin(embedEverything, {
+		youtube: {
+			options: {
+				lite: true,
+				noCookie: true,
+				lazy: true,
+				modestBranding: true,
+				recommendSelfOnly: true,
+			}
+		},
+		spotify: {
+			options: {
+				width: "100%",
+			}
+		}
 	})
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
@@ -175,7 +193,7 @@ module.exports = function (eleventyConfig) {
 		'<h2 class="visually-hidden">Note</h4>\n' +
 		'<section class="footnotes">\n' +
 		'<ol class="footnotes-list">\n'
-	  );
+	);
 	eleventyConfig.setLibrary('md', markdownLibrary)
 
 	// Layouts
