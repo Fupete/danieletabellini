@@ -2,7 +2,7 @@
 
 This will be the repository for my new portfolio and digital playground. Let's see. Gently.
 
-The `code foundation` is based on the repo [11ty + Vite starter project](https://github.com/matthiasott/eleventy-plus-vite)
+The `code foundation` was based on [11ty + Vite starter project](https://github.com/matthiasott/eleventy-plus-vite)
 
 ----
 
