@@ -10,6 +10,11 @@ p {
         line-height: 1.4;
         font-weight: 500;
     }
+
+    &.embedCaption {
+        font-size: .875rem;
+        margin-top: calc(-1 * var(--spacing-x-large));
+    }
 }
 
 blockquote {

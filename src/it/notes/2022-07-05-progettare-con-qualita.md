@@ -76,4 +76,50 @@ Mettere attenzione nel progettare per il pubblico significa prima di tutto aprir
 
 Non solo codice pubblico, come chiede ad esempio la [campagna omonima](https://publiccode.eu/) della [FSFE](https://fsfe.org/index.it.html) (Free Software Foundation Europe), e come portato avanti da anni nella Pubblica Amministrazione con il Catalogo e le linee guida sul riuso e sulle licenze dal progetto [Developers Italia](https://developers.italia.it/); non solo codice pubblico, dicevamo, ma anche iniziare a porsi il problema di come nel mondo del design, del progetto, si debba **fare _open design_ e partecipazione con modalità più strutturali**.
 
+Il concetto e le strategie dell’accessibilità nascono nell’organizzazione internazionale [W3C](https://www.w3.org/) (World Wide Web Consortium), che stabilisce le regole tecniche con cui si fanno i prodotti accessibili. **Il processo di lavoro del W3C è un ottimo esempio di _open by default_**, un processo che prevede il coinvolgimento di gruppi di lavoro eterogenei e contributori esterni, e che è reso possibile solo grazie alla partecipazione e al miglioramento continuo. Non c’è un punto di arrivo ultimo, se non ideale, ma **un processo in divenire**, iterazione dopo iterazione, aprendo a cercare feedback e contributi, verso il meglio.
+
+La scelta di usare strumenti aperti e collaborativi per l’aggiornamento del design system del Paese va esattamente in questa direzione: _repository_ GitHub per le lavorazioni di sviluppo, e **rilasci delle versioni intermedie** di lavorazione dei kit di progettazione interfaccia, per cercare commenti, segnalazioni e contributi. Nelle prossime settimane saranno inoltre rilasciati su Designers Italia diversi altri strumenti di questo aggiornamento: documenti di analisi, liste di cose da fare, censimenti e report che vogliamo far diventare patrimonio della _community_.
+
+### 4. Fatto bene è a norma
+
+L’Italia è all’avanguardia rispetto alla normativa sull’accessibilità, la **Legge n. 4/2004** fu promulgata quando a livello europeo l’accessibilità era un tema ancora poco rilevante, e il recente **European Accessibility Act** non era nei sogni dei legislatori. Gli [aggiornamenti successivi](https://www.agid.gov.it/it/design-servizi/accessibilita/normativa), così come le [linee guida sull’accessibilità degli strumenti informatici](https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-strumenti-informatici), messe a disposizione da AgID rispetto alla Direttiva UE 2016/2012, sono i riferimenti normativi da tener presenti quando si parla di accessibilità.
+
+Il livello di conformità [richiesto](https://docs.italia.it/italia/designers-italia/design-linee-guida-docs/it/stabile/doc/service-design/accessibilita.html#linee-guida-e-criteri-di-successo) per i siti della Pubblica Amministrazione italiana, dalla norma tecnica europea armonizzata UNI EN 301 549, corrisponde **ai livelli “A” e “AA” della W3C Recommendation WCAG 2.1**. La specifica WCAG 2.1 è disponibile in [lingua italiana](https://www.w3.org/Translations/WCAG21-it/).
+
+Ma la normativa sull’accessibilità, con il Decreto Legge 76/2020, è stata **estesa anche ai soggetti privati che offrono servizi al pubblico attraverso siti web o applicazioni mobili** e che abbiano un fatturato medio superiore a cinquecento milioni di euro negli ultimi tre anni di attività. Si è voluto insomma anticipare alle grandi organizzazioni private il percorso verso l’accessibilità che comunque verrà attivato per tutti i soggetti privati con l’European Accessibility Act a partire dal 2025.
+
+Sono inoltre prossime alla pubblicazione anche **le nuove linee guida di design per i siti internet e i servizi digitali della Pubblica Amministrazione**, previste ai sensi dell’art. 53 del CAD (Codice Amministrazione Digitale), dove ad esempio i concetti di _by default_ e _by design_ saranno ben evidenti. Contestualmente alla loro uscita verrà rilasciato un corposo “Manuale operativo di design”, tramite Designers Italia, con casi d’uso e indicazioni a supporto.
+
+### 5. Fatto bene è aiutato dal design system del Paese
+
+Il design system del Paese è un insieme di principi, risorse e «pezzi già pronti», pensato per progettare e sviluppare esperienze utente, di cittadinanza. A parità di qualità, grazie al riuso e alla condivisione di buone pratiche, è possibile anche raggiungere l’obiettivo del minore costo. Da dicembre 2021 **stiamo aggiornando questa risorsa dalle fondamenta**, in termini tecnologici e di accessibilità, ma anche di visione e gestione. Abbiamo infatti affiancato al cuore delle attività pratiche una serie di attività di più alto livello, come l’inizio di un’articolata ricerca utente su utilizzatori e contributori, e una pianificazione di epiche e obiettivi di medio-lungo periodo.
+
+Il design system del Paese è oggi composto da un kit per progettare interfacce (kit UI), un kit per sviluppare interfacce (il _framework_ Bootstrap Italia in primis) e un insieme di modelli standard per progettare e realizzare siti web e servizi digitali per diverse tipologie di Enti. Queste **risorse aggiornate**, man mano che le nuove versioni diventeranno stabili nelle prossime settimane, saranno **messe a disposizione di tutti** tramite il sito web [Designers Italia](https://designers.italia.it/), che ci auspichiamo ospiti presto, come riferimento ufficiale, la documentazione di tutto il design system del Paese: dai principi al design, dallo sviluppo alle indicazioni sull’accessibilità, dai componenti ai pattern validati con gli utenti.
+
+### 6. Fatto bene è immaginato con il kit UI
+
+<div class="feature img">
+{% image "ui-kit-italia.webp", "UI Kit Italia" %}
+<small><a href="https://www.figma.com/@designersitalia">Profilo</a> di Designers Italia nella community Figma e <a href="https://www.figma.com/community/file/1105848677422572920">kit UI</a></small>
+</div>
+
+Il kit per la progettazione di interfacce del design system del Paese lo abbiamo ricostruito da zero usando le ultime tecnologie disponibili e in coordinamento con il kit di sviluppo, con un occhio attento al tema _open design_. **Fin dai primi rilasci ha indicazioni di accessibilità utili ai designer** per comprendere le caratteristiche legate alla specificità della prototipazione, come ad esempio l’uso dei colori. Stiamo anche immaginando di integrare strumenti per favorire l’utilizzo della semantica corretta degli oggetti e per etichettare i _mockup_.
+
+Questa nuova versione, costruita utilizzando Figma e cercando di sfruttare tutte le potenzialità di collaborazione e automazione, **ha numeri importanti: si tratta di oltre 600 componenti**, comprese le varianti, **divisi nelle tre macrocategorie** _foundations_ (fondamenta intese per esempio come griglie, tipografia e icone), _components_ (componenti intesi come “pezzi” dell’interfaccia come pulsanti, liste e testata) e _forms_ (tutti i componenti utili allo sviluppo di moduli).
+
+Un occhio di riguardo è stato messo nel sincronizzare tutti i componenti con i kit di sviluppo, per avere prototipi più realistici e per **semplificare il passaggio agli sviluppatori**. In prospettiva, e in un’ottica open, è previsto che avvengano rilasci interoperabili verso altri strumenti, come Sketch o Adobe XD, con esportazioni sulla _repository_ GitHub dedicata.
+
+Una parte importante delle lavorazioni è stata dedicata all’**integrazione di _design token_**: piccoli elementi “di verità” utili a rappresentare decisioni di stile applicabili in modo coerente tra diversi progetti, _framework_ e strumenti — un esempio di _design token_: `color-blue-a06: #0066cc` (valore) e `color-primary:color-blu-a06` (decisione) — , che nelle prossime versioni di tutte le risorse afferenti al design system del Paese, siano di design o di sviluppo, ci auspichiamo rendano **tutto più coerente, più facilmente aggiornabile, migliorabile e scalabile**. I _design token_ rispondono inoltre alle esigenze di personalizzazione emerse dalla ricerca.
+
+https://www.youtube.com/watch?v=1UKjfSyox-k
+
+<p class="embedCaption">Community lab: a che punto siamo con UI kit e design token?</p>
+
+### 7. Fatto bene è realizzato con Bootstrap Italia
+
+<div class="feature img">
+{% image "bootstrap-italia.webp", "Bootstrap Italia" %}
+<small><a href="https://github.com/italia/bootstrap-italia">Repository</a>, foglio validazione componenti e <a href="https://italia.github.io/bootstrap-italia/">Documentazione</a> di Bootstrap Italia</small>
+</div>
+
 _Continua_
