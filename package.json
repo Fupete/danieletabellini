@@ -1,7 +1,7 @@
 {
   "name": "danieletabellini-11ty-vite",
-  "version": "1.0.0-alpha.1",
-  "description": "Our personal digital playground",
+  "version": "1.0.0-beta.1",
+  "description": "My personal digital playground",
   "browserslist": [
     "> 0.5%",
     "not IE 11"
