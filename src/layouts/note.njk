@@ -1,36 +1,43 @@
 ---
 layout: base
-image: 
+image:
 ---
 <article class="container" data-pagefind-body>
   <h1>{{ title }}</h1>
 
+  <p>
+    <span class="meta__stats">{% if page.lang == 'en' %}About{% else %}Circa{% endif %} {{ content | readingTime }} {% if page.lang == 'en' %}reading time{% else %}di tempo richiesti per la lettura{% endif %}</span>
+  </p>
+  
   {{ content | safe }}
 
   <div class="note-metadata" data-pagefind-ignore>
-    <time class="notelist-date" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date | dateToFormat('dd LLL yyyy') }}</time>
+    <time class="notelist-date" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date | dateToFormat('dd
+      LLL yyyy') }}</time>
     / Tags: {% for tag in tags | filterTagList %}
-        {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
-        <a href="{{ tagUrl | url }}" class="note-tag">{{ tag }}</a>
-      {% endfor %}
+    {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="note-tag">{{ tag }}</a>
+    {% endfor %}
   </div>
-  
+
   {# {%- if collections.notes %}
-    {%- set previousnote = collections.notes | getPreviousCollectionItem %} 
-    {%- set nextnote = collections.notes | getNextCollectionItem %}
-    {%- if nextnote or previousnote %}
-      <ul class="links-nextprev" data-pagefind-ignore>
-        {%- if previousnote %}
-          <li>
-            {%- if page.lang == 'it' %}Precedente{% else %}Previous{% endif %}: <a href="{{ previousnote.url | url }}">{{ previousnote.data.title }}</a>
-          </li>
-        {% endif %}
-        {%- if nextnote %}
-          <li>
-            {%- if page.lang == 'it' %}Successiva{% else %}Next{% endif %}: <a href="{{ nextnote.url | url }}">{{ nextnote.data.title }}</a>
-          </li>
-        {% endif %}
-      </ul>
-    {%- endif %}
+  {%- set previousnote = collections.notes | getPreviousCollectionItem %}
+  {%- set nextnote = collections.notes | getNextCollectionItem %}
+  {%- if nextnote or previousnote %}
+  <ul class="links-nextprev" data-pagefind-ignore>
+    {%- if previousnote %}
+    <li>
+      {%- if page.lang == 'it' %}Precedente{% else %}Previous{% endif %}: <a href="{{ previousnote.url | url }}">{{
+        previousnote.data.title }}</a>
+    </li>
+    {% endif %}
+    {%- if nextnote %}
+    <li>
+      {%- if page.lang == 'it' %}Successiva{% else %}Next{% endif %}: <a href="{{ nextnote.url | url }}">{{
+        nextnote.data.title }}</a>
+    </li>
+    {% endif %}
+  </ul>
+  {%- endif %}
   {%- endif %} #}
 </article>

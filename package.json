@@ -58,6 +58,7 @@
   "dependencies": {
     "child_process": "^1.0.2",
     "eleventy-plugin-embed-everything": "^1.18.1",
+    "eleventy-plugin-reading-time": "^0.0.1",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-toc-done-right": "^4.2.0",
     "photoswipe": "^5.3.7"

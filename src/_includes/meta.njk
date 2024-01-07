@@ -2,7 +2,7 @@
 
     {# General #}
     <meta name="description" content="{{ description or meta.description }}">
-    <link rel="canonical" href="{{ absolutePageUrl }}">
+    <link rel="canonical" href="{{ canonical or absolutePageUrl}}">
     <meta name="author" content="{{ meta.author }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
@@ -14,6 +14,7 @@
     <meta property="og:locale" content="{{ meta.locale }}">
     <meta name="twitter:card" content="{% if image -%}summary_large_image{% else %}summary{% endif %}">
     {%- if image -%}
+        {% set imgSrc %}{{ page.fileSlug}}/{{image}}{% endset %}
         <meta property="og:image" content="{{ image | url | absoluteUrl(meta.url) }}">
     {%- endif -%}
 

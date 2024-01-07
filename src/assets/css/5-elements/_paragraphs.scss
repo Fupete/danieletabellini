@@ -15,6 +15,10 @@ p {
         font-size: .875rem;
         margin-top: calc(-1 * var(--spacing-x-large));
     }
+
+    span.meta__stats {
+        font-size: .875rem;
+    }
 }
 
 blockquote {

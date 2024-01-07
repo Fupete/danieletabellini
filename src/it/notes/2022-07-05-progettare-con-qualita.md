@@ -1,6 +1,9 @@
 ---
 title: "Progettare con qualità: l’accessibilità al centro del design system del Paese"
-tags: [Accessibility,Design System,.Italia]
+description: "Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi"
+canonical: https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099
+image: cover.webp
+tags: [Accessibility,Design System,Italia]
 ---
 
 <p class="lead">Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi</p>

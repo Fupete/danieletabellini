@@ -10,6 +10,7 @@
 
 lite-youtube {
     max-width: var(--container-max-ch) !important;
+    border: 1px solid var(--textColor);
 }
 
 .eleventy-plugin-vimeo-embed {

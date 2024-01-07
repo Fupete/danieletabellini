@@ -25,8 +25,9 @@ const sharp = require('sharp')
 const GALLERY_IMAGE_WIDTH = 320;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
 const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 720;
-// embed everything
+// others
 const embedEverything = require('eleventy-plugin-embed-everything')
+const readingTime = require('eleventy-plugin-reading-time')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("public")
@@ -49,6 +50,7 @@ module.exports = function (eleventyConfig) {
 			}
 		}
 	})
+	eleventyConfig.addPlugin(readingTime)
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
 		viteOptions: {
