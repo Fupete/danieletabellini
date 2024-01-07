@@ -1,9 +1,9 @@
 p {
     font-size: var(--fluid-0);
     line-height: 1.75;
-    max-width: 75ch;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    max-width: var(--container-max-ch);
+    margin-top: var(--spacing-x-small);
+    margin-bottom: var(--spacing-x-small);
 
     &.lead {
         font-size: var(--fluid-2);
@@ -17,7 +17,7 @@ blockquote {
         line-height: 1.5;
     }
 
-    margin: 2rem 0;
+    margin: var(--spacing-x-large) 0;
     border-left: 2px solid var(--textColor);
     padding-left: var(--spacing-x-large)
 }
@@ -26,7 +26,7 @@ pre {
     background: var(--textColor);
     color: var(--backgroundColor);
     padding: var(--spacing-medium) var(--spacing-large);
-    border-radius: .5rem;
+    border-radius: var(--spacing-x-small);
     line-height: 1.75;
     code {
         background: inherit;

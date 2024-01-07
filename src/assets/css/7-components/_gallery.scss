@@ -16,7 +16,7 @@
 .gallery {
 
     ul {
-        padding: 2rem 0;
+        padding: var(--spacing-x-large) 0;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;

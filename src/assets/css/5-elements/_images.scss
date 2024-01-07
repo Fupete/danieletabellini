@@ -4,7 +4,7 @@ img {
 }
 
 article.container div.img {
-    padding: 2rem 0;
+    padding: var(--spacing-x-large) 0;
 
     img {
         margin-bottom: 4px;
@@ -13,5 +13,5 @@ article.container div.img {
 
 p img,
 div.cover-image {
-    padding: 2rem 0;
+    padding: var(--spacing-x-large) 0;
 }

@@ -11,8 +11,8 @@
 
         max-width: var(--container-max-width);
         margin: 0 auto;
-        padding: 2rem 1rem; // fallback
-    		padding: 2rem clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+        padding: var(--spacing-x-large) var(--spacing-medium); // fallback
+        padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
     }
 
     .nav--primary {

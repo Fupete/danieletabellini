@@ -13,13 +13,13 @@ body {
 }
 
 .container {
-    padding: 2rem 1rem; // fallback
-    padding: 2rem clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+    padding: var(--spacing-x-large) var(--spacing-medium); // fallback
+    padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
     --gap: clamp(0px, 6vw, 0px);
     --full: minmax(var(--gap), 1fr);
     --content: min(68ch, 100% - var(--gap) * 2);
-    --popout: minmax(0, 2rem);
-    --feature: minmax(0, 5rem);
+    --popout: minmax(0, var(--spacing-x-large));
+    --feature: minmax(0, var(--spacing-xx-large));
 
     display: grid;
     grid-template-columns:

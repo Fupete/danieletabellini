@@ -4,14 +4,14 @@
 .eleventy-plugin-embed-spotify,
 .eleventy-plugin-youtube-embed {
     width: 100%;
-    max-width: 72ch;
+    max-width: var(--container-max-ch);
     margin: 3rem 0 !important;
 }
 
 lite-youtube {
-    max-width: 72ch !important;
+    max-width: var(--container-max-ch) !important;
 }
 
 .eleventy-plugin-vimeo-embed {
-     padding-top: calc(72ch / (16 / 9)) !important;
+     padding-top: calc(var(--container-max-ch) / (16 / 9)) !important;
 }

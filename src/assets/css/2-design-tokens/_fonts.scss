@@ -93,21 +93,21 @@ Use like this in your CSS:
   src: local(''), url("/assets/fonts/inter/Inter-Medium.woff2?v=3.19") format("woff2"), url("/assets/fonts/inter/Inter-Medium.woff?v=3.19") format("woff");
 }
 
-// @font-face {
-//   font-family: 'Inter';
-//   font-style: italic;
-//   font-weight: 500;
-//   font-display: swap;
-//   src: local(''), url("/assets/fonts/inter/Inter-MediumItalic.woff2?v=3.19") format("woff2"), url("/assets/fonts/inter/Inter-MediumItalic.woff?v=3.19") format("woff");
-// }
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''), url("/assets/fonts/inter/Inter-MediumItalic.woff2?v=3.19") format("woff2"), url("/assets/fonts/inter/Inter-MediumItalic.woff?v=3.19") format("woff");
+}
 
-// @font-face {
-//   font-family: 'Inter';
-//   font-style: normal;
-//   font-weight: 600;
-//   font-display: swap;
-//   src: local(''), url("/assets/fonts/inter/Inter-SemiBold.woff2?v=3.19") format("woff2"), url("/assets/fonts/inter/Inter-SemiBold.woff?v=3.19") format("woff");
-// }
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''), url("/assets/fonts/inter/Inter-SemiBold.woff2?v=3.19") format("woff2"), url("/assets/fonts/inter/Inter-SemiBold.woff?v=3.19") format("woff");
+}
 
 // @font-face {
 //   font-family: 'Inter';
@@ -167,7 +167,7 @@ Use like this in your CSS:
 
 body {
   font-family: sans-serif;
-  // font-kerning: normal;
+  font-kerning: normal;
 }
 
 .fonts-loaded-1 body {

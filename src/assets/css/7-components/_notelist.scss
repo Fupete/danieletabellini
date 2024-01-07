@@ -1,23 +1,28 @@
 ol.notelist {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 10rem;
+    margin-bottom: var(--spacing-xx-large);
 }
 
 .notelist-item:has(a + time) h2 {
-    margin-bottom: 1rem;
+    margin-bottom: var(--spacing-medium);
+}
+
+.notelist-item {
+    h2 {
+        margin-bottom: var(--spacing-small);
+    }
+    .notelist-date, a.note-tag {
+        font-size: .875rem;
+    }
 }
 
 .notelist-image {
-    margin: 2rem 0;
-    height: 248px;
+    margin: var(--spacing-x-large) 0;
+    height: calc(100vw / (21 / 9));
 
     @media screen and (min-width: 48em) {
-        height: 344px;
-    }
-
-    @media screen and (min-width: 64.0625em) {
-        height: 480px;
+        height: calc(var(--container-max-ch) / (21 / 9));
     }
 
     img {
@@ -29,7 +34,7 @@ ol.notelist {
 }
 
 .note-metadata {
-    margin: 4rem 0;
+    margin: var(--spacing-xx-large) 0;
     font-weight: 500;
     font-size: 0.875rem;
 }
