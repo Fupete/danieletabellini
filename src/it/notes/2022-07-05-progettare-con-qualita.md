@@ -5,10 +5,10 @@ tags: [Accessibility,Design System,.Italia]
 
 <p class="lead">Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi</p>
 
-[Prima edizione su Medium](https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099) 
-
 **[Daniele Tabellini](https://fupete.medium.com/)** del [Dipartimento per la trasformazione digitale](https://medium.com/@trasformazione_digitale)  
 **[Fabrizio Caccavello](https://medium.com/@fabrizio.caccavello)** di [AGID - Agenzia per l'Italia Digitale](https://medium.com/@AgidGov)
+
+[Prima edizione su Medium](https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099) 
 
 <div class="img">
 {% image "cover.webp", "Apertura e collaborazione" %}
@@ -31,13 +31,15 @@ L’aggiornamento del design system del Paese, uno strumento _open_, aperto, sia
 
 Ma cosa si intende quando parliamo di _qualità_?
 
-> La Qualità… sappiamo cos’è, eppure non lo sappiamo. Questo è contraddittorio. Alcune cose sono meglio di altre cioè hanno più Qualità. Ma quando provi a dire in cosa consiste la Qualità astraendo dalle cose che la posseggono, paff, le parole ti sfuggono di mano. Ma se nessuno sa cos’è, ai fini pratici non esiste per niente. Invece esiste eccome. Su cos’altro sono basati i voti, se no? Perché mai la gente pagherebbe una fortuna per certe cose, e ne getterebbe altre nella spazzatura? Ovviamente alcune cose sono meglio di altre… Ma in cosa consiste il “meglio”? **— Lo zen e l’arte della manutenzione della motocicletta, Robert M. Pirsig**
+> La Qualità… sappiamo cos’è, eppure non lo sappiamo. Questo è contraddittorio. Alcune cose sono meglio di altre cioè hanno più Qualità. Ma quando provi a dire in cosa consiste la Qualità astraendo dalle cose che la posseggono, paff, le parole ti sfuggono di mano. Ma se nessuno sa cos’è, ai fini pratici non esiste per niente. Invece esiste eccome. Su cos’altro sono basati i voti, se no? Perché mai la gente pagherebbe una fortuna per certe cose, e ne getterebbe altre nella spazzatura? Ovviamente alcune cose sono meglio di altre… Ma in cosa consiste il “meglio”? 
+
+<small>— Lo zen e l’arte della manutenzione della motocicletta, Robert M. Pirsig</small>
 
 L’accessibilità è un tema di cultura del fare, e fare bene. Non è solo considerare l’accessibilità tra le priorità progettuali, ma _“fare”_, perché è solo così che si scoprono le necessità reali e i compromessi necessari della qualità manifesta di cui parla Robert Pirsig. È il **cambio culturale** che stiamo cercando di affermare: non ratificare a valle uno stato di conformità, ma *fare accessibile*. Semplificare, togliere un passaggio, partire da soluzioni già validate (_by default_) che possano essere curate nel corso di un progetto (_by design_), per poi scoprire, paradossalmente, che si tratta di opzioni economiche ed efficaci.
 
 ## Dieci punti per fare meglio
 
-<div class="img">
+<div class="feature img">
 {% image "dieci-punti.webp", "Cos’è la qualità?" %}
 <small>Image <a href="https://unsplash.com/@seanwsinclair">Sean Sinclair</a></small>
 </div>

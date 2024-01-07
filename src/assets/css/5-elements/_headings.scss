@@ -1,38 +1,44 @@
 h1 {
     font-size: var(--fluid-5);
+    line-height: 1.15;
     font-weight: 900;
-    margin-bottom: 2rem;
-	  letter-spacing: -0.02rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02rem;
 }
 
 h2 {
     font-size: var(--fluid-4);
-	  font-weight: 700;
-    margin-bottom: 1rem;
-    margin-top: 4rem;
-	  letter-spacing: -0.02rem;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    margin-top: 3.5rem;
+    letter-spacing: -0.02rem;
 }
 
 h3 {
     font-size: var(--fluid-3);
+    line-height: 1.15;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 h4 {
     font-size: var(--fluid-2);
+    line-height: 1.15;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 h5 {
     font-size: var(--fluid-1);
+    line-height: 1.15;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 h6 {
     font-size: var(--fluid-0);
-        font-weight:500;
-    margin-bottom: 1rem;
+    line-height: 1.15;
+    font-weight: 500;
+    margin-bottom: .5rem;
 }

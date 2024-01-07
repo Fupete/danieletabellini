@@ -13,9 +13,38 @@ body {
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: var(--container-max-width);
+    // width: 100%;
+    // margin: 0 auto;
+    // max-width: var(--container-max-width);
     padding: 2rem 1rem; // fallback
-    padding: 2rem clamp(var(--spacing-medium), 3.75vw, var(--spacing-x-large));
+    padding: 2rem clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+    --gap: clamp(0px, 6vw, 0px);
+    --full: minmax(var(--gap), 1fr);
+    --content: min(75ch, 100% - var(--gap) * 2);
+    --popout: minmax(0, 2rem);
+    --feature: minmax(0, 5rem);
+
+    display: grid;
+    grid-template-columns:
+        [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
+
+    &>* {
+        grid-column: content;
+    }
+
+    .popout {
+        grid-column: popout;
+    }
+
+    .feature,
+    .gallery,
+    table,
+    pre {
+        grid-column: feature;
+    }
+
+    .full {
+        grid-column: full;
+    }
+
 }

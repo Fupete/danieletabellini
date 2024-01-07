@@ -7,50 +7,54 @@
     --pswp-bg: var(--backgroundColor);
 }
 
-.pswp__button, .pswp__counter {
+.pswp__button,
+.pswp__counter {
     color: var(--textColor);
     text-shadow: 1px 1px 3px var(--backgroundColor);
 }
 
-.gallery ul {
-    padding: 2rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 4px;
+.gallery {
 
-    li {
-        height: 124px;
-        position: relative;
-        margin: 0;
-        flex-grow: 1;
+    ul {
+        padding: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 4px;
 
-        @media screen and (min-width: 48em) {
-            height: 172px;
-        }
+        li {
+            height: 124px;
+            position: relative;
+            margin: 0;
+            flex-grow: 1;
 
-        @media screen and (min-width: 64.0625em) {
-            height: 240px;
-        }
+            @media screen and (min-width: 48em) {
+                height: 172px;
+            }
 
-        a {
-            cursor: zoom-in;
-            width: 100%;
-            display: block;
-            height: 100%;
-            display: flex;
+            @media screen and (min-width: 64.0625em) {
+                height: 240px;
+            }
 
-            img {
-                object-fit: cover;
-                object-position: 50% 50%;
+            a {
+                cursor: zoom-in;
+                width: 100%;
+                display: block;
                 height: 100%;
-                flex-grow: 1;
+                display: flex;
+
+                img {
+                    object-fit: cover;
+                    object-position: 50% 50%;
+                    height: 100%;
+                    flex-grow: 1;
+                }
             }
         }
-    }
 
-    &::after {
-        content: "";
-        flex-grow: 99;
+        &::after {
+            content: "";
+            flex-grow: 99;
+        }
     }
 }

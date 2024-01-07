@@ -3,6 +3,9 @@ title: Style guide
 tags:
   - Design
 ---
+
+[toc]
+
 ## headings (h2)
 
 ### h3

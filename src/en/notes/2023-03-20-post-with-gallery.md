@@ -53,7 +53,7 @@ Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimen
 
 ### Immagini singole fullwidth
 
-<div class="img">
+<div class="full img">
 {% image "holiday.jpg", "photo of my tabby cat 99" %}
 {% image "holiday.jpg", "Tibetan Flags 10" %}
 </div>
