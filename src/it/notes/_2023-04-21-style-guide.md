@@ -1,6 +1,8 @@
 ---
 title: Guida di stile
 tags: [Design]
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 [toc]
