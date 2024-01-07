@@ -13,14 +13,11 @@ body {
 }
 
 .container {
-    // width: 100%;
-    // margin: 0 auto;
-    // max-width: var(--container-max-width);
     padding: 2rem 1rem; // fallback
     padding: 2rem clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
     --gap: clamp(0px, 6vw, 0px);
     --full: minmax(var(--gap), 1fr);
-    --content: min(75ch, 100% - var(--gap) * 2);
+    --content: min(68ch, 100% - var(--gap) * 2);
     --popout: minmax(0, 2rem);
     --feature: minmax(0, 5rem);
 
