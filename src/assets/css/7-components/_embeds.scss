@@ -1,17 +1,17 @@
-// .eleventy-plugin-embed-instagram,
-// .eleventy-plugin-embed-twitter,
-// .eleventy-plugin-vimeo-embed,
-// .eleventy-plugin-embed-spotify,
+.eleventy-plugin-embed-instagram,
+.eleventy-plugin-embed-twitter,
+.eleventy-plugin-vimeo-embed,
+.eleventy-plugin-embed-spotify,
 .eleventy-plugin-youtube-embed {
     width: 100%;
-    max-width: 76.5ch;
+    max-width: 72ch;
     margin: 3rem 0 !important;
 }
 
 lite-youtube {
-    max-width: 76.5ch !important;
+    max-width: 72ch !important;
 }
 
-// .eleventy-plugin-vimeo-embed {
-//     padding-top: calc(76.5ch / (16 / 9)) !important;
-// }
+.eleventy-plugin-vimeo-embed {
+     padding-top: calc(72ch / (16 / 9)) !important;
+}
