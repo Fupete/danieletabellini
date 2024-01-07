@@ -47,6 +47,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci. 
 
+-----
+
 ## Altra galleria
 
 Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimentum tellus mauris, vel porttitor ante hendrerit vel. Ut interdum tellus sit amet massa ultrices sollicitudin. Integer dictum est vel lacus pharetra, vitae cursus orci vestibulum. Nulla tincidunt elementum porttitor. Duis eu efficitur tortor. Donec vestibulum lacus a justo efficitur molestie sed vel urna. In at dignissim nisl. Praesent viverra magna quam, at malesuada est dictum a. Quisque tincidunt ac elit nec venenatis. Sed ullamcorper eros tincidunt lorem pharetra, sed interdum nibh lobortis.
@@ -64,6 +66,8 @@ Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimen
 ### Titoletto h3
 
 Duis quis arcu at elit congue interdum. Curabitur vestibulum felis eget vulputate egestas. Proin finibus commodo diam, non viverra magna mollis ut. Etiam vel convallis nisi. Curabitur gravida, enim in imperdiet hendrerit, leo nunc vestibulum sem, et rhoncus velit nisi nec sapien. Cras pretium, arcu mattis ornare maximus, tortor turpis accumsan nisi, at volutpat libero sapien sed leo. Cras odio felis, pharetra id porta vitae, consequat in magna. 
+
+----- 
 
 ## Altra galleria altro titolo
 

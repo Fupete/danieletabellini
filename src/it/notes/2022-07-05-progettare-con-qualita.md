@@ -10,7 +10,7 @@ tags: [Accessibility,Design System,.Italia]
 
 [Prima edizione su Medium](https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099) 
 
-<div class="img">
+<div class="popout img">
 {% image "cover.webp", "Apertura e collaborazione" %}
 <small>Photo <a href="https://unsplash.com/@johnschno">John Schnobrich</a>, <a href="https://unsplash.com/@tvschaitanya">Chaitanya Tvs</a></small>
 </div>
@@ -21,7 +21,13 @@ L’**accessibilità** è prima di tutto una questione di attenzione: al signifi
 
 Ma si tratta solo di un dettaglio dell’approccio e di quanto realizzato nei mesi scorsi: come, e soprattutto perché, siamo arrivati fino a qui? E che direzione abbiamo intrapreso? Quello che segue è il racconto di una parte dell’avventura, [iniziata a dicembre 2021](https://designers.italia.it/notizie/Per-un-2022-ricco-di-sfide/), dal [Dipartimento per la trasformazione digitale](https://innovazione.gov.it/) e [AgID](https://agid.gov.it) per **aggiornare il design system del Paese**. Un’iniziativa che mira a ottimizzare le risorse digitali messe a disposizione dei cittadini da parte della Pubblica Amministrazione, rendendole semplici, accessibili e inclusive.
 
+-----
+
+**Indice dei contenuti:**
+
 [toc]
+
+-----
 
 ## Progettare interfacce è un atto di responsabilità
 
@@ -36,6 +42,8 @@ Ma cosa si intende quando parliamo di _qualità_?
 <small>— Lo zen e l’arte della manutenzione della motocicletta, Robert M. Pirsig</small>
 
 L’accessibilità è un tema di cultura del fare, e fare bene. Non è solo considerare l’accessibilità tra le priorità progettuali, ma _“fare”_, perché è solo così che si scoprono le necessità reali e i compromessi necessari della qualità manifesta di cui parla Robert Pirsig. È il **cambio culturale** che stiamo cercando di affermare: non ratificare a valle uno stato di conformità, ma *fare accessibile*. Semplificare, togliere un passaggio, partire da soluzioni già validate (_by default_) che possano essere curate nel corso di un progetto (_by design_), per poi scoprire, paradossalmente, che si tratta di opzioni economiche ed efficaci.
+
+-----
 
 ## Dieci punti per fare meglio
 

@@ -8,6 +8,7 @@ p {
     &.lead {
         font-size: var(--fluid-2);
         line-height: 1.4;
+        font-weight: 500;
     }
 }
 
@@ -15,6 +16,7 @@ blockquote {
     p {
         font-size: var(--fluid-1);
         line-height: 1.5;
+        font-weight: 500;
     }
 
     margin: var(--spacing-x-large) 0;
@@ -28,6 +30,7 @@ pre {
     padding: var(--spacing-medium) var(--spacing-large);
     border-radius: var(--spacing-x-small);
     line-height: 1.75;
+
     code {
         background: inherit;
         color: inherit;
@@ -37,4 +40,15 @@ pre {
 code {
     background: var(--textColor);
     color: var(--backgroundColor);
+}
+
+hr {
+    border: none;
+    margin: var(--spacing-x-large) auto;
+
+    &::before {
+        content: '• • •';
+        display: block;
+        text-align: center;
+    }
 }
