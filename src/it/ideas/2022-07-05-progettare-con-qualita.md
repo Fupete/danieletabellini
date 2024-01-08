@@ -181,7 +181,7 @@ Durante la partecipazione agli [Accessibility Days](https://accessibilitydays.it
 ## Il futuro è una questione culturale
 
 <div class="popout img">
-{% image "futuro-culturale.webp", "Mani che collaborano per il meglio" %}
+{% image "futuro-culturale.webp", "Palloncini e bambina con occhiali VR" %}
 <small>Photo <a href="https://unsplash.com/@giuvicente">Giu Vicente</a>, <a href="https://unsplash.com/@olesia_bahrii">Olesia Bahrii</a></small>
 </div>
 
