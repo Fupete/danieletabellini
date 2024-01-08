@@ -17,6 +17,7 @@
         div.site-header__left {
             font-weight: 600;
             font-size: var(--fluid-1);
+            padding: var(--spacing-x-small) 0;
 
             &.nav__item--active {
                 a {

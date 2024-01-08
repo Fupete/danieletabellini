@@ -43,9 +43,15 @@ article.container {
 
 .cover-links {
   margin: var(--spacing-x-large) 0;
-  display: flex;
 
-  ul {
-    width: 33.333%;
+  @media screen and (min-width: 48em) {
+
+    display: flex;
+
+    ul {
+      width: 33.333%;
+    }
   }
+
+
 }

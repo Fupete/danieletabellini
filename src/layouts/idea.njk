@@ -16,11 +16,11 @@ image:
 
   {% if (page.fileSlug !== "timeline") %}
   <div class="idea-metadata" data-pagefind-ignore>
-    <time class="ideaslist-date" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date | dateToFormat('dd
-      LLL yyyy') }}</time>
-    / Tags: {% for tag in tags | filterTagList %}
+    {# <time class="ideaslist-date" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date | dateToFormat('yyyy MM') }}</time> #}
+    {# /  #}
+    {% for tag in tags | filterTagList %}
     {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a>
+    <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a> &nbsp;
     {% endfor %}
   </div>
   {% endif %}

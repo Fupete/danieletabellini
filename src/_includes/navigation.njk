@@ -1,7 +1,11 @@
 <nav class="nav nav--primary" role="navigation" tabindex="-1">
     {# Nav Links #}
     <ul class="nav__menu">
+        {% if page.lang == 'en'%}
         {% set ideasUrl %}/{{page.lang}}/ideas/{% endset %}
+        {% else %}
+        {% set ideasUrl %}/{{page.lang}}/idee/{% endset %}
+        {% endif %}
         <li class="nav__item {% if ideasUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{ideasUrl | url}}">
                 {% if page.lang == 'en' %}Ideas{% else %}Idee{% endif %}

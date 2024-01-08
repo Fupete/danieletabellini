@@ -13,13 +13,13 @@
     </h2>
     <time class="ideaslist-date" datetime="{{ idea.date | dateToFormat('yyyy-MM-dd') }}">{{ idea.date |
       dateToFormat('yyyy MM') }}</time>
-    {% if idea.data.tags %}
-      <small>— Tags:</small> 
-    {% endif %}
-    {% for tag in idea.data.tags | filterTagList %}
+    {# {% if idea.data.tags %}
+      <small>/</small> 
+    {% endif %} #}
+    {# {% for tag in idea.data.tags | filterTagList %}
     {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a>
-    {% endfor %}
+    <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a>&nbsp;
+    {% endfor %} #}
     {% if idea.data.image %}
     {% set imgSrc %}{{ idea.fileSlug}}/{{idea.data.image}}{% endset %}
     <div class="ideaslist-image">
