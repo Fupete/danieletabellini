@@ -1,0 +1,17 @@
+<ol reversed class="ideaslist">
+  {% for idea in ideaslist.slice(0,4) | reverse %}
+  <li class="ideaslist-item{% if idea.url == url %} ideaslist-item-active{% endif %}">
+    <h2>
+      <a href="{{ idea.url | url }}" class="ideaslist-link">
+        {% if idea.data.title %}{{ idea.data.title }}{% else %}<code>{{ idea.url }}</code>{% endif %}
+    </a>
+    </h2>
+    {# <time class="ideaslist-date" datetime="{{ idea.date | dateToFormat('yyyy-MM-dd') }}">{{ idea.date | dateToFormat('dd
+      LLL yyyy') }}</time>
+    {% for tag in idea.data.tags | filterTagList %}
+    {% set tagUrl %}/{{page.lang}}/tags/{{ tag | slug }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a>
+    {% endfor %} #}
+  </li>
+  {% endfor %}
+</ol>

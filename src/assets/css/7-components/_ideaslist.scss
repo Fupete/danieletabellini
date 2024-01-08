@@ -1,23 +1,23 @@
-ol.notelist {
+ol.ideaslist {
     list-style-type: none;
     padding: 0;
     margin-bottom: var(--spacing-xx-large);
 }
 
-.notelist-item:has(a + time) h2 {
+.ideaslist-item:has(a + time) h2 {
     margin-bottom: var(--spacing-medium);
 }
 
-.notelist-item {
+.ideaslist-item {
     h2 {
         margin-bottom: var(--spacing-small);
     }
-    .notelist-date, a.note-tag {
+    .ideaslist-date, a.idea-tag {
         font-size: .875rem;
     }
 }
 
-.notelist-image {
+.ideaslist-image {
     margin: var(--spacing-x-large) 0;
     height: calc(100vw / (21 / 9));
 
@@ -33,7 +33,7 @@ ol.notelist {
     }
 }
 
-.note-metadata {
+.idea-metadata {
     margin: var(--spacing-xx-large) 0;
     font-weight: 500;
     font-size: 0.875rem;

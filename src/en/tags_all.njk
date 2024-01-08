@@ -8,13 +8,13 @@ title: Tags
   <h1>Tags</h1>
   <ul class="taglist">
     {% set orderedCollection = collections | sortObjectByKey %}
-    {%- for tag, notes in orderedCollection %}
-    {% if tag !== 'all' and tag !== 'notes' and tag !== 'notes_en' and tag !== 'notes_it' %}
+    {%- for tag, ideas in orderedCollection %}
+    {% if tag !== 'all' and tag !== 'ideas' and tag !== 'ideas_en' and tag !== 'ideas_it' %}
     {% set tagUrl %}/en/tags/{{ tag | slug }}/{% endset %}
     <li class="taglist-item">
       <a href="{{tagUrl|url}}" class="taglist-link">
         {{ tag }}</a> 
-        {# <sup>{{ notes | length }} notes</sup> #}
+        {# <sup>{{ ideas | length }} Ideas</sup> #}
       </li>
     {% endif %}
     {%- endfor -%}

@@ -35,10 +35,10 @@ module.exports = {
 	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280, "auto"]) {
 		let imageSrc
 		const fileSlug = this.page.fileSlug
-		if (fileSlug !== 'en' && fileSlug !== 'it' && fileSlug !== 'notes' && fileSlug !== 'tags') 
+		if (fileSlug !== 'en' && fileSlug !== 'it' && fileSlug !== 'ideas' && fileSlug !== 'tags') 
 			imageSrc = `./src/imgs/${fileSlug}/${src}`
 		else
-			imageSrc = `./src/imgs/${src}` // home + notes
+			imageSrc = `./src/imgs/${src}` // home + ideas
 		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
 
 		const metadata = await Image(imageSrc, {

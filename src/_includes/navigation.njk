@@ -1,16 +1,10 @@
 <nav class="nav nav--primary" role="navigation" tabindex="-1">
     {# Nav Links #}
     <ul class="nav__menu">
-        {% set timelineUrl %}/{{page.lang}}/timeline/{% endset %}
-        <li class="nav__item {% if timelineUrl == page.url %}nav__item--active{% endif %}">
-            <a class="nav__link" href="{{timelineUrl | url}}">
-                {% if page.lang == 'en' %}Timeline{% else %}Timeline{% endif %}
-            </a>
-        </li>
-        {% set notesUrl %}/{{page.lang}}/notes/{% endset %}
-        <li class="nav__item {% if notesUrl == page.url %}nav__item--active{% endif %}">
-            <a class="nav__link" href="{{notesUrl | url}}">
-                {% if page.lang == 'en' %}Notes{% else %}Note{% endif %}
+        {% set ideasUrl %}/{{page.lang}}/ideas/{% endset %}
+        <li class="nav__item {% if ideasUrl == page.url %}nav__item--active{% endif %}">
+            <a class="nav__link" href="{{ideasUrl | url}}">
+                {% if page.lang == 'en' %}Ideas{% else %}Idee{% endif %}
             </a>
         </li>
         {# <li class="nav__item nav__lang">

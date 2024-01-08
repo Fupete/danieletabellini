@@ -44,7 +44,7 @@ See the syntax guide for more info: [link](syntax_guide.md).
 Or, check out the style guide [here](style_guide.md).
 
 ## Table md
-Fruit | Attribute | Notes  
+Fruit | Attribute | Ideas  
 --- | --- | ---
 Apple | [Juicy](https://example.com/SomeReallyReallyReallyReallyReallyReallyReallyReallyLongQuery), Firm, Sweet | Apples keep doctors away.  
 Banana | [Convenient](https://example.com/SomeDifferentReallyReallyReallyReallyReallyReallyReallyReallyLongQuery), Soft, Sweet | Contrary to popular belief, most apes prefer mangoes.  

@@ -90,8 +90,8 @@ module.exports = function (eleventyConfig) {
 						criticalPages: [
 							{ uri: 'en/index.html', template: 'index' },
 							{ uri: 'it/index.html', template: 'index' },
-							{ uri: 'en/notes/index.html', template: 'notes/index' },
-							{ uri: 'it/notes/index.html', template: 'notes/index' },
+							{ uri: 'en/ideas/index.html', template: 'ideas/index' },
+							{ uri: 'it/ideas/index.html', template: 'ideas/index' },
 							{ uri: 'en/404.html', template: '404' },
 							{ uri: 'it/404.html', template: '404' },
 						],
@@ -194,7 +194,7 @@ module.exports = function (eleventyConfig) {
 
 	// Layouts
 	eleventyConfig.addLayoutAlias('base', 'base.njk')
-	eleventyConfig.addLayoutAlias('note', 'note.njk')
+	eleventyConfig.addLayoutAlias('idea', 'idea.njk')
 
 	// Copy/pass-through files
 	eleventyConfig.addPassthroughCopy('./src/assets/css')
@@ -206,12 +206,12 @@ module.exports = function (eleventyConfig) {
 	})
 
 	// Localized notes
-	eleventyConfig.addCollection("notes_en", (collectionApi) => {
-		return collectionApi.getFilteredByGlob("./src/en/notes/**/*.md");
+	eleventyConfig.addCollection("ideas_en", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/en/ideas/**/*.md");
 	})
 
-	eleventyConfig.addCollection("notes_it", (collectionApi) => {
-		return collectionApi.getFilteredByGlob("./src/it/notes/**/*.md");
+	eleventyConfig.addCollection("ideas_it", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/it/ideas/**/*.md");
 	})
 
 	return {

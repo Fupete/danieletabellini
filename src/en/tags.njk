@@ -5,8 +5,8 @@ pagination:
   alias: tag
   filter:
     - all
-    - note
-    - notes
+    - idea
+    - ideas
     - tagList
   addAllPagesToCollections: true
 layout: base
@@ -16,11 +16,11 @@ permalink: /en/tags/{{ tag | slugify }}/
 ---
 
 <div class="container">
-  <h1>Notes tagged "{{ tag }}"</h1>
+  <h1>Ideas tagged "{{ tag }}"</h1>
   {% set tagUrl %}/en/tags/{% endset %}
   <p><a href="{{tagUrl | url}}">Browse all tags</a></p>
-  {% set noteslist = collections[tag] %}
-  {% include "noteslist.njk" %}
+  {% set ideaslist = collections[tag] %}
+  {% include "ideaslist.njk" %}
 </div>
 
 

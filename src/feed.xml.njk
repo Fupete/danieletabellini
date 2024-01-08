@@ -11,19 +11,19 @@ eleventyExcludeFromCollections: true
     <author>
         <name>{{ meta.title }}</name>
     </author>
-    {% if collections.notes %}
-    <updated>{{ collections.notes | rssLastUpdatedDate }}</updated>
+    {% if collections.ideas %}
+    <updated>{{ collections.ideas | rssLastUpdatedDate }}</updated>
     {% endif %}
     <id>{{ meta.url }}/</id>
-    {%- for note in collections.notes | reverse -%}
-    {% set absolutenoteUrl %}{{ note.url | url | absoluteUrl(meta.url) }}{% endset %}
+    {%- for idea in collections.ideas | reverse -%}
+    {% set absoluteideaUrl %}{{ idea.url | url | absoluteUrl(meta.url) }}{% endset %}
         <entry>
-            <title>{{ note.data.title }}</title>
-            <link href="{{ absolutenoteUrl }}"/>
-            <updated>{{ note.date | rssDate }}</updated>
-            <id>{{ absolutenoteUrl }}</id>
+            <title>{{ idea.data.title }}</title>
+            <link href="{{ absoluteideaUrl }}"/>
+            <updated>{{ idea.date | rssDate }}</updated>
+            <id>{{ absoluteideaUrl }}</id>
             <content type="html"><![CDATA[
-                {{ note.templateContent | htmlToAbsoluteUrls(absolutenoteUrl) | safe }}
+                {{ idea.templateContent | htmlToAbsoluteUrls(absoluteideaUrl) | safe }}
             ]]></content>
         </entry>
     {%- endfor -%}

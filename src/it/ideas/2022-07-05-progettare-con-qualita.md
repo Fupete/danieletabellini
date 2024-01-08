@@ -3,7 +3,7 @@ title: "Progettare con qualità: l’accessibilità al centro del design system 
 description: "Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi"
 canonical: https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099
 image: cover.webp
-tags: [Accessibility,Design System,Italia]
+tags: [Accessibility,A11y,Design System,Italia,Pubblica Amministrazione]
 ---
 
 <p class="lead">Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi</p>
@@ -125,4 +125,67 @@ https://www.youtube.com/watch?v=1UKjfSyox-k
 <small><a href="https://github.com/italia/bootstrap-italia">Repository</a>, foglio validazione componenti e <a href="https://italia.github.io/bootstrap-italia/">Documentazione</a> di Bootstrap Italia</small>
 </div>
 
-_Continua_
+Bootstrap Italia è il kit per lo sviluppo di interfacce del design system del Paese. A distanza di anni, da quando fu rilasciata una prima versione, è evidente quanto sia stato importante pensare a un **_framework_ unico di sviluppo, basato sulle esigenze della Pubblica Amministrazione**. Fu realizzato con quello che allora era il riferimento, il più utilizzato ma anche il più vicino ai requisiti di accessibilità: Bootstrap. E oggi, dopo aver inizialmente tolto la ruggine all’ultima versione basata su Bootstrap 4, anche integrando molti contributi della _community_, è in dirittura d’arrivo la **nuova versione 2.0** portata su Bootstrap 5.
+
+In questa nuova versione, oltre ad ereditare tutte le nuove caratteristiche di Bootstrap 5, Bootstrap Italia è ottimizzato per molti aspetti che riguardano specificatamente la Pubblica Amministrazione e l’accessibilità. Abbiamo validato, o per meglio dire, stiamo validando e **continueremo a migliorare ogni componente**, cercando anche di fornire documentazione con indicazioni per l’implementazione laddove necessario.
+
+Durante queste lavorazioni sono state fatte scelte di rottura, consapevoli che la semplicità sia un valore, che sia più facile cioè da manutenere e realizzare, come il dettaglio con cui si apre l’articolo sull’usare markup HTML semantico standard per molti componenti dei _form_ o, altro esempio interessante, come scegliere di **integrare la soluzione dei colleghi inglesi** [Accessible autocomplete](https://alphagov.github.io/accessible-autocomplete/), un plugin che permette di cercare e scegliere risposte da una lunga lista, progettato e sviluppato per l’accessibilità.
+
+https://www.youtube.com/watch?v=dQVy8DLPJbY
+
+<p class="embedCaption">Community lab: scopriamo Bootstrap Italia 2.0</p>
+
+**Bootstrap Italia 2.0 è stato progettato per essere scalabile** come richiesto dalle risultanze della ricerca: basti citare come esempi l’uso di Javascript puro per tutte le funzionalità, e l’integrazione di Rollup, che permette di integrare nel proprio progetto solo le parti necessarie del _framework_, con vantaggi di peso e velocità come si può approfondire in [questo articolo](https://medium.com/@Developers_Italia/af92a8bba9d2). Anche in questo caso si tratta di **un lavoro aperto**, e vi invitiamo a partecipare ai lavori in corso provando o contribuendo all’ultima versione rilasciata di [Bootstrap Italia 2.0](https://github.com/italia/bootstrap-italia/releases) su GitHub.
+
+### 8. Fatto bene segue modelli standard
+
+<div class="feature img">
+{% image "modelli.webp", "Modelli di design" %}
+<small>Modelli standard per i siti e i servizi digitali dei <a href="https://designers.italia.it/modelli/comuni/">Comuni</a> e delle <a href="https://designers.italia.it/modelli/scuole/">scuole</a></small>
+</div>
+
+La progettazione di esperienze digitali semplici ed efficaci richiede tempo, risorse e molta ricerca. **I modelli di siti e servizi digitali per gli enti** (oggi scuole e Comuni) permettono di rispondere ai bisogni dei cittadini in modo rapido e a minor costo, sfruttando flussi e funzionalità validate dalla ricerca.
+
+I [modelli](https://designers.italia.it/modello/comuni/) proposti da Designers Italia, comprendono l’architettura dell’informazione, i _template_ HTML e i temi per CMS (_Content Management System_), su cui sono stati effettuati in questi mesi importanti lavori, anche per migliorarne l’accessibilità, corredati da una serie di guide pratiche a supporto. **I modelli rappresentano precisamente il concetto della creazione di servizi digitali accessibili _by default_**: partire con un intero modello validato e radicato nella ricerca utente.
+
+I modelli per le scuole e i Comuni sono oggetto della [misura 1.4.1 del PNRR “Esperienza dei servizi pubblici”](https://padigitale2026.gov.it/misure/#esp-serv-pubb). Seguire un modello non significa creare siti uniformi, ma coerenti. Il modello infatti nasce **nel rispetto delle esigenze del cittadino e delle necessità di flessibilità degli enti**, in questo ordine. Gli enti possono adattare il modello al contesto specifico rispettando comunque i criteri di conformità.
+
+### 9. Fatto bene a volte… non basta
+
+I «pezzi» del design system del Paese non sono tutto: l’accessibilità è principalmente una questione semantica, di significato degli elementi e dei comportamenti. **L’utilizzo di componenti accessibili non rende automaticamente un applicativo accessibile**, tuttavia sono un aiuto fondamentale per compiere _by default_ un processo nel modo più ottimale possibile.
+
+Il percorso costruito attraverso il design system è proprio incentrato sul concetto di **accessibilità _by default_**. Per ogni attività devono essere utilizzabili elementi, strutture, procedure, che sono già passati attraverso i necessari processi di validazione (documentazione, _mockup_, _framework_, _template_, ecc). Al termine del processo le attività di verifica e di ottimizzazione potranno essere più limitate, per poi liberare risorse per la gestione di casi più complessi o attivare supporti più innovativi.
+
+### 10. Fatto bene ha bisogno di test e feedback
+
+Nei prossimi anni ci aspettano molte sfide per scalare, dare _governance_ chiara, rendere sostenibile e curare con efficacia il design system del Paese. **Per raggiungere questo obiettivo abbiamo bisogno di tutta la _community_**: l’ambiente in cui si muovono e vivono le persone non è quello ideale di utilizzo di un applicativo. Tutti noi utilizziamo applicativi in ambienti i più strani, mentre camminiamo, con il gelato in mano, con tecnologie assistive, magari con tecnologie assistive che oggi neanche immaginiamo.
+
+https://www.youtube.com/watch?v=jBE_cUQuWxI
+
+<p class="embedCaption">La partecipazione agli Accessibility Days 2022: <a href="https://www.youtube.com/watch?v=jBE_cUQuWxI">parte 1</a> e <a href="https://www.youtube.com/watch?v=DlBbsVGi_TQ">parte 2</p>
+
+Durante la partecipazione agli [Accessibility Days](https://accessibilitydays.it/), ci è stato ricordato il motto dei diritti delle persone con condizioni di disabilità: **“Niente su di Noi, senza di Noi”**. In autunno, proprio con l’aiuto del team degli Accessibility Days, ci siamo ripromessi di creare occasioni di confronto e test di usabilità, con particolare attenzione all’accessibilità, per **raccogliere dati e migliorare piattaforme, siti e servizi pubblici digitali** che utilizzano il design system del Paese. Con l’auspicio di riuscirci, e che diventi un’abitudine, per migliorare continuamente, insieme, con partecipazione e responsabilità.
+
+-----
+
+## Il futuro appartiene alle persone
+
+<div class="popout img">
+{% image "futuro-persone.webp", "Mani che collaborano per il meglio" %}
+<small>Photo <a href="https://unsplash.com/es/@hannahbusing">Hannah Busing</a>, <a href="https://unsplash.com/@lazycreekimages">Michael Dziedzic</a></small>
+</div>
+
+**Il design system del Paese è un progetto di interesse pubblico, aperto e partecipato.** Ci piace pensare che questo progetto appartenga soprattutto a voi che state leggendo, che possiate farlo vostro, ognuno con le proprie competenze e livello di coinvolgimento, nella Pubblica Amministrazione centrale e sul territorio, e nei suoi fornitori. Partecipando alle lavorazioni, segnalando o proponendo miglioramenti, provandone le risorse e partecipando a test e presentazioni, rilasciando soluzioni alternative o analisi e revisioni, allo stesso modo pubbliche e _open_ con le licenze aperte corrette, facendo domande e aiutandoci a diffondere consapevolezza sul progettare e sviluppare interfacce di cittadinanza di qualità, a tutti i livelli.
+
+## Il futuro è una questione culturale
+
+<div class="popout img">
+{% image "futuro-culturale.webp", "Mani che collaborano per il meglio" %}
+<small>Photo <a href="https://unsplash.com/@giuvicente">Giu Vicente</a>, <a href="https://unsplash.com/@olesia_bahrii">Olesia Bahrii</a></small>
+</div>
+
+C’è ancora una domanda, però, che rimane forse irrisolta: **chi sta insegnando a “fare accessibile” alla prossima generazione di designer e sviluppatori?** Non vorremmo aprire un piccolo vaso di Pandora, ma nelle Università italiane dedicate all’ITC, alle discipline informatiche, o al design, quanti e quali corsi sono dedicati all’accessibilità? **Siamo sicuri che in Italia ci siano molte eccellenze**, ma la domanda, e la questione culturale che porta con sé, rimane d’importanza capitale: nei prossimi mesi troviamo un’occasione per parlarne, valorizzare esperienze virtuose e rilanciare?
+
+-----
+
+[Alcuni diritti riservati](https://creativecommons.org/licenses/by/4.0/)

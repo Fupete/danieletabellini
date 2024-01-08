@@ -8,9 +8,9 @@ public_folder: "/media"
 publish_mode: editorial_workflow
 
 collections:
-  - label: "Notes in english"
-    name: "notes-en"
-    folder: "src/en/notes"
+  - label: "Ideas in english"
+    name: "iteas-en"
+    folder: "src/en/ideas"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     # editor:
@@ -20,9 +20,9 @@ collections:
       - { label: "Image", name: "image", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Note in italiano"
-    name: "notes-it"
-    folder: "src/it/notes"
+  - label: "Idee in italiano"
+    name: "ideas-it"
+    folder: "src/it/ideas"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     # editor:

@@ -1,0 +1,35 @@
+{% if page.fileSlug === 'ideas' %}
+{% set ideaslist = collections["ideas_" + page.lang] %}
+{% endif %}
+{% if ideaslist | length > 0 %}
+<ol reversed class="ideaslist">
+  {% for idea in ideaslist | reverse %}
+  {% if idea.data.lang === page.lang %}
+  <li class="ideaslist-item{% if idea.url == url %} ideaslist-item-active{% endif %}">
+    <h2>
+      <a href="{{ idea.url | url }}" class="ideaslist-link">
+        {% if idea.data.title %}{{ idea.data.title }}{% else %}<code>{{ idea.url }}</code>{% endif %}
+      </a>
+    </h2>
+    <time class="ideaslist-date" datetime="{{ idea.date | dateToFormat('yyyy-MM-dd') }}">{{ idea.date |
+      dateToFormat('yyyy MM') }}</time>
+    {% if idea.data.tags %}
+      <small>— Tags:</small> 
+    {% endif %}
+    {% for tag in idea.data.tags | filterTagList %}
+    {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a>
+    {% endfor %}
+    {% if idea.data.image %}
+    {% set imgSrc %}{{ idea.fileSlug}}/{{idea.data.image}}{% endset %}
+    <div class="ideaslist-image">
+      {% image imgSrc, ""%}
+    </div>
+    {% endif %}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ol>
+{% else %}
+<p>{%- if page.lang == 'en' %}Work in progress{% else %}Lavori in corso{% endif %}</p>
+{% endif %}
