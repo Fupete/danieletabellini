@@ -1,8 +1,8 @@
 <header class="site-header" role="banner">
     <div class="site-header__container">
-        {# <div class="site-header__right">
+        <div class="site-header__right">
             {% include "navigation.njk" %}
-        </div> #}
+        </div>
         <div id="langAlternatives">
             {% for link in page.url | locale_links %}
                 {%- if loop.first %}

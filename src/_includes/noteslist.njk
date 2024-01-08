@@ -1,6 +1,7 @@
 {% if page.fileSlug === 'notes' %}
 {% set noteslist = collections["notes_" + page.lang] %}
 {% endif %}
+{% if noteslist | length > 0 %}
 <ol reversed class="notelist">
   {% for note in noteslist | reverse %}
   {% if note.data.lang === page.lang %}
@@ -29,3 +30,6 @@
   {% endif %}
   {% endfor %}
 </ol>
+{% else %}
+<p>{%- if page.lang == 'en' %}Work in progress{% else %}Lavori in corso{% endif %}</p>
+{% endif %}

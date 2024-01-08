@@ -2,8 +2,8 @@
 title: Style guide
 tags:
   - Design
-# permalink: false
-# eleventyExcludeFromCollections: true
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 [toc]

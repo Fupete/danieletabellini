@@ -4,6 +4,8 @@ image: holiday.jpg
 tags:
   - Data
   - Gallery
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 [toc]
