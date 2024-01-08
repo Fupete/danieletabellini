@@ -163,7 +163,7 @@ Nei prossimi anni ci aspettano molte sfide per scalare, dare _governance_ chiara
 
 https://www.youtube.com/watch?v=jBE_cUQuWxI
 
-<p class="embedCaption">La partecipazione agli Accessibility Days 2022: <a href="https://www.youtube.com/watch?v=jBE_cUQuWxI">parte 1</a> e <a href="https://www.youtube.com/watch?v=DlBbsVGi_TQ">parte 2</p>
+<p class="embedCaption">La partecipazione agli Accessibility Days 2022: <a href="https://www.youtube.com/watch?v=jBE_cUQuWxI">parte 1</a> e <a href="https://www.youtube.com/watch?v=DlBbsVGi_TQ">parte 2</a></p>
 
 Durante la partecipazione agli [Accessibility Days](https://accessibilitydays.it/), ci è stato ricordato il motto dei diritti delle persone con condizioni di disabilità: **“Niente su di Noi, senza di Noi”**. In autunno, proprio con l’aiuto del team degli Accessibility Days, ci siamo ripromessi di creare occasioni di confronto e test di usabilità, con particolare attenzione all’accessibilità, per **raccogliere dati e migliorare piattaforme, siti e servizi pubblici digitali** che utilizzano il design system del Paese. Con l’auspicio di riuscirci, e che diventi un’abitudine, per migliorare continuamente, insieme, con partecipazione e responsabilità.
 
