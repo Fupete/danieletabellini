@@ -1,11 +1,5 @@
 <header class="site-header" role="banner">
     <div class="site-header__container">
-        {% set homeUrl %}/{{page.lang}}/{% endset %}
-        <div class="site-header__left nav__item {% if homeUrl == page.url %}nav__item--active{% endif %}">
-            <a class="nav__link" href="{{homeUrl | url}}">
-                {% if page.lang == 'en' %}Daniele Tabellini{% else %}Daniele Tabellini{% endif %}
-            </a>
-        </div>
         <div class="site-header__right">
             {% include "navigation.njk" %}
         </div>

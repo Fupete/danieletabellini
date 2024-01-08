@@ -14,7 +14,7 @@
         padding: var(--spacing-x-large) var(--spacing-medium); // fallback
         padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
 
-        div.site-header__left {
+        li.site-header__left {
             font-weight: 600;
             font-size: var(--fluid-1);
             padding: var(--spacing-x-small) 0;
@@ -34,10 +34,13 @@
             font-size: var(--fluid-0);
             font-weight: 500;
             margin: 0;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: baseline;
+
+            @media(min-width: 47.9375em) {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: baseline;
+            }
         }
 
         li {
