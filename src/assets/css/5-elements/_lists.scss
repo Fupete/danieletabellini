@@ -40,3 +40,12 @@ article.container {
     }
   }
 }
+
+.cover-links {
+  margin: var(--spacing-x-large) 0;
+  display: flex;
+
+  ul {
+    width: 33.333%;
+  }
+}

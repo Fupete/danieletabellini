@@ -11,7 +11,7 @@ tags: [Accessibility,Design System,Italia]
 **[Daniele Tabellini](https://fupete.medium.com/)** del [Dipartimento per la trasformazione digitale](https://medium.com/@trasformazione_digitale)  
 **[Fabrizio Caccavello](https://medium.com/@fabrizio.caccavello)** di [AGID - Agenzia per l'Italia Digitale](https://medium.com/@AgidGov)
 
-[Prima edizione su Medium](https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099) 
+Pubblicato su [Designers Italia (Medium)](https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099) il 5 luglio 2022
 
 <div class="popout img">
 {% image "cover.webp", "Apertura e collaborazione" %}
