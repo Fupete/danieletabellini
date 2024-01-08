@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-        <loc>https://danieletabellini.com/it/notes/2022-07-05-progettare-con-qualita/</loc>
+        <loc>https://danieletabellini.com/it/ideas/2022-07-05-progettare-con-qualita/</loc>
         <lastmod>2022-07-05</lastmod>
     </url><url>
-        <loc>https://danieletabellini.com/en/notes/2023-03-20-post-with-gallery/</loc>
-        <lastmod>2023-03-20</lastmod>
-    </url><url>
-        <loc>https://danieletabellini.com/en/notes/2023-04-21-style-guide/</loc>
-        <lastmod>2023-04-21</lastmod>
-    </url><url>
         <loc>https://danieletabellini.com/admin/</loc>
+        <lastmod>2024-01-08</lastmod>
+    </url><url>
+        <loc>https://danieletabellini.com/en/ideas/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
         <loc>https://danieletabellini.com/en/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
-        <loc>https://danieletabellini.com/en/notes/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
-        <loc>https://danieletabellini.com/en/tags/data/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
-        <loc>https://danieletabellini.com/en/tags/gallery/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
-        <loc>https://danieletabellini.com/en/tags/design/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
         <loc>https://danieletabellini.com/en/tags/accessibility/</loc>
+        <lastmod>2024-01-08</lastmod>
+    </url><url>
+        <loc>https://danieletabellini.com/en/tags/a11y/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
         <loc>https://danieletabellini.com/en/tags/design-system/</loc>
@@ -36,31 +24,28 @@
         <loc>https://danieletabellini.com/en/tags/italia/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
-        <loc>https://danieletabellini.com/en/tags/notes-en/</loc>
+        <loc>https://danieletabellini.com/en/tags/pubblica-amministrazione/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
-        <loc>https://danieletabellini.com/en/tags/notes-it/</loc>
+        <loc>https://danieletabellini.com/en/tags/ideas-en/</loc>
+        <lastmod>2024-01-08</lastmod>
+    </url><url>
+        <loc>https://danieletabellini.com/en/tags/ideas-it/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
         <loc>https://danieletabellini.com/en/tags/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
+        <loc>https://danieletabellini.com/it/idee/</loc>
+        <lastmod>2024-01-08</lastmod>
+    </url><url>
         <loc>https://danieletabellini.com/it/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
-        <loc>https://danieletabellini.com/it/notes/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
-        <loc>https://danieletabellini.com/it/tags/data/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
-        <loc>https://danieletabellini.com/it/tags/gallery/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
-        <loc>https://danieletabellini.com/it/tags/design/</loc>
-        <lastmod>2024-01-08</lastmod>
-    </url><url>
         <loc>https://danieletabellini.com/it/tags/accessibility/</loc>
+        <lastmod>2024-01-08</lastmod>
+    </url><url>
+        <loc>https://danieletabellini.com/it/tags/a11y/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
         <loc>https://danieletabellini.com/it/tags/design-system/</loc>
@@ -69,10 +54,13 @@
         <loc>https://danieletabellini.com/it/tags/italia/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
-        <loc>https://danieletabellini.com/it/tags/notes-en/</loc>
+        <loc>https://danieletabellini.com/it/tags/pubblica-amministrazione/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
-        <loc>https://danieletabellini.com/it/tags/notes-it/</loc>
+        <loc>https://danieletabellini.com/it/tags/ideas-en/</loc>
+        <lastmod>2024-01-08</lastmod>
+    </url><url>
+        <loc>https://danieletabellini.com/it/tags/ideas-it/</loc>
         <lastmod>2024-01-08</lastmod>
     </url><url>
         <loc>https://danieletabellini.com/it/tags/</loc>

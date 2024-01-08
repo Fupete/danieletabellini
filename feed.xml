@@ -8,144 +8,19 @@
         <name>Daniele Tabellini</name>
     </author>
     
-    <updated>2023-04-21T00:00:00Z</updated>
+    <updated>2022-07-05T00:00:00Z</updated>
     
     <id>https://danieletabellini.com/en//</id>
         <entry>
-            <title>Style guide</title>
-            <link href="https://danieletabellini.com/en/notes/2023-04-21-style-guide/"/>
-            <updated>2023-04-21T00:00:00Z</updated>
-            <id>https://danieletabellini.com/en/notes/2023-04-21-style-guide/</id>
-            <content type="html"><![CDATA[
-                <nav id="toc" class="toc"><ol><li><a href="https://danieletabellini.com/en/notes/2023-04-21-style-guide/#headings-(h2)">headings (h2)</a><ol></ol></li><li><a href="https://danieletabellini.com/en/notes/2023-04-21-style-guide/#list">List</a><ol></ol></li><li><a href="https://danieletabellini.com/en/notes/2023-04-21-style-guide/#styles">Styles</a><ol></ol></li><li><a href="https://danieletabellini.com/en/notes/2023-04-21-style-guide/#table-md">Table md</a><ol></ol></li></ol></nav><h2 id="headings-(h2)" tabindex="-1">headings (h2)</h2>
-<h3>h3</h3>
-<h4>h4</h4>
-<h5>h5</h5>
-<h6>h6</h6>
-<h2 id="list" tabindex="-1">List</h2>
-<h3>Simple</h3>
-<ul>
-<li>List item</li>
-<li>list iten</li>
-<li>list item</li>
-</ul>
-<h3>Numbered</h3>
-<ol>
-<li>numbered list item</li>
-<li>numbered list item</li>
-<li>numbered list item</li>
-</ol>
-<h2 id="styles" tabindex="-1">Styles</h2>
-<p><strong>Bold</strong> and <em>italic</em></p>
-<h3>Code inline</h3>
-<p>You’ll want to run <code>really_cool_script.sh arg</code>.
-Pay attention to the <code>foo_bar_whammy</code> field in that table.</p>
-<h3>Code block with highlight</h3>
-<pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">Foo</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> bar<span class="token punctuation">)</span><span class="token punctuation">:</span>
-  self<span class="token punctuation">.</span>bar <span class="token operator">=</span> bar</code></pre>
-<p>See the syntax guide for more info: <a href="https://danieletabellini.com/en/notes/2023-04-21-style-guide/syntax_guide.md">link</a>.
-Or, check out the style guide <a href="https://danieletabellini.com/en/notes/2023-04-21-style-guide/style_guide.md">here</a>.</p>
-<h2 id="table-md" tabindex="-1">Table md</h2>
-<table>
-<thead>
-<tr>
-<th>Fruit</th>
-<th>Attribute</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Apple</td>
-<td><a href="https://example.com/SomeReallyReallyReallyReallyReallyReallyReallyReallyLongQuery">Juicy</a>, Firm, Sweet</td>
-<td>Apples keep doctors away.</td>
-</tr>
-<tr>
-<td>Banana</td>
-<td><a href="https://example.com/SomeDifferentReallyReallyReallyReallyReallyReallyReallyReallyLongQuery">Convenient</a>, Soft, Sweet</td>
-<td>Contrary to popular belief, most apes prefer mangoes.</td>
-</tr>
-</tbody>
-</table>
-<h3>Another table</h3>
-<table>
-<thead>
-<tr>
-<th>Transport</th>
-<th>Favored by</th>
-<th>Advantages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Swallow</td>
-<td>Coconuts</td>
-<td>Otherwise unladen</td>
-</tr>
-<tr>
-<td>Bicycle</td>
-<td>Miss Gulch</td>
-<td>Weatherproof</td>
-</tr>
-<tr>
-<td>X-34 landspeeder</td>
-<td>Whiny farmboys</td>
-<td>Cheap since the X-38 came out</td>
-</tr>
-</tbody>
-</table>
-
-            ]]></content>
-        </entry>
-        <entry>
-            <title>Post with gallery</title>
-            <link href="https://danieletabellini.com/en/notes/2023-03-20-post-with-gallery/"/>
-            <updated>2023-03-20T00:00:00Z</updated>
-            <id>https://danieletabellini.com/en/notes/2023-03-20-post-with-gallery/</id>
-            <content type="html"><![CDATA[
-                <nav id="toc" class="toc"><ol><li><a href="https://danieletabellini.com/en/notes/2023-03-20-post-with-gallery/#galleria-con-titolo-sopra">Galleria con titolo sopra</a></li><li><a href="https://danieletabellini.com/en/notes/2023-03-20-post-with-gallery/#altra-galleria">Altra galleria</a><ol></ol></li><li><a href="https://danieletabellini.com/en/notes/2023-03-20-post-with-gallery/#altra-galleria-altro-titolo">Altra galleria altro titolo</a></li></ol></nav><h2 id="galleria-con-titolo-sopra" tabindex="-1">Galleria con titolo sopra</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.</p>
-<p><a href="https://www.youtube.com/watch?v=NfTbgmJf_-E">https://www.youtube.com/watch?v=NfTbgmJf_-E</a></p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.</p>
-<div class="gallery" id="gallery-uzupis">				<ul>								<li>				<a href="https://danieletabellini.com/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags 1" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags 2" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/wrMHxJkl2p-720.jpeg" data-pswp-width="720" data-pswp-height="806" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/wrMHxJkl2p-320.jpeg" alt="Tibetan Flags 3" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/86oVvjh92r-720.jpeg" data-pswp-width="720" data-pswp-height="1077" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/86oVvjh92r-320.jpeg" alt="Tibetan Flags 4" />				</a>			</li>    					</ul>			</div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.</p>
-<div class="gallery" id="gallery-uzupis2">				<ul>								<li>				<a href="https://danieletabellini.com/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags 5" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags 6" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras 7" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/RPijnX0kkx-1440.jpeg" data-pswp-width="1440" data-pswp-height="1439" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/RPijnX0kkx-320.jpeg" alt="Tiberto Skveras 8" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags 9" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags 10" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags 11" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/Sjb26eLV0E-720.jpeg" data-pswp-width="720" data-pswp-height="900" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/Sjb26eLV0E-320.jpeg" alt="Tibetan Flags 12" />				</a>			</li>    				<li>				<a href="https://danieletabellini.com/media/gallery/qF6FyXhff4-1440.jpeg" data-pswp-width="1440" data-pswp-height="1077" data-cropped="true" target="_blank">					<img src="https://danieletabellini.com/media/gallery/qF6FyXhff4-320.jpeg" alt="Tibetan Flags 13" />				</a>			</li>    					</ul>			</div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci.</p>
-<hr />
-<h2 id="altra-galleria" tabindex="-1">Altra galleria</h2>
-<p>Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimentum tellus mauris, vel porttitor ante hendrerit vel. Ut interdum tellus sit amet massa ultrices sollicitudin. Integer dictum est vel lacus pharetra, vitae cursus orci vestibulum. Nulla tincidunt elementum porttitor. Duis eu efficitur tortor. Donec vestibulum lacus a justo efficitur molestie sed vel urna. In at dignissim nisl. Praesent viverra magna quam, at malesuada est dictum a. Quisque tincidunt ac elit nec venenatis. Sed ullamcorper eros tincidunt lorem pharetra, sed interdum nibh lobortis.</p>
-<h3>Immagini singole fullwidth</h3>
-<div class="full img">
-<picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.avif 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.avif 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.avif 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.avif 3000w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.webp 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.webp 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.webp 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.webp 3000w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.jpeg 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.jpeg 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.jpeg 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.jpeg 3000w" sizes="100vw" /><img alt="photo of my tabby cat 99" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/qF6FyXhff4-320.jpeg" width="3000" height="2244" /></picture>
-<picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.avif 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.avif 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.avif 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.avif 3000w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.webp 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.webp 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.webp 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.webp 3000w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.jpeg 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.jpeg 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.jpeg 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.jpeg 3000w" sizes="100vw" /><img alt="Tibetan Flags 10" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/qF6FyXhff4-320.jpeg" width="3000" height="2244" /></picture>
-</div>
-<h3>Immagini singole in column</h3>
-<p><picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.avif 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.avif 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.avif 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.avif 3000w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.webp 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.webp 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.webp 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.webp 3000w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/qF6FyXhff4-320.jpeg 320w, https://danieletabellini.com/imgs/qF6FyXhff4-640.jpeg 640w, https://danieletabellini.com/imgs/qF6FyXhff4-1280.jpeg 1280w, https://danieletabellini.com/imgs/qF6FyXhff4-3000.jpeg 3000w" sizes="100vw" /><img alt="Tibetan Flags 10" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/qF6FyXhff4-320.jpeg" width="3000" height="2244" /></picture></p>
-<h3>Titoletto h3</h3>
-<p>Duis quis arcu at elit congue interdum. Curabitur vestibulum felis eget vulputate egestas. Proin finibus commodo diam, non viverra magna mollis ut. Etiam vel convallis nisi. Curabitur gravida, enim in imperdiet hendrerit, leo nunc vestibulum sem, et rhoncus velit nisi nec sapien. Cras pretium, arcu mattis ornare maximus, tortor turpis accumsan nisi, at volutpat libero sapien sed leo. Cras odio felis, pharetra id porta vitae, consequat in magna.</p>
-<hr />
-<h2 id="altra-galleria-altro-titolo" tabindex="-1">Altra galleria altro titolo</h2>
-<p>Ut id velit metus. Quisque sed leo dictum, viverra metus quis, viverra mauris. Nulla facilisi. Quisque quis dui nunc. Duis erat eros, tempus sed lorem id, blandit malesuada neque. Phasellus lobortis ipsum a imperdiet blandit. Duis eget ornare nisl.</p>
-<p>Suspendisse rutrum bibendum lectus, vel auctor ligula consectetur vitae. Vivamus luctus sapien vel ex viverra, non faucibus ex rutrum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lectus lacus, egestas et sollicitudin in, lacinia a justo. Nullam et mauris sit amet lorem porttitor mollis vulputate a nunc. Morbi diam turpis, mollis non aliquam nec, sodales vitae turpis. Mauris nisl ante, maximus sit amet risus non, semper vestibulum mauris. Quisque in sagittis leo. Etiam ultrices pellentesque feugiat. Nullam mauris mi, maximus quis finibus eu, pharetra sit amet massa. Sed a consectetur augue. In hac habitasse platea dictumst. Mauris elit quam, viverra quis euismod ut, eleifend non libero. Proin semper laoreet neque in hendrerit.</p>
-
-            ]]></content>
-        </entry>
-        <entry>
             <title>Progettare con qualità: l’accessibilità al centro del design system del Paese</title>
-            <link href="https://danieletabellini.com/it/notes/2022-07-05-progettare-con-qualita/"/>
+            <link href="https://danieletabellini.com/it/ideas/2022-07-05-progettare-con-qualita/"/>
             <updated>2022-07-05T00:00:00Z</updated>
-            <id>https://danieletabellini.com/it/notes/2022-07-05-progettare-con-qualita/</id>
+            <id>https://danieletabellini.com/it/ideas/2022-07-05-progettare-con-qualita/</id>
             <content type="html"><![CDATA[
                 <p class="lead">Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi</p>
 <p><strong><a href="https://fupete.medium.com/">Daniele Tabellini</a></strong> del <a href="https://medium.com/@trasformazione_digitale">Dipartimento per la trasformazione digitale</a><br />
 <strong><a href="https://medium.com/@fabrizio.caccavello">Fabrizio Caccavello</a></strong> di <a href="https://medium.com/@AgidGov">AGID - Agenzia per l’Italia Digitale</a></p>
-<p><a href="https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099">Prima edizione su Medium</a></p>
+<p>Pubblicato su <a href="https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099">Designers Italia (Medium)</a> il 5 luglio 2022</p>
 <div class="popout img">
 <picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/TJ0yzT-kuh-320.avif 320w, https://danieletabellini.com/imgs/TJ0yzT-kuh-640.avif 640w, https://danieletabellini.com/imgs/TJ0yzT-kuh-720.avif 720w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/TJ0yzT-kuh-320.webp 320w, https://danieletabellini.com/imgs/TJ0yzT-kuh-640.webp 640w, https://danieletabellini.com/imgs/TJ0yzT-kuh-720.webp 720w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/TJ0yzT-kuh-320.jpeg 320w, https://danieletabellini.com/imgs/TJ0yzT-kuh-640.jpeg 640w, https://danieletabellini.com/imgs/TJ0yzT-kuh-720.jpeg 720w" sizes="100vw" /><img alt="Apertura e collaborazione" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/TJ0yzT-kuh-320.jpeg" width="720" height="405" /></picture>
 <small>Photo <a href="https://unsplash.com/@johnschno">John Schnobrich</a>, <a href="https://unsplash.com/@tvschaitanya">Chaitanya Tvs</a></small>
@@ -155,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 <p>Ma si tratta solo di un dettaglio dell’approccio e di quanto realizzato nei mesi scorsi: come, e soprattutto perché, siamo arrivati fino a qui? E che direzione abbiamo intrapreso? Quello che segue è il racconto di una parte dell’avventura, <a href="https://designers.italia.it/notizie/Per-un-2022-ricco-di-sfide/">iniziata a dicembre 2021</a>, dal <a href="https://innovazione.gov.it/">Dipartimento per la trasformazione digitale</a> e <a href="https://agid.gov.it/">AgID</a> per <strong>aggiornare il design system del Paese</strong>. Un’iniziativa che mira a ottimizzare le risorse digitali messe a disposizione dei cittadini da parte della Pubblica Amministrazione, rendendole semplici, accessibili e inclusive.</p>
 <hr />
 <p><strong>Indice dei contenuti:</strong></p>
-<nav id="toc" class="toc"><ol><li><a href="https://danieletabellini.com/it/notes/2022-07-05-progettare-con-qualita/#progettare-interfacce-e-un-atto-di-responsabilita">Progettare interfacce è un atto di responsabilità</a></li><li><a href="https://danieletabellini.com/it/notes/2022-07-05-progettare-con-qualita/#dieci-punti-per-fare-meglio">Dieci punti per fare meglio</a><ol></ol></li></ol></nav><hr />
+<nav id="toc" class="toc"><ol><li><a href="https://danieletabellini.com/it/ideas/2022-07-05-progettare-con-qualita/#progettare-interfacce-e-un-atto-di-responsabilita">Progettare interfacce è un atto di responsabilità</a></li><li><a href="https://danieletabellini.com/it/ideas/2022-07-05-progettare-con-qualita/#dieci-punti-per-fare-meglio">Dieci punti per fare meglio</a><ol></ol></li><li><a href="https://danieletabellini.com/it/ideas/2022-07-05-progettare-con-qualita/#il-futuro-appartiene-alle-persone">Il futuro appartiene alle persone</a></li><li><a href="https://danieletabellini.com/it/ideas/2022-07-05-progettare-con-qualita/#il-futuro-e-una-questione-culturale">Il futuro è una questione culturale</a></li></ol></nav><hr />
 <h2 id="progettare-interfacce-e-un-atto-di-responsabilita" tabindex="-1">Progettare interfacce è un atto di responsabilità</h2>
 <p>Progettare e sviluppare interfacce digitali significa decidere continuamente chi includere, o escludere, dall’esperienza d’uso e fruizione, a seconda delle proprie caratteristiche, conoscenze, capacità o condizioni di disabilità, temporanee o meno. Nel caso di servizi pubblici digitali, è una scelta che porta con sé una grande responsabilità: <strong>tutte le cittadine e i cittadini devono poter avere un’esperienza d’uso piena e soddisfacente</strong>, potendone usufruire in modo semplice e chiaro, senza discriminazione e senza lasciare indietro nessuno. Non solo perché lo dicono le norme sull’accessibilità, le linee guida o perché ci sono tecniche e tecnologie che lo permettono.</p>
 <p>L’aggiornamento del design system del Paese, uno strumento <em>open</em>, aperto, sia come codice sorgente sia come progetto, ha così <strong>l’obiettivo di aiutare la Pubblica Amministrazione</strong> italiana a soddisfare i requisiti normativi, ma soprattutto a progettare e sviluppare interfacce ed esperienze d’uso dei servizi pubblici digitali coerenti e inclusive, su una pluralità di dispositivi. In una parola a realizzare progetti di qualità.</p>
@@ -211,7 +86,43 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 <picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/z8KHC_loXe-320.avif 320w, https://danieletabellini.com/imgs/z8KHC_loXe-640.avif 640w, https://danieletabellini.com/imgs/z8KHC_loXe-1280.avif 1280w, https://danieletabellini.com/imgs/z8KHC_loXe-1400.avif 1400w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/z8KHC_loXe-320.webp 320w, https://danieletabellini.com/imgs/z8KHC_loXe-640.webp 640w, https://danieletabellini.com/imgs/z8KHC_loXe-1280.webp 1280w, https://danieletabellini.com/imgs/z8KHC_loXe-1400.webp 1400w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/z8KHC_loXe-320.jpeg 320w, https://danieletabellini.com/imgs/z8KHC_loXe-640.jpeg 640w, https://danieletabellini.com/imgs/z8KHC_loXe-1280.jpeg 1280w, https://danieletabellini.com/imgs/z8KHC_loXe-1400.jpeg 1400w" sizes="100vw" /><img alt="Bootstrap Italia" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/z8KHC_loXe-320.jpeg" width="1400" height="975" /></picture>
 <small><a href="https://github.com/italia/bootstrap-italia">Repository</a>, foglio validazione componenti e <a href="https://italia.github.io/bootstrap-italia/">Documentazione</a> di Bootstrap Italia</small>
 </div>
-<p><em>Continua</em></p>
+<p>Bootstrap Italia è il kit per lo sviluppo di interfacce del design system del Paese. A distanza di anni, da quando fu rilasciata una prima versione, è evidente quanto sia stato importante pensare a un <strong><em>framework</em> unico di sviluppo, basato sulle esigenze della Pubblica Amministrazione</strong>. Fu realizzato con quello che allora era il riferimento, il più utilizzato ma anche il più vicino ai requisiti di accessibilità: Bootstrap. E oggi, dopo aver inizialmente tolto la ruggine all’ultima versione basata su Bootstrap 4, anche integrando molti contributi della <em>community</em>, è in dirittura d’arrivo la <strong>nuova versione 2.0</strong> portata su Bootstrap 5.</p>
+<p>In questa nuova versione, oltre ad ereditare tutte le nuove caratteristiche di Bootstrap 5, Bootstrap Italia è ottimizzato per molti aspetti che riguardano specificatamente la Pubblica Amministrazione e l’accessibilità. Abbiamo validato, o per meglio dire, stiamo validando e <strong>continueremo a migliorare ogni componente</strong>, cercando anche di fornire documentazione con indicazioni per l’implementazione laddove necessario.</p>
+<p>Durante queste lavorazioni sono state fatte scelte di rottura, consapevoli che la semplicità sia un valore, che sia più facile cioè da manutenere e realizzare, come il dettaglio con cui si apre l’articolo sull’usare markup HTML semantico standard per molti componenti dei <em>form</em> o, altro esempio interessante, come scegliere di <strong>integrare la soluzione dei colleghi inglesi</strong> <a href="https://alphagov.github.io/accessible-autocomplete/">Accessible autocomplete</a>, un plugin che permette di cercare e scegliere risposte da una lunga lista, progettato e sviluppato per l’accessibilità.</p>
+<p><a href="https://www.youtube.com/watch?v=dQVy8DLPJbY">https://www.youtube.com/watch?v=dQVy8DLPJbY</a></p>
+<p class="embedCaption">Community lab: scopriamo Bootstrap Italia 2.0</p>
+<p><strong>Bootstrap Italia 2.0 è stato progettato per essere scalabile</strong> come richiesto dalle risultanze della ricerca: basti citare come esempi l’uso di Javascript puro per tutte le funzionalità, e l’integrazione di Rollup, che permette di integrare nel proprio progetto solo le parti necessarie del <em>framework</em>, con vantaggi di peso e velocità come si può approfondire in <a href="https://medium.com/@Developers_Italia/af92a8bba9d2">questo articolo</a>. Anche in questo caso si tratta di <strong>un lavoro aperto</strong>, e vi invitiamo a partecipare ai lavori in corso provando o contribuendo all’ultima versione rilasciata di <a href="https://github.com/italia/bootstrap-italia/releases">Bootstrap Italia 2.0</a> su GitHub.</p>
+<h3>8. Fatto bene segue modelli standard</h3>
+<div class="feature img">
+<picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/9HHYZFDTOD-320.avif 320w, https://danieletabellini.com/imgs/9HHYZFDTOD-640.avif 640w, https://danieletabellini.com/imgs/9HHYZFDTOD-1280.avif 1280w, https://danieletabellini.com/imgs/9HHYZFDTOD-1400.avif 1400w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/9HHYZFDTOD-320.webp 320w, https://danieletabellini.com/imgs/9HHYZFDTOD-640.webp 640w, https://danieletabellini.com/imgs/9HHYZFDTOD-1280.webp 1280w, https://danieletabellini.com/imgs/9HHYZFDTOD-1400.webp 1400w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/9HHYZFDTOD-320.jpeg 320w, https://danieletabellini.com/imgs/9HHYZFDTOD-640.jpeg 640w, https://danieletabellini.com/imgs/9HHYZFDTOD-1280.jpeg 1280w, https://danieletabellini.com/imgs/9HHYZFDTOD-1400.jpeg 1400w" sizes="100vw" /><img alt="Modelli di design" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/9HHYZFDTOD-320.jpeg" width="1400" height="975" /></picture>
+<small>Modelli standard per i siti e i servizi digitali dei <a href="https://designers.italia.it/modelli/comuni/">Comuni</a> e delle <a href="https://designers.italia.it/modelli/scuole/">scuole</a></small>
+</div>
+<p>La progettazione di esperienze digitali semplici ed efficaci richiede tempo, risorse e molta ricerca. <strong>I modelli di siti e servizi digitali per gli enti</strong> (oggi scuole e Comuni) permettono di rispondere ai bisogni dei cittadini in modo rapido e a minor costo, sfruttando flussi e funzionalità validate dalla ricerca.</p>
+<p>I <a href="https://designers.italia.it/modello/comuni/">modelli</a> proposti da Designers Italia, comprendono l’architettura dell’informazione, i <em>template</em> HTML e i temi per CMS (<em>Content Management System</em>), su cui sono stati effettuati in questi mesi importanti lavori, anche per migliorarne l’accessibilità, corredati da una serie di guide pratiche a supporto. <strong>I modelli rappresentano precisamente il concetto della creazione di servizi digitali accessibili <em>by default</em></strong>: partire con un intero modello validato e radicato nella ricerca utente.</p>
+<p>I modelli per le scuole e i Comuni sono oggetto della <a href="https://padigitale2026.gov.it/misure/#esp-serv-pubb">misura 1.4.1 del PNRR “Esperienza dei servizi pubblici”</a>. Seguire un modello non significa creare siti uniformi, ma coerenti. Il modello infatti nasce <strong>nel rispetto delle esigenze del cittadino e delle necessità di flessibilità degli enti</strong>, in questo ordine. Gli enti possono adattare il modello al contesto specifico rispettando comunque i criteri di conformità.</p>
+<h3>9. Fatto bene a volte… non basta</h3>
+<p>I «pezzi» del design system del Paese non sono tutto: l’accessibilità è principalmente una questione semantica, di significato degli elementi e dei comportamenti. <strong>L’utilizzo di componenti accessibili non rende automaticamente un applicativo accessibile</strong>, tuttavia sono un aiuto fondamentale per compiere <em>by default</em> un processo nel modo più ottimale possibile.</p>
+<p>Il percorso costruito attraverso il design system è proprio incentrato sul concetto di <strong>accessibilità <em>by default</em></strong>. Per ogni attività devono essere utilizzabili elementi, strutture, procedure, che sono già passati attraverso i necessari processi di validazione (documentazione, <em>mockup</em>, <em>framework</em>, <em>template</em>, ecc). Al termine del processo le attività di verifica e di ottimizzazione potranno essere più limitate, per poi liberare risorse per la gestione di casi più complessi o attivare supporti più innovativi.</p>
+<h3>10. Fatto bene ha bisogno di test e feedback</h3>
+<p>Nei prossimi anni ci aspettano molte sfide per scalare, dare <em>governance</em> chiara, rendere sostenibile e curare con efficacia il design system del Paese. <strong>Per raggiungere questo obiettivo abbiamo bisogno di tutta la <em>community</em></strong>: l’ambiente in cui si muovono e vivono le persone non è quello ideale di utilizzo di un applicativo. Tutti noi utilizziamo applicativi in ambienti i più strani, mentre camminiamo, con il gelato in mano, con tecnologie assistive, magari con tecnologie assistive che oggi neanche immaginiamo.</p>
+<p><a href="https://www.youtube.com/watch?v=jBE_cUQuWxI">https://www.youtube.com/watch?v=jBE_cUQuWxI</a></p>
+<p class="embedCaption">La partecipazione agli Accessibility Days 2022: <a href="https://www.youtube.com/watch?v=jBE_cUQuWxI">parte 1</a> e <a href="https://www.youtube.com/watch?v=DlBbsVGi_TQ">parte 2</a></p>
+<p>Durante la partecipazione agli <a href="https://accessibilitydays.it/">Accessibility Days</a>, ci è stato ricordato il motto dei diritti delle persone con condizioni di disabilità: <strong>“Niente su di Noi, senza di Noi”</strong>. In autunno, proprio con l’aiuto del team degli Accessibility Days, ci siamo ripromessi di creare occasioni di confronto e test di usabilità, con particolare attenzione all’accessibilità, per <strong>raccogliere dati e migliorare piattaforme, siti e servizi pubblici digitali</strong> che utilizzano il design system del Paese. Con l’auspicio di riuscirci, e che diventi un’abitudine, per migliorare continuamente, insieme, con partecipazione e responsabilità.</p>
+<hr />
+<h2 id="il-futuro-appartiene-alle-persone" tabindex="-1">Il futuro appartiene alle persone</h2>
+<div class="popout img">
+<picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/eRhUcg-sb4-320.avif 320w, https://danieletabellini.com/imgs/eRhUcg-sb4-640.avif 640w, https://danieletabellini.com/imgs/eRhUcg-sb4-1280.avif 1280w, https://danieletabellini.com/imgs/eRhUcg-sb4-1400.avif 1400w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/eRhUcg-sb4-320.webp 320w, https://danieletabellini.com/imgs/eRhUcg-sb4-640.webp 640w, https://danieletabellini.com/imgs/eRhUcg-sb4-1280.webp 1280w, https://danieletabellini.com/imgs/eRhUcg-sb4-1400.webp 1400w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/eRhUcg-sb4-320.jpeg 320w, https://danieletabellini.com/imgs/eRhUcg-sb4-640.jpeg 640w, https://danieletabellini.com/imgs/eRhUcg-sb4-1280.jpeg 1280w, https://danieletabellini.com/imgs/eRhUcg-sb4-1400.jpeg 1400w" sizes="100vw" /><img alt="Mani che collaborano per il meglio" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/eRhUcg-sb4-320.jpeg" width="1400" height="787" /></picture>
+<small>Photo <a href="https://unsplash.com/es/@hannahbusing">Hannah Busing</a>, <a href="https://unsplash.com/@lazycreekimages">Michael Dziedzic</a></small>
+</div>
+<p><strong>Il design system del Paese è un progetto di interesse pubblico, aperto e partecipato.</strong> Ci piace pensare che questo progetto appartenga soprattutto a voi che state leggendo, che possiate farlo vostro, ognuno con le proprie competenze e livello di coinvolgimento, nella Pubblica Amministrazione centrale e sul territorio, e nei suoi fornitori. Partecipando alle lavorazioni, segnalando o proponendo miglioramenti, provandone le risorse e partecipando a test e presentazioni, rilasciando soluzioni alternative o analisi e revisioni, allo stesso modo pubbliche e <em>open</em> con le licenze aperte corrette, facendo domande e aiutandoci a diffondere consapevolezza sul progettare e sviluppare interfacce di cittadinanza di qualità, a tutti i livelli.</p>
+<h2 id="il-futuro-e-una-questione-culturale" tabindex="-1">Il futuro è una questione culturale</h2>
+<div class="popout img">
+<picture><source type="image/avif" srcset="https://danieletabellini.com/imgs/APgh54peKY-320.avif 320w, https://danieletabellini.com/imgs/APgh54peKY-640.avif 640w, https://danieletabellini.com/imgs/APgh54peKY-720.avif 720w" sizes="100vw" /><source type="image/webp" srcset="https://danieletabellini.com/imgs/APgh54peKY-320.webp 320w, https://danieletabellini.com/imgs/APgh54peKY-640.webp 640w, https://danieletabellini.com/imgs/APgh54peKY-720.webp 720w" sizes="100vw" /><source type="image/jpeg" srcset="https://danieletabellini.com/imgs/APgh54peKY-320.jpeg 320w, https://danieletabellini.com/imgs/APgh54peKY-640.jpeg 640w, https://danieletabellini.com/imgs/APgh54peKY-720.jpeg 720w" sizes="100vw" /><img alt="Mani che collaborano per il meglio" loading="lazy" decoding="auto" src="https://danieletabellini.com/imgs/APgh54peKY-320.jpeg" width="720" height="405" /></picture>
+<small>Photo <a href="https://unsplash.com/@giuvicente">Giu Vicente</a>, <a href="https://unsplash.com/@olesia_bahrii">Olesia Bahrii</a></small>
+</div>
+<p>C’è ancora una domanda, però, che rimane forse irrisolta: <strong>chi sta insegnando a “fare accessibile” alla prossima generazione di designer e sviluppatori?</strong> Non vorremmo aprire un piccolo vaso di Pandora, ma nelle Università italiane dedicate all’ITC, alle discipline informatiche, o al design, quanti e quali corsi sono dedicati all’accessibilità? <strong>Siamo sicuri che in Italia ci siano molte eccellenze</strong>, ma la domanda, e la questione culturale che porta con sé, rimane d’importanza capitale: nei prossimi mesi troviamo un’occasione per parlarne, valorizzare esperienze virtuose e rilanciare?</p>
+<hr />
+<p><a href="https://creativecommons.org/licenses/by/4.0/">Alcuni diritti riservati</a></p>
 
             ]]></content>
         </entry></feed>
