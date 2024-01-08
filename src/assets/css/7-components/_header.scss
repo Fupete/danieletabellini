@@ -13,6 +13,18 @@
         margin: 0 auto;
         padding: var(--spacing-x-large) var(--spacing-medium); // fallback
         padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+
+        div.site-header__left {
+            font-weight: 600;
+            font-size: var(--fluid-1);
+
+            &.nav__item--active {
+                a {
+                    text-decoration: none;
+                    color: var(--text-color);
+                }
+            }
+        }
     }
 
     .nav--primary {
