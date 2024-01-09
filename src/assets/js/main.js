@@ -5,7 +5,6 @@ import 'focus-visible'
 
 // Speedlify score
 import 'speedlify-score'
-// import '@11ty/eleventy-cache-assets'
 
 // // Internal Modules
 // import './modules/nav'
