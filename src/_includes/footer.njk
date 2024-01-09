@@ -14,7 +14,24 @@
             XXI Aprile, 41 - 56040<br />Crespina Lorenzana (PI) - Italy<br />
         </p>{% endif %}
         <p>
-            {%- if page.lang == 'it' %}Tutti i diritti riservati eccetto dove specificato diversamente.<br /> Il sorgente di questo sito web è <a href="https://github.com/Fupete/danieletabellini/">disponibile su GitHub</a> con licenza aperta.{% else %}All rights reserved except where otherwise stated.<br /> The source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on GitHub</a> under an open license.{% endif %}
+            {%- if page.lang == 'it' %}Tutti i diritti riservati eccetto dove specificato diversamente.<br /> Il
+            sorgente di questo sito web è <a href="https://github.com/Fupete/danieletabellini/">disponibile su
+                GitHub</a> con licenza aperta.{% else %}All rights reserved except where otherwise stated.<br /> The
+            source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on GitHub</a>
+            under an open license.{% endif %}
         </p>
+        <div class="speedlify" style="margin-top: var(--spacing-large)">
+            {% set urlWithOrigin %}https://danieletabellini.com{{page.url}}{% endset %}
+            {% if speedlify[urlWithOrigin] %}
+            <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/" class="speedlify-link">
+                <speedlify-score hash="{{ speedlify[urlWithOrigin].hash }}"
+                    speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score>
+                <span lang="en" class="visually-hidden">I use speedlify approach to monitor the website
+                    performance</span>
+            </a>
+            {%- endif %}
+            {# <speedlify-score url="{{ urlWithOrigin }}"
+            speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score> #}
+        </div>
     </div>
 </footer>

@@ -30,6 +30,7 @@
   "homepage": "https://github.com/Fupete/danieletabellini/",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
@@ -56,11 +57,13 @@
     "vite": "^5.0.10"
   },
   "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0",
     "child_process": "^1.0.2",
     "eleventy-plugin-embed-everything": "^1.18.1",
     "eleventy-plugin-reading-time": "^0.0.1",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-toc-done-right": "^4.2.0",
-    "photoswipe": "^5.3.7"
+    "photoswipe": "^5.3.7",
+    "speedlify-score": "^4.0.2"
   }
 }
