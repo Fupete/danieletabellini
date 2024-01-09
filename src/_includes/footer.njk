@@ -22,12 +22,12 @@
         </p>
         <div class="speedlify" style="margin-top: var(--spacing-large)">
             {% set urlWithOrigin %}https://danieletabellini.com{{page.url}}{% endset %}
-            {# {% if speedlify[urlWithOrigin] %} #}
+            {% if speedlify[urlWithOrigin] %}
             <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/" class="speedlify-link">
-                {# <speedlify-score hash="{{ speedlify[urlWithOrigin].hash }}"
-                    speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score> #}
-                <speedlify-score url="{{ urlWithOrigin }}"
+                <speedlify-score hash="{{ speedlify[urlWithOrigin].hash }}"
                     speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score>
+                {# <speedlify-score url="{{ urlWithOrigin }}"
+                    speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score> #}
                 <span class="visually-hidden">{%- if page.lang == 'en' %}I use Speedlify to monitor the website
                     performance{% else %}Uso Speedlify per monitorare le performance del sito{% endif %}</span>
             </a>
