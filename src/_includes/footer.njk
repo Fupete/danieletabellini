@@ -1,9 +1,20 @@
 <footer class="site-footer" role="contentinfo">
     <div class="site-footer__inner container">
-        <p><small><a href="https://github.com/fupete/danieletabellini/blob/main/{{ page.inputPath }}">
-			{%- if page.lang == 'it' %}Modifica questa pagina su GitHub{% else %}Edit this page on GitHub{% endif %}</a><br />
-            <a href="https://github.com/Fupete/danieletabellini/issues/new/choose">
-                {%- if page.lang == 'it' %}Lasciami un messaggio o suggerisci un'idea{% else %}Drop me a note or suggest an idea{% endif %}</a><br />
-			<span>&copy; {{ build.timestamp | dateToFormat('yyyy') }} - Daniele Tabellini</span></small></p>
+        <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/{{ page.inputPath }}">
+            {%- if page.lang == 'it' %}Modifica questa pagina su GitHub{% else %}Edit this page on GitHub{%
+            endif %}</a>
+        <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">
+            {%- if page.lang == 'it' %}Lasciami un messaggio o suggerisci un'idea{% else %}Drop me a note or
+            suggest an idea{% endif %}</a>
+        <p class="me">
+            &copy; {{ build.timestamp | dateToFormat('yyyy') }} - Daniele Tabellini<br />
+        </p>
+        {%if page.fileSlug == '/' or page.fileSlug == 'en' or page.fileSlug == 'it'%} <p>
+            PI/VAT 02383240500<br />Via
+            XXI Aprile, 41 - 56040<br />Crespina Lorenzana (PI) - Italy<br />
+        </p>{% endif %}
+        <p>
+            {%- if page.lang == 'it' %}Tutti i diritti riservati eccetto dove specificato diversamente.<br /> Il sorgente di questo sito web è <a href="https://github.com/Fupete/danieletabellini/">disponibile su GitHub</a> con licenza aperta.{% else %}All rights reserved except where otherwise stated.<br /> The source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on GitHub</a> under an open license.{% endif %}
+        </p>
     </div>
 </footer>
