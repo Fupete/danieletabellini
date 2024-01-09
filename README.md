@@ -1,6 +1,8 @@
 # Playground portfolio
 
-This will be the repository for my new portfolio and digital playground. Let's see. Gently.
+This is the repository for my new portfolio and digital playground. Let's see. Gently.
+
+In use: [Vite](https://vitejs.dev/), [Eleventy](https://www.11ty.dev/), [PhotoSwipe](https://photoswipe.com/) and [Inter Font](https://rsms.me/inter/). 
 
 The `code foundation` was based on [11ty + Vite starter project](https://github.com/matthiasott/eleventy-plus-vite)
 
