@@ -8,9 +8,11 @@ ul.links-nextprev {
         position: relative;
         margin: var(--spacing-xx-large) auto;
 
-        a.GitHub {
-            font-size: .875rem;
-            padding: var(--spacing-x-small) 0;
+        a {
+            &.GitHub {
+                font-size: .875rem;
+                padding: var(--spacing-x-small) 0;
+            }
         }
 
         p {
@@ -23,4 +25,10 @@ ul.links-nextprev {
             }
         }
     }
+}
+
+a.speedlify-link {
+    text-decoration: none !important;
+    display: block;
+    width: fit-content;
 }
