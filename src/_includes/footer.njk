@@ -22,17 +22,19 @@
         </p>
         <div class="speedlify" style="margin-top: var(--spacing-large)">
             {% set urlWithOrigin %}https://danieletabellini.com{{page.url}}{% endset %}
-            <span class="visually-hidden">{{urlWithOrigin}}</span>
-            {% if speedlify[urlWithOrigin] %}
+            {# <span class="visually-hidden">
+                {{urlWithOrigin}}
+            </span> #}
+            {# {% if speedlify[urlWithOrigin] %} #}
             <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/" class="speedlify-link">
-                <speedlify-score hash="{{ speedlify[urlWithOrigin].hash }}"
+                {# <speedlify-score hash="{{ speedlify[urlWithOrigin].hash }}"
+                    speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score> #}
+                <speedlify-score url="{{ urlWithOrigin }}"
                     speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score>
                 <span lang="en" class="visually-hidden">I use speedlify approach to monitor the website
                     performance</span>
             </a>
-            {%- endif %}
-            {# <speedlify-score url="{{ urlWithOrigin }}"
-                speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score> #}
+            {# {%- endif %} #}
         </div>
     </div>
 </footer>
