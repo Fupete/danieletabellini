@@ -5,17 +5,17 @@
     "short_name": "danitab",
     "icons": [
         {
-            "src": "/assets/images/favicon/favbicon-16x16.png",
+            "src": "/assets/images/favicon/favicon-16x16.png",
             "sizes": "16x16",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/favicon/favbicon-32x32.png",
+            "src": "/assets/images/favicon/favicon-32x32.png",
             "sizes": "32x32",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/favicon/appletouch-icon.png",
+            "src": "/assets/images/favicon/apple-touch-icon.png",
             "sizes": "180x180",
             "type": "image/png"
         },
@@ -25,7 +25,7 @@
             "type": "image/png"
         },
         {
-            "src": "/assets/images/favicon/android-chrome-384x384.png",
+            "src": "/assets/images/favicon/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
