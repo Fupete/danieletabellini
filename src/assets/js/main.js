@@ -4,11 +4,8 @@ import 'focus-visible'
 // Speedlify score
 import 'speedlify-score'
 
-// // Internal Modules
-// import './modules/nav'
-
 // pagefind-ui
-import '../../_pagefind/pagefind-ui.js'
+// import '../../_pagefind/pagefind-ui.js'
 // const initSearch = () => {
 //     new PagefindUI({
 //         element: '#search',
