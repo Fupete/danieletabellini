@@ -1,0 +1,40 @@
+diff --git a/node_modules/speedlify-score/speedlify-score.js b/node_modules/speedlify-score/speedlify-score.js
+index 9c7d0d7..df0c565 100644
+--- a/node_modules/speedlify-score/speedlify-score.js
++++ b/node_modules/speedlify-score/speedlify-score.js
+@@ -160,7 +160,7 @@ class SpeedlifyScore extends HTMLElement {
+ 	async init() {
+ 		if(this.rawData) {
+ 			let data = JSON.parse(this.rawData);
+-			this.setDateAttributes(data);
++			// this.setDateAttributes(data);
+ 			this._initTemplate(data);
+ 			return;
+ 		}
+@@ -187,18 +187,18 @@ class SpeedlifyScore extends HTMLElement {
+ 		}
+ 
+ 		let data = await urlStore.fetchData(this.speedlifyUrl, hash);
+-		this.setDateAttributes(data);
++		// this.setDateAttributes(data);
+ 
+ 		this._initTemplate(data, forceRerender);
+ 	}
+ 
+-	setDateAttributes(data) {
+-		if(!("Intl" in window) || !Intl.DateTimeFormat || !data.timestamp) {
+-			return;
+-		}
+-		const date = new Intl.DateTimeFormat().format(new Date(data.timestamp));
+-		this.setAttribute("title", `Results from ${date}`);
+-	}
++	// setDateAttributes(data) {
++	// 	if(!("Intl" in window) || !Intl.DateTimeFormat || !data.timestamp) {
++	// 		return;
++	// 	}
++	// 	const date = new Intl.DateTimeFormat().format(new Date(data.timestamp));
++	// 	this.setAttribute("title", `Results from ${date}`);
++	// }
+ 
+ 	getScoreClass(score) {
+ 		if(score === "" || score === undefined) {
