@@ -1,10 +1,10 @@
-<nav class="nav nav--primary" role="navigation" tabindex="-1">
+<nav class="nav nav--primary" role="navigation" tabindex="-1" aria-label="Menu principale">
     {# Nav Links #}
     <ul class="nav__menu">
         {% set homeUrl %}/{{page.lang}}/{% endset %}
         <li class="site-header__left nav__item {% if homeUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{homeUrl | url}}">
-                {% if page.lang == 'en' %}Daniele Tabellini{% else %}Daniele Tabellini{% endif %}
+                {% if page.lang == 'en' %}Daniele Tabellini <span class="visually-hidden">- Home</span>{% else %}Daniele Tabellini <span class="visually-hidden">- Inizio</span>{% endif %}
             </a>
         </li>
         {% if page.lang == 'en'%}
