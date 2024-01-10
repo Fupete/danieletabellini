@@ -1,4 +1,4 @@
-<nav class="nav nav--primary" role="navigation" tabindex="-1" aria-label="Menu principale">
+<nav class="nav nav--primary" role="navigation" tabindex="-1" aria-label="{% if page.lang == 'en' %}Main menu{% else %}Menu principale{% endif %}">
     {# Nav Links #}
     <ul class="nav__menu">
         {% set homeUrl %}/{{page.lang}}/{% endset %}
