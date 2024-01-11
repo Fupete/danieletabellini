@@ -56,4 +56,4 @@ var P=Object.defineProperty;var $=(l,e,t)=>e in l?P(l,e,{enumerable:!0,configura
 	content: "⬇";
 }
 `);let E=a;"customElements"in window&&"fetch"in window&&E.register();const M=document.querySelectorAll(".gallery");M.forEach(l=>{new x({zoomSVG:"",zoom:!1,closeSVG:"",arrowPrevSVG:"",arrowNextSVG:"",gallery:l,children:"a",showHideAnimationType:"zoom",pswpModule:O,bgOpacity:.9,preload:[1,1],padding:{top:48,bottom:48,left:16,right:16}}).init()});
-//# sourceMappingURL=main-12ad6dd7.js.map
+//# sourceMappingURL=main-2f847dd2.js.map
