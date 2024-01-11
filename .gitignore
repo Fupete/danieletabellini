@@ -9,6 +9,8 @@ node_modules/
 
 # Eleventy
 _site/
+# Eleventy Fetch cache
+.cache
 
 # Misc
 .DS_Store
