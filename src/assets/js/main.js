@@ -4,6 +4,10 @@ import 'focus-visible'
 // Speedlify score
 import 'speedlify-score'
 
+// Iframe manager
+import '@orestbida/iframemanager'
+import './modules/iframeconsent.js'
+
 // pagefind-ui
 // import '../../_pagefind/pagefind-ui.js'
 // const initSearch = () => {

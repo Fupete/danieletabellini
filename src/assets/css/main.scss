@@ -44,6 +44,7 @@
 @use "7-components/pagefind-ui";
 @use "7-components/taglist";
 @use "7-components/toc";
+@use "7-components/video";
 
 // 8. Utilities
 @use "8-utilities/modifiers";
@@ -54,3 +55,6 @@
 
 /* photoswipe */
 @import 'photoswipe/dist/photoswipe.css';
+
+/* iframemanager */
+@import '@orestbida/iframemanager/src/iframemanager.css';

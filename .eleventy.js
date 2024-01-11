@@ -26,7 +26,6 @@ const GALLERY_IMAGE_WIDTH = 320;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
 const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 720;
 // others
-const embedEverything = require('eleventy-plugin-embed-everything')
 const readingTime = require('eleventy-plugin-reading-time')
 
 module.exports = function (eleventyConfig) {
@@ -40,16 +39,6 @@ module.exports = function (eleventyConfig) {
 		defaultLanguage: "en",
 		errorMode: "never"
 	})
-	// eleventyConfig.addPlugin(embedEverything, {
-	// 	use: ['youtube'],
-	// 	youtube: {
-	// 		options: {
-	// 			lite: true,
-	// 			modestBranding: true,
-	// 			recommendSelfOnly: true,
-	// 		}
-	// 	}
-	// })
 	eleventyConfig.addPlugin(readingTime)
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
