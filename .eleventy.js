@@ -40,16 +40,16 @@ module.exports = function (eleventyConfig) {
 		defaultLanguage: "en",
 		errorMode: "never"
 	})
-	eleventyConfig.addPlugin(embedEverything, {
-		use: ['youtube'],
-		youtube: {
-			options: {
-				lite: true,
-				modestBranding: true,
-				recommendSelfOnly: true,
-			}
-		}
-	})
+	// eleventyConfig.addPlugin(embedEverything, {
+	// 	use: ['youtube'],
+	// 	youtube: {
+	// 		options: {
+	// 			lite: true,
+	// 			modestBranding: true,
+	// 			recommendSelfOnly: true,
+	// 		}
+	// 	}
+	// })
 	eleventyConfig.addPlugin(readingTime)
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
