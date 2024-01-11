@@ -5,12 +5,10 @@ image:
 <article class="container" data-pagefind-body>
   <h1>{{ title }}</h1>
 
-  {% if (page.fileSlug !== "timeline") %}
   <p>
     <span class="meta__stats">{% if page.lang == 'en' %}About{% else %}Circa{% endif %} {{ content | readingTime }} {%
       if page.lang == 'en' %}reading time{% else %}per la lettura{% endif %}</span>
   </p>
-  {% endif %}
 
   {{ content | safe }}
 

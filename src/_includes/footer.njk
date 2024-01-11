@@ -1,5 +1,16 @@
 <footer class="site-footer" role="contentinfo">
     <div class="site-footer__inner container">
+        <p class="last-modified" style="margin: var(--spacing-x-large) 0;">
+            {%- if page.lang == 'en' %}Last update: <br />
+            <time style="font-weight: 500" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">
+                {{ page.date | dateToFormat('d/M/yyyy') }}
+            </time>
+            {% else %}Ultimo aggiornamento: <br />
+            <time style="font-weight: 500" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">
+                {{ page.date | dateToFormat('d/M/yyyy') }}
+            </time>          
+            {% endif %}
+        </p>
         <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/{{ page.inputPath }}">
             {%- if page.lang == 'it' %}Proponi una modifica a questa pagina{% else %}Propose an edit to this page{%
             endif %}</a>
