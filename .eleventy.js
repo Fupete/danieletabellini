@@ -3,6 +3,8 @@ const EleventyPluginRss = require('@11ty/eleventy-plugin-rss')
 const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite')
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
+const EleventyPluginIcons = require('eleventy-plugin-icons')
+
 const rollupPluginCritical = require('rollup-plugin-critical').default
 
 const filters = require('./utils/filters.js')
@@ -38,6 +40,14 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyI18nPlugin, {
 		defaultLanguage: "en",
 		errorMode: "never"
+	})
+	eleventyConfig.addPlugin(EleventyPluginIcons, {
+		sources: [{ name: 'privacy', path: './src/assets/icons/privacy' }],
+		icon: {
+			attributes: {
+				"fill": "var(--textColor)",
+			},
+		}
 	})
 	eleventyConfig.addPlugin(readingTime)
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
@@ -175,7 +185,7 @@ module.exports = function (eleventyConfig) {
 		slugify: eleventyConfig.getFilter('slug')
 	}).use(markdownItFootnote)
 	markdownLibrary.renderer.rules.footnote_block_open = () => (
-		'<h2 class="visually-hidden">Note</h4>\n' +
+		'<h2 class="visually-hidden">Note</h2>\n' +
 		'<section class="footnotes">\n' +
 		'<ol class="footnotes-list">\n'
 	);
