@@ -1,7 +1,7 @@
 ---
 title: Timeline
 layout: idea
-date: git Last Modified
+date: Last Modified
 ---
 
 [toc]

@@ -2,7 +2,7 @@
 title: Privacy policy
 layout: idea
 permalink: /it/privacy-policy/
-date: git Last Modified
+date: Last Modified
 ---
 
 <p class="lead">Ciao, questo è <strong>il mio sito <a href="https://danieletabellini.com">danieletabellini.com</a></strong>
