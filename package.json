@@ -1,6 +1,6 @@
 {
   "name": "danieletabellini-11ty-vite",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "My personal digital playground",
   "browserslist": [
     "> 0.5%",
@@ -45,7 +45,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-promise": "^6.0.0",
-    "focus-visible": "^5.2.0",
     "luxon": "^3.0.1",
     "markdown-it": "^14.0.0",
     "markdown-it-anchor": "^8.6.7",
