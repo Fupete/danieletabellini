@@ -8,7 +8,7 @@
             {% else %}Ultimo aggiornamento: <br />
             <time style="font-weight: 500" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">
                 {{ page.date | dateToFormat('d/M/yyyy') }}
-            </time>          
+            </time>
             {% endif %}
         </p>
         <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/{{ page.inputPath }}">
@@ -35,11 +35,12 @@
             {% set urlWithOrigin %}https://danieletabellini.com{{page.url}}{% endset %}
             {% if speedlify[urlWithOrigin] %}
             <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/" class="speedlify-link">
+                <span class="visually-hidden">{%- if page.lang == 'en' %}I use a Speedlify instance to monitor the
+                    website performance: {% else %}Uso una istanza Speedlify per monitorare le performance del sito: {%
+                    endif
+                    %}</span>
                 <speedlify-score hash="{{ speedlify[urlWithOrigin].hash }}"
                     speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app"></speedlify-score>
-                <span class="visually-hidden">{%- if page.lang == 'en' %}I use Speedlify to monitor the website
-                    performance, discover more{% else %}Uso Speedlify per monitorare le performance del sito, scopri di
-                    più{% endif %}</span>
             </a>
             {%- endif %}
         </div>
