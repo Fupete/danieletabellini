@@ -12,7 +12,9 @@ ol.ideaslist {
     h2 {
         margin-bottom: var(--spacing-small);
     }
-    .ideaslist-date, a.idea-tag {
+
+    .ideaslist-date,
+    a.idea-tag {
         font-size: .875rem;
     }
 }

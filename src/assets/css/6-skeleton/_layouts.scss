@@ -1,9 +1,5 @@
 // Main Site Layout
 
-body {
-    overflow-x: hidden;
-}
-
 .layout {
     display: flex;
     flex-direction: column;
@@ -29,7 +25,8 @@ body {
         grid-column: content;
     }
 
-    .popout, .c-an {
+    .popout,
+    .c-an {
         grid-column: popout;
     }
 

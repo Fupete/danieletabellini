@@ -1,9 +1,9 @@
 .skiplink {
-    clip: rect(1px, 1px, 1px, 1px);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
 }
 
 .skiplink:focus {
@@ -24,7 +24,8 @@
   outline: none;
 }
 
-:focus-visible:not(.pswp, .lty-playbtn), .focus-visible:not(.pswp, .lty-playbtn) {
+:focus-visible:not(.pswp, .lty-playbtn),
+.focus-visible:not(.pswp, .lty-playbtn) {
   outline: none;
   box-shadow: 0 0 0 3px var(--focusColor);
   z-index: 999;

@@ -22,7 +22,8 @@ nav.toc {
             font-weight: 600;
         }
 
-        ol { // nested empty h3+ "ol" - accessibility hack
+        ol {
+            // nested empty h3+ "ol" - accessibility hack
             display: none;
         }
     }
