@@ -5,11 +5,11 @@
   "_PhotoSwipeLightbox-36b1ec8a.js": {
     "file": "assets/js/PhotoSwipeLightbox-36b1ec8a.js"
   },
-  "_main-0a9485fa.js": {
+  "_main-882f0ff7.js": {
     "css": [
-      "css/main-f513c7a1.css"
+      "css/main-8040b1dd.css"
     ],
-    "file": "assets/js/main-0a9485fa.js",
+    "file": "assets/js/main-882f0ff7.js",
     "imports": [
       "_PhotoSwipe-0117c151.js",
       "_PhotoSwipeLightbox-36b1ec8a.js"
@@ -356,7 +356,7 @@
     "src": "imgs/z8KHC_loXe-640.webp"
   },
   "main.css": {
-    "file": "css/main-f513c7a1.css",
+    "file": "css/main-8040b1dd.css",
     "src": "main.css"
   }
 }
