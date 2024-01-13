@@ -24,8 +24,9 @@
   outline: none;
 }
 
-:focus-visible:not(.pswp, .lty-playbtn),
-.focus-visible:not(.pswp, .lty-playbtn) {
+// :focus-visible:not(.pswp, .lty-playbtn),
+// .focus-visible:not(.pswp, .lty-playbtn) {
+:focus-visible:not(.pswp, .lty-playbtn) {
   outline: none;
   box-shadow: 0 0 0 3px var(--focusColor);
   z-index: 999;

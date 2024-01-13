@@ -1,5 +1,5 @@
 // Focus Visible Polyfill
-import 'focus-visible'
+// import 'focus-visible'
 
 // Speedlify score
 import 'speedlify-score'
