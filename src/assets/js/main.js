@@ -4,6 +4,9 @@
 // Speedlify score
 import 'speedlify-score'
 
+// co2.js
+import './modules/co2Emission.js'
+
 // Iframe manager
 import '@orestbida/iframemanager'
 import './modules/iframeconsent.js'

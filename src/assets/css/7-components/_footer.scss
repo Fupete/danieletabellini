@@ -31,4 +31,8 @@ a.speedlify-link {
     text-decoration: none !important;
     display: block;
     width: fit-content;
+    color: var(--textColor);
+}
+p.estimatedCo2 {
+    margin: var(--spacing-medium) 0;
 }
