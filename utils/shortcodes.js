@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
 
-	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280, 1920]) {
+	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280, 1920], loadingMode = "lazy") {
 		let imageSrc
 		const fileSlug = this.page.fileSlug
 		if (fileSlug !== 'en' && fileSlug !== 'it' && fileSlug !== 'ideas' && fileSlug !== 'tags') 
@@ -18,11 +18,11 @@ module.exports = {
 			urlPath: "/imgs/",
 			outputDir: "./_site/imgs/",
 		})
-
+ 
 		return Image.generateHTML(metadata, attributes = {
 			alt,
 			sizes,
-			loading: "lazy",
+			loading: loadingMode,
 			decoding: "auto",
 		})
 	}
