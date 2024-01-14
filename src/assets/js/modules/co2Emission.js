@@ -10,7 +10,7 @@ function unhumanize(text) { // xxx could improve
 }
 
 async function tryEstimateCO2ofCurrentPage() {
-    await new Promise(resolve => setTimeout(resolve, 200)); // wait 200ms just to let speedlify do its job, xxx could improve
+    await new Promise(resolve => setTimeout(resolve, 500)); // wait just to let speedlify do its job, xxx could improve
     const speedlifyScore = document.getElementsByTagName('speedlify-score');
     if (speedlifyScore.length) {
 
