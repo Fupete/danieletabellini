@@ -2,7 +2,9 @@ const { DateTime } = require('luxon')
 
 module.exports = {
     dateToFormat: function (date, format) {
-        return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(
+        return formattedDate = DateTime.fromJSDate(date, { zone: 'utc' }).setLocale(
+            this.page.lang
+        ).toFormat(
             String(format)
         )
     },
