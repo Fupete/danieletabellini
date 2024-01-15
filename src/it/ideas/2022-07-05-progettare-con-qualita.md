@@ -5,6 +5,7 @@ canonical: https://medium.com/designers-italia/progettare-con-qualita-accessibil
 permalink: /it/idee/progettare-con-qualita/
 image: cover.webp
 tags: [Accessibility,A11y,Design System,Italia,Pubblica Amministrazione]
+lastUpdate: 2024-01-10
 ---
 
 <p class="lead">Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi</p>
