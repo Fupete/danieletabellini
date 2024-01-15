@@ -1,10 +1,8 @@
 ---
-title: Timeline
+title: Colophon
 layout: idea
-lastUpdate: 2024-01-10
+lastUpdate: 2024-01-15
 hideReadingTime: true
 ---
-
-[toc]
 
 Lavori in corso
