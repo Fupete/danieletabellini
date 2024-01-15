@@ -1,10 +1,12 @@
-<nav class="nav nav--primary" role="navigation" tabindex="-1" aria-label="{% if page.lang == 'en' %}Main menu{% else %}Menu principale{% endif %}">
+<nav class="nav nav--primary" role="navigation" tabindex="-1"
+    aria-label="{% if page.lang == 'en' %}Main menu{% else %}Menu principale{% endif %}">
     {# Nav Links #}
     <ul class="nav__menu">
         {% set homeUrl %}/{{page.lang}}/{% endset %}
         <li class="site-header__left nav__item {% if homeUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{homeUrl | url}}">
-                {% if page.lang == 'en' %}Daniele Tabellini <span class="visually-hidden">- Home</span>{% else %}Daniele Tabellini <span class="visually-hidden">- Inizio</span>{% endif %}
+                {% if page.lang == 'en' %}Daniele Tabellini <span class="visually-hidden">- Home</span>{% else %}Daniele
+                Tabellini <span class="visually-hidden">- Inizio</span>{% endif %}
             </a>
         </li>
         {% if page.lang == 'en'%}
@@ -13,16 +15,9 @@
         {% set ideasUrl %}/{{page.lang}}/idee/{% endset %}
         {% endif %}
         <li class="nav__item {% if ideasUrl == page.url %}nav__item--active{% endif %}">
-            <a class="nav__link" href="{{ideasUrl | url}}">
+            <a class="nav__link" href="{{ideasUrl | url }}">
                 {% if page.lang == 'en' %}Ideas{% else %}Idee{% endif %}
             </a>
         </li>
-        {# <li class="nav__item nav__lang">
-            {% if page.lang == 'en' %}
-            <a class="nav__link" href="{{" /it/" | url}}">Italiano</a>
-            {% else %}
-            <a class="nav__link" href="{{" /en/" | url}}">English</a>
-            {% endif %}
-        </li> #}
     </ul>
 </nav>
