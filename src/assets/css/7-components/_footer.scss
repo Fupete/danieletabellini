@@ -7,6 +7,7 @@ ul.links-nextprev {
     .container {
         position: relative;
         margin: var(--spacing-xx-large) auto;
+        margin-bottom: 0;
 
         a {
             &.GitHub {
@@ -32,7 +33,42 @@ a.speedlify-link {
     display: block;
     width: fit-content;
     color: var(--textColor);
+    margin-bottom: var(--spacing-x-small);
 }
+
 p.estimatedCo2 {
-    margin: var(--spacing-medium) 0;
+    margin: 0;
+}
+
+.nav--footer {
+
+    ul {
+        font-size: .875rem;
+        font-weight: 500;
+        margin-top: var(--spacing-x-large);
+
+        @media(min-width: 47.9375em) {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+    }
+
+    li {
+        margin-right: var(--spacing-large);
+
+        &.nav__item--active {
+            a {
+                font-weight: 600;
+                text-decoration: none;
+                color: var(--text-color);
+            }
+        }
+    }
+
+    a {
+        display: block;
+        padding: 0.25em 0;
+    }
 }
