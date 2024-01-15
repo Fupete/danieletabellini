@@ -53,23 +53,23 @@
         </div>
         {%- endif %}
         <p class="estimatedCo2"></p>
-        <nav class="nav nav--footer" role="navigation" tabindex="-1"
+        {# <nav class="nav nav--footer" role="navigation" tabindex="-1"
             aria-label="{% if page.lang == 'en' %}Useful links{% else %}Menu link utili{% endif %}">
             {# Nav Links #}
-            <ul class="nav__menu">
-                {% set privacyUrl %}/{{page.lang}}/privacy-policy/{% endset %}
-                <li class="nav__item {% if privacyUrl == page.url %}nav__item--active{% endif %}">
+            {# <ul class="nav__menu"> #}
+                {# {% set privacyUrl %}/{{page.lang}}/privacy-policy/{% endset %} #}
+                {# <li class="nav__item {% if privacyUrl == page.url %}nav__item--active{% endif %}">
                     <a class="nav__link" href="{{ privacyUrl | locale_url }}">
                         Privacy policy
                     </a>
-                </li>
-                {% set colophonUrl %}/{{page.lang}}/colophon/{% endset %}
-                <li class="nav__item {% if colophonUrl == page.url %}nav__item--active{% endif %}">
+                </li> #}
+                {# {% set colophonUrl %}/{{page.lang}}/colophon/{% endset %} #}
+                {# <li class="nav__item {% if colophonUrl == page.url %}nav__item--active{% endif %}">
                     <a class="nav__link" href="{{ colophonUrl | locale_url }}">
                         Colophon
                     </a>
-                </li>
-            </ul>
-        </nav>
+                </li> #}
+            {# </ul>
+        </nav>  #}
     </div>
 </footer>
