@@ -3,17 +3,15 @@ permalink: /public/sitemap.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    {%- for item in collections.all -%}
-    {%- if not item.data.excludeFromSitemap and item.url -%}
-    <url>
-        <loc>{{ item.url | url | absoluteUrl(meta.url) }}</loc>
-        {% for link in item.url | locale_links %}
-        <xhtml:link rel="alternate" hreflang="{{link.lang}}" href="https://danieletabellini.com{{link.url}}" />
-        {% endfor %}
-        <lastmod>{{ item.date | dateToFormat('yyyy-MM-dd') }}</lastmod>
-    </url>
-    {%- endif -%}
-    {%- endfor -%}
+<urlset xmlns="sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="w3.org/TR/xhtml11/xhtml11_schema.html">
+  {%- for item in
+  collections.all -%} {%- if not item.data.excludeFromSitemap and item.url -%} <url>
+    <loc>{{ item.url | url | absoluteUrl(meta.url) }}</loc>
+    {% for link in item.url | locale_links %}
+    <xhtml:link rel="alternate" hreflang="{{link.lang}}" href="https://danieletabellini.com{{link.url}}" />
+    {% endfor %}
+    <lastmod>{{ item.date | dateToFormat('yyyy-MM-dd') }}</lastmod>
+  </url>
+  {%- endif -%}
+  {%- endfor -%}
 </urlset>
