@@ -34,9 +34,9 @@
             source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on GitHub</a>
             under an open license.{% endif %}
         </p>
+        {% set urlWithOrigin %}https://danieletabellini.com{{page.url}}{% endset %}
+        {% if speedlify[urlWithOrigin] %}
         <div class="speedlify" style="margin-top: var(--spacing-large)">
-            {% set urlWithOrigin %}https://danieletabellini.com{{page.url}}{% endset %}
-            {% if speedlify[urlWithOrigin] %}
             <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/" class="speedlify-link">
                 <span class="visually-hidden">{%- if page.lang == 'en' %}I use a Speedlify instance to monitor the
                     website performance: {% else %}Uso una istanza Speedlify per monitorare le performance del sito: {%
@@ -45,8 +45,26 @@
                 <speedlify-score hash="{{ speedlify[urlWithOrigin].hash }}"
                     speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app" score weight></speedlify-score>
             </a>
-            {%- endif %}
         </div>
+        {%- endif %}
         <p class="estimatedCo2"></p>
+        <nav class="nav nav--footer" role="navigation" tabindex="-1"
+            aria-label="{% if page.lang == 'en' %}Useful links{% else %}Menu link utili{% endif %}">
+            {# Nav Links #}
+            <ul class="nav__menu">
+                {% set privacyUrl %}/{{page.lang}}/privacy-policy/{% endset %}
+                <li class="nav__item {% if privacyUrl == page.url %}nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ privacyUrl | locale_url }}">
+                        Privacy policy
+                    </a>
+                </li>
+                {% set colophonUrl %}/{{page.lang}}/colophon/{% endset %}
+                <li class="nav__item {% if colophonUrl == page.url %}nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ colophonUrl | locale_url }}">
+                        Colophon
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </footer>
