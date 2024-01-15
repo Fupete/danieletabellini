@@ -5,6 +5,10 @@ permalink: /en/privacy-policy/
 lastUpdate: 2024-01-12
 ---
 
+Work in progress...
+
+-----
+
 <p class="lead">Hi, this is <strong>my site <a href="https://danieletabellini.com">danieletabellini.com</a></strong>
 
 In accordance with articles 13 and 14 of EU Regulation 2016/679 (GDPR) I want to provide you with simple and clear information on how I process your personal data which **you provide to me directly or which I may in any case come into possession of while browsing the site**.
