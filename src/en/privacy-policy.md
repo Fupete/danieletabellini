@@ -5,7 +5,9 @@ permalink: /en/privacy-policy/
 lastUpdate: 2024-01-12
 ---
 
-Work in progress...
+-----
+
+Work in progress
 
 -----
 
