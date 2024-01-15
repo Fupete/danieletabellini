@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://danieletabellini.com/en/">
     <title>Daniele Tabellini</title>
     <subtitle>Principal Designer / Artist / Adj. Professor in Digital Experience Lab at Design UNIRSM</subtitle>
     <link href="https://danieletabellini.com/en//feed.xml" rel="self" type="application/atom+xml" />
@@ -12,11 +12,13 @@
     
     <id>https://danieletabellini.com/en//</id>
         <entry>
-            <title>Progettare con qualità: l’accessibilità al centro del design system del Paese</title>
+            <title xml:lang="it" >Progettare con qualità: l’accessibilità al centro del design system del Paese</title>
             <link href="https://danieletabellini.com/it/idee/progettare-con-qualita/"/>
-            <updated>2022-07-05T00:00:00Z</updated>
+            
+            <updated>2024-01-10T00:00:00Z</updated>
+            
             <id>https://danieletabellini.com/it/idee/progettare-con-qualita/</id>
-            <content type="html"><![CDATA[
+            <content xml:lang="it" type="html"><![CDATA[
                 <p class="lead">Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi</p>
 <p><strong><a href="https://fupete.medium.com/">Daniele Tabellini</a></strong> del <a href="https://medium.com/@trasformazione_digitale">Dipartimento per la trasformazione digitale</a><br />
 <strong><a href="https://medium.com/@fabrizio.caccavello">Fabrizio Caccavello</a></strong> di <a href="https://medium.com/@AgidGov">AGID - Agenzia per l’Italia Digitale</a></p>
