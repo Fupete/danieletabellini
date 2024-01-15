@@ -13,13 +13,18 @@
             {% endif %}
         </p>
         {% endif %}
+        <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">
+            {%- if page.lang == 'it' %}Lasciami un messaggio o suggerisci un'idea{% else %}Drop me a note or
+            suggest an idea{% endif %}</a>
         <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/{{ page.inputPath }}">
             {%- if page.lang == 'it' %}Proponi una modifica a questa pagina{% else %}Propose an edit to this page{%
             endif %}</a>
         <a class="GitHub" style="margin-bottom: var(--spacing-large);"
-            href="https://github.com/Fupete/danieletabellini/issues/new/choose">
-            {%- if page.lang == 'it' %}Lasciami un messaggio o suggerisci un'idea{% else %}Drop me a note or
-            suggest an idea{% endif %}</a>
+            href="https://github.com/Fupete/danieletabellini/commits/main/{{ page.inputPath }}">
+            {%- if page.lang == 'it' %}Esplora la storia dei commit{% else %}Explore commits history{%
+            endif %}</a>
+
+
         <p class="me">
             &copy; {{ build.timestamp | dateToFormat('yyyy') }} - Daniele Tabellini<br />
         </p>
