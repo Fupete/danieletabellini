@@ -11,15 +11,14 @@
 .container {
     padding: var(--spacing-x-large) var(--spacing-medium); // fallback
     padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+
     --gap: clamp(0px, 6vw, 0px);
     --full: minmax(var(--gap), 1fr);
     --content: min(68ch, 100% - var(--gap) * 2);
     --popout: minmax(0, var(--spacing-x-large));
     --feature: minmax(0, var(--spacing-xx-large));
-
     display: grid;
-    grid-template-columns:
-        [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
+    grid-template-columns: [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
 
     &>* {
         grid-column: content;
@@ -39,6 +38,65 @@
 
     .full {
         grid-column: full;
+        max-width: var(--container-max-width);
+        margin: 0 auto;
+    }
+
+    .hero {
+        display: flex;
+        gap: var(--spacing-medium);
+        justify-content: space-between;
+        flex-direction: column;
+
+        @media(min-width: 64.0625em) {
+            gap: var(--spacing-large);
+            flex-direction: row;
+        }
+
+        .hero___content,
+        picture {
+            @media(min-width: 64.0625em) {
+                width: 48%;
+            }
+        }
+
+    }
+
+    .portfolio {
+        padding: var(--spacing-xx-large) 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-x-large);
+
+        .project {
+            position: relative;
+            margin-top: var(--spacing-x-large) 0;
+
+            a::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+            }
+
+            .head {
+                margin-bottom: var(--spacing-medium);
+
+                h2 {
+                    margin: var(--spacing-medium) 0;
+                }
+
+                .profile {
+                    font-size: .875rem;
+                }
+            }
+        }
+
+        .discover-more {
+            margin: var(--spacing-x-large) 0;
+        }
     }
 
 }

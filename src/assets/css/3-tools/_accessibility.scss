@@ -19,20 +19,19 @@
 }
 
 :focus,
-:active {
+:active,
+div.project h2 a:focus-visible {
   border: none;
   outline: none;
 }
 
-// :focus-visible:not(.pswp, .lty-playbtn),
-// .focus-visible:not(.pswp, .lty-playbtn) {
-:focus-visible:not(.pswp, .lty-playbtn) {
+:focus-visible:not(.pswp, .lty-playbtn, div.project h2 a),
+div.portfolio div.project:focus-within {
   outline: none;
   box-shadow: 0 0 0 3px var(--focusColor);
   z-index: 999;
   position: relative;
 }
-
 
 .visually-hidden:not(:focus):not(:active) {
   border: 0;
