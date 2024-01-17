@@ -1,4 +1,11 @@
 .site-header {
+    padding: var(--spacing-medium) var(--spacing-medium); // fallback
+    padding: var(--spacing-medium) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+
+    @media(min-width: 47.9375em) {
+        padding: var(--spacing-x-large) var(--spacing-medium); // fallback
+        padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+    }
 
     &__container {
         position: relative;
@@ -7,15 +14,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: var(--spacing-x-large) var(--spacing-medium); // fallback
-            padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
         }
 
         max-width: var(--container-max-width);
         margin: 0 auto;
-
-        padding: var(--spacing-medium) var(--spacing-medium); // fallback
-        padding: var(--spacing-medium) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
 
         .nav--primary {
             ul {
