@@ -12,7 +12,7 @@ const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const pairedShortcodes = require('./utils/paired-shortcodes.js')
 
-// const { resolve } = require('path')
+const path = require('path')
 const { execSync } = require('child_process')
 
 // markdown
@@ -22,7 +22,6 @@ const markdownItTocDoneRight = require('markdown-it-toc-done-right')
 const markdownItFootnote = require('markdown-it-footnote')
 // image gallery
 const Image = require('@11ty/eleventy-img')
-const path = require('path')
 const sharp = require('sharp')
 const GALLERY_IMAGE_WIDTH = 320;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
@@ -196,9 +195,31 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/assets/js')
 
 	// Build pagefind index 
-	eleventyConfig.on('eleventy.after', async () => {
-		execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
-	})
+	// eleventyConfig.on('eleventy.after', async () => {
+	// 	execSync(`npx pagefind --site _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+	// })
+	eleventyConfig.on("eleventy.after", async function ({ dir }) {
+		const inputPath = dir.output;
+		const outputPath = path.join(dir.output, "pagefind");
+
+		console.log("Creating Pagefind index of %s", inputPath);
+
+		const pagefind = await import("pagefind");
+		const { index } = await pagefind.createIndex();
+		const { errors, page_count } = await index.addDirectory({
+			path: inputPath,
+			glob: "**/*.{html}",
+		});
+		await index.writeFiles({ outputPath });
+
+		console.log(
+			"Created Pagefind index of %i pages in %s",
+			page_count,
+			outputPath
+		);
+	});
+
+
 
 	// Localized notes
 	eleventyConfig.addCollection("ideas_en", (collectionApi) => {
