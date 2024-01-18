@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	
+	
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Progettare con qualità: l’accessibilità al centro del design system del Paese</title>
+
+	
+	<link rel="preload" href="/assets/fonts/inter/Inter-Regular-subset.woff2" as="font" type="font/woff2" crossorigin> 
+
+	
+    <meta name="description" content="Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi">
+    <link rel="canonical" href="https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099">
+    <meta name="author" content="@fupete">
+    <meta name="generator" content="Eleventy v2.0.1">
+
+    
+    <meta property="og:site_name" content="Daniele Tabellini">
+    <meta property="og:title" content="Progettare con qualità: l’accessibilità al centro del design system del Paese">
+    <meta property="og:description" content="Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi">
+    <meta property="og:url" content="https://danieletabellini.com/it/idee/progettare-con-qualita/">
+    <meta property="og:locale" content="en_us">
+    <meta name="twitter:card" content="summary_large_image">
+        <meta property="og:image" content="https://danieletabellini.com/en/cover.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#7134ff">
+
+    
+    <link type="application/atom+xml" rel="alternate" href="https://danieletabellini.com/en//feed.xml" title="Daniele Tabellini">
+
+	<script>
+		/* Font loading: Critical FOFT with preload, see: https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-with-preload */
+		(function () {
+			if ("fonts" in document) {
+				// Optimization for Repeat Views
+				if (sessionStorage.fontsLoadedCriticalFoftPreload) {
+					document.documentElement.className += " fonts-loaded-2";
+					return;
+				}
+
+				document.fonts.load("1em 'Inter Subset'").then(function () {
+					document.documentElement.className += " fonts-loaded-1";
+
+					Promise.all([
+						document.fonts.load("400 1em 'Inter'"),
+						document.fonts.load("400 italic 1em 'Inter'"),
+						document.fonts.load("500 1em 'Inter'"),
+						document.fonts.load("600 1em 'Inter'"),
+						document.fonts.load("700 1em 'Inter'"),
+						document.fonts.load("900 1em 'Inter'"),
+					]).then(function () {
+						document.documentElement.className += " fonts-loaded-2";
+
+						// Optimization for Repeat Views
+						sessionStorage.fontsLoadedCriticalFoftPreload = true;
+					});
+				});
+			}
+		})();
+	</script>
+
+	
+  <script type="module" crossorigin src="/assets/js/PhotoSwipe-0117c151.js"></script>
+  <script type="module" crossorigin src="/assets/js/PhotoSwipeLightbox-36b1ec8a.js"></script>
+  <script type="module" crossorigin src="/assets/js/main-82594ce4.js"></script>
+  <link rel="stylesheet" href="/css/main-5ec7e0b9.css">
+</head>
+
+<body>
+	<a href="#main" class="skiplink">Salta al contenuto</a>
+
+	<div class="layout" role="document">
+		<header class="site-header" role="banner">
+    <div class="site-header__container">
+        <div class="site-header__right">
+            <nav class="nav nav--primary" role="navigation" tabindex="-1"
+    aria-label="Menu principale">
+    
+    <ul class="nav__menu">
+        
+        <li class="site-header__left nav__item ">
+            <a class="nav__link" href="/it/">
+                Daniele
+                Tabellini <span class="visually-hidden">- Inizio</span>
+            </a>
+        </li>
+        
+        
+        
+        <li class="nav__item ">
+            <a class="nav__link" href="/it/idee/">
+                Idee
+            </a>
+        </li>
+    </ul>
+</nav>
+        </div>
+        <div id="langAlternatives">
+            
+        </div>
+    </div>
+</header>
+
+		<main id="main" class="main">
+			<article class="container" data-pagefind-body>
+  <h1>Progettare con qualità: l’accessibilità al centro del design system del Paese</h1>
+
+  
+  <p>
+    <span class="meta__stats">Circa 11 min per la lettura</span>
+  </p>
+  
+
+  <p class="lead">Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi</p>
+<p><strong><a href="https://fupete.medium.com/">Daniele Tabellini</a></strong> del <a href="https://medium.com/@trasformazione_digitale">Dipartimento per la trasformazione digitale</a><br>
+<strong><a href="https://medium.com/@fabrizio.caccavello">Fabrizio Caccavello</a></strong> di <a href="https://medium.com/@AgidGov">AGID - Agenzia per l’Italia Digitale</a></p>
+<p>Pubblicato su <a href="https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099">Designers Italia (Medium)</a> il 5 luglio 2022</p>
+<div class="popout img">
+<picture><source type="image/avif" srcset="/imgs/TJ0yzT-kuh-320.avif 320w, /imgs/TJ0yzT-kuh-640.avif 640w" sizes="100vw"><source type="image/webp" srcset="/imgs/TJ0yzT-kuh-320.webp 320w, /imgs/TJ0yzT-kuh-640.webp 640w" sizes="100vw"><source type="image/jpeg" srcset="/imgs/TJ0yzT-kuh-320.jpeg 320w, /imgs/TJ0yzT-kuh-640.jpeg 640w" sizes="100vw"><img alt="Apertura e collaborazione" loading="lazy" decoding="auto" src="/imgs/TJ0yzT-kuh-320.jpeg" width="640" height="360"></picture>
+<small>Photo <a href="https://unsplash.com/@johnschno">John Schnobrich</a>, <a href="https://unsplash.com/@tvschaitanya">Chaitanya Tvs</a></small>
+</div>
+<p>Caselle di testo, spunte, pulsanti, menù a tendina: a prima vista un <em>form</em>, una scheda da compilare online, è quanto di più elementare il web possa offrire. Eppure nel contesto della trasformazione digitale, in particolare nella progettazione e nello sviluppo di servizi pubblici digitali, i <strong>componenti dell’interfaccia digitale</strong> che permettono di costruire moduli per lo scambio di informazioni tra utente e Pubblica Amministrazione svolgono una funzione fondamentale: <strong>abilitano esperienze di cittadinanza</strong>, ovvero consentono alle persone di esercitare i propri diritti e adempiere ai propri doveri completamente <em>online</em>, senza alcuna preclusione.</p>
+<p>L’<strong>accessibilità</strong> è prima di tutto una questione di attenzione: al significato delle scelte, ai dettagli tecnologici, ma anche e soprattutto agli altri, alle persone e ai loro bisogni. In quest’ottica, <strong>un progetto digitale accessibile è un progetto digitale di qualità</strong>, un progetto <em>“fatto bene”</em>. Ed è per questo che, negli ultimi mesi, per tornare ai <em>form</em> ad esempio, nell’aggiornamento del design system del Paese sono state fatte scelte tecniche che favoriscono l’utilizzo di codice <em>markup</em> HTML semantico standard, anziché sovrascrivere i componenti con oggetti più “eleganti”, al solo scopo decorativo. Questo per garantire che le interfacce, che sono tra le più importanti per l’interazione con i servizi digitali, siano il più possibile compatibili con qualunque ambiente, e con il maggior numero di casi d’uso.</p>
+<p>Ma si tratta solo di un dettaglio dell’approccio e di quanto realizzato nei mesi scorsi: come, e soprattutto perché, siamo arrivati fino a qui? E che direzione abbiamo intrapreso? Quello che segue è il racconto di una parte dell’avventura, <a href="https://designers.italia.it/notizie/Per-un-2022-ricco-di-sfide/">iniziata a dicembre 2021</a>, dal <a href="https://innovazione.gov.it/">Dipartimento per la trasformazione digitale</a> e <a href="https://agid.gov.it">AgID</a> per <strong>aggiornare il design system del Paese</strong>. Un’iniziativa che mira a ottimizzare le risorse digitali messe a disposizione dei cittadini da parte della Pubblica Amministrazione, rendendole semplici, accessibili e inclusive.</p>
+<hr>
+<p><strong>Indice dei contenuti:</strong></p>
+<nav id="toc" class="toc"><ol><li><a href="#progettare-interfacce-e-un-atto-di-responsabilita">Progettare interfacce è un atto di responsabilità</a></li><li><a href="#dieci-punti-per-fare-meglio">Dieci punti per fare meglio</a><ol></ol></li><li><a href="#il-futuro-appartiene-alle-persone">Il futuro appartiene alle persone</a></li><li><a href="#il-futuro-e-una-questione-culturale">Il futuro è una questione culturale</a></li></ol></nav><hr>
+<h2 id="progettare-interfacce-e-un-atto-di-responsabilita" tabindex="-1">Progettare interfacce è un atto di responsabilità</h2>
+<p>Progettare e sviluppare interfacce digitali significa decidere continuamente chi includere, o escludere, dall’esperienza d’uso e fruizione, a seconda delle proprie caratteristiche, conoscenze, capacità o condizioni di disabilità, temporanee o meno. Nel caso di servizi pubblici digitali, è una scelta che porta con sé una grande responsabilità: <strong>tutte le cittadine e i cittadini devono poter avere un’esperienza d’uso piena e soddisfacente</strong>, potendone usufruire in modo semplice e chiaro, senza discriminazione e senza lasciare indietro nessuno. Non solo perché lo dicono le norme sull’accessibilità, le linee guida o perché ci sono tecniche e tecnologie che lo permettono.</p>
+<p>L’aggiornamento del design system del Paese, uno strumento <em>open</em>, aperto, sia come codice sorgente sia come progetto, ha così <strong>l’obiettivo di aiutare la Pubblica Amministrazione</strong> italiana a soddisfare i requisiti normativi, ma soprattutto a progettare e sviluppare interfacce ed esperienze d’uso dei servizi pubblici digitali coerenti e inclusive, su una pluralità di dispositivi. In una parola a realizzare progetti di qualità.</p>
+<p>Ma cosa si intende quando parliamo di <em>qualità</em>?</p>
+<blockquote>
+<p>La Qualità… sappiamo cos’è, eppure non lo sappiamo. Questo è contraddittorio. Alcune cose sono meglio di altre cioè hanno più Qualità. Ma quando provi a dire in cosa consiste la Qualità astraendo dalle cose che la posseggono, paff, le parole ti sfuggono di mano. Ma se nessuno sa cos’è, ai fini pratici non esiste per niente. Invece esiste eccome. Su cos’altro sono basati i voti, se no? Perché mai la gente pagherebbe una fortuna per certe cose, e ne getterebbe altre nella spazzatura? Ovviamente alcune cose sono meglio di altre… Ma in cosa consiste il “meglio”?</p>
+</blockquote>
+<p><small>— Lo zen e l’arte della manutenzione della motocicletta, Robert M. Pirsig</small></p>
+<p>L’accessibilità è un tema di cultura del fare, e fare bene. Non è solo considerare l’accessibilità tra le priorità progettuali, ma <em>“fare”</em>, perché è solo così che si scoprono le necessità reali e i compromessi necessari della qualità manifesta di cui parla Robert Pirsig. È il <strong>cambio culturale</strong> che stiamo cercando di affermare: non ratificare a valle uno stato di conformità, ma <em>fare accessibile</em>. Semplificare, togliere un passaggio, partire da soluzioni già validate (<em>by default</em>) che possano essere curate nel corso di un progetto (<em>by design</em>), per poi scoprire, paradossalmente, che si tratta di opzioni economiche ed efficaci.</p>
+<hr>
+<h2 id="dieci-punti-per-fare-meglio" tabindex="-1">Dieci punti per fare meglio</h2>
+<div class="feature img">
+<picture><source type="image/avif" srcset="data:image/avif;base64,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 320w, data:image/avif;base64,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 640w, /imgs/-t1vVjwOS7-1280.avif 1280w" sizes="100vw"><source type="image/webp" srcset="data:image/webp;base64,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 320w, /imgs/-t1vVjwOS7-640.webp 640w, /imgs/-t1vVjwOS7-1280.webp 1280w" sizes="100vw"><source type="image/jpeg" srcset="/imgs/-t1vVjwOS7-320.jpeg 320w, /imgs/-t1vVjwOS7-640.jpeg 640w, /imgs/-t1vVjwOS7-1280.jpeg 1280w" sizes="100vw"><img alt="Cos’è la qualità?" loading="lazy" decoding="auto" src="/imgs/-t1vVjwOS7-320.jpeg" width="1280" height="719"></picture>
+<small>Image <a href="https://unsplash.com/@seanwsinclair">Sean Sinclair</a></small>
+</div>
+<p>Per definire cosa sia la qualità, che cosa voglia dire “fatto bene” nel contesto di oltre 22.000 enti pubblici, in particolar modo sul tema accessibilità, il Dipartimento per la trasformazione digitale e AgID, supportati dai progetti <a href="https://designers.italia.it">Designers Italia</a> e <a href="https://developers.italia.it">Developers Italia</a>, oltre che da un fornitore tecnico ad hoc, hanno definito una serie di principi, un’agenda in 10 punti, per collegare l’ideale con il pratico. Principi all’interno dei quali il design system del Paese si colloca in maniera importante e trasversale.</p>
+<h3>1. Fatto bene guarda oltre l’oggi</h3>
+<p>Se noi prendessimo un sito internet accessibile nel ‘95/’96 (ovvero rispetto ai pochi standard disponibili all’epoca), probabilmente ancora oggi sarebbe accessibile. Ecco perché bisogna fare bene, e <strong>fare accessibile</strong>, perché significa <strong>progettare servizi pubblici digitali pronti per il futuro</strong>.</p>
+<p><a href="https://medium.com/designers-italia/dietro-le-quinte-del-sito-mitd-dalla-ricerca-alla-pubblicazione-online-2a-parte-da691f8dc063#72e1">Progettando</a> il sito <a href="https://innovazione.gov.it">innovazione.gov.it</a>, ad esempio, abbiamo provato a prevenire criticità futuribili di accessibilità, fin dai requisiti del progetto. Un’attenzione che ci ha permesso di <strong>approfondire l’esperienza d’uso della redazione</strong> che ne avrebbe curato i contenuti, e scegliere quindi di predisporre automatismi, come quello a supporto dell’inserimento corretto dei collegamenti esterni (<a href="https://github.com/teamdigitale/innovazione.gov.it-site/blob/main/source/partials/links/_link_external.html.slim">poche righe di codice</a>), che contribuissero ad aumentare accessibilità e qualità generale del progetto nel tempo.</p>
+<h3>2. Fatto bene è by design e by default</h3>
+<p>Il tema accessibilità non può rispondere solo a meri, anche se necessari, adempimenti burocratici. Dall’inizio e per tutte le fasi del progetto se ne deve tener conto, <em>by design</em>: dalla raccolta requisiti al progetto di contenuti e dell’esperienza utente, dalla prototipazione e sviluppo <em>software</em> fino all’uso, alla validazione e alla manutenzione, e per tutti i profili coinvolti.</p>
+<p>E <strong>ogni fase del progetto deve avere i suoi automatismi predefiniti, <em>by default</em></strong>: è importante l’uso di kit, componenti, <em>template</em>, <em>framework</em>, documentazione, come le risorse messe già a disposizione grazie al design system del Paese, che permetta di risparmiare tempo e soldi pubblici, partendo con delle componenti già accessibili.</p>
+<p>L’accessibilità costa? Aspettare segnalazioni e sanzioni per correggere progetti in corsa, oppure ampiamente conclusi, è sicuramente più oneroso per una Pubblica Amministrazione, mentre fare le cose bene <strong>è un investimento che si ripaga da solo nel breve e medio periodo</strong>. “Fare accessibile” deve essere il mantra della PA e dei suoi fornitori, sulla falsariga del principio che si applica alla sicurezza e alla privacy, altri due temi della progettazione dei servizi digitali da affrontare <em>by design</em> e <em>by default</em>.</p>
+<h3>3. Fatto bene è open e partecipazione</h3>
+<p>Mettere attenzione nel progettare per il pubblico significa prima di tutto aprirsi: ricerca e ascolto dei bisogni dell’utente, ma anche sviluppo <em>open source</em> e licenze aperte, <em>open data</em>, <em>open design</em>, apertura alla partecipazione e ai <em>feedback</em>.</p>
+<blockquote>
+<p>Soldi pubblici, codice e progetto pubblico.</p>
+</blockquote>
+<p>Non solo codice pubblico, come chiede ad esempio la <a href="https://publiccode.eu/">campagna omonima</a> della <a href="https://fsfe.org/index.it.html">FSFE</a> (Free Software Foundation Europe), e come portato avanti da anni nella Pubblica Amministrazione con il Catalogo e le linee guida sul riuso e sulle licenze dal progetto <a href="https://developers.italia.it/">Developers Italia</a>; non solo codice pubblico, dicevamo, ma anche iniziare a porsi il problema di come nel mondo del design, del progetto, si debba <strong>fare <em>open design</em> e partecipazione con modalità più strutturali</strong>.</p>
+<p>Il concetto e le strategie dell’accessibilità nascono nell’organizzazione internazionale <a href="https://www.w3.org/">W3C</a> (World Wide Web Consortium), che stabilisce le regole tecniche con cui si fanno i prodotti accessibili. <strong>Il processo di lavoro del W3C è un ottimo esempio di <em>open by default</em></strong>, un processo che prevede il coinvolgimento di gruppi di lavoro eterogenei e contributori esterni, e che è reso possibile solo grazie alla partecipazione e al miglioramento continuo. Non c’è un punto di arrivo ultimo, se non ideale, ma <strong>un processo in divenire</strong>, iterazione dopo iterazione, aprendo a cercare feedback e contributi, verso il meglio.</p>
+<p>La scelta di usare strumenti aperti e collaborativi per l’aggiornamento del design system del Paese va esattamente in questa direzione: <em>repository</em> GitHub per le lavorazioni di sviluppo, e <strong>rilasci delle versioni intermedie</strong> di lavorazione dei kit di progettazione interfaccia, per cercare commenti, segnalazioni e contributi. Nelle prossime settimane saranno inoltre rilasciati su Designers Italia diversi altri strumenti di questo aggiornamento: documenti di analisi, liste di cose da fare, censimenti e report che vogliamo far diventare patrimonio della <em>community</em>.</p>
+<h3>4. Fatto bene è a norma</h3>
+<p>L’Italia è all’avanguardia rispetto alla normativa sull’accessibilità, la <strong>Legge n. 4/2004</strong> fu promulgata quando a livello europeo l’accessibilità era un tema ancora poco rilevante, e il recente <strong>European Accessibility Act</strong> non era nei sogni dei legislatori. Gli <a href="https://www.agid.gov.it/it/design-servizi/accessibilita/normativa">aggiornamenti successivi</a>, così come le <a href="https://www.agid.gov.it/it/design-servizi/accessibilita/linee-guida-accessibilita-strumenti-informatici">linee guida sull’accessibilità degli strumenti informatici</a>, messe a disposizione da AgID rispetto alla Direttiva UE 2016/2012, sono i riferimenti normativi da tener presenti quando si parla di accessibilità.</p>
+<p>Il livello di conformità <a href="https://docs.italia.it/italia/designers-italia/design-linee-guida-docs/it/stabile/doc/service-design/accessibilita.html#linee-guida-e-criteri-di-successo">richiesto</a> per i siti della Pubblica Amministrazione italiana, dalla norma tecnica europea armonizzata UNI EN 301 549, corrisponde <strong>ai livelli “A” e “AA” della W3C Recommendation WCAG 2.1</strong>. La specifica WCAG 2.1 è disponibile in <a href="https://www.w3.org/Translations/WCAG21-it/">lingua italiana</a>.</p>
+<p>Ma la normativa sull’accessibilità, con il Decreto Legge 76/2020, è stata <strong>estesa anche ai soggetti privati che offrono servizi al pubblico attraverso siti web o applicazioni mobili</strong> e che abbiano un fatturato medio superiore a cinquecento milioni di euro negli ultimi tre anni di attività. Si è voluto insomma anticipare alle grandi organizzazioni private il percorso verso l’accessibilità che comunque verrà attivato per tutti i soggetti privati con l’European Accessibility Act a partire dal 2025.</p>
+<p>Sono inoltre prossime alla pubblicazione anche <strong>le nuove linee guida di design per i siti internet e i servizi digitali della Pubblica Amministrazione</strong>, previste ai sensi dell’art. 53 del CAD (Codice Amministrazione Digitale), dove ad esempio i concetti di <em>by default</em> e <em>by design</em> saranno ben evidenti. Contestualmente alla loro uscita verrà rilasciato un corposo “Manuale operativo di design”, tramite Designers Italia, con casi d’uso e indicazioni a supporto.</p>
+<h3>5. Fatto bene è aiutato dal design system del Paese</h3>
+<p>Il design system del Paese è un insieme di principi, risorse e «pezzi già pronti», pensato per progettare e sviluppare esperienze utente, di cittadinanza. A parità di qualità, grazie al riuso e alla condivisione di buone pratiche, è possibile anche raggiungere l’obiettivo del minore costo. Da dicembre 2021 <strong>stiamo aggiornando questa risorsa dalle fondamenta</strong>, in termini tecnologici e di accessibilità, ma anche di visione e gestione. Abbiamo infatti affiancato al cuore delle attività pratiche una serie di attività di più alto livello, come l’inizio di un’articolata ricerca utente su utilizzatori e contributori, e una pianificazione di epiche e obiettivi di medio-lungo periodo.</p>
+<p>Il design system del Paese è oggi composto da un kit per progettare interfacce (kit UI), un kit per sviluppare interfacce (il <em>framework</em> Bootstrap Italia in primis) e un insieme di modelli standard per progettare e realizzare siti web e servizi digitali per diverse tipologie di Enti. Queste <strong>risorse aggiornate</strong>, man mano che le nuove versioni diventeranno stabili nelle prossime settimane, saranno <strong>messe a disposizione di tutti</strong> tramite il sito web <a href="https://designers.italia.it/">Designers Italia</a>, che ci auspichiamo ospiti presto, come riferimento ufficiale, la documentazione di tutto il design system del Paese: dai principi al design, dallo sviluppo alle indicazioni sull’accessibilità, dai componenti ai pattern validati con gli utenti.</p>
+<h3>6. Fatto bene è immaginato con il kit UI</h3>
+<div class="feature img">
+<picture><source type="image/avif" srcset="/imgs/_HS3gTJjEf-320.avif 320w, /imgs/_HS3gTJjEf-640.avif 640w, /imgs/_HS3gTJjEf-1280.avif 1280w" sizes="100vw"><source type="image/webp" srcset="/imgs/_HS3gTJjEf-320.webp 320w, /imgs/_HS3gTJjEf-640.webp 640w, /imgs/_HS3gTJjEf-1280.webp 1280w" sizes="100vw"><source type="image/jpeg" srcset="/imgs/_HS3gTJjEf-320.jpeg 320w, /imgs/_HS3gTJjEf-640.jpeg 640w, /imgs/_HS3gTJjEf-1280.jpeg 1280w" sizes="100vw"><img alt="UI Kit Italia" loading="lazy" decoding="auto" src="/imgs/_HS3gTJjEf-320.jpeg" width="1280" height="891"></picture>
+<small><a href="https://www.figma.com/@designersitalia">Profilo</a> di Designers Italia nella community Figma e <a href="https://www.figma.com/community/file/1105848677422572920">kit UI</a></small>
+</div>
+<p>Il kit per la progettazione di interfacce del design system del Paese lo abbiamo ricostruito da zero usando le ultime tecnologie disponibili e in coordinamento con il kit di sviluppo, con un occhio attento al tema <em>open design</em>. <strong>Fin dai primi rilasci ha indicazioni di accessibilità utili ai designer</strong> per comprendere le caratteristiche legate alla specificità della prototipazione, come ad esempio l’uso dei colori. Stiamo anche immaginando di integrare strumenti per favorire l’utilizzo della semantica corretta degli oggetti e per etichettare i <em>mockup</em>.</p>
+<p>Questa nuova versione, costruita utilizzando Figma e cercando di sfruttare tutte le potenzialità di collaborazione e automazione, <strong>ha numeri importanti: si tratta di oltre 600 componenti</strong>, comprese le varianti, <strong>divisi nelle tre macrocategorie</strong> <em>foundations</em> (fondamenta intese per esempio come griglie, tipografia e icone), <em>components</em> (componenti intesi come “pezzi” dell’interfaccia come pulsanti, liste e testata) e <em>forms</em> (tutti i componenti utili allo sviluppo di moduli).</p>
+<p>Un occhio di riguardo è stato messo nel sincronizzare tutti i componenti con i kit di sviluppo, per avere prototipi più realistici e per <strong>semplificare il passaggio agli sviluppatori</strong>. In prospettiva, e in un’ottica open, è previsto che avvengano rilasci interoperabili verso altri strumenti, come Sketch o Adobe XD, con esportazioni sulla <em>repository</em> GitHub dedicata.</p>
+<p>Una parte importante delle lavorazioni è stata dedicata all’<strong>integrazione di <em>design token</em></strong>: piccoli elementi “di verità” utili a rappresentare decisioni di stile applicabili in modo coerente tra diversi progetti, <em>framework</em> e strumenti — un esempio di <em>design token</em>: <code>color-blue-a06: #0066cc</code> (valore) e <code>color-primary:color-blu-a06</code> (decisione) — , che nelle prossime versioni di tutte le risorse afferenti al design system del Paese, siano di design o di sviluppo, ci auspichiamo rendano <strong>tutto più coerente, più facilmente aggiornabile, migliorabile e scalabile</strong>. I <em>design token</em> rispondono inoltre alle esigenze di personalizzazione emerse dalla ricerca.</p>
+<div data-service="youtube" data-id="1UKjfSyox-k"></div>
+<p class="embedCaption">Community lab: a che punto siamo con UI kit e design token?</p>
+<h3>7. Fatto bene è realizzato con Bootstrap Italia</h3>
+<div class="feature img">
+<picture><source type="image/avif" srcset="/imgs/z8KHC_loXe-320.avif 320w, /imgs/z8KHC_loXe-640.avif 640w, /imgs/z8KHC_loXe-1280.avif 1280w" sizes="100vw"><source type="image/webp" srcset="/imgs/z8KHC_loXe-320.webp 320w, /imgs/z8KHC_loXe-640.webp 640w, /imgs/z8KHC_loXe-1280.webp 1280w" sizes="100vw"><source type="image/jpeg" srcset="/imgs/z8KHC_loXe-320.jpeg 320w, /imgs/z8KHC_loXe-640.jpeg 640w, /imgs/z8KHC_loXe-1280.jpeg 1280w" sizes="100vw"><img alt="Bootstrap Italia" loading="lazy" decoding="auto" src="/imgs/z8KHC_loXe-320.jpeg" width="1280" height="891"></picture>
+<small><a href="https://github.com/italia/bootstrap-italia">Repository</a>, foglio validazione componenti e <a href="https://italia.github.io/bootstrap-italia/">Documentazione</a> di Bootstrap Italia</small>
+</div>
+<p>Bootstrap Italia è il kit per lo sviluppo di interfacce del design system del Paese. A distanza di anni, da quando fu rilasciata una prima versione, è evidente quanto sia stato importante pensare a un <strong><em>framework</em> unico di sviluppo, basato sulle esigenze della Pubblica Amministrazione</strong>. Fu realizzato con quello che allora era il riferimento, il più utilizzato ma anche il più vicino ai requisiti di accessibilità: Bootstrap. E oggi, dopo aver inizialmente tolto la ruggine all’ultima versione basata su Bootstrap 4, anche integrando molti contributi della <em>community</em>, è in dirittura d’arrivo la <strong>nuova versione 2.0</strong> portata su Bootstrap 5.</p>
+<p>In questa nuova versione, oltre ad ereditare tutte le nuove caratteristiche di Bootstrap 5, Bootstrap Italia è ottimizzato per molti aspetti che riguardano specificatamente la Pubblica Amministrazione e l’accessibilità. Abbiamo validato, o per meglio dire, stiamo validando e <strong>continueremo a migliorare ogni componente</strong>, cercando anche di fornire documentazione con indicazioni per l’implementazione laddove necessario.</p>
+<p>Durante queste lavorazioni sono state fatte scelte di rottura, consapevoli che la semplicità sia un valore, che sia più facile cioè da manutenere e realizzare, come il dettaglio con cui si apre l’articolo sull’usare markup HTML semantico standard per molti componenti dei <em>form</em> o, altro esempio interessante, come scegliere di <strong>integrare la soluzione dei colleghi inglesi</strong> <a href="https://alphagov.github.io/accessible-autocomplete/">Accessible autocomplete</a>, un plugin che permette di cercare e scegliere risposte da una lunga lista, progettato e sviluppato per l’accessibilità.</p>
+<div data-service="youtube" data-id="dQVy8DLPJbY"></div>
+<p class="embedCaption">Community lab: scopriamo Bootstrap Italia 2.0</p>
+<p><strong>Bootstrap Italia 2.0 è stato progettato per essere scalabile</strong> come richiesto dalle risultanze della ricerca: basti citare come esempi l’uso di Javascript puro per tutte le funzionalità, e l’integrazione di Rollup, che permette di integrare nel proprio progetto solo le parti necessarie del <em>framework</em>, con vantaggi di peso e velocità come si può approfondire in <a href="https://medium.com/@Developers_Italia/af92a8bba9d2">questo articolo</a>. Anche in questo caso si tratta di <strong>un lavoro aperto</strong>, e vi invitiamo a partecipare ai lavori in corso provando o contribuendo all’ultima versione rilasciata di <a href="https://github.com/italia/bootstrap-italia/releases">Bootstrap Italia 2.0</a> su GitHub.</p>
+<h3>8. Fatto bene segue modelli standard</h3>
+<div class="feature img">
+<picture><source type="image/avif" srcset="data:image/avif;base64,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 320w, /imgs/9HHYZFDTOD-640.avif 640w, /imgs/9HHYZFDTOD-1280.avif 1280w" sizes="100vw"><source type="image/webp" srcset="/imgs/9HHYZFDTOD-320.webp 320w, /imgs/9HHYZFDTOD-640.webp 640w, /imgs/9HHYZFDTOD-1280.webp 1280w" sizes="100vw"><source type="image/jpeg" srcset="/imgs/9HHYZFDTOD-320.jpeg 320w, /imgs/9HHYZFDTOD-640.jpeg 640w, /imgs/9HHYZFDTOD-1280.jpeg 1280w" sizes="100vw"><img alt="Modelli di design" loading="lazy" decoding="auto" src="/imgs/9HHYZFDTOD-320.jpeg" width="1280" height="891"></picture>
+<small>Modelli standard per i siti e i servizi digitali dei <a href="https://designers.italia.it/modelli/comuni/">Comuni</a> e delle <a href="https://designers.italia.it/modelli/scuole/">scuole</a></small>
+</div>
+<p>La progettazione di esperienze digitali semplici ed efficaci richiede tempo, risorse e molta ricerca. <strong>I modelli di siti e servizi digitali per gli enti</strong> (oggi scuole e Comuni) permettono di rispondere ai bisogni dei cittadini in modo rapido e a minor costo, sfruttando flussi e funzionalità validate dalla ricerca.</p>
+<p>I <a href="https://designers.italia.it/modello/comuni/">modelli</a> proposti da Designers Italia, comprendono l’architettura dell’informazione, i <em>template</em> HTML e i temi per CMS (<em>Content Management System</em>), su cui sono stati effettuati in questi mesi importanti lavori, anche per migliorarne l’accessibilità, corredati da una serie di guide pratiche a supporto. <strong>I modelli rappresentano precisamente il concetto della creazione di servizi digitali accessibili <em>by default</em></strong>: partire con un intero modello validato e radicato nella ricerca utente.</p>
+<p>I modelli per le scuole e i Comuni sono oggetto della <a href="https://padigitale2026.gov.it/misure/#esp-serv-pubb">misura 1.4.1 del PNRR “Esperienza dei servizi pubblici”</a>. Seguire un modello non significa creare siti uniformi, ma coerenti. Il modello infatti nasce <strong>nel rispetto delle esigenze del cittadino e delle necessità di flessibilità degli enti</strong>, in questo ordine. Gli enti possono adattare il modello al contesto specifico rispettando comunque i criteri di conformità.</p>
+<h3>9. Fatto bene a volte… non basta</h3>
+<p>I «pezzi» del design system del Paese non sono tutto: l’accessibilità è principalmente una questione semantica, di significato degli elementi e dei comportamenti. <strong>L’utilizzo di componenti accessibili non rende automaticamente un applicativo accessibile</strong>, tuttavia sono un aiuto fondamentale per compiere <em>by default</em> un processo nel modo più ottimale possibile.</p>
+<p>Il percorso costruito attraverso il design system è proprio incentrato sul concetto di <strong>accessibilità <em>by default</em></strong>. Per ogni attività devono essere utilizzabili elementi, strutture, procedure, che sono già passati attraverso i necessari processi di validazione (documentazione, <em>mockup</em>, <em>framework</em>, <em>template</em>, ecc). Al termine del processo le attività di verifica e di ottimizzazione potranno essere più limitate, per poi liberare risorse per la gestione di casi più complessi o attivare supporti più innovativi.</p>
+<h3>10. Fatto bene ha bisogno di test e feedback</h3>
+<p>Nei prossimi anni ci aspettano molte sfide per scalare, dare <em>governance</em> chiara, rendere sostenibile e curare con efficacia il design system del Paese. <strong>Per raggiungere questo obiettivo abbiamo bisogno di tutta la <em>community</em></strong>: l’ambiente in cui si muovono e vivono le persone non è quello ideale di utilizzo di un applicativo. Tutti noi utilizziamo applicativi in ambienti i più strani, mentre camminiamo, con il gelato in mano, con tecnologie assistive, magari con tecnologie assistive che oggi neanche immaginiamo.</p>
+<div data-service="youtube" data-id="jBE_cUQuWxI"></div>
+<p class="embedCaption">La partecipazione agli Accessibility Days 2022: <a href="https://www.youtube.com/watch?v=jBE_cUQuWxI">parte 1</a> e <a href="https://www.youtube.com/watch?v=DlBbsVGi_TQ">parte 2</a></p>
+<p>Durante la partecipazione agli <a href="https://accessibilitydays.it/">Accessibility Days</a>, ci è stato ricordato il motto dei diritti delle persone con condizioni di disabilità: <strong>“Niente su di Noi, senza di Noi”</strong>. In autunno, proprio con l’aiuto del team degli Accessibility Days, ci siamo ripromessi di creare occasioni di confronto e test di usabilità, con particolare attenzione all’accessibilità, per <strong>raccogliere dati e migliorare piattaforme, siti e servizi pubblici digitali</strong> che utilizzano il design system del Paese. Con l’auspicio di riuscirci, e che diventi un’abitudine, per migliorare continuamente, insieme, con partecipazione e responsabilità.</p>
+<hr>
+<h2 id="il-futuro-appartiene-alle-persone" tabindex="-1">Il futuro appartiene alle persone</h2>
+<div class="popout img">
+<picture><source type="image/avif" srcset="/imgs/eRhUcg-sb4-320.avif 320w, /imgs/eRhUcg-sb4-640.avif 640w, /imgs/eRhUcg-sb4-1280.avif 1280w" sizes="100vw"><source type="image/webp" srcset="/imgs/eRhUcg-sb4-320.webp 320w, /imgs/eRhUcg-sb4-640.webp 640w, /imgs/eRhUcg-sb4-1280.webp 1280w" sizes="100vw"><source type="image/jpeg" srcset="/imgs/eRhUcg-sb4-320.jpeg 320w, /imgs/eRhUcg-sb4-640.jpeg 640w, /imgs/eRhUcg-sb4-1280.jpeg 1280w" sizes="100vw"><img alt="Mani che collaborano per il meglio" loading="lazy" decoding="auto" src="/imgs/eRhUcg-sb4-320.jpeg" width="1280" height="719"></picture>
+<small>Photo <a href="https://unsplash.com/es/@hannahbusing">Hannah Busing</a>, <a href="https://unsplash.com/@lazycreekimages">Michael Dziedzic</a></small>
+</div>
+<p><strong>Il design system del Paese è un progetto di interesse pubblico, aperto e partecipato.</strong> Ci piace pensare che questo progetto appartenga soprattutto a voi che state leggendo, che possiate farlo vostro, ognuno con le proprie competenze e livello di coinvolgimento, nella Pubblica Amministrazione centrale e sul territorio, e nei suoi fornitori. Partecipando alle lavorazioni, segnalando o proponendo miglioramenti, provandone le risorse e partecipando a test e presentazioni, rilasciando soluzioni alternative o analisi e revisioni, allo stesso modo pubbliche e <em>open</em> con le licenze aperte corrette, facendo domande e aiutandoci a diffondere consapevolezza sul progettare e sviluppare interfacce di cittadinanza di qualità, a tutti i livelli.</p>
+<h2 id="il-futuro-e-una-questione-culturale" tabindex="-1">Il futuro è una questione culturale</h2>
+<div class="popout img">
+<picture><source type="image/avif" srcset="data:image/avif;base64,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 320w, /imgs/APgh54peKY-640.avif 640w" sizes="100vw"><source type="image/webp" srcset="/imgs/APgh54peKY-320.webp 320w, /imgs/APgh54peKY-640.webp 640w" sizes="100vw"><source type="image/jpeg" srcset="/imgs/APgh54peKY-320.jpeg 320w, /imgs/APgh54peKY-640.jpeg 640w" sizes="100vw"><img alt="Palloncini e bambina con occhiali VR" loading="lazy" decoding="auto" src="/imgs/APgh54peKY-320.jpeg" width="640" height="360"></picture>
+<small>Photo <a href="https://unsplash.com/@giuvicente">Giu Vicente</a>, <a href="https://unsplash.com/@olesia_bahrii">Olesia Bahrii</a></small>
+</div>
+<p>C’è ancora una domanda, però, che rimane forse irrisolta: <strong>chi sta insegnando a “fare accessibile” alla prossima generazione di designer e sviluppatori?</strong> Non vorremmo aprire un piccolo vaso di Pandora, ma nelle Università italiane dedicate all’ITC, alle discipline informatiche, o al design, quanti e quali corsi sono dedicati all’accessibilità? <strong>Siamo sicuri che in Italia ci siano molte eccellenze</strong>, ma la domanda, e la questione culturale che porta con sé, rimane d’importanza capitale: nei prossimi mesi troviamo un’occasione per parlarne, valorizzare esperienze virtuose e rilanciare?</p>
+<hr>
+<p><a href="https://creativecommons.org/licenses/by/4.0/">Alcuni diritti riservati</a></p>
+
+
+  
+  <div class="idea-metadata" data-pagefind-ignore>
+    
+    
+    
+    
+    <a href="/it/tags/accessibility/" class="idea-tag">Accessibility</a> &nbsp;
+    
+    
+    <a href="/it/tags/a11y/" class="idea-tag">A11y</a> &nbsp;
+    
+    
+    <a href="/it/tags/design-system/" class="idea-tag">Design System</a> &nbsp;
+    
+    
+    <a href="/it/tags/italia/" class="idea-tag">Italia</a> &nbsp;
+    
+    
+    <a href="/it/tags/pubblica-amministrazione/" class="idea-tag">Pubblica Amministrazione</a> &nbsp;
+    
+  </div>
+  
+
+  
+</article>
+		</main>
+		<footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner container">
+        
+        <p class="last-modified">Ultimo aggiornamento:
+            <time datetime="2024-01-10">
+                10 gennaio 2024
+            </time>
+            
+        </p>
+        
+        <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">Lasciami un messaggio o suggerisci un'idea</a>
+        <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/./src/it/ideas/2022-07-05-progettare-con-qualita.md">Proponi una modifica a questa pagina</a>
+        <a class="GitHub" style="margin-bottom: var(--spacing-large);"
+            href="https://github.com/Fupete/danieletabellini/commits/main/./src/it/ideas/2022-07-05-progettare-con-qualita.md">Esplora la storia dei commit</a>
+
+
+        <p class="me">
+            &copy; 2024 - Daniele Tabellini<br />
+        </p>
+        
+        <p>Tutti i diritti riservati eccetto dove specificato diversamente.<br /> Il
+            sorgente di questo sito web è <a href="https://github.com/Fupete/danieletabellini/">disponibile su
+                GitHub</a> con licenza aperta.
+        </p>
+        
+        
+        <div class="speedlify" style="margin-top: var(--spacing-large)">
+            <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/" class="speedlify-link">
+                <span class="visually-hidden">Uso una istanza Speedlify per monitorare le performance del sito: </span>
+                <speedlify-score hash="245eb9f7"
+                    speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app" score weight></speedlify-score>
+            </a>
+        </div>
+        <p class="estimatedCo2"></p>
+        
+            
+                
+                
+                
+                
+            
+    </div>
+</footer>
+	</div>
+
+	
+</body>
+
+</html>
