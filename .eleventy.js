@@ -195,7 +195,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/assets/css')
 	eleventyConfig.addPassthroughCopy('./src/assets/js')
 
-	// Build pagefind index 
+	// Build pagefind index XXX
 	eleventyConfig.on('eleventy.after', async () => {
 		execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
 	})
