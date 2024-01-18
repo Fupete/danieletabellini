@@ -3,56 +3,98 @@ layout: base
 eleventyNavigation:
 key: Home
 order: 1
-lastUpdate: 2024-01-14
+lastUpdate: 2024-01-18
 ---
 
-<div class="container home">
+<div class="home">
 
-  <h1>My design recipe: people, quality, and a sprinkle o' salt</h1>
+  <section class="container">
+    <div class="hero full">
+      <div class="hero___content">
+        <h1>My design recipe: people, quality, and a sprinkle o' salt</h1>
+        <p class="lead">I'm Daniele Tabellini</p>
+        <p>I look after <strong><a href="https://designers.italia.it/design-system/">.Italia the Italian Design
+              System</a></strong>&nbsp;<sup>IT</sup> for Designers Italia. I work on usability, accessibility, open
+          source and
+          open design for
+          the Department for Digital Transformation - Italian Gov. I teach <strong><a
+              href="https://design.unirsm.sm/courses/digital-experience-lab/">concept design and creative
+              coding</a></strong>&nbsp;<sup>IT</sup>
+          at Design UNIRSM. With Erika Gabbani we do <strong><a
+              href="https://www.tellerk.com/portfolio/drawings/">art</a></strong> as Teller & K (T+K, formerly Fupete),
+          <strong><a href="https://nasonero.studio/portfolio">production, curatorial and design</a></strong> as
+          nasonero.studio
+        </p>
+        <div class="cover-links">
+          <ul>
+            <li><a
+                href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
+                CV</a>&nbsp;<sup>IT</sup></li>
+            <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a>&nbsp;<sup>IT</sup></li>
+          </ul>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
+            <li><a href="https://x.com/fupete">X</a></li>
+            <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
+            <li><a href="https://github.com/fupete">GitHub</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://nasonero.studio">nasonero.studio</a></li>
+            <li><a href="https://tellerk.com">tellerk.com</a></li>
+          </ul>
+        </div>
+      </div>
+      {% image "profile.png", "I draw and play with the color Blu Italia #0066CC", "100vw", [320, 640, 1280, 1920],
+      "eager" %}
+    </div>
+  </section>
 
-  <p class="lead">I'm Daniele Tabellini</p>
+  <section class="container">
+    <div class="search feature">
+      <label for="site-search" class="input-search-label visually-hidden">Campo di ricerca</label>
+      <div id="searchBox" class="search-box"></div>
+    </div>
+  </section>
 
-  <p>I look after <strong><a href="https://designers.italia.it/design-system/">.Italia the Italian Design
-        System</a></strong>&nbsp;<sup>IT</sup> for Designers Italia. I work on usability, accessibility, open source and
-    open design for
-    the Department for Digital Transformation - Italian Gov. I teach <strong><a
-        href="https://design.unirsm.sm/courses/digital-experience-lab/">concept design and creative
-        coding</a></strong>&nbsp;<sup>IT</sup>
-    at Design UNIRSM. With Erika Gabbani we do <strong><a
-        href="https://www.tellerk.com/portfolio/drawings/">art</a></strong> as Teller & K (T+K, formerly Fupete),
-    <strong><a href="https://nasonero.studio/portfolio">production, curatorial and design</a></strong> as
-    nasonero.studio
-  </p>
+  <section class="container">
+    <div class="portfolio full">
+      <div class="project">
+        <div class="head">
+          <h2><a href="#">.Italia, the Italian Gov Design System</a></h2>
+          <p class="profile">Design System Lead</p>
+        </div>
+        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1536, 1920] %}
+      </div>
+      <div class="project">
+        <div class="head">
+          <h2><a href="#">Designers Italia</a></h2>
+          <p class="profile">Principal Designer</p>
+        </div>
+        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1920] %}
+      </div>
+      <div class="project">
+        <div class="head">
+          <h2><a href="#">PA digitale 2026</a></h2>
+          <p class="profile">UI/UX Designer</p>
+        </div>
+        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1920] %}
+      </div>
+      <div class="discover-more">
+        <a class="button" href="">Browse all projects</a>
+      </div>
+    </div>
+  </section>
 
-  <div class="cover-image feature">{% image "dt-2024-01.jpg", "I draw and play with the color Blu Italia #0066CC", "100vw", [640, 1280, 1600], "eager" %}
-  </div>
-
-  <p><strong>Principal Designer</strong> / <strong>Italian Artist</strong> / <strong>Consultant Art Director and Design Technologist</strong> / <strong>Expert UI/UX Designer at Department for Digital Transformation - Italian Gov</strong> / <strong>Adj. Professor in Digital Experience Lab at Design
+  <section class="container">
+  <p><strong>Principal Designer</strong> / <strong>Italian Artist</strong> / <strong>Consultant Art Director and
+      Design Technologist</strong> / <strong>Expert UI/UX Designer at Department for Digital Transformation -
+      Italian Gov</strong> / <strong>Adj. Professor in Digital Experience Lab at Design
       UNIRSM</strong> / Ex Lcd Firenze / Ex ROJO Magazine / Ex E-Tree</p>
 
   <p>Topics of interest: #designGov #designSystem #a11y #openDesign
     #openSource #drawing #digitalBrut #creativeCoding #performingArts</p>
-
-  <div class="cover-links">
-    <ul>
-      <li><a
-          href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
-          CV</a>&nbsp;<sup>IT</sup></li>
-      <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a>&nbsp;<sup>IT</sup></li>
-    </ul>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
-      <li><a href="https://x.com/fupete">X</a></li>
-      <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
-      <li><a href="https://github.com/fupete">GitHub</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://nasonero.studio">nasonero.studio</a></li>
-      <li><a href="https://tellerk.com">tellerk.com</a></li>
-    </ul>
-  </div>
-
-
+  </section>
+  
   {# {% set ideaslist = collections["ideas_" + page.lang] %}
   {% include "home-ideaslist.njk" %}
 
