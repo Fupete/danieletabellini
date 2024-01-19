@@ -12,6 +12,7 @@
 
         @media(min-width: 47.9375em) {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
         }
@@ -24,12 +25,9 @@
                 font-size: var(--fluid-0);
                 font-weight: 600;
                 margin: 0;
-
-                @media(min-width: 47.9375em) {
-                    display: flex;
-                    flex-wrap: wrap;
-                    align-items: center;
-                }
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
 
                 li {
                     margin: 0;

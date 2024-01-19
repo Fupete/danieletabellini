@@ -11,13 +11,46 @@
         </li>
         {% if page.lang == 'en'%}
         {% set ideasUrl %}/{{page.lang}}/ideas/{% endset %}
+        {# {% set artsUrl %}/{{page.lang}}/arts/{% endset %}
+        {% set sketchesUrl %}/{{page.lang}}/sketches/{% endset %}
+        {% set eduUrl %}/{{page.lang}}/teaching/{% endset %} #}
         {% else %}
         {% set ideasUrl %}/{{page.lang}}/idee/{% endset %}
+        {# {% set artsUrl %}/{{page.lang}}/arti/{% endset %}
+        {% set sketchesUrl %}/{{page.lang}}/schizzi/{% endset %}
+        {% set eduUrl %}/{{page.lang}}/insegnamento/{% endset %} #}
         {% endif %}
+        {# {% set designUrl %}/{{page.lang}}/design/{% endset %}
+        {% set openUrl %}/{{page.lang}}/open/{% endset %} #}
+        {# <li class="nav__item {% if designUrl == page.url %}nav__item--active{% endif %}">
+            <a class="nav__link" href="{{designUrl | url }}">
+                Design
+            </a>
+        </li>
+        <li class="nav__item {% if eduUrl == page.url %}nav__item--active{% endif %}">
+            <a class="nav__link" href="{{eduUrl | url }}">
+                {% if page.lang == 'en' %}Teaching{% else %}Insegnamento{% endif %}
+            </a>
+        </li>
+        <li class="nav__item {% if artsUrl == page.url %}nav__item--active{% endif %}">
+            <a class="nav__link" href="{{artsUrl | url }}">
+                {% if page.lang == 'en' %}Arts{% else %}Arti{% endif %}
+            </a>
+        </li> #}
         <li class="nav__item {% if ideasUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{ideasUrl | url }}">
                 {% if page.lang == 'en' %}Ideas{% else %}Idee{% endif %}
             </a>
         </li>
+        {# <li class="nav__item {% if sketchesUrl == page.url %}nav__item--active{% endif %}">
+            <a class="nav__link" href="{{sketchesUrl | url }}">
+                {% if page.lang == 'en' %}Sketches{% else %}Schizzi{% endif %}
+            </a>
+        </li>
+        <li class="nav__item {% if openUrl == page.url %}nav__item--active{% endif %}">
+            <a class="nav__link" href="{{openUrl | url }}">
+                Open source
+            </a>
+        </li> #}
     </ul>
 </nav>
