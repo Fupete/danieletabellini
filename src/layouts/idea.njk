@@ -3,7 +3,15 @@ layout: base
 image:
 ---
 <article class="container" data-pagefind-body>
-  <h1>{{ title }}</h1>
+  <h1 {% set ideaslist=collections["ideas_" + page.lang] %} {% if ideaslist | length> 0 %}
+    {% for idea in ideaslist | reverse %}
+    {% if idea.url == page.url %}
+    data-pagefind-filter="{% if page.lang == 'en' %}By type: Ideas{% else %}Per tipo: Idee{% endif %}"
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    >
+    {{ title }}</h1>
 
   {% if hideReadingTime != true %}
   <p>
@@ -16,11 +24,13 @@ image:
 
   {% if (page.fileSlug !== "timeline") %}
   <div class="idea-metadata" data-pagefind-ignore>
-    {# <time class="ideaslist-date" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date | dateToFormat('yyyy MM') }}</time> #}
+    <time class="ideaslist-date visual-hidden" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date |
+      dateToFormat('yyyy MM') }}</time>
     {# /  #}
     {% for tag in tags | filterTagList %}
     {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a> &nbsp;
+    <a data-pagefind-filter="{% if page.lang == 'en' %}By tag: {{ tag }}{% else %}Per argomenti: {{ tag }}{% endif %}"
+      href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a> &nbsp;
     {% endfor %}
   </div>
   {% endif %}
