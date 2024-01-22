@@ -4,6 +4,7 @@ const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighl
 const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite')
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const EleventyPluginIcons = require('eleventy-plugin-icons')
+const EleventyPluginOgImage = require('eleventy-plugin-og-image')
 
 const rollupPluginCritical = require('rollup-plugin-critical').default
 
@@ -12,7 +13,8 @@ const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const pairedShortcodes = require('./utils/paired-shortcodes.js')
 
-// const { resolve } = require('path')
+const path = require('path')
+const fs = require("fs")
 const { execSync } = require('child_process')
 
 // markdown
@@ -22,7 +24,6 @@ const markdownItTocDoneRight = require('markdown-it-toc-done-right')
 const markdownItFootnote = require('markdown-it-footnote')
 // image gallery
 const Image = require('@11ty/eleventy-img')
-const path = require('path')
 const sharp = require('sharp')
 const GALLERY_IMAGE_WIDTH = 320;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
@@ -50,6 +51,20 @@ module.exports = function (eleventyConfig) {
 		}
 	})
 	eleventyConfig.addPlugin(readingTime)
+	eleventyConfig.addPlugin(EleventyPluginOgImage, {
+		// https://github.com/KiwiKilian/eleventy-plugin-og-image#readme
+		outputDir: '_site/public/og-images/',
+		satoriOptions: {
+		  fonts: [
+			{
+			  name: 'Inter',
+			  data: fs.readFileSync('./public/assets/fonts/inter/Inter-Black.woff'),
+			  weight: 900,
+			  style: 'normal'
+			},
+		  ],
+		},
+	  })
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
 		viteOptions: {
