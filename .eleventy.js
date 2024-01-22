@@ -55,16 +55,22 @@ module.exports = function (eleventyConfig) {
 		// https://github.com/KiwiKilian/eleventy-plugin-og-image#readme
 		outputDir: '_site/public/og-images/',
 		satoriOptions: {
-		  fonts: [
-			{
-			  name: 'Inter',
-			  data: fs.readFileSync('./public/assets/fonts/inter/Inter-Black.woff'),
-			  weight: 900,
-			  style: 'normal'
-			},
-		  ],
+			fonts: [
+				{
+					name: 'Inter',
+					data: fs.readFileSync('./public/assets/fonts/inter/Inter-Black.woff'),
+					weight: 900,
+					style: 'normal'
+				},
+				{
+					name: 'Inter',
+					data: fs.readFileSync('./public/assets/fonts/inter/Inter-Bold.woff'),
+					weight: 600,
+					style: 'normal'
+				},
+			],
 		},
-	  })
+	})
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
 		viteOptions: {

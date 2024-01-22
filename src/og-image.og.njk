@@ -4,17 +4,26 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        background: linear-gradient(135deg, #ef629f, #eecda3);
+        align-items: flex-start;
+        justify-content: center;
+        background: linear-gradient(135deg, #0066cc, #111111);
+        padding-left: 48px;
+        padding-right: 48px;
     }
 
     .title {
-        color: white;
-        font-size: 80px;
-        margin: auto 0;
+        color: #fefefe;
+        font-size: 84px;
+    }
+
+    .subtitle {
+        color: #fefefe;
+        font-size: 32px;
+        font-weight: 600;
     }
 </style>
 
 <div class="root">
+    <p class="subtitle">{{ website }} </p>
     <h1 class="title">{{ title }}</h1>
 </div>
