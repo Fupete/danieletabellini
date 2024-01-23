@@ -1,5 +1,6 @@
 ---
 title: Privacy policy
+description: "I want to provide you with a simple and clear privacy policy"
 layout: idea
 permalink: /en/privacy-policy/
 lastUpdate: 2024-01-12
