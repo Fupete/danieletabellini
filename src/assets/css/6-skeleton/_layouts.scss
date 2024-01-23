@@ -66,6 +66,7 @@ section.container {
 
             @media(min-width: 64.0625em) {
                 height: inherit;
+                max-height: 480px;
             }
 
             img {

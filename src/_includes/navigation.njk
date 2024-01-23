@@ -20,14 +20,14 @@
         {% set sketchesUrl %}/{{page.lang}}/schizzi/{% endset %}
         {% set eduUrl %}/{{page.lang}}/insegnamento/{% endset %} #}
         {% endif %}
-        {# {% set designUrl %}/{{page.lang}}/design/{% endset %}
-        {% set openUrl %}/{{page.lang}}/open/{% endset %} #}
-        {# <li class="nav__item {% if designUrl == page.url %}nav__item--active{% endif %}">
+        {% set designUrl %}/{{page.lang}}/design/{% endset %}
+        {# {% set openUrl %}/{{page.lang}}/open/{% endset %}  #}
+        <li class="nav__item {% if designUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{designUrl | url }}">
                 Design
             </a>
         </li>
-        <li class="nav__item {% if eduUrl == page.url %}nav__item--active{% endif %}">
+        {#  <li class="nav__item {% if eduUrl == page.url %}nav__item--active{% endif %}">
             <a class="nav__link" href="{{eduUrl | url }}">
                 {% if page.lang == 'en' %}Teaching{% else %}Insegnamento{% endif %}
             </a>
