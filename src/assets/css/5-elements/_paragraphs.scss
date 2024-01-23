@@ -1,13 +1,13 @@
 p {
     font-size: var(--fluid-0);
-    line-height: 1.75;
+    line-height: calc(1ex / 0.32);
     max-width: var(--container-max-ch);
     margin-top: var(--spacing-x-small);
     margin-bottom: var(--spacing-x-small);
 
     &.lead {
         font-size: var(--fluid-2);
-        line-height: 1.4;
+        line-height: calc(1ex / 0.37);
         font-weight: 500;
     }
 

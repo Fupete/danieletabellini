@@ -4,6 +4,7 @@ const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighl
 const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite')
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const EleventyPluginIcons = require('eleventy-plugin-icons')
+const EleventyPluginOgImage = require('eleventy-plugin-og-image')
 
 const rollupPluginCritical = require('rollup-plugin-critical').default
 
@@ -13,6 +14,7 @@ const shortcodes = require('./utils/shortcodes.js')
 const pairedShortcodes = require('./utils/paired-shortcodes.js')
 
 const path = require('path')
+const fs = require("fs")
 const { execSync } = require('child_process')
 
 // markdown
@@ -49,6 +51,27 @@ module.exports = function (eleventyConfig) {
 		}
 	})
 	eleventyConfig.addPlugin(readingTime)
+	eleventyConfig.addPlugin(EleventyPluginOgImage, {
+		// https://github.com/KiwiKilian/eleventy-plugin-og-image#readme
+		outputDir: '_site/public/og-images/',
+		outputFileExtension: 'png',
+		satoriOptions: {
+			fonts: [
+				{
+					name: 'Inter',
+					data: fs.readFileSync('./public/assets/fonts/inter/Inter-Black.woff'),
+					weight: 900,
+					style: 'normal'
+				},
+				{
+					name: 'Inter',
+					data: fs.readFileSync('./public/assets/fonts/inter/Inter-Bold.woff'),
+					weight: 600,
+					style: 'normal'
+				},
+			],
+		},
+	})
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
 		viteOptions: {
