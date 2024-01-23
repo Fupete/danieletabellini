@@ -1,5 +1,6 @@
 ---
 title: Privacy policy
+description: "Voglio fornirti un'informativa privacy semplice e chiara"
 layout: idea
 permalink: /it/privacy-policy/
 lastUpdate: 2024-01-12
