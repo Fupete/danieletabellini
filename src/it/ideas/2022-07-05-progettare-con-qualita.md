@@ -1,7 +1,7 @@
 ---
 title: "Progettare con qualità: l’accessibilità al centro del design system del Paese"
 description: "Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi"
-canonical: https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099
+# canonical: https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099
 permalink: /it/idee/progettare-con-qualita/
 image: cover.webp
 tags: [Accessibility,A11y,Design System,Italia,Pubblica Amministrazione]
@@ -116,7 +116,7 @@ Un occhio di riguardo è stato messo nel sincronizzare tutti i componenti con i 
 
 Una parte importante delle lavorazioni è stata dedicata all’**integrazione di _design token_**: piccoli elementi “di verità” utili a rappresentare decisioni di stile applicabili in modo coerente tra diversi progetti, _framework_ e strumenti — un esempio di _design token_: `color-blue-a06: #0066cc` (valore) e `color-primary:color-blu-a06` (decisione) — , che nelle prossime versioni di tutte le risorse afferenti al design system del Paese, siano di design o di sviluppo, ci auspichiamo rendano **tutto più coerente, più facilmente aggiornabile, migliorabile e scalabile**. I _design token_ rispondono inoltre alle esigenze di personalizzazione emerse dalla ricerca.
 
-<div data-service="youtube" data-id="1UKjfSyox-k"></div>
+<div data-service="youtube" data-title="Community lab: a che punto siamo con UI kit e design token?" data-id="1UKjfSyox-k"></div>
 
 <p class="embedCaption">Community lab: a che punto siamo con UI kit e design token?</p>
 
@@ -133,7 +133,7 @@ In questa nuova versione, oltre ad ereditare tutte le nuove caratteristiche di B
 
 Durante queste lavorazioni sono state fatte scelte di rottura, consapevoli che la semplicità sia un valore, che sia più facile cioè da manutenere e realizzare, come il dettaglio con cui si apre l’articolo sull’usare markup HTML semantico standard per molti componenti dei _form_ o, altro esempio interessante, come scegliere di **integrare la soluzione dei colleghi inglesi** [Accessible autocomplete](https://alphagov.github.io/accessible-autocomplete/), un plugin che permette di cercare e scegliere risposte da una lunga lista, progettato e sviluppato per l’accessibilità.
 
-<div data-service="youtube" data-id="dQVy8DLPJbY"></div>
+<div data-service="youtube" data-title="Community lab: scopriamo Bootstrap Italia 2.0" data-id="dQVy8DLPJbY"></div>
 
 <p class="embedCaption">Community lab: scopriamo Bootstrap Italia 2.0</p>
 
@@ -162,7 +162,7 @@ Il percorso costruito attraverso il design system è proprio incentrato sul conc
 
 Nei prossimi anni ci aspettano molte sfide per scalare, dare _governance_ chiara, rendere sostenibile e curare con efficacia il design system del Paese. **Per raggiungere questo obiettivo abbiamo bisogno di tutta la _community_**: l’ambiente in cui si muovono e vivono le persone non è quello ideale di utilizzo di un applicativo. Tutti noi utilizziamo applicativi in ambienti i più strani, mentre camminiamo, con il gelato in mano, con tecnologie assistive, magari con tecnologie assistive che oggi neanche immaginiamo.
 
-<div data-service="youtube" data-id="jBE_cUQuWxI"></div>
+<div data-service="youtube" data-title="La partecipazione agli Accessibility Days 2022 - parte 1" data-id="jBE_cUQuWxI"></div>
 
 <p class="embedCaption">La partecipazione agli Accessibility Days 2022: <a href="https://www.youtube.com/watch?v=jBE_cUQuWxI">parte 1</a> e <a href="https://www.youtube.com/watch?v=DlBbsVGi_TQ">parte 2</a></p>
 
