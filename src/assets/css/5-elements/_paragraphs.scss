@@ -28,6 +28,11 @@ blockquote {
         font-weight: 500;
     }
 
+    footer {
+        margin-top: var(--spacing-large);
+        font-size: .875rem;
+    }
+
     margin: var(--spacing-x-large) 0;
     border-left: 2px solid var(--textColor);
     padding-left: var(--spacing-x-large)
