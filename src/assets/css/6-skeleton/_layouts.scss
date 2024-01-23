@@ -46,12 +46,13 @@ section.container {
     .hero {
         display: flex;
         gap: var(--spacing-medium);
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column-reverse;
 
         @media(min-width: 64.0625em) {
-            gap: var(--spacing-large);
+            gap: var(--spacing-x-large);
             flex-direction: row;
+            padding: 0 var(--spacing-x-large);
         }
 
         .hero___content,
@@ -66,7 +67,7 @@ section.container {
 
             @media(min-width: 64.0625em) {
                 height: inherit;
-                max-height: 480px;
+                max-height: 520px;
             }
 
             img {
