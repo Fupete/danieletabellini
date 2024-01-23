@@ -2,6 +2,7 @@
     <div class="site-footer__inner container">
         {% if lastUpdate %}
         <p class="last-modified">
+            {% emoji "💾 " %} 
             {%- if page.lang == 'en' %}Last update:
             <time datetime="{{ lastUpdate | dateToFormat('yyyy-MM-dd') }}">
                 {{ lastUpdate | dateToFormat('DDD') }}
@@ -15,7 +16,7 @@
         {% endif %}
         <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">
             {%- if page.lang == 'it' %}Lasciami un messaggio o suggerisci un'idea{% else %}Drop me a note or
-            suggest an idea{% endif %}</a>
+            suggest an idea{% endif %} </a>
         <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/{{ page.inputPath }}">
             {%- if page.lang == 'it' %}Proponi una modifica a questa pagina{% else %}Propose an edit to this page{%
             endif %}</a>
@@ -52,7 +53,7 @@
             </a>
         </div>
         {%- endif %}
-        <p class="estimatedCo2"></p>
+        <p class="estimatedCo2">{% emoji "🌱 " %}</p>
         {# <nav class="nav nav--footer" role="navigation" tabindex="-1"
             aria-label="{% if page.lang == 'en' %}Useful links{% else %}Menu link utili{% endif %}">
             {# Nav Links #}

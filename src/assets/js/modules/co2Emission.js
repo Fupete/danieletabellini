@@ -20,8 +20,8 @@ async function tryEstimateCO2ofCurrentPage() {
         const estimatedCO2 = co2Emission.perVisit(bytesSent, false); // estimante CO2 per visits (world estimate, 75% new visitors)
 
         // string message IT/EN
-        const stringaCO2_EN = `You consume about ${estimatedCO2.toFixed(3)} grams of CO2 to view this page.`;
-        const stringaCO2_IT = `Consumi circa ${estimatedCO2.toFixed(3)} grammi di CO2 per visualizzare questa pagina.`;
+        const stringaCO2_EN = `You consume an average of ${estimatedCO2.toFixed(3)} grams of CO2 to view this page.`;
+        const stringaCO2_IT = `Consumi in media ${estimatedCO2.toFixed(3)} grammi di CO2 per visualizzare questa pagina.`;
         let stringaCO2
         if (document.documentElement.lang == 'en') stringaCO2 = stringaCO2_EN;
         else stringaCO2 = stringaCO2_IT;
