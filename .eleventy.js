@@ -54,6 +54,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyPluginOgImage, {
 		// https://github.com/KiwiKilian/eleventy-plugin-og-image#readme
 		outputDir: '_site/public/og-images/',
+		outputFileExtension: 'png',
 		satoriOptions: {
 			fonts: [
 				{
