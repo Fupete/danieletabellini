@@ -5,6 +5,7 @@ const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite')
 const { EleventyI18nPlugin } = require("@11ty/eleventy")
 const EleventyPluginIcons = require('eleventy-plugin-icons')
 const EleventyPluginOgImage = require('eleventy-plugin-og-image')
+const EleventyPluginEmoji = require('eleventy-plugin-emoji')
 
 const rollupPluginCritical = require('rollup-plugin-critical').default
 
@@ -72,6 +73,7 @@ module.exports = function (eleventyConfig) {
 			],
 		},
 	})
+	eleventyConfig.addPlugin(EleventyPluginEmoji)
 	eleventyConfig.addPlugin(EleventyVitePlugin, {
 		tempFolderName: './.11ty-vite',
 		viteOptions: {
