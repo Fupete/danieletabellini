@@ -51,7 +51,7 @@ section.container {
         flex-direction: column-reverse;
 
         @media(min-width: 64.0625em) {
-            gap: var(--spacing-x-large);
+            gap: var(--spacing-xx-large);
             flex-direction: row;
             padding: 0 var(--spacing-x-large);
         }
