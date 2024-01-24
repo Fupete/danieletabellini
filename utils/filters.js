@@ -47,12 +47,4 @@ module.exports = {
     })
     return toReturn
   }
-  sortObjectByKey: function (collection) {
-    const entries = Object.entries(collection)
-    const toReturn = entries.sort((entry1, entry2) => {
-      if (entry1[0] <= entry2[0]) return -1
-      else return 1
-    })
-    return toReturn
-  }
 }

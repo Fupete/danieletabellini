@@ -151,28 +151,30 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTransform(transformName, transforms[transformName])
   })
 
-	// Shortcodes
-	Object.keys(shortcodes).forEach((shortcodeName) => {
-		eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
-	})
-	eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
-	eleventyConfig.addShortcode("galleryImage", async function (src, alt) {
-		let imageSrc = `./src/imgs/${this.page.fileSlug}/${src}`
-		let lightboxImageWidth = LANDSCAPE_LIGHTBOX_IMAGE_WIDTH
-		if (alt === undefined) throw new Error(`Missing \`alt\` on image from: ${src}`)
-		let metadata = await sharp(imageSrc).metadata()
-		if (metadata.height > metadata.width) lightboxImageWidth = PORTRAIT_LIGHTBOX_IMAGE_WIDTH
-		let genMetadata = await Image(imageSrc, {
-			widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
-			formats: ["avif", "webp", "jpeg"],
-			urlPath: "/media/gallery/",
-			outputDir: "./public/media/gallery",
-		})
-		const imageUrl = eleventyConfig.getFilter("url")(genMetadata.jpeg[1].url)
-		const imageWidth = genMetadata.jpeg[1].width
-		const imageHeight = genMetadata.jpeg[1].height
-		const thumbUrl = eleventyConfig.getFilter("url")(genMetadata.jpeg[0].url)
-		return `
+  // Shortcodes
+  Object.keys(shortcodes).forEach((shortcodeName) => {
+    eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
+  })
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
+  eleventyConfig.addShortcode('galleryImage', async function (src, alt) {
+    let imageSrc = `./src/imgs/${this.page.fileSlug}/${src}`
+    let lightboxImageWidth = LANDSCAPE_LIGHTBOX_IMAGE_WIDTH
+    if (alt === undefined)
+      throw new Error(`Missing \`alt\` on image from: ${src}`)
+    let metadata = await sharp(imageSrc).metadata()
+    if (metadata.height > metadata.width)
+      lightboxImageWidth = PORTRAIT_LIGHTBOX_IMAGE_WIDTH
+    let genMetadata = await Image(imageSrc, {
+      widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
+      formats: ['avif', 'webp', 'jpeg'],
+      urlPath: '/media/gallery/',
+      outputDir: './public/media/gallery'
+    })
+    const imageUrl = eleventyConfig.getFilter('url')(genMetadata.jpeg[1].url)
+    const imageWidth = genMetadata.jpeg[1].width
+    const imageHeight = genMetadata.jpeg[1].height
+    const thumbUrl = eleventyConfig.getFilter('url')(genMetadata.jpeg[0].url)
+    return `
 			<li>
 				<a href="${imageUrl}" 
 				data-pswp-width="${imageWidth}" 
@@ -266,16 +268,16 @@ module.exports = function (eleventyConfig) {
     )
   })
 
-	return {
-		templateFormats: ['md', 'njk', 'html', 'liquid'],
-		htmlTemplateEngine: 'njk',
-		passthroughFileCopy: true,
-		dir: {
-			input: 'src',
-			output: '_site',
-			includes: '_includes',
-			layouts: 'layouts',
-			data: '_data'
-		}
-	}
+  return {
+    templateFormats: ['md', 'njk', 'html', 'liquid'],
+    htmlTemplateEngine: 'njk',
+    passthroughFileCopy: true,
+    dir: {
+      input: 'src',
+      output: '_site',
+      includes: '_includes',
+      layouts: 'layouts',
+      data: '_data'
+    }
+  }
 }
