@@ -15,12 +15,12 @@ Use like this in your CSS:
 ------------------------- static ------------------------- */
 
 @font-face {
-	font-family: 'Inter Subset';
-	font-display: swap;
-	src:
-		url('/assets/fonts/inter/Inter-Regular-subset.woff2') format('woff2'),
-		url('/assets/fonts/inter/Inter-Regular-subset.woff') formt('woff');
-	unicode-range: U+21-80, U+91-94, U+BF-D6, U+D8-F6, U+F8-122;
+  font-family: 'Inter Subset';
+  font-display: swap;
+  src:
+    url('/assets/fonts/inter/Inter-Regular-subset.woff2') format('woff2'),
+    url('/assets/fonts/inter/Inter-Regular-subset.woff') formt('woff');
+  unicode-range: U+21-80, U+91-94, U+BF-D6, U+D8-F6, U+F8-122;
 }
 
 // @font-face {
@@ -72,58 +72,58 @@ Use like this in your CSS:
 // }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-Regular.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-Regular.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-Regular.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-Regular.woff?v=3.19') format('woff');
 }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: italic;
-	font-weight: 400;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-Italic.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-Italic.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-Italic.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-Italic.woff?v=3.19') format('woff');
 }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 500;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-Medium.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-Medium.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-Medium.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-Medium.woff?v=3.19') format('woff');
 }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: italic;
-	font-weight: 500;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-MediumItalic.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-MediumItalic.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-MediumItalic.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-MediumItalic.woff?v=3.19') format('woff');
 }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 600;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-SemiBold.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-SemiBold.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-SemiBold.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-SemiBold.woff?v=3.19') format('woff');
 }
 
 // @font-face {
@@ -135,14 +135,14 @@ Use like this in your CSS:
 // }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-Bold.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-Bold.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-Bold.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-Bold.woff?v=3.19') format('woff');
 }
 
 // @font-face {
@@ -154,14 +154,14 @@ Use like this in your CSS:
 // }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 800;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-ExtraBold.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-ExtraBold.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-ExtraBold.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-ExtraBold.woff?v=3.19') format('woff');
 }
 
 // @font-face {
@@ -173,14 +173,14 @@ Use like this in your CSS:
 // }
 
 @font-face {
-	font-family: 'Inter';
-	font-style: normal;
-	font-weight: 900;
-	font-display: swap;
-	src:
-		local(''),
-		url('/assets/fonts/inter/Inter-Black.woff2?v=3.19') format('woff2'),
-		url('/assets/fonts/inter/Inter-Black.woff?v=3.19') format('woff');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local(''),
+    url('/assets/fonts/inter/Inter-Black.woff2?v=3.19') format('woff2'),
+    url('/assets/fonts/inter/Inter-Black.woff?v=3.19') format('woff');
 }
 
 // @font-face {
@@ -192,14 +192,14 @@ Use like this in your CSS:
 // }
 
 body {
-	font-family: sans-serif;
-	font-kerning: normal;
+  font-family: sans-serif;
+  font-kerning: normal;
 }
 
 .fonts-loaded-1 body {
-	font-family: 'Inter Subset';
+  font-family: 'Inter Subset';
 }
 
 .fonts-loaded-2 body {
-	font-family: 'Inter';
+  font-family: 'Inter';
 }

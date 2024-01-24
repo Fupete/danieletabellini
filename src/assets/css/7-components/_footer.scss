@@ -1,73 +1,73 @@
 ul.links-nextprev {
-	margin: var(--spacing-xx-large) 0;
-	font-size: 0.875rem;
+  margin: var(--spacing-xx-large) 0;
+  font-size: 0.875rem;
 }
 
 .site-footer {
-	.container {
-		position: relative;
-		margin: var(--spacing-xx-large) auto;
-		margin-bottom: 0;
+  .container {
+    position: relative;
+    margin: var(--spacing-xx-large) auto;
+    margin-bottom: 0;
 
-		a {
-			&.GitHub {
-				font-size: 0.875rem;
-				padding: var(--spacing-x-small) 0;
-			}
-		}
+    a {
+      &.GitHub {
+        font-size: 0.875rem;
+        padding: var(--spacing-x-small) 0;
+      }
+    }
 
-		p {
-			font-size: 0.875rem;
-			line-height: 1.6;
+    p {
+      font-size: 0.875rem;
+      line-height: 1.6;
 
-			&.me {
-				font-weight: 500;
-				margin-top: var(--spacing-large);
-			}
-		}
-	}
+      &.me {
+        font-weight: 500;
+        margin-top: var(--spacing-large);
+      }
+    }
+  }
 }
 
 a.speedlify-link {
-	text-decoration: none !important;
-	display: block;
-	width: fit-content;
-	color: var(--textColor);
-	margin-bottom: var(--spacing-x-small);
+  text-decoration: none !important;
+  display: block;
+  width: fit-content;
+  color: var(--textColor);
+  margin-bottom: var(--spacing-x-small);
 }
 
 p.estimatedCo2 {
-	margin: 0;
+  margin: 0;
 }
 
 .nav--footer {
-	ul {
-		font-size: 0.875rem;
-		font-weight: 500;
-		margin-top: var(--spacing-x-large);
+  ul {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: var(--spacing-x-large);
 
-		@media (min-width: 47.9375em) {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			align-items: baseline;
-		}
-	}
+    @media (min-width: 47.9375em) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+  }
 
-	li {
-		margin-right: var(--spacing-large);
+  li {
+    margin-right: var(--spacing-large);
 
-		&.nav__item--active {
-			a {
-				font-weight: 600;
-				text-decoration: none;
-				color: var(--text-color);
-			}
-		}
-	}
+    &.nav__item--active {
+      a {
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--text-color);
+      }
+    }
+  }
 
-	a {
-		display: block;
-		padding: 0.25em 0;
-	}
+  a {
+    display: block;
+    padding: 0.25em 0;
+  }
 }
