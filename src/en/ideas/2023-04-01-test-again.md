@@ -1,6 +1,6 @@
 ---
 title: Test again
-tags: [Data,Design,Art]
+tags: [Data, Design, Art]
 permalink: false
 eleventyExcludeFromCollections: true
 ---

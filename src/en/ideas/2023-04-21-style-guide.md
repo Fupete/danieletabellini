@@ -22,9 +22,9 @@ eleventyExcludeFromCollections: true
 
 ### Simple
 
-* List item
-* list iten
-* list item
+- List item
+- list iten
+- list item
 
 ### Numbered
 
@@ -34,7 +34,7 @@ eleventyExcludeFromCollections: true
 
 ## Styles
 
-**Bold** and *italic*
+**Bold** and _italic_
 
 ### Code inline
 

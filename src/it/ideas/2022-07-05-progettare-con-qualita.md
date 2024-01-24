@@ -1,10 +1,10 @@
 ---
-title: "Progettare con qualità: l’accessibilità al centro del design system del Paese"
-description: "Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi"
+title: 'Progettare con qualità: l’accessibilità al centro del design system del Paese'
+description: 'Dieci suggerimenti ideali e pratici per realizzare servizi pubblici digitali semplici, accessibili e inclusivi'
 # canonical: https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099
 permalink: /it/idee/progettare-con-qualita/
 image: cover.webp
-tags: [Accessibility,A11y,Design System,Italia,Pubblica Amministrazione]
+tags: [Accessibility, A11y, Design System, Italia, Pubblica Amministrazione]
 lastUpdate: 2024-01-10
 ---
 
@@ -26,13 +26,13 @@ L’**accessibilità** è prima di tutto una questione di attenzione: al signifi
 
 Ma si tratta solo di un dettaglio dell’approccio e di quanto realizzato nei mesi scorsi: come, e soprattutto perché, siamo arrivati fino a qui? E che direzione abbiamo intrapreso? Quello che segue è il racconto di una parte dell’avventura, [iniziata a dicembre 2021](https://designers.italia.it/notizie/Per-un-2022-ricco-di-sfide/), dal [Dipartimento per la trasformazione digitale](https://innovazione.gov.it/) e [AgID](https://agid.gov.it) per **aggiornare il design system del Paese**. Un’iniziativa che mira a ottimizzare le risorse digitali messe a disposizione dei cittadini da parte della Pubblica Amministrazione, rendendole semplici, accessibili e inclusive.
 
------
+---
 
 **Indice dei contenuti:**
 
 [toc]
 
------
+---
 
 ## Progettare interfacce è un atto di responsabilità
 
@@ -44,9 +44,9 @@ Ma cosa si intende quando parliamo di _qualità_?
 
 > La Qualità… sappiamo cos’è, eppure non lo sappiamo. Questo è contraddittorio. Alcune cose sono meglio di altre cioè hanno più Qualità. Ma quando provi a dire in cosa consiste la Qualità astraendo dalle cose che la posseggono, paff, le parole ti sfuggono di mano. Ma se nessuno sa cos’è, ai fini pratici non esiste per niente. Invece esiste eccome. Su cos’altro sono basati i voti, se no? Perché mai la gente pagherebbe una fortuna per certe cose, e ne getterebbe altre nella spazzatura? Ovviamente alcune cose sono meglio di altre… Ma in cosa consiste il “meglio”? <footer>— <cite>Lo zen e l’arte della manutenzione della motocicletta, Robert M. Pirsig</cite></footer>
 
-L’accessibilità è un tema di cultura del fare, e fare bene. Non è solo considerare l’accessibilità tra le priorità progettuali, ma _“fare”_, perché è solo così che si scoprono le necessità reali e i compromessi necessari della qualità manifesta di cui parla Robert Pirsig. È il **cambio culturale** che stiamo cercando di affermare: non ratificare a valle uno stato di conformità, ma *fare accessibile*. Semplificare, togliere un passaggio, partire da soluzioni già validate (_by default_) che possano essere curate nel corso di un progetto (_by design_), per poi scoprire, paradossalmente, che si tratta di opzioni economiche ed efficaci.
+L’accessibilità è un tema di cultura del fare, e fare bene. Non è solo considerare l’accessibilità tra le priorità progettuali, ma _“fare”_, perché è solo così che si scoprono le necessità reali e i compromessi necessari della qualità manifesta di cui parla Robert Pirsig. È il **cambio culturale** che stiamo cercando di affermare: non ratificare a valle uno stato di conformità, ma _fare accessibile_. Semplificare, togliere un passaggio, partire da soluzioni già validate (_by default_) che possano essere curate nel corso di un progetto (_by design_), per poi scoprire, paradossalmente, che si tratta di opzioni economiche ed efficaci.
 
------
+---
 
 ## Dieci punti per fare meglio
 
@@ -166,7 +166,7 @@ Nei prossimi anni ci aspettano molte sfide per scalare, dare _governance_ chiara
 
 Durante la partecipazione agli [Accessibility Days](https://accessibilitydays.it/), ci è stato ricordato il motto dei diritti delle persone con condizioni di disabilità: **“Niente su di Noi, senza di Noi”**. In autunno, proprio con l’aiuto del team degli Accessibility Days, ci siamo ripromessi di creare occasioni di confronto e test di usabilità, con particolare attenzione all’accessibilità, per **raccogliere dati e migliorare piattaforme, siti e servizi pubblici digitali** che utilizzano il design system del Paese. Con l’auspicio di riuscirci, e che diventi un’abitudine, per migliorare continuamente, insieme, con partecipazione e responsabilità.
 
------
+---
 
 ## Il futuro appartiene alle persone
 
@@ -186,6 +186,6 @@ Durante la partecipazione agli [Accessibility Days](https://accessibilitydays.it
 
 C’è ancora una domanda, però, che rimane forse irrisolta: **chi sta insegnando a “fare accessibile” alla prossima generazione di designer e sviluppatori?** Non vorremmo aprire un piccolo vaso di Pandora, ma nelle Università italiane dedicate all’ITC, alle discipline informatiche, o al design, quanti e quali corsi sono dedicati all’accessibilità? **Siamo sicuri che in Italia ci siano molte eccellenze**, ma la domanda, e la questione culturale che porta con sé, rimane d’importanza capitale: nei prossimi mesi troviamo un’occasione per parlarne, valorizzare esperienze virtuose e rilanciare?
 
------
+---
 
 [Alcuni diritti riservati](https://creativecommons.org/licenses/by/4.0/)

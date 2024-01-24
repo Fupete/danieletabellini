@@ -12,14 +12,14 @@ eleventyExcludeFromCollections: true
 
 ## Galleria con titolo sopra
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
 
 https://www.youtube.com/watch?v=NfTbgmJf_-E
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
 
 {% gallery "uzupis" %}
@@ -30,9 +30,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 {% galleryImage "english.jpg", "Tibetan Flags 4" %}
 {% endgallery %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
 
 {% gallery "uzupis2" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}
@@ -47,9 +47,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula u
 {% galleryImage "holiday.jpg", "Tibetan Flags 13" %}
 {% endgallery %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. Aliquam laoreet, urna vitae tempor sodales, diam nulla scelerisque erat, mattis consequat est massa eget orci.
 
------
+---
 
 ## Altra galleria
 
@@ -63,13 +63,14 @@ Fusce lorem nibh, ullamcorper sed mauris et, viverra fringilla eros. In condimen
 </div>
 
 ### Immagini singole in column
+
 {% image "holiday.jpg", "Tibetan Flags 10" %}
 
 ### Titoletto h3
 
-Duis quis arcu at elit congue interdum. Curabitur vestibulum felis eget vulputate egestas. Proin finibus commodo diam, non viverra magna mollis ut. Etiam vel convallis nisi. Curabitur gravida, enim in imperdiet hendrerit, leo nunc vestibulum sem, et rhoncus velit nisi nec sapien. Cras pretium, arcu mattis ornare maximus, tortor turpis accumsan nisi, at volutpat libero sapien sed leo. Cras odio felis, pharetra id porta vitae, consequat in magna. 
+Duis quis arcu at elit congue interdum. Curabitur vestibulum felis eget vulputate egestas. Proin finibus commodo diam, non viverra magna mollis ut. Etiam vel convallis nisi. Curabitur gravida, enim in imperdiet hendrerit, leo nunc vestibulum sem, et rhoncus velit nisi nec sapien. Cras pretium, arcu mattis ornare maximus, tortor turpis accumsan nisi, at volutpat libero sapien sed leo. Cras odio felis, pharetra id porta vitae, consequat in magna.
 
------ 
+---
 
 ## Altra galleria altro titolo
 

@@ -4,7 +4,6 @@ about: Suggest an idea for my danieletabellini.com
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 **Is your feature request related to a problem? Please describe.**
