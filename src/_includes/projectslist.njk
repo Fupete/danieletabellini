@@ -1,0 +1,33 @@
+{% if page.fileSlug === 'design' %}
+{% set projectslist = collections["design_" + page.lang] %}
+{% endif %}
+{% if projectslist | length > 0 %}
+<ol reversed class="projectslist portfolio full">
+  {% if page.fileSlug === '' or page.fileSlug === 'en' or page.fileSlug === 'it'%}
+  {% set sliceEnd = projectslist | length %}
+  {% set sliceStart = sliceEnd - 3 %}
+  {% endif %}
+  {% for project in projectslist.slice(sliceStart,sliceEnd) | reverse %}
+  {% if project.data.lang === page.lang %}
+  <li class="projectslist-item project {% if project.url == url %} projectslist-item-active{% endif %}">
+    <div class="head">
+      <h2>
+        <a href="{{ project.url | url }}" class="projectslist-link">
+          {% if project.data.title %}{{ project.data.title }}{% else %}<code>{{ project.url }}</code>{% endif %}
+        </a>
+      </h2>
+      {% if project.data.projectMedadata.role %}
+      <p class="profile">{{ project.data.projectMedadata.role }} / {{ project.date | dateToFormat('yyyy') }}</p>
+      {% endif %}
+    </div>
+    {% if project.data.image %}
+    {% set imgSrc %}{{ project.fileSlug}}/{{ project.data.image }}{% endset %}
+    {% image imgSrc, ""%}
+    {% endif %}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ol>
+{% else %}
+<p>{%- if page.lang == 'en' %}Work in progress{% else %}Lavori in corso{% endif %}</p>
+{% endif %}

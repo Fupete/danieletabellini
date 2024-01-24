@@ -1,8 +1,8 @@
 ---
 layout: base
 eleventyNavigation:
-  key: Home
-  order: 1
+key: Home
+order: 1
 title: "La mia ricetta di design: persone, qualità e un pizzico di sale"
 description: "Il sito ufficiale di Daniele Tabellini, designer e artista italiano"
 lastUpdate: 2024-01-14
@@ -14,8 +14,10 @@ lastUpdate: 2024-01-14
     <div class="hero full">
       <div class="hero___content">
         <h1>La mia ricetta di design: persone, qualità e un pizzico di sale</h1>
-        <p class="lead">Sono Daniele Tabellini {% emoji "👨‍💻", "computer geek e hacker dal 1982" %} {% emoji "🌈", "amo gli
-          arcobaleni" %} {% emoji "🔥", "ho intitolato una mostra personale 'Brucia'" %} {% emoji "🧑‍🎤", "volevo essere una rockstar" %}       
+        <p class="lead">Sono Daniele Tabellini {% emoji "👨‍💻", "computer geek e hacker dal 1982" %} {% emoji "🌈",
+          "amo gli
+          arcobaleni" %} {% emoji "🔥", "ho intitolato una mostra personale 'Brucia'" %} {% emoji "🧑‍🎤", "volevo
+          essere una rockstar" %}
         <p>Curo <strong><a href="https://designers.italia.it/design-system/">.Italia il design system del
               Paese</a></strong>
           per Designers Italia. Mi occupo di usabilità, accessibilità, open source e open design per il Dipartimento per
@@ -40,31 +42,10 @@ lastUpdate: 2024-01-14
   </section>
 
   <section class="container">
-    <div class="portfolio full">
-      <div class="project">
-        <div class="head">
-          <h2><a href="#">.Italia design system</a></h2>
-          <p class="profile">Systems Lead</p>
-        </div>
-        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1536, 1920] %}
-      </div>
-      <div class="project">
-        <div class="head">
-          <h2><a href="#">Designers Italia</a></h2>
-          <p class="profile">Principal Designer</p>
-        </div>
-        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1920] %}
-      </div>
-      <div class="project">
-        <div class="head">
-          <h2><a href="#">PA digitale 2026</a></h2>
-          <p class="profile">UI/UX Designer</p>
-        </div>
-        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1920] %}
-      </div>
-      <div class="discover-more">
-        <a class="button" href="">Esplora tutti i progetti</a>
-      </div>
+    {% set projectslist = collections["design_" + page.lang] %}
+    {% include "projectslist.njk" %}
+    <div class="discover-more full">
+      <a class="button" href="/it/design/">Esplora tutti i progetti</a>
     </div>
   </section>
 
@@ -78,26 +59,25 @@ lastUpdate: 2024-01-14
     <p>Temi di interesse: #designGov #designSystem #a11y #openDesign
       #openSource #drawing #digitalBrut #creativeCoding #performingArts</p>
 
-      <div class="cover-links">
-        <ul>
-          <li><a
-              href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
-              CV</a></li>
-          <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
-          <li><a href="https://x.com/fupete">X</a></li>
-          <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
-          <li><a href="https://github.com/fupete">GitHub</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://nasonero.studio">nasonero.studio</a></li>
-          <li><a href="https://tellerk.com/it/">tellerk.com</a></li>
-        </ul>
-      </div>
+    <div class="cover-links">
+      <ul>
+        <li><a
+            href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
+            CV</a></li>
+        <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
+        <li><a href="https://x.com/fupete">X</a></li>
+        <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
+        <li><a href="https://github.com/fupete">GitHub</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://nasonero.studio">nasonero.studio</a></li>
+        <li><a href="https://tellerk.com/it/">tellerk.com</a></li>
+      </ul>
+    </div>
   </section>
-  
 
   {# {% set ideaslist = collections["ideas_" + page.lang] %}
   {% include "home-ideaslist.njk" %} #}

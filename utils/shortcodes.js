@@ -6,7 +6,7 @@ module.exports = {
 	image: async function (src, alt, sizes = '100vw', widths = [320, 640, 1280, 1920], loadingMode = "lazy", animated = false) {
 		let imageSrc
 		const fileSlug = this.page.fileSlug
-		if (fileSlug !== 'en' && fileSlug !== 'it' && fileSlug !== 'ideas' && fileSlug !== 'tags')
+		if (fileSlug !== 'en' && fileSlug !== 'it' && fileSlug !== 'ideas' && fileSlug !== 'tags' && fileSlug !== 'design')
 			imageSrc = `./src/imgs/${fileSlug}/${src}`
 		else
 			imageSrc = `./src/imgs/${src}` // home + ideas

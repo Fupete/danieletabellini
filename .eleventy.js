@@ -214,10 +214,27 @@ module.exports = function (eleventyConfig) {
 	// Layouts
 	eleventyConfig.addLayoutAlias('base', 'base.njk')
 	eleventyConfig.addLayoutAlias('idea', 'idea.njk')
+	eleventyConfig.addLayoutAlias('portfolio', 'portfolio.njk')
 
 	// Copy/pass-through files
 	eleventyConfig.addPassthroughCopy('./src/assets/css')
 	eleventyConfig.addPassthroughCopy('./src/assets/js')
+
+	// Localized notes
+	eleventyConfig.addCollection("ideas_en", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/en/ideas/**/*.md");
+	})
+	eleventyConfig.addCollection("ideas_it", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/it/ideas/**/*.md");
+	})
+
+	// Localized design projects
+	eleventyConfig.addCollection("design_en", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/en/design/**/*.md");
+	})
+	eleventyConfig.addCollection("design_it", (collectionApi) => {
+		return collectionApi.getFilteredByGlob("./src/it/design/**/*.md");
+	})
 
 	// Build pagefind index 
 	// eleventyConfig.on('eleventy.after', async () => {np
@@ -243,17 +260,6 @@ module.exports = function (eleventyConfig) {
 			outputPath
 		);
 	});
-
-
-
-	// Localized notes
-	eleventyConfig.addCollection("ideas_en", (collectionApi) => {
-		return collectionApi.getFilteredByGlob("./src/en/ideas/**/*.md");
-	})
-
-	eleventyConfig.addCollection("ideas_it", (collectionApi) => {
-		return collectionApi.getFilteredByGlob("./src/it/ideas/**/*.md");
-	})
 
 	return {
 		templateFormats: ['md', 'njk', 'html', 'liquid'],

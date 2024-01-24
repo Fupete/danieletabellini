@@ -21,7 +21,7 @@
     <a href="{{ tagUrl | url }}" class="idea-tag">{{ tag }}</a>&nbsp;
     {% endfor %} #}
     {% if idea.data.image %}
-    {% set imgSrc %}{{ idea.fileSlug}}/{{idea.data.image}}{% endset %}
+    {% set imgSrc %}{{ idea.fileSlug}}/{{ idea.data.image}}{% endset %}
     <div class="ideaslist-image">
       {% image imgSrc, ""%}
     </div>

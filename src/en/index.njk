@@ -41,31 +41,10 @@ lastUpdate: 2024-01-14
   </section>
 
   <section class="container">
-    <div class="portfolio full">
-      <div class="project">
-        <div class="head">
-          <h2><a href="#">.Italia design system</a></h2>
-          <p class="profile">Systems Lead</p>
-        </div>
-        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1536, 1920] %}
-      </div>
-      <div class="project">
-        <div class="head">
-          <h2><a href="#">Designers Italia</a></h2>
-          <p class="profile">Principal Designer</p>
-        </div>
-        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1920] %}
-      </div>
-      <div class="project">
-        <div class="head">
-          <h2><a href="#">PA digitale 2026</a></h2>
-          <p class="profile">UI/UX Designer</p>
-        </div>
-        {% image "placeholder-1920x520.png", "Alt placeholder", "100vw", [320, 640, 1280, 1920] %}
-      </div>
-      <div class="discover-more">
-        <a class="button" href="">Browse all projects</a>
-      </div>
+    {% set projectslist = collections["design_" + page.lang] %}
+    {% include "projectslist.njk" %}
+    <div class="discover-more full">
+      <a class="button" href="/en/design/">Browse all projects</a>
     </div>
   </section>
 
