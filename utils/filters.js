@@ -6,7 +6,18 @@ module.exports = {
       .setLocale(this.page.lang)
       .toFormat(String(format)))
   },
+  dateToFormat: function (date, format) {
+    return (formattedDate = DateTime.fromJSDate(date, { zone: 'utc' })
+      .setLocale(this.page.lang)
+      .toFormat(String(format)))
+  },
 
+  dateToISO: function (date) {
+    return DateTime.fromJSDate(date, { zone: 'utc' }).toISO({
+      includeOffset: false,
+      suppressMilliseconds: true
+    })
+  },
   dateToISO: function (date) {
     return DateTime.fromJSDate(date, { zone: 'utc' }).toISO({
       includeOffset: false,
@@ -28,6 +39,14 @@ module.exports = {
     )
   },
 
+  sortObjectByKey: function (collection) {
+    const entries = Object.entries(collection)
+    const toReturn = entries.sort((entry1, entry2) => {
+      if (entry1[0] <= entry2[0]) return -1
+      else return 1
+    })
+    return toReturn
+  }
   sortObjectByKey: function (collection) {
     const entries = Object.entries(collection)
     const toReturn = entries.sort((entry1, entry2) => {

@@ -22,8 +22,14 @@
 }
 .pagefind-ui__result.svelte-j9e30.svelte-j9e30:last-of-type {
   border-bottom: solid var(--pagefind-ui-border-width) var(--pagefind-ui-border);
+  border-bottom: solid var(--pagefind-ui-border-width) var(--pagefind-ui-border);
 }
 .pagefind-ui__result-thumb.svelte-j9e30.svelte-j9e30 {
+  width: min(30%, calc((30% - (100px * var(--pagefind-ui-scale))) * 100000));
+  max-width: calc(120px * var(--pagefind-ui-scale));
+  margin-top: calc(10px * var(--pagefind-ui-scale));
+  aspect-ratio: var(--pagefind-ui-image-box-ratio);
+  position: relative;
   width: min(30%, calc((30% - (100px * var(--pagefind-ui-scale))) * 100000));
   max-width: calc(120px * var(--pagefind-ui-scale));
   margin-top: calc(10px * var(--pagefind-ui-scale));
@@ -254,6 +260,10 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
   flex-direction: column;
   gap: calc(20px * var(--pagefind-ui-scale));
   padding-top: calc(30px * var(--pagefind-ui-scale));
+  display: flex;
+  flex-direction: column;
+  gap: calc(20px * var(--pagefind-ui-scale));
+  padding-top: calc(30px * var(--pagefind-ui-scale));
 }
 .pagefind-ui__filter-value.svelte-1v2r7ls.svelte-1v2r7ls {
   position: relative;
@@ -318,37 +328,48 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
 .pagefind-ui--reset *:before,
 .pagefind-ui--reset *:after {
   box-sizing: border-box;
+  box-sizing: border-box;
 }
 .pagefind-ui--reset a,
 .pagefind-ui--reset button {
+  cursor: revert;
   cursor: revert;
 }
 .pagefind-ui--reset ol,
 .pagefind-ui--reset ul,
 .pagefind-ui--reset menu {
   list-style: none;
+  list-style: none;
 }
 .pagefind-ui--reset img {
   max-width: 100%;
+  max-width: 100%;
 }
 .pagefind-ui--reset table {
+  border-collapse: collapse;
   border-collapse: collapse;
 }
 .pagefind-ui--reset input,
 .pagefind-ui--reset textarea {
   -webkit-user-select: auto;
+  -webkit-user-select: auto;
 }
 .pagefind-ui--reset textarea {
+  white-space: revert;
   white-space: revert;
 }
 .pagefind-ui--reset meter {
   -webkit-appearance: revert;
   appearance: revert;
+  -webkit-appearance: revert;
+  appearance: revert;
 }
 .pagefind-ui--reset ::placeholder {
   color: unset;
+  color: unset;
 }
 .pagefind-ui--reset :where([hidden]) {
+  display: none;
   display: none;
 }
 .pagefind-ui--reset :where([contenteditable]:not([contenteditable='false'])) {
