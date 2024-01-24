@@ -7,11 +7,11 @@
   */
 :root {
   --fluid-min-width: 360;
-  --fluid-max-width: 1440;
+  --fluid-max-width: 1536;
   --fluid-min-size: 16;
   --fluid-max-size: 18;
   --fluid-min-ratio: 1.2;
-  --fluid-max-ratio: 1.250;
+  --fluid-max-ratio: 1.28;
 }
 
 :root {
@@ -19,7 +19,7 @@
   --fluid-bp: calc((var(--fluid-screen) - ((var(--fluid-min-width) / 16) * 1rem)) / ((var(--fluid-max-width) / 16) - (var(--fluid-min-width) / 16)));
 }
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1537px) {
   :root {
     --fluid-screen: calc(var(--fluid-max-width) * 1px);
   }
