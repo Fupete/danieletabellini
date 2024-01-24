@@ -20,13 +20,17 @@
 
 :focus,
 :active,
-div.project h2 a:focus-visible {
+div.project h2 a:focus-visible,
+li.project h2 a:focus-visible,
+li.ideaslist-item h2 a:focus-visible {
   border: none;
   outline: none;
 }
 
-:focus-visible:not(.pswp, .lty-playbtn, div.project h2 a),
-div.portfolio div.project:focus-within {
+:focus-visible:not(.pswp, .lty-playbtn, div.project h2 a, li.project h2 a, li.ideaslist-item h2 a),
+div.portfolio div.project:focus-within,
+ol.portfolio li.project:focus-within,
+ol.ideaslist li.ideaslist-item:focus-within {
   outline: none;
   box-shadow: 0 0 0 3px var(--focusColor);
   z-index: 999;

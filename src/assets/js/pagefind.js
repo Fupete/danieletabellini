@@ -5,7 +5,7 @@ const initSearch = () => {
     new PagefindUI({
         element: '#searchBox',
         showImages: true,
-        showEmptyFilters: false,
+        showEmptyFilters: true,
         bundlePath: "/pagefind/" 
     })
     const inputSearch = document.querySelector("input")
