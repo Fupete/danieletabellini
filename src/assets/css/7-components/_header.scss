@@ -1,62 +1,62 @@
 .site-header {
-	&__container {
-		position: relative;
+  &__container {
+    position: relative;
 
-		@media (min-width: 47.9375em) {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding: var(--spacing-x-large) var(--spacing-medium); // fallback
-			padding: var(--spacing-x-large)
-				clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
-		}
+    @media (min-width: 47.9375em) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--spacing-x-large) var(--spacing-medium); // fallback
+      padding: var(--spacing-x-large)
+        clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+    }
 
-		max-width: var(--container-max-width);
-		margin: 0 auto;
+    max-width: var(--container-max-width);
+    margin: 0 auto;
 
-		padding: var(--spacing-medium) var(--spacing-medium); // fallback
-		padding: var(--spacing-medium)
-			clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+    padding: var(--spacing-medium) var(--spacing-medium); // fallback
+    padding: var(--spacing-medium)
+      clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
 
-		.nav--primary {
-			ul {
-				font-size: var(--fluid-0);
-				font-weight: 600;
-				margin: 0;
+    .nav--primary {
+      ul {
+        font-size: var(--fluid-0);
+        font-weight: 600;
+        margin: 0;
 
-				@media (min-width: 47.9375em) {
-					display: flex;
-					flex-wrap: wrap;
-					align-items: center;
-				}
+        @media (min-width: 47.9375em) {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+        }
 
-				li {
-					margin: 0;
-					margin-right: var(--spacing-large);
-					display: flex;
-					align-items: center;
-					height: 48px;
+        li {
+          margin: 0;
+          margin-right: var(--spacing-large);
+          display: flex;
+          align-items: center;
+          height: 48px;
 
-					@media (min-width: 47.9375em) {
-						height: 64px;
-					}
+          @media (min-width: 47.9375em) {
+            height: 64px;
+          }
 
-					&.site-header__left {
-						font-size: var(--fluid-1);
-						padding: var(--spacing-x-small) 0;
-						margin-right: var(--spacing-x-large);
-					}
+          &.site-header__left {
+            font-size: var(--fluid-1);
+            padding: var(--spacing-x-small) 0;
+            margin-right: var(--spacing-x-large);
+          }
 
-					&.nav__item--active {
-						a {
-							text-decoration: none;
-							color: var(--text-color);
-							display: block;
-							padding: 0.25em 0;
-						}
-					}
-				}
-			}
-		}
-	}
+          &.nav__item--active {
+            a {
+              text-decoration: none;
+              color: var(--text-color);
+              display: block;
+              padding: 0.25em 0;
+            }
+          }
+        }
+      }
+    }
+  }
 }

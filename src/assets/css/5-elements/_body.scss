@@ -1,11 +1,11 @@
 body {
-	color: var(--textColor);
-	background-color: var(--backgroundColor);
-	padding-right: var(--scrollbarComp);
-	overflow-x: hidden;
+  color: var(--textColor);
+  background-color: var(--backgroundColor);
+  padding-right: var(--scrollbarComp);
+  overflow-x: hidden;
 }
 
 html,
 body {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }

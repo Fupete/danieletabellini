@@ -2,11 +2,11 @@
  * Standard Media Queries
  */
 :root {
-	--mq-small: 'screen and (max-width: 47.9375em)';
-	--mq-medium: 'screen and (min-width: 48em)';
-	--mq-large: 'only screen and (min-width: 64.0625em)';
-	--mq-x-large: 'screen and (min-width: 90em)';
+  --mq-small: 'screen and (max-width: 47.9375em)';
+  --mq-medium: 'screen and (min-width: 48em)';
+  --mq-large: 'only screen and (min-width: 64.0625em)';
+  --mq-x-large: 'screen and (min-width: 90em)';
 
-	--container-max-width: 96rem;
-	--container-max-ch: 65ch;
+  --container-max-width: 96rem;
+  --container-max-ch: 65ch;
 }

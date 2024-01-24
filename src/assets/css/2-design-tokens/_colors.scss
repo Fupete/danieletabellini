@@ -1,21 +1,21 @@
 :root {
-	--textColor: #040404;
-	--primaryColor: #0066cc;
-	--focusColor: #b95c00;
-	--backgroundColor: #fefefe;
-	--tableBorderColor: #111;
+  --textColor: #040404;
+  --primaryColor: #0066cc;
+  --focusColor: #b95c00;
+  --backgroundColor: #fefefe;
+  --tableBorderColor: #111;
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--color-mode: 'dark';
-	}
+  :root {
+    --color-mode: 'dark';
+  }
 
-	:root:not([data-user-color-scheme]) {
-		--backgroundColor: #040404;
-		--textColor: #fefefe;
-		--primaryColor: #0080ff;
-		--focusColor: #ff5c00;
-		--tableBorderColor: #fdfdfd;
-	}
+  :root:not([data-user-color-scheme]) {
+    --backgroundColor: #040404;
+    --textColor: #fefefe;
+    --primaryColor: #0080ff;
+    --focusColor: #ff5c00;
+    --tableBorderColor: #fdfdfd;
+  }
 }

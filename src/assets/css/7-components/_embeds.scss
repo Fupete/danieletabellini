@@ -3,16 +3,16 @@
 .eleventy-plugin-vimeo-embed,
 .eleventy-plugin-embed-spotify,
 .eleventy-plugin-youtube-embed {
-	width: 100%;
-	max-width: var(--container-max-ch);
-	margin: 3rem 0 !important;
+  width: 100%;
+  max-width: var(--container-max-ch);
+  margin: 3rem 0 !important;
 }
 
 lite-youtube {
-	max-width: var(--container-max-ch) !important;
-	border: 1px solid var(--textColor);
+  max-width: var(--container-max-ch) !important;
+  border: 1px solid var(--textColor);
 }
 
 .eleventy-plugin-vimeo-embed {
-	padding-top: calc(var(--container-max-ch) / (16 / 9)) !important;
+  padding-top: calc(var(--container-max-ch) / (16 / 9)) !important;
 }
