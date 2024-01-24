@@ -1,42 +1,42 @@
 ol.ideaslist {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: var(--spacing-xx-large);
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: var(--spacing-xx-large);
 }
 
 .ideaslist-item:has(a + time) h2 {
-    margin-bottom: var(--spacing-medium);
+	margin-bottom: var(--spacing-medium);
 }
 
 .ideaslist-item {
-    h2 {
-        margin-bottom: var(--spacing-small);
-    }
+	h2 {
+		margin-bottom: var(--spacing-small);
+	}
 
-    .ideaslist-date,
-    a.idea-tag {
-        font-size: .875rem;
-    }
+	.ideaslist-date,
+	a.idea-tag {
+		font-size: 0.875rem;
+	}
 }
 
 .ideaslist-image {
-    margin: var(--spacing-x-large) 0;
-    height: calc(100vw / (21 / 9));
+	margin: var(--spacing-x-large) 0;
+	height: calc(100vw / (21 / 9));
 
-    @media screen and (min-width: 48em) {
-        height: calc(var(--container-max-ch) / (21 / 9));
-    }
+	@media screen and (min-width: 48em) {
+		height: calc(var(--container-max-ch) / (21 / 9));
+	}
 
-    img {
-        object-fit: cover;
-        object-position: 50% 50%;
-        width: 100%;
-        height: 100%;
-    }
+	img {
+		object-fit: cover;
+		object-position: 50% 50%;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 .idea-metadata {
-    margin: var(--spacing-medium) 0;
-    font-weight: 500;
-    font-size: 0.875rem;
+	margin: var(--spacing-medium) 0;
+	font-weight: 500;
+	font-size: 0.875rem;
 }

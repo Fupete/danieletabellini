@@ -1,121 +1,124 @@
 // Main Site Layout
 
 .layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    min-height: 100vh;
-    position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	min-height: 100vh;
+	position: relative;
 }
 
 // Container / Section / Content-Hero-Portfolio Columns layout
 .container,
 section.container {
-    padding: var(--spacing-x-large) var(--spacing-medium); // fallback
-    padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+	padding: var(--spacing-x-large) var(--spacing-medium); // fallback
+	padding: var(--spacing-x-large)
+		clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
 
-    --gap: clamp(0px, 6vw, 0px);
-    --full: minmax(var(--gap), 1fr);
-    --content: min(68ch, 100% - var(--gap) * 2);
-    --popout: minmax(0, var(--spacing-x-large));
-    --feature: minmax(0, var(--spacing-xx-large));
-    display: grid;
-    grid-template-columns: [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
+	--gap: clamp(0px, 6vw, 0px);
+	--full: minmax(var(--gap), 1fr);
+	--content: min(68ch, 100% - var(--gap) * 2);
+	--popout: minmax(0, var(--spacing-x-large));
+	--feature: minmax(0, var(--spacing-xx-large));
+	display: grid;
+	grid-template-columns: [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(
+			--popout
+		) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(
+			--feature
+		) [feature-end] var(--full) [full-end];
 
-    &>* {
-        grid-column: content;
-    }
+	& > * {
+		grid-column: content;
+	}
 
-    .popout,
-    .c-an {
-        grid-column: popout;
-    }
+	.popout,
+	.c-an {
+		grid-column: popout;
+	}
 
-    .feature,
-    .gallery,
-    table,
-    pre {
-        grid-column: feature;
-    }
+	.feature,
+	.gallery,
+	table,
+	pre {
+		grid-column: feature;
+	}
 
-    .full {
-        grid-column: full;
-        max-width: var(--container-max-width);
-        margin: 0 auto;
-        width: 100%;
-    }
+	.full {
+		grid-column: full;
+		max-width: var(--container-max-width);
+		margin: 0 auto;
+		width: 100%;
+	}
 
-    .hero {
-        display: flex;
-        gap: var(--spacing-medium);
-        justify-content: space-around;
-        flex-direction: column-reverse;
+	.hero {
+		display: flex;
+		gap: var(--spacing-medium);
+		justify-content: space-around;
+		flex-direction: column-reverse;
 
-        @media(min-width: 64.0625em) {
-            gap: var(--spacing-xx-large);
-            flex-direction: row;
-        }
+		@media (min-width: 64.0625em) {
+			gap: var(--spacing-xx-large);
+			flex-direction: row;
+		}
 
-        .hero___content,
-        picture {
-            @media(min-width: 64.0625em) {
-                width: 48%;
-            }
-        }
+		.hero___content,
+		picture {
+			@media (min-width: 64.0625em) {
+				width: 48%;
+			}
+		}
 
-        picture {
-            height: 50vh;
+		picture {
+			height: 50vh;
 
-            @media(min-width: 64.0625em) {
-                height: inherit;
-                max-height: 520px;
-            }
+			@media (min-width: 64.0625em) {
+				height: inherit;
+				max-height: 520px;
+			}
 
-            img {
-                object-fit: cover;
-                object-position: 50% 50%;
-                width: 100%;
-                height: 100%;
-            }
-        }
+			img {
+				object-fit: cover;
+				object-position: 50% 50%;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
 
-    }
+	.portfolio {
+		padding: var(--spacing-x-large) 0;
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-x-large);
 
-    .portfolio {
-        padding: var(--spacing-x-large) 0;
-        display: flex;
-        flex-direction: column;
-        gap: var(--spacing-x-large);
+		.project {
+			position: relative;
+			margin-top: var(--spacing-x-large) 0;
 
-        .project {
-            position: relative;
-            margin-top: var(--spacing-x-large) 0;
+			a::after {
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+			}
 
-            a::after {
-                content: '';
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-            }
+			.head {
+				margin-bottom: var(--spacing-medium);
 
-            .head {
-                margin-bottom: var(--spacing-medium);
+				h2 {
+					margin: var(--spacing-medium) 0;
+				}
 
-                h2 {
-                    margin: var(--spacing-medium) 0;
-                }
+				.profile {
+					font-size: 0.875rem;
+				}
+			}
+		}
 
-                .profile {
-                    font-size: .875rem;
-                }
-            }
-        }
-
-        .discover-more {
-            margin: var(--spacing-x-large) 0;
-        }
-    }
-
+		.discover-more {
+			margin: var(--spacing-x-large) 0;
+		}
+	}
 }

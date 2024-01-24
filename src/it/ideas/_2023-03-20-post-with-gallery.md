@@ -1,7 +1,7 @@
 ---
 title: Post con galleria
 image: holiday.jpg
-tags: [Data,Gallery]
+tags: [Data, Gallery]
 permalink: false
 eleventyExcludeFromCollections: true
 ---
@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
 {% galleryImage "english.jpg", "Tibetan Flags 8" %}
 {% endgallery %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula ut ipsum id vulputate. Nullam quis sodales sapien, et feugiat metus.
 
 {% gallery "uzupis2" %}
 {% galleryImage "improvvisation.jpg", "Tiberto Skveras" %}

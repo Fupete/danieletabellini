@@ -1,12 +1,12 @@
 ---
 title: .Italia design system
 projectMedadata:
-    role: Systems Lead
+  role: Systems Lead
 description: "Italy's design system: instructions and building blocks for government sites and services."
 image: placeholder-1920x520.png
 permalink: /en/design/italia-design-system/
 lastUpdate: 2024-01-24
-tags: [Accessibility,A11y,Design System,Italia,Pubblica Amministrazione]
+tags: [Accessibility, A11y, Design System, Italia, Pubblica Amministrazione]
 ---
 
 Work in progress

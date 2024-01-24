@@ -1,68 +1,68 @@
 p {
-    font-size: var(--fluid-0);
-    line-height: calc(1ex / 0.32);
-    max-width: var(--container-max-ch);
-    margin-top: var(--spacing-x-small);
-    margin-bottom: var(--spacing-x-small);
+	font-size: var(--fluid-0);
+	line-height: calc(1ex / 0.32);
+	max-width: var(--container-max-ch);
+	margin-top: var(--spacing-x-small);
+	margin-bottom: var(--spacing-x-small);
 
-    &.lead {
-        font-size: var(--fluid-2);
-        line-height: calc(1ex / 0.37);
-        font-weight: 500;
-    }
+	&.lead {
+		font-size: var(--fluid-2);
+		line-height: calc(1ex / 0.37);
+		font-weight: 500;
+	}
 
-    &.embedCaption {
-        font-size: .875rem;
-        margin-top: calc(-1 * var(--spacing-xx-small));
-    }
+	&.embedCaption {
+		font-size: 0.875rem;
+		margin-top: calc(-1 * var(--spacing-xx-small));
+	}
 
-    span.meta__stats {
-        font-size: .875rem;
-    }
+	span.meta__stats {
+		font-size: 0.875rem;
+	}
 }
 
 blockquote {
-    p {
-        font-size: var(--fluid-1);
-        line-height: 1.5;
-        font-weight: 500;
-    }
+	p {
+		font-size: var(--fluid-1);
+		line-height: 1.5;
+		font-weight: 500;
+	}
 
-    footer {
-        margin-top: var(--spacing-large);
-        font-size: .875rem;
-    }
+	footer {
+		margin-top: var(--spacing-large);
+		font-size: 0.875rem;
+	}
 
-    margin: var(--spacing-x-large) 0;
-    border-left: 2px solid var(--textColor);
-    padding-left: var(--spacing-x-large)
+	margin: var(--spacing-x-large) 0;
+	border-left: 2px solid var(--textColor);
+	padding-left: var(--spacing-x-large);
 }
 
 pre {
-    background: var(--textColor);
-    color: var(--backgroundColor);
-    padding: var(--spacing-medium) var(--spacing-large);
-    border-radius: var(--spacing-x-small);
-    line-height: 1.75;
+	background: var(--textColor);
+	color: var(--backgroundColor);
+	padding: var(--spacing-medium) var(--spacing-large);
+	border-radius: var(--spacing-x-small);
+	line-height: 1.75;
 
-    code {
-        background: inherit;
-        color: inherit;
-    }
+	code {
+		background: inherit;
+		color: inherit;
+	}
 }
 
 code {
-    background: var(--textColor);
-    color: var(--backgroundColor);
+	background: var(--textColor);
+	color: var(--backgroundColor);
 }
 
 hr {
-    border: none;
-    margin: var(--spacing-x-large) auto;
+	border: none;
+	margin: var(--spacing-x-large) auto;
 
-    &::before {
-        content: '• • •';
-        display: block;
-        text-align: center;
-    }
+	&::before {
+		content: '• • •';
+		display: block;
+		text-align: center;
+	}
 }

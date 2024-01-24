@@ -1,32 +1,33 @@
 ---
 title: Privacy policy
-description: "I want to provide you with a simple and clear privacy policy"
+description: 'I want to provide you with a simple and clear privacy policy'
 layout: idea
 permalink: /en/privacy-policy/
 lastUpdate: 2024-01-12
 ---
 
------
+---
 
 Work in progress
 
------
+---
 
 <p class="lead">Hi, this is <strong>my site <a href="https://danieletabellini.com">danieletabellini.com</a></strong>
 
 In accordance with articles 13 and 14 of EU Regulation 2016/679 (GDPR) I want to provide you with simple and clear information on how I process your personal data which **you provide to me directly or which I may in any case come into possession of while browsing the site**.
 
------
+---
 
 **Content index:**
 
 [toc]
 
------
+---
 
 <div class="title-with-icon">
 
 ## Data controller
+
 {% icon "privacy:dati-di-contatto-del-titolare-e-rappresentante" '{"aria-hidden": "true" }' %}
 
 </div>
@@ -41,7 +42,8 @@ Via XXI Aprile 41 - 56040, Crespina Lorenzana (PI) - Italy
 <div class="title-with-icon">
 
 ## Legal basis and purpose of processing
-{% icon "privacy:finalita-del-trattamento" '{ "aria-hidden": "true" }'  %} 
+
+{% icon "privacy:finalita-del-trattamento" '{ "aria-hidden": "true" }'  %}
 
 </div>
 
@@ -56,7 +58,8 @@ Personally I don't like the so-called "Cookie banners" or the consents collected
 <div class="title-with-icon">
 
 ## Type of data processed and retention period
-{% icon "privacy:categorie-di-dati" '{ "aria-hidden": "true" }'  %} 
+
+{% icon "privacy:categorie-di-dati" '{ "aria-hidden": "true" }'  %}
 
 </div>
 
@@ -75,7 +78,8 @@ The optional, explicit and voluntary sending of messages to my email addresses b
 <div class="title-with-icon">
 
 ## Who will be able to know your personal data
-{% icon "privacy:destinatari-dei-dati" '{ "aria-hidden": "true" }'  %} 
+
+{% icon "privacy:destinatari-dei-dati" '{ "aria-hidden": "true" }'  %}
 
 </div>
 
@@ -86,7 +90,8 @@ The list of data controllers can be requested at any time, contact me at the add
 <div class="title-with-icon">
 
 ## Data transfer
-{% icon "privacy:trasferimenti-di-dati" '{ "aria-hidden": "true" }'  %} 
+
+{% icon "privacy:trasferimenti-di-dati" '{ "aria-hidden": "true" }'  %}
 
 </div>
 
@@ -95,7 +100,8 @@ The data may be transferred outside the national territory to countries located 
 <div class="title-with-icon">
 
 ## What are your rights
-{% icon "privacy:diritti-dei-soggetti-interessati" '{ "aria-hidden": "true" }'  %} 
+
+{% icon "privacy:diritti-dei-soggetti-interessati" '{ "aria-hidden": "true" }'  %}
 
 </div>
 
@@ -107,11 +113,12 @@ The data may be transferred outside the national territory to countries located 
 
 For more information or to exercise your rights, contact me at the addresses indicated above in the [Data controller] section (#data controller). If, however, you believe that the processing of personal data relating to you is in violation of the provisions of the GDPR, you also have the right to lodge a complaint, pursuant to art. 77 of the GDPR, to the Guarantor for the protection of personal data.
 
------
+---
 
 <div class="title-with-icon">
 
 ## Cookies
+
 {% icon "privacy:cookies" '{ "aria-hidden": "true" }'  %}
 
 </div>
@@ -142,7 +149,7 @@ To access the video contents hosted directly on the site, **before viewing them*
 
 ### Icons
 
-The icons I use to mark the main sections of this privacy policy are part of the complete set created by **Maastricht European Center on Privacy and Cybersecurity – ECPC** (distributed under [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en)) for the project [Informative chiare](https://www.garanteprivacy.it/temi/informativechiare) (italian language) of the Italian Data Protection Authority (Garante per la protezione dei dati personali). The only exception is the "Cookies" icon which I created in style. 
+The icons I use to mark the main sections of this privacy policy are part of the complete set created by **Maastricht European Center on Privacy and Cybersecurity – ECPC** (distributed under [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en)) for the project [Informative chiare](https://www.garanteprivacy.it/temi/informativechiare) (italian language) of the Italian Data Protection Authority (Garante per la protezione dei dati personali). The only exception is the "Cookies" icon which I created in style.
 
 On the accessibility side, all the icons on this page are made invisible to screen readers using the `aria-hidden="false"` attribute because they represent the concept expressed by the same heading that precedes them.
 
