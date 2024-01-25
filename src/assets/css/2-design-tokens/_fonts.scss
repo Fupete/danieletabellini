@@ -19,7 +19,7 @@ Use like this in your CSS:
   font-display: swap;
   src:
     url('/assets/fonts/inter/Inter-Regular-subset.woff2') format('woff2'),
-    url('/assets/fonts/inter/Inter-Regular-subset.woff') formt('woff');
+    url('/assets/fonts/inter/Inter-Regular-subset.woff') format('woff');
   unicode-range: U+21-80, U+91-94, U+BF-D6, U+D8-F6, U+F8-122;
 }
 
