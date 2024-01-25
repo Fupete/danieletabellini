@@ -41,7 +41,7 @@ article.container {
 .cover-links {
   margin: var(--spacing-x-large) 0;
 
-  @media screen and (min-width: 48em) {
+  @media screen and (width >= 48em) {
     display: flex;
 
     ul {

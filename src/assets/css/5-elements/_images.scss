@@ -3,17 +3,17 @@ img {
   max-width: 100%;
 }
 
+p img,
+div.cover-image {
+  padding: var(--spacing-x-large) 0;
+}
+
 article.container div.img {
   padding: var(--spacing-x-large) 0;
 
   img {
     margin-bottom: 4px;
   }
-}
-
-p img,
-div.cover-image {
-  padding: var(--spacing-x-large) 0;
 }
 
 article.container {
@@ -25,7 +25,7 @@ article.container {
     justify-content: flex-start;
     flex-direction: column-reverse;
 
-    @media screen and (min-width: 48em) {
+    @media screen and (width >= 48em) {
       flex-direction: row-reverse;
       align-items: center;
       justify-content: flex-end;

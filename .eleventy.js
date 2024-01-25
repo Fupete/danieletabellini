@@ -10,40 +10,40 @@ const EleventyPluginEmoji = require('eleventy-plugin-emoji');
 const rollupPluginCritical = require('rollup-plugin-critical').default;
 const eslintPlugin = require('@rollup/plugin-eslint').default;
 
-const filters = require('./utils/filters.js');
-const transforms = require('./utils/transforms.js');
-const shortcodes = require('./utils/shortcodes.js');
-const pairedShortcodes = require('./utils/paired-shortcodes.js');
+const filters = require('./utils/filters.js')
+const transforms = require('./utils/transforms.js')
+const shortcodes = require('./utils/shortcodes.js')
+const pairedShortcodes = require('./utils/paired-shortcodes.js')
 
-const path = require('path');
-const fs = require('fs');
-const { execSync } = require('child_process');
+const path = require('path')
+const fs = require('fs')
+const { execSync } = require('child_process')
 
 // markdown
-const markdownIt = require('markdown-it');
-const markdownItAnchor = require('markdown-it-anchor');
-const markdownItTocDoneRight = require('markdown-it-toc-done-right');
-const markdownItFootnote = require('markdown-it-footnote');
+const markdownIt = require('markdown-it')
+const markdownItAnchor = require('markdown-it-anchor')
+const markdownItTocDoneRight = require('markdown-it-toc-done-right')
+const markdownItFootnote = require('markdown-it-footnote')
 // image gallery
-const Image = require('@11ty/eleventy-img');
-const sharp = require('sharp');
-const GALLERY_IMAGE_WIDTH = 320;
-const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
-const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 720;
+const Image = require('@11ty/eleventy-img')
+const sharp = require('sharp')
+const GALLERY_IMAGE_WIDTH = 320
+const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440
+const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 720
 // others
-const readingTime = require('eleventy-plugin-reading-time');
+const readingTime = require('eleventy-plugin-reading-time')
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy('public');
+  eleventyConfig.addPassthroughCopy('public')
 
   // plugins
-  eleventyConfig.addPlugin(EleventyPluginNavigation);
-  eleventyConfig.addPlugin(EleventyPluginRss);
-  eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight);
+  eleventyConfig.addPlugin(EleventyPluginNavigation)
+  eleventyConfig.addPlugin(EleventyPluginRss)
+  eleventyConfig.addPlugin(EleventyPluginSyntaxhighlight)
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
     errorMode: 'never'
-  });
+  })
   eleventyConfig.addPlugin(EleventyPluginIcons, {
     sources: [{ name: 'privacy', path: './src/assets/icons/privacy' }],
     icon: {
@@ -51,8 +51,8 @@ module.exports = function (eleventyConfig) {
         fill: 'var(--textColor)'
       }
     }
-  });
-  eleventyConfig.addPlugin(readingTime);
+  })
+  eleventyConfig.addPlugin(readingTime)
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
     // https://github.com/KiwiKilian/eleventy-plugin-og-image#readme
     outputDir: '_site/public/og-images/',
@@ -73,8 +73,8 @@ module.exports = function (eleventyConfig) {
         }
       ]
     }
-  });
-  eleventyConfig.addPlugin(EleventyPluginEmoji);
+  })
+  eleventyConfig.addPlugin(EleventyPluginEmoji)
   eleventyConfig.addPlugin(EleventyVitePlugin, {
     tempFolderName: './.11ty-vite',
     viteOptions: {
@@ -94,11 +94,11 @@ module.exports = function (eleventyConfig) {
         rollupOptions: {
           output: {
             assetFileNames: (assetInfo) => {
-              var info = assetInfo.name.split('.');
-              var extType = info[info.length - 1];
+              var info = assetInfo.name.split('.')
+              var extType = info[info.length - 1]
               if (/png|avif|webp|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType))
-                return `imgs/[name][extname]`;
-              else return `css/[name]-[hash][extname]`;
+                return `imgs/[name][extname]`
+              else return `css/[name]-[hash][extname]`
             },
             chunkFileNames: 'assets/js/[name]-[hash].js',
             entryFileNames: 'assets/js/[name]-[hash].js',
@@ -145,13 +145,13 @@ module.exports = function (eleventyConfig) {
 
   // Filters
   Object.keys(filters).forEach((filterName) => {
-    eleventyConfig.addFilter(filterName, filters[filterName]);
-  });
+    eleventyConfig.addFilter(filterName, filters[filterName])
+  })
 
   // Transforms
   Object.keys(transforms).forEach((transformName) => {
-    eleventyConfig.addTransform(transformName, transforms[transformName]);
-  });
+    eleventyConfig.addTransform(transformName, transforms[transformName])
+  })
 
   // Shortcodes
   Object.keys(shortcodes).forEach((shortcodeName) => {

@@ -4,10 +4,6 @@ ol.ideaslist {
   margin-bottom: var(--spacing-xx-large);
 }
 
-.ideaslist-item:has(a + time) h2 {
-  margin-bottom: var(--spacing-medium);
-}
-
 .ideaslist-item {
   h2 {
     margin-bottom: var(--spacing-small);
@@ -17,13 +13,17 @@ ol.ideaslist {
   a.idea-tag {
     font-size: 0.875rem;
   }
+
+  &:has(a + time) h2 {
+    margin-bottom: var(--spacing-medium);
+  }
 }
 
 .ideaslist-image {
   margin: var(--spacing-x-large) 0;
   height: calc(100vw / (21 / 9));
 
-  @media screen and (min-width: 48em) {
+  @media screen and (width >=48em) {
     height: calc(var(--container-max-ch) / (21 / 9));
   }
 

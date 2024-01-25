@@ -38,6 +38,11 @@ blockquote {
   padding-left: var(--spacing-x-large);
 }
 
+code {
+  background: var(--textColor);
+  color: var(--backgroundColor);
+}
+
 pre {
   background: var(--textColor);
   color: var(--backgroundColor);
@@ -49,11 +54,6 @@ pre {
     background: inherit;
     color: inherit;
   }
-}
-
-code {
-  background: var(--textColor);
-  color: var(--backgroundColor);
 }
 
 hr {
