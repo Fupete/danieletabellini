@@ -8,7 +8,6 @@ const EleventyPluginOgImage = require('eleventy-plugin-og-image');
 const EleventyPluginEmoji = require('eleventy-plugin-emoji');
 
 const rollupPluginCritical = require('rollup-plugin-critical').default;
-const eslintPlugin = require('@rollup/plugin-eslint').default;
 
 const filters = require('./utils/filters.js');
 const transforms = require('./utils/transforms.js');
@@ -17,7 +16,6 @@ const pairedShortcodes = require('./utils/paired-shortcodes.js');
 
 const path = require('path');
 const fs = require('fs');
-const { execSync } = require('child_process');
 
 // markdown
 const markdownIt = require('markdown-it');
@@ -134,13 +132,9 @@ module.exports = function (eleventyConfig) {
                 ],
                 penthouse: {
                   forceInclude: ['.fonts-loaded-1 body', '.fonts-loaded-2 body']
-                },
-                cleanCSS: {
-
                 }
               }
-            }),
-            eslintPlugin()
+            })
           ]
         }
       }
