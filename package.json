@@ -13,12 +13,14 @@
     "watch": "npx @11ty/eleventy --watch",
     "serve": "npx @11ty/eleventy --serve",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "prettier-check": "npx prettier --check .",
-    "prettier-fix": "npx prettier --write .",
     "build": "env NODE_ENV=production npx @11ty/eleventy",
     "postbuild": "env NODE_ENV=production npx pagefind --site _site --glob '**/*.html'",
     "clean": "del-cli _site",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format:md": "prettier '**/*.md' --write && eslint '**/*.md' --fix",
+    "format:js": "prettier '**/*.js' --write && eslint '**/*.js' --fix",
+    "format:json": "prettier '**/*.json' --write",
+    "format": "run-s format:*",
+    "lint": "eslint --ext .js ."
   },
   "repository": {
     "type": "git",
@@ -38,26 +40,31 @@
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "@babel/eslint-parser": "^7.23.3",
+    "@babel/preset-env": "^7.23.8",
+    "@rollup/plugin-eslint": "^9.0.5",
     "autoprefixer": "^10.4.7",
     "cssnano": "^6.0.0",
     "cssremedy": "^0.1.0-beta.2",
     "del-cli": "^5.0.0",
     "eleventy-plugin-emoji": "^1.1.0",
     "eleventy-plugin-og-image": "^2.1.1",
-    "eslint": "^8.18.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-markdown": "^3.0.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "lint-staged": "^15.2.0",
     "luxon": "^3.0.1",
     "markdown-it": "^14.0.0",
     "markdown-it-anchor": "^8.6.7",
     "npm-run-all": "^4.1.5",
     "pagefind": "^1.0.4",
     "postcss-nesting": "^12.0.1",
-    "prettier": "3.2.4",
+    "prettier": "^3.2.4",
     "rollup-plugin-critical": "^1.0.12",
     "sass": "^1.53.0",
+    "sharp": "^0.33.2",
     "vite": "^5.0.12"
   },
   "dependencies": {
@@ -70,5 +77,15 @@
     "markdown-it-toc-done-right": "^4.2.0",
     "photoswipe": "^5.3.7",
     "speedlify-score": "^4.0.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "eslint"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
   }
 }
