@@ -3,7 +3,7 @@
   padding: var(--spacing-medium)
     clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
 
-  @media (min-width: 47.9375em) {
+  @media (width >= 47.9375em) {
     padding: var(--spacing-x-large) var(--spacing-medium); // fallback
     padding: var(--spacing-x-large)
       clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));

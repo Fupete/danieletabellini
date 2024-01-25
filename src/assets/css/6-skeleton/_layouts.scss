@@ -3,12 +3,6 @@
 .layout {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
-  min-height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
   min-height: 100vh;
   position: relative;
 }
@@ -25,6 +19,7 @@ section.container {
   --content: min(68ch, 100% - var(--gap) * 2);
   --popout: minmax(0, var(--spacing-x-large));
   --feature: minmax(0, var(--spacing-xx-large));
+
   display: grid;
   grid-template-columns:
     [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(
@@ -64,14 +59,13 @@ section.container {
     justify-content: space-around;
     flex-direction: column-reverse;
 
-    @media (min-width: 64.0625em) {
+    @media (width >= 64.0625em) {
       gap: var(--spacing-xx-large);
       flex-direction: row;
     }
 
-    .hero___content,
-    picture {
-      @media (min-width: 64.0625em) {
+    .hero___content {
+      @media (width >= 64.0625em) {
         width: 48%;
       }
     }
@@ -79,9 +73,10 @@ section.container {
     picture {
       height: 50vh;
 
-      @media (min-width: 64.0625em) {
+      @media (width >= 64.0625em) {
         height: inherit;
         max-height: 520px;
+        width: 48%;
       }
 
       img {
@@ -106,10 +101,7 @@ section.container {
       a::after {
         content: '';
         position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
+        inset: 0;
       }
 
       .head {
