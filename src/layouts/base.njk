@@ -12,7 +12,7 @@
 	<title>{{ title or meta.title }}</title>
 
 	
-	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular-subset.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
+	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular-subset.woff2' | url }}" as="font" type="font/woff2" crossorigin> <!-- xxx i need a titillium pro subset -->
 
 	{% include "meta.njk" %}
 
@@ -30,12 +30,11 @@
 					document.documentElement.className += " fonts-loaded-1";
 
 					Promise.all([
-						document.fonts.load("400 1em 'Inter'"),
-						document.fonts.load("400 italic 1em 'Inter'"),
-						document.fonts.load("500 1em 'Inter'"),
-						document.fonts.load("600 1em 'Inter'"),
-						document.fonts.load("700 1em 'Inter'"),
-						document.fonts.load("900 1em 'Inter'"),
+						document.fonts.load("400 1em 'Titillium Sans Pro'"),
+						document.fonts.load("400 italic 1em 'Titillium Sans Pro'"),
+						document.fonts.load("600 1em 'Titillium Sans Pro'"),
+						document.fonts.load("700 1em 'Titillium Sans Pro'"),
+						document.fonts.load("900 1em 'Titillium Sans Pro'"),
 					]).then(function () {
 						document.documentElement.className += " fonts-loaded-2";
 
