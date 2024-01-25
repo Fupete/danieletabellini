@@ -4,6 +4,6 @@ module.exports = {
 				<ul>
 					${content}
 				</ul>
-			</div>`.replace(/(\r\n|\n|\r)/gm, '')
+			</div>`.replace(/(\r\n|\n|\r)/gm, '');
   }
-}
+};

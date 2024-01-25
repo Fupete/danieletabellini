@@ -1,5 +1,4 @@
-const Image = require('@11ty/eleventy-img')
-const path = require('path')
+const Image = require('@11ty/eleventy-img');
 
 module.exports = {
   image: async function (
@@ -9,34 +8,33 @@ module.exports = {
     widths = [320, 640, 1280, 1920],
     loadingMode = 'lazy'
   ) {
-    let imageSrc
-    const fileSlug = this.page.fileSlug
+    let imageSrc;
+    const fileSlug = this.page.fileSlug;
     if (
       fileSlug !== 'en' &&
       fileSlug !== 'it' &&
       fileSlug !== 'ideas' &&
       fileSlug !== 'tags'
     )
-      imageSrc = `./src/imgs/${fileSlug}/${src}`
-    else imageSrc = `./src/imgs/${src}` // home + ideas
+      imageSrc = `./src/imgs/${fileSlug}/${src}`;
+    else imageSrc = `./src/imgs/${src}`; // home + ideas
     if (alt === undefined)
-      throw new Error(`Missing \`alt\` on image from: ${src}`)
+      throw new Error(`Missing \`alt\` on image from: ${src}`);
 
     const metadata = await Image(imageSrc, {
       widths: widths,
       formats: ['avif', 'webp', 'jpeg'],
       urlPath: '/imgs/',
       outputDir: './_site/imgs/'
-    })
+    });
 
-    return Image.generateHTML(
-      metadata,
-      (attributes = {
-        alt,
-        sizes,
-        loading: loadingMode,
-        decoding: 'auto'
-      })
-    )
+    const attributes = {
+      alt,
+      sizes,
+      loading: loadingMode,
+      decoding: 'auto'
+    };
+
+    return Image.generateHTML(metadata, attributes);
   }
-}
+};

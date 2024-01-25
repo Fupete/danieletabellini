@@ -1,4 +1,6 @@
-const im = iframemanager()
+/* global iframemanager*/
+/* eslint no-undef: "error"*/
+const im = iframemanager();
 
 im.run({
   currLang: document.documentElement.lang,
@@ -26,6 +28,6 @@ im.run({
       }
     }
   }
-})
+});
 
-im.rejectService('all')
+im.rejectService('all');
