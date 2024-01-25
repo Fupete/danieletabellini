@@ -33,25 +33,4 @@ layout: base
     {% endfor %}
   </div>
   {% endif %}
-
-  {# {%- if collections.ideas %}
-  {%- set previousidea = collections.ideas | getPreviousCollectionItem %}
-  {%- set nextidea = collections.ideas | getNextCollectionItem %}
-  {%- if nextidea or previousidea %}
-  <ul class="links-nextprev" data-pagefind-ignore>
-    {%- if previousidea %}
-    <li>
-      {%- if page.lang == 'it' %}Precedente{% else %}Previous{% endif %}: <a href="{{ previousidea.url | url }}">{{
-        previousidea.data.title }}</a>
-    </li>
-    {% endif %}
-    {%- if nextidea %}
-    <li>
-      {%- if page.lang == 'it' %}Successiva{% else %}Next{% endif %}: <a href="{{ nextidea.url | url }}">{{
-        nextidea.data.title }}</a>
-    </li>
-    {% endif %}
-  </ul>
-  {%- endif %}
-  {%- endif %} #}
 </article>
