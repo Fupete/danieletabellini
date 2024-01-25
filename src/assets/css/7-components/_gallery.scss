@@ -17,8 +17,7 @@
   ul {
     padding: var(--spacing-x-large) 0;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: row wrap;
     gap: 4px;
 
     li {
@@ -27,18 +26,17 @@
       margin: 0;
       flex-grow: 1;
 
-      @media screen and (min-width: 48em) {
+      @media screen and (width >= 48em) {
         height: 172px;
       }
 
-      @media screen and (min-width: 64.0625em) {
+      @media screen and (width >= 64.0625em) {
         height: 240px;
       }
 
       a {
         cursor: zoom-in;
         width: 100%;
-        display: block;
         height: 100%;
         display: flex;
 

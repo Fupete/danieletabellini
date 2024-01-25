@@ -10,7 +10,7 @@ section.footnotes {
     display: block;
     counter-increment: footnotesIndex;
 
-    &:before {
+    &::before {
       font-size: 14px;
       content: counters(footnotesIndex, '.') '.';
     }

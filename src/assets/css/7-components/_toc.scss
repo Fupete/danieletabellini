@@ -10,7 +10,7 @@ nav.toc {
     counter-increment: index;
     padding: var(--spacing-xx-small) 0;
 
-    &:before {
+    &::before {
       font-size: 0.875rem;
       font-weight: 500;
       margin-right: var(--spacing-x-small);

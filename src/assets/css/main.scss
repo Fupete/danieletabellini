@@ -30,9 +30,7 @@
 @use '5-elements/tables';
 
 // 6. Skeleton
-@use '6-skeleton/grid';
 @use '6-skeleton/layouts';
-@use '6-skeleton/objects';
 
 // 7. Components
 @use '7-components/embeds';
@@ -45,13 +43,6 @@
 @use '7-components/taglist';
 @use '7-components/toc';
 @use '7-components/video';
-
-// 8. Utilities
-@use '8-utilities/modifiers';
-@use '8-utilities/states';
-
-/* Shame on you! */
-@use 'shame';
 
 /* photoswipe */
 @import 'photoswipe/dist/photoswipe.css';

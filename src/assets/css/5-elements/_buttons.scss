@@ -2,7 +2,6 @@ button,
 .button {
   background-color: var(--textColor);
   color: white;
-
   display: inline-flex;
   align-items: center;
   height: 48px;
@@ -16,6 +15,6 @@ button,
   text-decoration: none;
 
   &:hover {
-    background-color: rgba(26, 26, 26, 0.85);
+    background-color: rgb(26 26 26 / 85%);
   }
 }

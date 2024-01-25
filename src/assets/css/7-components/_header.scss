@@ -2,7 +2,7 @@
   &__container {
     position: relative;
 
-    @media (min-width: 47.9375em) {
+    @media (width >= 47.9375em) {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -13,7 +13,6 @@
 
     max-width: var(--container-max-width);
     margin: 0 auto;
-
     padding: var(--spacing-medium) var(--spacing-medium); // fallback
     padding: var(--spacing-medium)
       clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
@@ -24,7 +23,7 @@
         font-weight: 600;
         margin: 0;
 
-        @media (min-width: 47.9375em) {
+        @media (width >= 47.9375em) {
           display: flex;
           flex-wrap: wrap;
           align-items: center;
@@ -37,7 +36,7 @@
           align-items: center;
           height: 48px;
 
-          @media (min-width: 47.9375em) {
+          @media (width >= 47.9375em) {
             height: 64px;
           }
 

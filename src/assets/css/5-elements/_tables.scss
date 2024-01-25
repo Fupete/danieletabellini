@@ -9,6 +9,10 @@ table {
     font-size: 0.875rem;
   }
 
+  td {
+    border-top: 2px solid var(--tableBorderColor);
+  }
+
   th,
   td {
     padding: var(--spacing-small);
@@ -20,10 +24,6 @@ table {
     &:last-child {
       padding-right: 0;
     }
-  }
-
-  td {
-    border-top: 2px solid var(--tableBorderColor);
   }
 
   tr {
