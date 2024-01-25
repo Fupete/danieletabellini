@@ -20,7 +20,7 @@ article.container {
   div.title-with-icon {
     display: flex;
     gap: var(--spacing-medium);
-    align-items: left;
+    align-items: flex-start;
     margin-top: var(--spacing-large);
     justify-content: flex-start;
     flex-direction: column-reverse;
