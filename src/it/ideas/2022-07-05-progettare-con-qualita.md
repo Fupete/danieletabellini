@@ -42,7 +42,9 @@ L’aggiornamento del design system del Paese, uno strumento _open_, aperto, sia
 
 Ma cosa si intende quando parliamo di _qualità_?
 
-> La Qualità… sappiamo cos’è, eppure non lo sappiamo. Questo è contraddittorio. Alcune cose sono meglio di altre cioè hanno più Qualità. Ma quando provi a dire in cosa consiste la Qualità astraendo dalle cose che la posseggono, paff, le parole ti sfuggono di mano. Ma se nessuno sa cos’è, ai fini pratici non esiste per niente. Invece esiste eccome. Su cos’altro sono basati i voti, se no? Perché mai la gente pagherebbe una fortuna per certe cose, e ne getterebbe altre nella spazzatura? Ovviamente alcune cose sono meglio di altre… Ma in cosa consiste il “meglio”? <footer>— <cite>Lo zen e l’arte della manutenzione della motocicletta, Robert M. Pirsig</cite></footer>
+<blockquote>
+    <p>La Qualità… sappiamo cos’è, eppure non lo sappiamo. Questo è contraddittorio. Alcune cose sono meglio di altre cioè hanno più Qualità. Ma quando provi a dire in cosa consiste la Qualità astraendo dalle cose che la posseggono, paff, le parole ti sfuggono di mano. Ma se nessuno sa cos’è, ai fini pratici non esiste per niente. Invece esiste eccome. Su cos’altro sono basati i voti, se no? Perché mai la gente pagherebbe una fortuna per certe cose, e ne getterebbe altre nella spazzatura? Ovviamente alcune cose sono meglio di altre… Ma in cosa consiste il “meglio”?</p> <footer>— <cite>Lo zen e l’arte della manutenzione della motocicletta, Robert M. Pirsig</cite></footer>
+</blockquote>
 
 L’accessibilità è un tema di cultura del fare, e fare bene. Non è solo considerare l’accessibilità tra le priorità progettuali, ma _“fare”_, perché è solo così che si scoprono le necessità reali e i compromessi necessari della qualità manifesta di cui parla Robert Pirsig. È il **cambio culturale** che stiamo cercando di affermare: non ratificare a valle uno stato di conformità, ma _fare accessibile_. Semplificare, togliere un passaggio, partire da soluzioni già validate (_by default_) che possano essere curate nel corso di un progetto (_by design_), per poi scoprire, paradossalmente, che si tratta di opzioni economiche ed efficaci.
 

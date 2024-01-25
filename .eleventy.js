@@ -113,10 +113,11 @@ module.exports = function (eleventyConfig) {
               criticalBase: './_site/',
               criticalPages: [
                 { uri: 'en/index.html', template: 'index' },
-                { uri: 'it/index.html', template: 'index' }
+                { uri: 'it/index.html', template: 'index' },
               ],
               criticalConfig: {
-                inline: false,
+                inline: true,
+                strict: true,
                 dimensions: [
                   {
                     height: 900,
@@ -133,6 +134,9 @@ module.exports = function (eleventyConfig) {
                 ],
                 penthouse: {
                   forceInclude: ['.fonts-loaded-1 body', '.fonts-loaded-2 body']
+                },
+                cleanCSS: {
+
                 }
               }
             }),
