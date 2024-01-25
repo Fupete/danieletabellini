@@ -116,7 +116,7 @@ module.exports = function (eleventyConfig) {
                 { uri: 'it/index.html', template: 'index' }
               ],
               criticalConfig: {
-                inline: false,
+                inline: true,
                 dimensions: [
                   {
                     height: 900,
