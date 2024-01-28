@@ -11,14 +11,11 @@ layout: base
     {% endif %}
     >
     {{ title }}</h1>
-
   {{ content | safe }}
-
   {% if (page.fileSlug !== "timeline") %}
   <div class="project-metadata" data-pagefind-ignore>
     <time class="projectslist-date visual-hidden" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date |
       dateToFormat('yyyy MM') }}</time>
-    {# /  #}
     {% for tag in tags | filterTagList %}
     {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
     <a data-pagefind-filter="{% if page.lang == 'en' %}By tag: {{ tag }}{% else %}Per argomenti: {{ tag }}{% endif %}"
@@ -26,5 +23,4 @@ layout: base
     {% endfor %}
   </div>
   {% endif %}
-
 </article>

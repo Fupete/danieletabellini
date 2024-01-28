@@ -11,21 +11,17 @@ layout: base
     {% endif %}
     >
     {{ title }}</h1>
-
   {% if hideReadingTime != true %}
   <p>
     <span class="meta__stats">{% if page.lang == 'en' %}About{% else %}Circa{% endif %} {{ content | readingTime }} {%
       if page.lang == 'en' %}reading time{% else %}per la lettura{% endif %}</span>
   </p>
   {% endif %}
-
   {{ content | safe }}
-
   {% if (page.fileSlug !== "timeline") %}
   <div class="idea-metadata" data-pagefind-ignore>
     <time class="ideaslist-date visual-hidden" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date |
       dateToFormat('yyyy MM') }}</time>
-    {# /  #}
     {% for tag in tags | filterTagList %}
     {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
     <a data-pagefind-filter="{% if page.lang == 'en' %}By tag: {{ tag }}{% else %}Per argomenti: {{ tag }}{% endif %}"
