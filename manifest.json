@@ -5,11 +5,11 @@
   "_PhotoSwipeLightbox-36b1ec8a.js": {
     "file": "assets/js/PhotoSwipeLightbox-36b1ec8a.js"
   },
-  "_main-8b5335bd.js": {
+  "_main-708b2910.js": {
     "css": [
       "css/main-8bb616b3.css"
     ],
-    "file": "assets/js/main-8b5335bd.js",
+    "file": "assets/js/main-708b2910.js",
     "imports": [
       "_PhotoSwipe-0117c151.js",
       "_PhotoSwipeLightbox-36b1ec8a.js"
