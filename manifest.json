@@ -1,18 +1,18 @@
 {
-  "_PhotoSwipe-0117c151.js": {
-    "file": "assets/js/PhotoSwipe-0117c151.js"
+  "_PhotoSwipe-65bbc9ae.js": {
+    "file": "assets/js/PhotoSwipe-65bbc9ae.js"
   },
-  "_PhotoSwipeLightbox-36b1ec8a.js": {
-    "file": "assets/js/PhotoSwipeLightbox-36b1ec8a.js"
+  "_PhotoSwipeLightbox-c4308989.js": {
+    "file": "assets/js/PhotoSwipeLightbox-c4308989.js"
   },
-  "_main-708b2910.js": {
+  "_main-e33c8059.js": {
     "css": [
       "css/main-8bb616b3.css"
     ],
-    "file": "assets/js/main-708b2910.js",
+    "file": "assets/js/main-e33c8059.js",
     "imports": [
-      "_PhotoSwipe-0117c151.js",
-      "_PhotoSwipeLightbox-36b1ec8a.js"
+      "_PhotoSwipe-65bbc9ae.js",
+      "_PhotoSwipeLightbox-c4308989.js"
     ]
   },
   "imgs/-t1vVjwOS7-1280.avif": {
