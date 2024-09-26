@@ -244,26 +244,26 @@ module.exports = function (eleventyConfig) {
   });
 
   // Build pagefind index
-  // eleventyConfig.on('eleventy.after', async function ({ dir }) {
-  //   const inputPath = dir.output;
-  //   const outputPath = path.join(dir.output, 'pagefind');
+  eleventyConfig.on('eleventy.after', async function ({ dir }) {
+    const inputPath = dir.output;
+    const outputPath = path.join(dir.output, 'pagefind');
 
-  //   console.log('Creating Pagefind index of %s', inputPath);
+    console.log('Creating Pagefind index of %s', inputPath);
 
-  //   const pagefind = await import('pagefind');
-  //   const { index } = await pagefind.createIndex();
-  //   const { errors, page_count } = await index.addDirectory({
-  //     path: inputPath,
-  //     glob: '**/*.{html}'
-  //   });
-  //   await index.writeFiles({ outputPath });
+    const pagefind = await import('pagefind');
+    const { index } = await pagefind.createIndex();
+    const { errors, page_count } = await index.addDirectory({
+      path: inputPath,
+      glob: '**/*.{html}'
+    });
+    await index.writeFiles({ outputPath });
 
-  //   console.log(
-  //     'Created Pagefind index of %i pages in %s',
-  //     page_count,
-  //     outputPath
-  //   );
-  // });
+    console.log(
+      'Created Pagefind index of %i pages in %s',
+      page_count,
+      outputPath
+    );
+  });
 
   return {
     templateFormats: ['md', 'njk', 'html', 'liquid'],
