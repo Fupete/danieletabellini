@@ -1,5 +1,6 @@
 // generated pagefind UI
 import '/pagefind/pagefind-ui.js'; // xxx doesn't work on 1st build
+// to study: https://syntackle.com/blog/pagefind-search-in-astro-site/
 
 const initSearch = () => {
   /* global PagefindUI */

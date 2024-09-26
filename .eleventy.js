@@ -90,6 +90,7 @@ module.exports = function (eleventyConfig) {
         sourcemap: 'true',
         manifest: true,
         rollupOptions: {
+          external: ["/pagefind/pagefind-ui.js"],
           output: {
             assetFileNames: (assetInfo) => {
               var info = assetInfo.name.split('.');
@@ -103,7 +104,7 @@ module.exports = function (eleventyConfig) {
             manualChunks: {
               PhotoSwipe: ['photoswipe'],
               PhotoSwipeLightbox: ['photoswipe/lightbox']
-            }
+            },
           },
           plugins: [
             rollupPluginCritical({
