@@ -44,22 +44,23 @@
 				if (sessionStorage.fontsLoadedCriticalFoftPreload) {
 					document.documentElement.className += " fonts-loaded-2";
 					return;
-				}
-				document.fonts.load("1em 'Inter Subset'").then(function () {
-					document.documentElement.className += " fonts-loaded-1";
-					Promise.all([
-						document.fonts.load("400 1em 'Inter'"),
-						document.fonts.load("400 italic 1em 'Inter'"),
-						document.fonts.load("500 1em 'Inter'"),
-						document.fonts.load("600 1em 'Inter'"),
-						document.fonts.load("700 1em 'Inter'"),
-						document.fonts.load("900 1em 'Inter'"),
-					]).then(function () {
-						document.documentElement.className += " fonts-loaded-2";
-						// Optimization for Repeat Views
-						sessionStorage.fontsLoadedCriticalFoftPreload = true;
+				} else {
+					document.fonts.load("1em 'Inter Subset'").then(function () {
+						document.documentElement.className += " fonts-loaded-1";
+						Promise.all([
+							document.fonts.load("400 1em 'Inter'"),
+							document.fonts.load("400 italic 1em 'Inter'"),
+							document.fonts.load("500 1em 'Inter'"),
+							document.fonts.load("600 1em 'Inter'"),
+							document.fonts.load("700 1em 'Inter'"),
+							document.fonts.load("900 1em 'Inter'"),
+						]).then(function () {
+							document.documentElement.className += " fonts-loaded-2";
+							// Optimization for Repeat Views
+							sessionStorage.fontsLoadedCriticalFoftPreload = true;
+						});
 					});
-				});
+				}
 			}
 		})();
 	</script>
@@ -67,6 +68,7 @@
   <script type="module" crossorigin src="/assets/js/main-54072dc8.js"></script>
   <link rel="stylesheet" href="/css/main-1e3303aa.css">
 </head>
+
 <body>
 	<a href="#main" class="skiplink">Skip to content</a>
 	<div class="layout" role="document">
@@ -194,4 +196,5 @@
 	</div>
 	
 </body>
+
 </html>
