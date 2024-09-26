@@ -19,27 +19,29 @@
 				if (sessionStorage.fontsLoadedCriticalFoftPreload) {
 					document.documentElement.className += " fonts-loaded-2";
 					return;
-				}
-				document.fonts.load("1em 'Inter Subset'").then(function () {
-					document.documentElement.className += " fonts-loaded-1";
-					Promise.all([
-						document.fonts.load("400 1em 'Inter'"),
-						document.fonts.load("400 italic 1em 'Inter'"),
-						document.fonts.load("500 1em 'Inter'"),
-						document.fonts.load("600 1em 'Inter'"),
-						document.fonts.load("700 1em 'Inter'"),
-						document.fonts.load("900 1em 'Inter'"),
-					]).then(function () {
-						document.documentElement.className += " fonts-loaded-2";
-						// Optimization for Repeat Views
-						sessionStorage.fontsLoadedCriticalFoftPreload = true;
+				} else {
+					document.fonts.load("1em 'Inter Subset'").then(function () {
+						document.documentElement.className += " fonts-loaded-1";
+						Promise.all([
+							document.fonts.load("400 1em 'Inter'"),
+							document.fonts.load("400 italic 1em 'Inter'"),
+							document.fonts.load("500 1em 'Inter'"),
+							document.fonts.load("600 1em 'Inter'"),
+							document.fonts.load("700 1em 'Inter'"),
+							document.fonts.load("900 1em 'Inter'"),
+						]).then(function () {
+							document.documentElement.className += " fonts-loaded-2";
+							// Optimization for Repeat Views
+							sessionStorage.fontsLoadedCriticalFoftPreload = true;
+						});
 					});
-				});
+				}
 			}
 		})();
 	</script>
 	<link rel="stylesheet" href="/assets/css/main.scss">
 </head>
+
 <body>
 	<a href="#main" class="skiplink">{%- if page.lang == 'it' %}Salta al contenuto{% else %}Skip to content{% endif
 		%}</a>
@@ -58,4 +60,5 @@
 	<script type="module" src="/assets/js/modules/photoswipe.js"></script>
 	{% endif %}
 </body>
+
 </html>
