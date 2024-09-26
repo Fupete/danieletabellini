@@ -151,7 +151,7 @@ Per accedere ai contenuti video ospitati direttamente all’interno del sito, **
 
 Le icone che utilizzo per scandire le sezioni principali di questa privacy policy sono parte del set completo realizzato a cura di **Maastricht European Centre on Privacy and Cybersecurity – ECPC** (distribuito con [Licenza CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)) per il progetto [Informative chiare](https://www.garanteprivacy.it/temi/informativechiare) del Garante per la protezione dei dati personali. Unica eccezione l'icona "Cookies" che ho realizzato in stile.
 
-Lato accessibilità tutte le icone di questa pagina sono rese invisibili ai lettori di schermo utilizzando l'attributo `aria-hidden="false"` perché rappresentano il concetto espresso dalla stesso titoletto che le precede.
+Lato accessibilità tutte le icone di questa pagina sono rese invisibili ai lettori di schermo utilizzando l'attributo `aria-hidden="true"` perché rappresentano il concetto espresso dalla stesso titoletto che le precede.
 
 ### Licenza e sorgente
 

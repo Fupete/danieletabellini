@@ -151,7 +151,7 @@ To access the video contents hosted directly on the site, **before viewing them*
 
 The icons I use to mark the main sections of this privacy policy are part of the complete set created by **Maastricht European Center on Privacy and Cybersecurity – ECPC** (distributed under [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/deed.en)) for the project [Informative chiare](https://www.garanteprivacy.it/temi/informativechiare) (italian language) of the Italian Data Protection Authority (Garante per la protezione dei dati personali). The only exception is the "Cookies" icon which I created in style.
 
-On the accessibility side, all the icons on this page are made invisible to screen readers using the `aria-hidden="false"` attribute because they represent the concept expressed by the same heading that precedes them.
+On the accessibility side, all the icons on this page are made invisible to screen readers using the `aria-hidden="true"` attribute because they represent the concept expressed by the same heading that precedes them.
 
 ### License and source
 
