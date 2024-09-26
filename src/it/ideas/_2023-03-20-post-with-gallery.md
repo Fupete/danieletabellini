@@ -2,6 +2,8 @@
 title: Post con galleria
 image: holiday.jpg
 tags: [Data, Gallery]
+permalink: false
+eleventyExcludeFromCollections: true
 photoswipe: true
 ---
 
