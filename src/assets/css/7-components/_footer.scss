@@ -1,6 +1,3 @@
-/* stylelint-disable */
-/* xxx to be simplified */
-
 ul.links-nextprev {
   margin: var(--spacing-xx-large) 0;
   font-size: 0.875rem;
@@ -28,50 +25,77 @@ ul.links-nextprev {
         margin-top: var(--spacing-large);
       }
     }
-  }
-}
 
-.nav--footer {
-  a {
-    display: block;
-    padding: 0.25em 0;
-  }
-
-  ul {
-    font-size: 0.875rem;
-    font-weight: 500;
-    margin-top: var(--spacing-x-large);
-
-    @media (width >=47.9375em) {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: baseline;
+    .site-footer__inner__page-related {
+      margin-bottom: var(--spacing-xx-large);
     }
-  }
 
-  li {
-    margin-right: var(--spacing-large);
+    .site-footer__inner__main {
+      border-top: 1px dotted var(--tableBorderColor);
+      padding-top: var(--spacing-large);
+      display: flex;
+      justify-content: space-between;
+      gap: var(--spacing-medium);
+      flex-wrap: wrap;
 
-    &.nav__item--active {
-      a {
-        font-weight: 600;
-        text-decoration: none;
-        color: var(--text-color);
+      .nav--footer {
+        a {
+          display: block;
+          padding: 0.25em 0;
+        }
+
+        ul {
+          font-size: 0.875rem;
+          font-weight: 500;
+          margin-top: var(--spacing-x-large);
+
+          @media (width >=47.9375em) {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: baseline;
+          }
+        }
+
+        li {
+          margin-right: var(--spacing-large);
+
+          &.nav__item--active {
+            a {
+              font-weight: 600;
+              text-decoration: none;
+              color: var(--text-color);
+            }
+          }
+        }
+      }
+
+      .site-footer__inner__bench-related {
+        display: flex;
+        flex-flow: column wrap;
+
+        @media (width >=64.0625em) {
+          align-items: flex-end;
+        }
+
+        gap: var(--spacing-small);
+
+        a.speedlify-link {
+          text-decoration: none !important;
+          display: block;
+          width: fit-content;
+          color: var(--textColor);
+          margin-bottom: var(--spacing-x-small);
+        }
+
+        p.estimatedCo2 {
+          margin: 0;
+
+          @media (width >=64.0625em) {
+            max-width: 24ch;
+            text-align: right;
+          }
+        }
       }
     }
   }
 }
-
-a.speedlify-link {
-  text-decoration: none !important;
-  display: block;
-  width: fit-content;
-  color: var(--textColor);
-  margin-bottom: var(--spacing-x-small);
-}
-
-p.estimatedCo2 {
-  margin: 0;
-}
-
-/* stylelint-enable */

@@ -6,7 +6,7 @@
         <div id="langAlternatives">
             {% for link in page.url | locale_links %}
                 {%- if loop.first %}
-                <p lang="{{link.lang}}"><small> {%- if page.lang == 'it' %}This page is also available in{% else %}Questa pagina è disponibile anche in{% endif %}
+                <p lang="{{link.lang}}"><small><span class="visually-hidden">{%- if page.lang == 'it' %}This page is also available in English:{% else %}Questa pagina è disponibile anche in italiano:{% endif %} </span>
                 {% endif %}
                 {%- if not loop.first %}, {% endif %}
                 <a href="{{link.url | url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a></small></p>

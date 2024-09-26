@@ -1,66 +1,90 @@
 ---
 layout: base
 eleventyNavigation:
-  key: Home
-  order: 1
+key: Home
+order: 1
 title: "La mia ricetta di design: persone, qualità e un pizzico di sale"
 description: "Il sito ufficiale di Daniele Tabellini, designer e artista italiano"
-lastUpdate: 2024-01-14
+lastUpdate: 2024-09-26
 ---
 
-<div class="container home">
+<div class="home">
 
+  <section class="container">
+    <div class="hero full">
+      <div class="hero___content">
+        <h1>La mia ricetta di design: persone, qualità e un pizzico di sale</h1>
+        <p class="lead">Sono Daniele Tabellini {% emoji "👨‍💻", "computer geek e hacker dal 1982" %} {% emoji "🌈",
+          "amo gli
+          arcobaleni" %} {% emoji "🔥", "ho intitolato una mostra personale 'Brucia'" %} {% emoji "🧑‍🎤", "volevo
+          essere una rockstar" %}
+        <p>Curo <strong><a href="https://designers.italia.it/design-system/">.Italia il design system del
+              Paese</a></strong>
+          per Designers Italia. Mi occupo di usabilità, accessibilità, open source e open design per il Dipartimento per
+          la trasformazione digitale. Insegno <strong><a
+              href="https://design.unirsm.sm/courses/digital-experience-lab/">concept
+              design e creative coding</a></strong> a Design UNIRSM. Con Erika Gabbani facciamo <strong><a
+              href="https://tellerk.com/portfolio/drawings/">arte</a></strong> come Teller & K (T+K, già Fupete),
+          <strong><a href="https://nasonero.studio/portfolio">produzione, curatela e design</a></strong> come
+          nasonero.studio
+        </p>
+      </div>
+      {% image "profile.png", "Disegno e gioco col colore Blu Italia #0066CC", "100vw", [320, 640, 1280, 1920], "eager"
+      %}
+    </div>
+  </section>
 
-  <h1>La mia ricetta di design: persone, qualità e un pizzico di sale</h1>
+  <hr />
+  <!--xxx <section class="container">
+    <div class="search feature">
+      <label for="site-search" class="input-search-label visually-hidden">Campo di ricerca</label>
+      <div id="searchBox" class="search-box"></div>
+    </div>
+  </section>
+-->
 
-  <p class="lead">Sono Daniele Tabellini {% emoji "👨‍💻", "computer geek e hacker dal 1982" %} {% emoji "🌈", "amo gli
-    arcobaleni" %} {% emoji "🔥", "ho intitolato una mostra personale 'Brucia'" %} {% emoji "🧑‍🎤", "volevo essere una rockstar" %} 
+ <!-- xxx <section class="container">
+    {% set projectslist = collections["design_" + page.lang] %}
+    {% include "projectslist.njk" %}
+    <div class="discover-more full">
+      <a class="button" href="/it/design/">Esplora tutti i progetti</a>
+    </div>
+  </section>-->
 
-  <p>Curo <strong><a href="https://designers.italia.it/design-system/">Design system .italia</a></strong>
-    per Designers Italia. Mi occupo di usabilità, accessibilità, open source e open design per il Dipartimento per la
-    trasformazione digitale. Insegno <strong><a href="https://design.unirsm.sm/courses/digital-experience-lab/">concept
-        design e creative coding</a></strong> a Design UNIRSM. Con Erika Gabbani facciamo <strong><a
-        href="https://tellerk.com/portfolio/drawings/">arte</a></strong> come Teller & K (T+K, già Fupete), <strong><a
-        href="https://nasonero.studio/portfolio">produzione, curatela e design</a></strong> come nasonero.studio</p>
+  <section class="container">
+    <p><strong>Principal Designer</strong> / <strong>Artista</strong> / <strong>Consulente Art Director e Design
+        Technologist</strong> / <strong>Esperto UI/UX Designer al Dipartimento per
+        la trasformazione digitale della Presidenza del Consiglio dei Ministri</strong> / <strong>Professore a contratto
+        in
+        Digital Experience Lab a Design UNIRSM</strong> / Ex Lcd Firenze / Ex ROJO Magazine / Ex E-Tree</p>
 
-  <div class="cover-image feature">{% image "dt-2024-01.jpg", "Disegno e gioco col colore Blu Italia #0066CC", "100vw",
-    [640, 1280, 1600], "eager" %}</div>
+    <p>Temi di interesse: #designGov #designSystem #a11y #openDesign
+      #openSource #drawing #digitalBrut #creativeCoding #performingArts</p>
 
-  <p><strong>Principal Designer</strong> / <strong>Artista</strong> / <strong>Consulente Art Director e Design
-      Technologist</strong> / <strong>Esperto UI/UX Designer al Dipartimento per
-      la trasformazione digitale della Presidenza del Consiglio dei Ministri</strong> / <strong>Professore a contratto
-      in
-      Digital Experience Lab a Design UNIRSM</strong> / Ex Lcd Firenze / Ex ROJO Magazine / Ex E-Tree</p>
+    <div class="cover-links">
+      <ul>
+        <li><a
+            href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
+            CV</a></li>
+        <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
+        <li><a href="https://x.com/fupete">X</a></li>
+        <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
+        <li><a href="https://github.com/fupete">GitHub</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://nasonero.studio">nasonero.studio</a></li>
+        <li><a href="https://tellerk.com/it/">tellerk.com</a></li>
+      </ul>
+    </div>
+  </section>
 
-  <p>Temi di interesse: #designGov #designSystem #a11y #openDesign
-    #openSource #drawing #digitalBrut #creativeCoding #performingArts</p>
-
-
-  <div class="cover-links">
-    <ul>
-      <li><a
-          href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
-          CV</a></li>
-      <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
-      <li><a href="https://x.com/fupete">X</a></li>
-      <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
-      <li><a href="https://github.com/fupete">GitHub</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://nasonero.studio">nasonero.studio</a></li>
-      <li><a href="https://tellerk.com/it/">tellerk.com</a></li>
-    </ul>
-  </div>
   {# {% set ideaslist = collections["ideas_" + page.lang] %}
-  {% include "home-ideaslist.njk" %}
+  {% include "home-ideaslist.njk" %} #}
 
-  <label for="site-search" class="input-search-label">Cerca</label>
-  <div id="search" class="search"></div>
-
-  {% set ideaUrl %}/en/ideas/{% endset %}
+  {# {% set ideaUrl %}/en/ideas/{% endset %}
   <p style="margin-top:6rem"><a href="{{ideaUrl| url}}">Esplora tutte le idee</a></p>
   {% set tagUrl %}/en/tags/{% endset %}
   <p><a href="{{tagUrl | url}}">Esplora tutti i tag</a></p> #}

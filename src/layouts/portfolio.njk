@@ -1,0 +1,26 @@
+---
+layout: base
+---
+<article class="container" data-pagefind-body>
+  <h1 {% set projectslist=collections["design_" + page.lang] %} {% if projectslist | length> 0 %}
+    {% for project in projectslist | reverse %}
+    {% if project.url == page.url %}
+    data-pagefind-filter="{% if page.lang == 'en' %}By type: Projects{% else %}Per tipo: Progetti{% endif %}"
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    >
+    {{ title }}</h1>
+  {{ content | safe }}
+  {% if (page.fileSlug !== "timeline") %}
+  <div class="project-metadata" data-pagefind-ignore>
+    <time class="projectslist-date visual-hidden" datetime="{{ page.date | dateToFormat('yyyy-MM-dd') }}">{{ page.date |
+      dateToFormat('yyyy MM') }}</time>
+    {% for tag in tags | filterTagList %}
+    {% set tagUrl %}/{{ page.lang }}/tags/{{ tag | slug }}/{% endset %}
+    <a data-pagefind-filter="{% if page.lang == 'en' %}By tag: {{ tag }}{% else %}Per argomenti: {{ tag }}{% endif %}"
+      href="{{ tagUrl | url }}" class="project-tag">{{ tag }}</a> &nbsp;
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>

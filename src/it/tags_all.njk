@@ -10,7 +10,7 @@ description: Temi di interesse
   <ul class="taglist">
     {% set orderedCollection = collections | sortObjectByKey %}
     {%- for tag, ideas in orderedCollection %}
-    {% if tag !== 'all' and tag !== 'ideas' and tag !== 'ideas_en' and tag !== 'ideas_it' %}
+    {% if tag !== 'all' and tag !== 'ideas' and tag !== 'ideas_en' and tag !== 'ideas_it' and tag!== 'projects' and tag !== 'design_en' and tag !== 'design_it' %}
     {% set tagUrl %}/it/tags/{{ tag | slug }}/{% endset %}
     <li class="taglist-item">
       <a href="{{tagUrl|url}}" class="taglist-link">

@@ -8,7 +8,6 @@ const EleventyPluginOgImage = require('eleventy-plugin-og-image');
 const EleventyPluginEmoji = require('eleventy-plugin-emoji');
 
 const rollupPluginCritical = require('rollup-plugin-critical').default;
-const eslintPlugin = require('@rollup/plugin-eslint').default;
 
 const filters = require('./utils/filters.js');
 const transforms = require('./utils/transforms.js');
@@ -17,7 +16,6 @@ const pairedShortcodes = require('./utils/paired-shortcodes.js');
 
 const path = require('path');
 const fs = require('fs');
-const { execSync } = require('child_process');
 
 // markdown
 const markdownIt = require('markdown-it');
@@ -113,7 +111,7 @@ module.exports = function (eleventyConfig) {
               criticalBase: './_site/',
               criticalPages: [
                 { uri: 'en/index.html', template: 'index' },
-                { uri: 'it/index.html', template: 'index' },
+                { uri: 'it/index.html', template: 'index' }
               ],
               criticalConfig: {
                 inline: true,
@@ -134,13 +132,9 @@ module.exports = function (eleventyConfig) {
                 ],
                 penthouse: {
                   forceInclude: ['.fonts-loaded-1 body', '.fonts-loaded-2 body']
-                },
-                cleanCSS: {
-
                 }
               }
-            }),
-            eslintPlugin()
+            })
           ]
         }
       }
@@ -227,17 +221,11 @@ module.exports = function (eleventyConfig) {
   // Layouts
   eleventyConfig.addLayoutAlias('base', 'base.njk');
   eleventyConfig.addLayoutAlias('idea', 'idea.njk');
+  eleventyConfig.addLayoutAlias('portfolio', 'portfolio.njk');
 
   // Copy/pass-through files
   eleventyConfig.addPassthroughCopy('./src/assets/css');
   eleventyConfig.addPassthroughCopy('./src/assets/js');
-
-  // Build pagefind index XXX
-  eleventyConfig.on('eleventy.after', async () => {
-    execSync(`npx pagefind --source _site --glob \"**/*.html\"`, {
-      encoding: 'utf-8'
-    });
-  });
 
   // Localized notes
   eleventyConfig.addCollection('ideas_en', (collectionApi) => {
@@ -246,6 +234,35 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection('ideas_it', (collectionApi) => {
     return collectionApi.getFilteredByGlob('./src/it/ideas/**/*.md');
+  });
+  // Localized design projects
+  eleventyConfig.addCollection('design_en', (collectionApi) => {
+    return collectionApi.getFilteredByGlob('./src/en/design/**/*.md');
+  });
+  eleventyConfig.addCollection('design_it', (collectionApi) => {
+    return collectionApi.getFilteredByGlob('./src/it/design/**/*.md');
+  });
+
+  // Build pagefind index
+  eleventyConfig.on('eleventy.after', async function ({ dir }) {
+    const inputPath = dir.output;
+    const outputPath = path.join(dir.output, 'pagefind');
+
+    console.log('Creating Pagefind index of %s', inputPath);
+
+    const pagefind = await import('pagefind');
+    const { index } = await pagefind.createIndex();
+    const { errors, page_count } = await index.addDirectory({
+      path: inputPath,
+      glob: '**/*.{html}'
+    });
+    await index.writeFiles({ outputPath });
+
+    console.log(
+      'Created Pagefind index of %i pages in %s',
+      page_count,
+      outputPath
+    );
   });
 
   return {

@@ -24,7 +24,7 @@ module.exports = {
 
   filterTagList: function (tags) {
     return (tags || []).filter(
-      (tag) => ['all', 'nav', 'idea', 'ideas'].indexOf(tag) === -1
+      (tag) => ['all', 'nav', 'idea', 'ideas', 'projects'].indexOf(tag) === -1
     );
   },
 

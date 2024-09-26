@@ -2,20 +2,15 @@
 <html lang="{{ page.lang }}">
 
 <head>
-	{# <link rel="alternate" hreflang="{{ page.lang }}" href="{{page.url}}"> #}
 	{% for link in page.url | locale_links %}
-		<link rel="alternate" hreflang="{{link.lang}}" href="https://danieletabellini.com{{link.url}}">
+	<link rel="alternate" hreflang="{{link.lang}}" href="https://danieletabellini.com{{link.url}}">
 	{% endfor %}
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title or meta.title }}</title>
-
-	
-	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular-subset.woff2' | url }}" as="font" type="font/woff2" crossorigin> 
-
+	<link rel="preload" href="{{ '/assets/fonts/inter/Inter-Regular-subset.woff2' | url }}" as="font" type="font/woff2"
+		crossorigin>
 	{% include "meta.njk" %}
-
 	<script>
 		/* Font loading: Critical FOFT with preload, see: https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-with-preload */
 		(function () {
@@ -25,10 +20,8 @@
 					document.documentElement.className += " fonts-loaded-2";
 					return;
 				}
-
 				document.fonts.load("1em 'Inter Subset'").then(function () {
 					document.documentElement.className += " fonts-loaded-1";
-
 					Promise.all([
 						document.fonts.load("400 1em 'Inter'"),
 						document.fonts.load("400 italic 1em 'Inter'"),
@@ -38,7 +31,6 @@
 						document.fonts.load("900 1em 'Inter'"),
 					]).then(function () {
 						document.documentElement.className += " fonts-loaded-2";
-
 						// Optimization for Repeat Views
 						sessionStorage.fontsLoadedCriticalFoftPreload = true;
 					});
@@ -46,13 +38,11 @@
 			}
 		})();
 	</script>
-
 	<link rel="stylesheet" href="/assets/css/main.scss">
 </head>
-
 <body>
-	<a href="#main" class="skiplink">{%- if page.lang == 'it' %}Salta al contenuto{% else %}Skip to content{% endif %}</a>
-
+	<a href="#main" class="skiplink">{%- if page.lang == 'it' %}Salta al contenuto{% else %}Skip to content{% endif
+		%}</a>
 	<div class="layout" role="document">
 		{% include "header.njk" %}
 		<main id="main" class="main">
@@ -60,8 +50,12 @@
 		</main>
 		{% include "footer.njk" %}
 	</div>
-
 	<script type="module" src="/assets/js/main.js"></script>
+	{%- if page.fileSlug == '' or page.fileSlug == 'it' or page.fileSlug == 'en' %}
+	<script type="module" src="/assets/js/pagefind.js"></script>
+	{% endif %}
+	{%- if photoswipe %}
+	<script type="module" src="/assets/js/modules/photoswipe.js"></script>
+	{% endif %}
 </body>
-
 </html>
