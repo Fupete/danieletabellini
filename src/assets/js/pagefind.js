@@ -1,4 +1,4 @@
-generated pagefind UI
+// generated pagefind UI
 import '../../pagefind/pagefind-ui.js'; // xxx doesn't work on 1st build
 
 const initSearch = () => {
