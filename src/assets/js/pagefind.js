@@ -1,5 +1,5 @@
 // generated pagefind UI
-import '../../pagefind/pagefind-ui.js'; // xxx doesn't work on 1st build
+import '/pagefind/pagefind-ui.js'; // xxx doesn't work on 1st build
 
 const initSearch = () => {
   /* global PagefindUI */
