@@ -29,6 +29,16 @@
 
     </url><url>
 
+      <loc>https://danieletabellini.com/en/design/</loc>
+      
+
+      <xhtml:link rel="alternate" hreflang="it" href="https://danieletabellini.com/it/design/" />
+      
+
+      <lastmod>2024-09-26</lastmod>
+
+    </url><url>
+
       <loc>https://danieletabellini.com/en/ideas/</loc>
       
 
@@ -111,6 +121,20 @@
 
     </url><url>
 
+      <loc>https://danieletabellini.com/en/tags/design-en/</loc>
+      
+
+      <lastmod>2024-09-26</lastmod>
+
+    </url><url>
+
+      <loc>https://danieletabellini.com/en/tags/design-it/</loc>
+      
+
+      <lastmod>2024-09-26</lastmod>
+
+    </url><url>
+
       <loc>https://danieletabellini.com/en/tags/</loc>
       
 
@@ -135,6 +159,16 @@
       
 
       <xhtml:link rel="alternate" hreflang="en" href="https://danieletabellini.com/en/colophon/" />
+      
+
+      <lastmod>2024-09-26</lastmod>
+
+    </url><url>
+
+      <loc>https://danieletabellini.com/it/design/</loc>
+      
+
+      <xhtml:link rel="alternate" hreflang="en" href="https://danieletabellini.com/en/design/" />
       
 
       <lastmod>2024-09-26</lastmod>
@@ -217,6 +251,20 @@
     </url><url>
 
       <loc>https://danieletabellini.com/it/tags/ideas-it/</loc>
+      
+
+      <lastmod>2024-09-26</lastmod>
+
+    </url><url>
+
+      <loc>https://danieletabellini.com/it/tags/design-en/</loc>
+      
+
+      <lastmod>2024-09-26</lastmod>
+
+    </url><url>
+
+      <loc>https://danieletabellini.com/it/tags/design-it/</loc>
       
 
       <lastmod>2024-09-26</lastmod>

@@ -3,17 +3,13 @@
 
 <head>
 	
+	<link rel="alternate" hreflang="it" href="https://danieletabellini.com/it/colophon/">
 	
-		<link rel="alternate" hreflang="it" href="https://danieletabellini.com/it/colophon/">
-	
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Colophon</title>
-
-	
-	<link rel="preload" href="/assets/fonts/inter/Inter-Regular-subset.woff2" as="font" type="font/woff2" crossorigin> 
-
+	<link rel="preload" href="/assets/fonts/inter/Inter-Regular-subset.woff2" as="font" type="font/woff2"
+		crossorigin>
 	
     <meta name="description" content="Work in progress">
     <link rel="canonical" href="https://danieletabellini.com/en/colophon/">
@@ -40,7 +36,6 @@
 
     
     <link type="application/atom+xml" rel="alternate" href="https://danieletabellini.com/en//feed.xml" title="Daniele Tabellini">
-
 	<script>
 		/* Font loading: Critical FOFT with preload, see: https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-with-preload */
 		(function () {
@@ -50,10 +45,8 @@
 					document.documentElement.className += " fonts-loaded-2";
 					return;
 				}
-
 				document.fonts.load("1em 'Inter Subset'").then(function () {
 					document.documentElement.className += " fonts-loaded-1";
-
 					Promise.all([
 						document.fonts.load("400 1em 'Inter'"),
 						document.fonts.load("400 italic 1em 'Inter'"),
@@ -63,7 +56,6 @@
 						document.fonts.load("900 1em 'Inter'"),
 					]).then(function () {
 						document.documentElement.className += " fonts-loaded-2";
-
 						// Optimization for Repeat Views
 						sessionStorage.fontsLoadedCriticalFoftPreload = true;
 					});
@@ -71,17 +63,12 @@
 			}
 		})();
 	</script>
-
 	
-  <script type="module" crossorigin src="/assets/js/PhotoSwipe-65bbc9ae.js"></script>
-  <script type="module" crossorigin src="/assets/js/PhotoSwipeLightbox-c4308989.js"></script>
-  <script type="module" crossorigin src="/assets/js/main-931b8f98.js"></script>
-  <link rel="stylesheet" href="/css/main-20445503.css">
+  <script type="module" crossorigin src="/assets/js/main-54072dc8.js"></script>
+  <link rel="stylesheet" href="/css/main-1e3303aa.css">
 </head>
-
 <body>
 	<a href="#main" class="skiplink">Skip to content</a>
-
 	<div class="layout" role="document">
 		<header class="site-header">
     <div class="site-header__container">
@@ -99,6 +86,12 @@
         
         
         
+        
+        <!-- xxx <li class="nav__item ">
+            <a class="nav__link" href="/en/design/">
+                Design
+            </a>
+        </li> -->
         <li class="nav__item ">
             <a class="nav__link" href="/en/ideas/">
                 Ideas
@@ -109,7 +102,7 @@
         </div>
         <div id="langAlternatives">
             
-                <p lang="it"><small>Questa pagina è disponibile anche in
+                <p lang="it"><small><span class="visually-hidden">Questa pagina è disponibile anche in italiano: </span>
                 
                 <a href="/it/colophon/" lang="it" hreflang="it">Italiano</a></small></p>
             
@@ -119,65 +112,91 @@
 
 		<main id="main" class="main">
 			<article class="container" data-pagefind-body>
-  <h1>Colophon</h1>
-
+  <h1  
+    >
+    Colophon</h1>
   
-
   <p>Work in progress</p>
-
 
   
   <div class="idea-metadata" data-pagefind-ignore>
-    
-    
+    <time class="ideaslist-date visual-hidden" datetime="2024-09-26">2024 09</time>
     
   </div>
-  
-
   
 </article>
 		</main>
 		<footer class="site-footer">
     <div class="site-footer__inner container">
-        
-        <p class="last-modified">
-            <span aria-hidden="true" class="eleventy-emoji" role="img">💾 </span>Last update:
-            <time datetime="2024-01-15">
-                January 15, 2024
-            </time>
+        <div class="site-footer__inner__page-related">
             
-        </p>
-        
-        <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">Drop me a note or
-            suggest an idea </a>
-        <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/./src/en/colophon.md">Propose an edit to this page</a>
-        <a class="GitHub" style="margin-bottom: var(--spacing-large);"
-            href="https://github.com/Fupete/danieletabellini/commits/main/./src/en/colophon.md">Explore commits history</a>
+            <p class="last-modified">
+                <span aria-hidden="true" class="eleventy-emoji" role="img">💾 </span>Last update:
+                <time datetime="2024-01-15">
+                    January 15, 2024
+                </time>
+                
+            </p>
+            
+            <ul>
+                <li>
+                    <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">Drop me a
+                        note or
+                        suggest an idea </a>
+                </li>
+                <li>
+                    <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/./src/en/colophon.md">Propose an edit to
+                        this
+                        page</a>
+                </li>
+                <li>
+                    <a class="GitHub" style="margin-bottom: var(--spacing-large);"
+                        href="https://github.com/Fupete/danieletabellini/commits/main/./src/en/colophon.md">Explore commits history</a>
+                </li>
+            </ul>
+        </div>
 
+        <div class="full site-footer__inner__main">
+            <div class="site-footer__inner__me-related">
+                <p class="me">
+                    &copy; 2024 - Daniele Tabellini<br />
+                </p>
+                
+                <p>All rights reserved except where otherwise stated.<br />
+                    The
+                    source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on
+                        GitHub</a>
+                    under an open license.
+                </p>
+                <nav class="nav nav--footer" tabindex="-1"
+                    aria-label="Useful links">
+                    
+                    <ul class="nav__menu">
+                        
+                        <li class="nav__item ">
+                            <a class="nav__link" href="/en/privacy-policy/">
+                                Privacy policy
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item nav__item--active">
+                            <a class="nav__link" href="/en/colophon/">
+                                Colophon
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-        <p class="me">
-            &copy; 2024 - Daniele Tabellini<br />
-        </p>
-        
-        <p>All rights reserved except where otherwise stated.<br /> The
-            source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on GitHub</a>
-            under an open license.
-        </p>
-        
-        
-        <p class="estimatedCo2"><span aria-hidden="true" class="eleventy-emoji" role="img">🌱 </span></p>
-        
-            
+            <div class="site-footer__inner__bench-related">
                 
                 
-                
-                
-            
+                <p class="estimatedCo2"><span aria-hidden="true" class="eleventy-emoji" role="img">🌱 </span></p>
+            </div>
+        </div>
     </div>
 </footer>
 	</div>
-
 	
 </body>
-
 </html>

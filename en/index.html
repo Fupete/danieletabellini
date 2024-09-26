@@ -3,17 +3,13 @@
 
 <head>
 	
+	<link rel="alternate" hreflang="it" href="https://danieletabellini.com/it/">
 	
-		<link rel="alternate" hreflang="it" href="https://danieletabellini.com/it/">
-	
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My design recipe: people, quality, and a sprinkle o’ salt</title>
-
-	
-	<link rel="preload" href="/assets/fonts/inter/Inter-Regular-subset.woff2" as="font" type="font/woff2" crossorigin> 
-
+	<link rel="preload" href="/assets/fonts/inter/Inter-Regular-subset.woff2" as="font" type="font/woff2"
+		crossorigin>
 	
     <meta name="description" content="The official website of Daniele Tabellini, Italian designer and artist">
     <link rel="canonical" href="https://danieletabellini.com/en/">
@@ -40,7 +36,6 @@
 
     
     <link type="application/atom+xml" rel="alternate" href="https://danieletabellini.com/en//feed.xml" title="Daniele Tabellini">
-
 	<script>
 		/* Font loading: Critical FOFT with preload, see: https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-with-preload */
 		(function () {
@@ -50,10 +45,8 @@
 					document.documentElement.className += " fonts-loaded-2";
 					return;
 				}
-
 				document.fonts.load("1em 'Inter Subset'").then(function () {
 					document.documentElement.className += " fonts-loaded-1";
-
 					Promise.all([
 						document.fonts.load("400 1em 'Inter'"),
 						document.fonts.load("400 italic 1em 'Inter'"),
@@ -63,7 +56,6 @@
 						document.fonts.load("900 1em 'Inter'"),
 					]).then(function () {
 						document.documentElement.className += " fonts-loaded-2";
-
 						// Optimization for Repeat Views
 						sessionStorage.fontsLoadedCriticalFoftPreload = true;
 					});
@@ -71,17 +63,13 @@
 			}
 		})();
 	</script>
-
 	
-  <script type="module" crossorigin src="/assets/js/PhotoSwipe-65bbc9ae.js"></script>
-  <script type="module" crossorigin src="/assets/js/PhotoSwipeLightbox-c4308989.js"></script>
-  <script type="module" crossorigin src="/assets/js/main-931b8f98.js"></script>
-  <link rel="stylesheet" href="/css/main-20445503.css">
+  <script type="module" crossorigin src="/assets/js/main-54072dc8.js"></script>
+  <script type="module" crossorigin src="/assets/js/pagefind-4ed993c7.js"></script>
+  <link rel="stylesheet" href="/css/main-1e3303aa.css">
 </head>
-
 <body>
 	<a href="#main" class="skiplink">Skip to content</a>
-
 	<div class="layout" role="document">
 		<header class="site-header">
     <div class="site-header__container">
@@ -99,6 +87,12 @@
         
         
         
+        
+        <!-- xxx <li class="nav__item ">
+            <a class="nav__link" href="/en/design/">
+                Design
+            </a>
+        </li> -->
         <li class="nav__item ">
             <a class="nav__link" href="/en/ideas/">
                 Ideas
@@ -109,7 +103,7 @@
         </div>
         <div id="langAlternatives">
             
-                <p lang="it"><small>Questa pagina è disponibile anche in
+                <p lang="it"><small><span class="visually-hidden">Questa pagina è disponibile anche in italiano: </span>
                 
                 <a href="/it/" lang="it" hreflang="it">Italiano</a></small></p>
             
@@ -119,108 +113,169 @@
 
 		<main id="main" class="main">
 			
-<div class="container home">
+<div class="home">
 
-  <h1>My design recipe: people, quality, and a sprinkle o’ salt</h1>
+  <section class="container">
+    <div class="hero full">
+      <div class="hero___content">
+        <h1>My design recipe: people, quality, and a sprinkle o' salt</h1>
+        <p class="lead">I'm Daniele Tabellini <span aria-label="computer geek and hacker since 1982" class="eleventy-emoji" role="img">👨‍💻</span> <span aria-label="I love rainbows" class="eleventy-emoji" role="img">🌈</span> <span aria-label="I titled a solo exhibition 'Brucia' (Burn)" class="eleventy-emoji" role="img">🔥</span> <span aria-label="I wanted to be a rock star" class="eleventy-emoji" role="img">🧑‍🎤</span> </p>
+        <p>I look after <strong><a href="https://designers.italia.it/design-system/">.Italia the Italian Design
+              System</a></strong>&nbsp;<sup>IT</sup> for Designers Italia. I work on usability, accessibility, open
+          source and
+          open design for
+          the Department for Digital Transformation - Italian Gov. I teach <strong><a
+              href="https://design.unirsm.sm/courses/digital-experience-lab/">concept design and creative
+              coding</a></strong>&nbsp;<sup>IT</sup>
+          at Design UNIRSM. With Erika Gabbani we do <strong><a
+              href="https://www.tellerk.com/portfolio/drawings/">art</a></strong> as Teller & K (T+K, formerly Fupete),
+          <strong><a href="https://nasonero.studio/portfolio">production, curatorial and design</a></strong> as
+          nasonero.studio
+        </p>
+      </div>
+      <picture><source type="image/avif" srcset="/imgs/iSugIFfYEm-320.avif 320w, /imgs/iSugIFfYEm-640.avif 640w, /imgs/iSugIFfYEm-1280.avif 1280w" sizes="100vw"><source type="image/webp" srcset="/imgs/iSugIFfYEm-320.webp 320w, /imgs/iSugIFfYEm-640.webp 640w, /imgs/iSugIFfYEm-1280.webp 1280w" sizes="100vw"><img alt="I draw and play with the color Blu Italia #0066CC" loading="eager" decoding="auto" src="/imgs/iSugIFfYEm-320.jpeg" width="1280" height="1206" srcset="/imgs/iSugIFfYEm-320.jpeg 320w, /imgs/iSugIFfYEm-640.jpeg 640w, /imgs/iSugIFfYEm-1280.jpeg 1280w" sizes="100vw"></picture>
+    </div>
+  </section>
 
-  <p class="lead">I'm Daniele Tabellini <span aria-label="computer geek and hacker since 1982" class="eleventy-emoji" role="img">👨‍💻</span> <span aria-label="I love rainbows" class="eleventy-emoji" role="img">🌈</span> <span aria-label="I titled a solo exhibition 'Brucia' (Burn)" class="eleventy-emoji" role="img">🔥</span> <span aria-label="I wanted to be a rock star" class="eleventy-emoji" role="img">🧑‍🎤</span> </p>
+  <hr />
 
-  <p>I look after <strong><a href="https://designers.italia.it/design-system/">Design System .italia</a></strong>&nbsp;<sup>IT</sup> for Designers Italia. I work on usability, accessibility, open source, and
-    open design for
-    the Department for Digital Transformation - Italian Gov. I teach <strong><a
-        href="https://design.unirsm.sm/courses/digital-experience-lab/">concept design and creative
-        coding</a></strong>&nbsp;<sup>IT</sup>
-    at Design UNIRSM. With Erika Gabbani we do <strong><a
-        href="https://www.tellerk.com/portfolio/drawings/">art</a></strong> as Teller & K (T+K, formerly Fupete),
-    <strong><a href="https://nasonero.studio/portfolio">production, curatorial and design</a></strong> as
-    nasonero.studio
-  </p>
+  <!-- xxx <section class="container">
+    <div class="search feature">
+      <label for="site-search" class="input-search-label visually-hidden">Campo di ricerca</label>
+      <div id="searchBox" class="search-box"></div>
+    </div>
+  </section> -->
 
-  <div class="cover-image feature"><picture><source type="image/avif" srcset="/imgs/TleYM9ngOu-640.avif 640w, /imgs/TleYM9ngOu-1280.avif 1280w, /imgs/TleYM9ngOu-1600.avif 1600w" sizes="100vw"><source type="image/webp" srcset="/imgs/TleYM9ngOu-640.webp 640w, /imgs/TleYM9ngOu-1280.webp 1280w, /imgs/TleYM9ngOu-1600.webp 1600w" sizes="100vw"><img alt="I draw and play with the color Blu Italia #0066CC" loading="eager" decoding="auto" src="/imgs/TleYM9ngOu-640.jpeg" width="1600" height="1600" srcset="/imgs/TleYM9ngOu-640.jpeg 640w, /imgs/TleYM9ngOu-1280.jpeg 1280w, /imgs/TleYM9ngOu-1600.jpeg 1600w" sizes="100vw"></picture>
-  </div>
+   <!-- xxx <section class="container">
+    
+    
 
-  <p><strong>Principal Designer</strong> / <strong>Italian Artist</strong> / <strong>Consultant Art Director and Design Technologist</strong> / <strong>Expert UI/UX Designer at Department for Digital Transformation - Italian Gov</strong> / <strong>Adj. Professor in Digital Experience Lab at Design
+<p>Work in progress</p>
+
+   <div class="discover-more full">
+      <a class="button" href="/en/design/">Browse all projects</a>
+    </div> 
+  </section>-->
+
+  <section class="container">
+  <p><strong>Principal Designer</strong> / <strong>Italian Artist</strong> / <strong>Consultant Art Director and
+      Design Technologist</strong> / <strong>Expert UI/UX Designer at Department for Digital Transformation -
+      Italian Gov</strong> / <strong>Adj. Professor in Digital Experience Lab at Design
       UNIRSM</strong> / Ex Lcd Firenze / Ex ROJO Magazine / Ex E-Tree</p>
 
   <p>Topics of interest: #designGov #designSystem #a11y #openDesign
     #openSource #drawing #digitalBrut #creativeCoding #performingArts</p>
 
-  <div class="cover-links">
-    <ul>
-      <li><a
-          href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
-          CV</a>&nbsp;<sup>IT</sup></li>
-      <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a>&nbsp;<sup>IT</sup></li>
-    </ul>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
-      <li><a href="https://x.com/fupete">X</a></li>
-      <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
-      <li><a href="https://github.com/fupete">GitHub</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://nasonero.studio">nasonero.studio</a></li>
-      <li><a href="https://tellerk.com">tellerk.com</a></li>
-    </ul>
-  </div>
-
-
+    <div class="cover-links">
+      <ul>
+        <li><a
+            href="https://presidenza.governo.it/AmministrazioneTrasparente/ConsulentiCollaboratori/allegati_2021/Tabellini_Daniele_CV.pdf">Design
+            CV</a>&nbsp;<sup>IT</sup></li>
+        <li><a href="https://design.unirsm.sm/people/daniele-tabellini/">UNI.RSM profile</a>&nbsp;<sup>IT</sup></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/danieletabellini">LinkedIN</a></li>
+        <li><a href="https://x.com/fupete">X</a></li>
+        <li><a href="https://mastodon.uno/@fupete">Mastodon</a></li>
+        <li><a href="https://github.com/fupete">GitHub</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://nasonero.studio">nasonero.studio</a></li>
+        <li><a href="https://tellerk.com">tellerk.com</a></li>
+      </ul>
+    </div>
+  </section>
+  
   
 </div>
-
 		</main>
 		<footer class="site-footer">
     <div class="site-footer__inner container">
-        
-        <p class="last-modified">
-            <span aria-hidden="true" class="eleventy-emoji" role="img">💾 </span>Last update:
-            <time datetime="2024-01-14">
-                January 14, 2024
-            </time>
+        <div class="site-footer__inner__page-related">
             
-        </p>
-        
-        <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">Drop me a note or
-            suggest an idea </a>
-        <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/./src/en/index.njk">Propose an edit to this page</a>
-        <a class="GitHub" style="margin-bottom: var(--spacing-large);"
-            href="https://github.com/Fupete/danieletabellini/commits/main/./src/en/index.njk">Explore commits history</a>
-
-
-        <p class="me">
-            &copy; 2024 - Daniele Tabellini<br />
-        </p>
-         <p>
-            PI/VAT 02383240500<br />Via
-            XXI Aprile, 41 - 56040<br />Crespina Lorenzana (PI) - Italy<br />
-        </p>
-        <p>All rights reserved except where otherwise stated.<br /> The
-            source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on GitHub</a>
-            under an open license.
-        </p>
-        
-        
-        <div class="speedlify" style="margin-top: var(--spacing-large)">
-            <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/" class="speedlify-link">
-                <span class="visually-hidden">I use a Speedlify instance to monitor the
-                    website performance: </span>
-                <speedlify-score hash="23925ea2"
-                    speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app" score weight></speedlify-score>
-            </a>
+            <p class="last-modified">
+                <span aria-hidden="true" class="eleventy-emoji" role="img">💾 </span>Last update:
+                <time datetime="2024-01-26">
+                    January 26, 2024
+                </time>
+                
+            </p>
+            
+            <ul>
+                <li>
+                    <a class="GitHub" href="https://github.com/Fupete/danieletabellini/issues/new/choose">Drop me a
+                        note or
+                        suggest an idea </a>
+                </li>
+                <li>
+                    <a class="GitHub" href="https://github.com/fupete/danieletabellini/blob/main/./src/en/index.njk">Propose an edit to
+                        this
+                        page</a>
+                </li>
+                <li>
+                    <a class="GitHub" style="margin-bottom: var(--spacing-large);"
+                        href="https://github.com/Fupete/danieletabellini/commits/main/./src/en/index.njk">Explore commits history</a>
+                </li>
+            </ul>
         </div>
-        <p class="estimatedCo2"><span aria-hidden="true" class="eleventy-emoji" role="img">🌱 </span></p>
-        
-            
+
+        <div class="full site-footer__inner__main">
+            <div class="site-footer__inner__me-related">
+                <p class="me">
+                    &copy; 2024 - Daniele Tabellini<br />
+                </p>
+                 <p>
+                    PI/VAT 02383240500<br />Via
+                    XXI Aprile, 41 - 56040<br />Crespina Lorenzana (PI) - Italy<br />
+                </p>
+                <p>All rights reserved except where otherwise stated.<br />
+                    The
+                    source of this website is <a href="https://github.com/Fupete/danieletabellini/">available on
+                        GitHub</a>
+                    under an open license.
+                </p>
+                <nav class="nav nav--footer" tabindex="-1"
+                    aria-label="Useful links">
+                    
+                    <ul class="nav__menu">
+                        
+                        <li class="nav__item ">
+                            <a class="nav__link" href="/en/privacy-policy/">
+                                Privacy policy
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item ">
+                            <a class="nav__link" href="/en/colophon/">
+                                Colophon
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="site-footer__inner__bench-related">
                 
                 
-                
-                
-            
+                <div class="speedlify" style="margin-top: var(--spacing-large)">
+                    <a href="https://iridescent-squirrel-c9bbac.netlify.app/danieletabellini.com/"
+                        class="speedlify-link">
+                        <span class="visually-hidden">I use a Speedlify instance to monitor
+                            the
+                            website performance: </span>
+                        <speedlify-score hash="23925ea2"
+                            speedlify-url="https://iridescent-squirrel-c9bbac.netlify.app" score
+                            weight></speedlify-score>
+                    </a>
+                </div>
+                <p class="estimatedCo2"><span aria-hidden="true" class="eleventy-emoji" role="img">🌱 </span></p>
+            </div>
+        </div>
     </div>
 </footer>
 	</div>
-
+	
+	
 	
 </body>
-
 </html>
