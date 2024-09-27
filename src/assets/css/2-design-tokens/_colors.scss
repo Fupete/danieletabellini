@@ -6,11 +6,11 @@
   --tableBorderColor: #111;
 
   // pagefind
-  --pagefind-ui-primary: #06c;
-  --pagefind-ui-text: #040404;
-  --pagefind-ui-background: #fefefe;
-  --pagefind-ui-border: #666;
-  --pagefind-ui-tag: #666;
+  --pagefind-ui-primary: #06c!important;
+  --pagefind-ui-text: #040404!important;
+  --pagefind-ui-background: #fefefe!important;
+  --pagefind-ui-border: #666!important;
+  --pagefind-ui-tag: #666!important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,10 +26,10 @@
     --tableBorderColor: #fdfdfd;
 
     // pagefind
-    --pagefind-ui-primary: #0080ff;
-    --pagefind-ui-text: #fefefe;
-    --pagefind-ui-background: #040404;
-    --pagefind-ui-border: #666;
-    --pagefind-ui-tag: #666;
+    --pagefind-ui-primary: #0080ff!important;
+    --pagefind-ui-text: #fefefe!important;
+    --pagefind-ui-background: #040404!important;
+    --pagefind-ui-border: #666!important;
+    --pagefind-ui-tag: #666!important;
   }
 }

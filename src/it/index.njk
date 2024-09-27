@@ -10,10 +10,10 @@ lastUpdate: 2024-09-26
 
 <div class="home">
 
-  <section class="container">
+  <section class="container" aria-labelledby="pagetitle">
     <div class="hero full">
       <div class="hero___content">
-        <h1>La mia ricetta di design: persone, qualità e un pizzico di sale</h1>
+        <h1 id="pagetitle">La mia ricetta di design: persone, qualità e un pizzico di sale</h1>
         <p class="lead">Sono Daniele Tabellini {% emoji "👨‍💻", "computer geek e hacker dal 1982" %} {% emoji "🌈",
           "amo gli
           arcobaleni" %} {% emoji "🔥", "ho intitolato una mostra personale 'Brucia'" %} {% emoji "🧑‍🎤", "volevo
@@ -34,25 +34,34 @@ lastUpdate: 2024-09-26
     </div>
   </section>
 
-  <hr />
-  
-  <!-- <section class="container">
+  {# <section class="container">
     <div class="search feature">
       <label for="site-search" class="input-search-label visually-hidden">Campo di ricerca</label>
       <div id="searchBox" class="search-box"></div>
     </div>
-  </section>-->
+  </section> #}
+
+  <section class="container" aria-labelledby="ultimaidea">
+    <h2 id="ultimaidea">Idee</h2>
+    {% set ideaslist = collections["ideas_" + page.lang] %}
+    {% include "ideaslist.njk" %}
+   <div class="discover-more">
+      <a class="button" href="/it/idee/">Esplora le idee</a>
+    </div>
+  </section>
 
 
- <!-- xxx <section class="container">
+ <!-- xxx <section class="container" aria-labelledby="latestprojects">
+    <h2 id="latestprojects">Ultimi progetti</h2>
     {% set projectslist = collections["design_" + page.lang] %}
     {% include "projectslist.njk" %}
     <div class="discover-more full">
-      <a class="button" href="/it/design/">Esplora tutti i progetti</a>
+      <a class="button" href="/it/design/">Esplora i progetti</a>
     </div>
   </section>-->
 
-  <section class="container">
+  <section class="container" aria-labelledby="profilo">
+    <h2 id="profilo">Profilo</h2>
     <p><strong>Principal Designer</strong> / <strong>Artista</strong> / <strong>Consulente Art Director e Design
         Technologist</strong> / <strong>Esperto UI/UX Designer al Dipartimento per
         la trasformazione digitale della Presidenza del Consiglio dei Ministri</strong> / <strong>Professore a contratto

@@ -3,14 +3,22 @@
 {% endif %}
 {% if ideaslist | length > 0 %}
 <ol reversed class="ideaslist">
-  {% for idea in ideaslist | reverse %}
+  {% if page.fileSlug === '' or page.fileSlug === 'en' or page.fileSlug === 'it'%}
+  {% set sliceEnd = ideaslist | length %}
+  {% set sliceStart = sliceEnd - 1 %}
+  {% endif %}
+  {% for idea in ideaslist.slice(sliceStart,sliceEnd) | reverse %}
   {% if idea.data.lang === page.lang %}
   <li class="ideaslist-item{% if idea.url == url %} ideaslist-item-active{% endif %}">
-    <h2>
+    {% if page.fileSlug === '' or page.fileSlug === 'en' or page.fileSlug === 'it'%}
+    <h3>{% else %}
+    <h2>{% endif %}
       <a href="{{ idea.url | url }}" class="ideaslist-link">
         {% if idea.data.title %}{{ idea.data.title }}{% else %}<code>{{ idea.url }}</code>{% endif %}
       </a>
-    </h2>
+      {% if page.fileSlug === '' or page.fileSlug === 'en' or page.fileSlug === 'it'%}
+      </h3>{% else %}
+      </h2>{% endif %}
     <time class="ideaslist-date" datetime="{{ idea.date | dateToFormat('yyyy-MM-dd') }}">{{ idea.date |
       dateToFormat('DDD') }}</time>
     {# {% if idea.data.tags %}
