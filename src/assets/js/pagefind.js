@@ -15,4 +15,4 @@ const initSearch = () => {
   inputSearch.setAttribute('id', 'site-search');
 };
 const isHome = document.querySelector('.home');
-if (isHome) initSearch();
+// if (isHome) initSearch();
