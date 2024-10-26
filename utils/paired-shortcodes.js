@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   gallery: function (content, name) {
     return `<div class="gallery" id="gallery-${name}">
 				<ul>
