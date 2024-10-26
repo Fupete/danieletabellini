@@ -1,5 +1,3 @@
-import UpgradeHelper from '@11ty/eleventy-upgrade-help';
-
 import EleventyPluginNavigation from '@11ty/eleventy-navigation';
 import EleventyPluginRss from '@11ty/eleventy-plugin-rss';
 import EleventyPluginSyntaxhighlight from '@11ty/eleventy-plugin-syntaxhighlight';
@@ -143,9 +141,6 @@ export default function (eleventyConfig) {
       }
     }
   });
-
-  // migration v3
-  eleventyConfig.addPlugin(UpgradeHelper);
 
   // Filters
   Object.keys(filters).forEach((filterName) => {
