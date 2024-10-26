@@ -1,3 +1,5 @@
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
 const EleventyPluginNavigation = require('@11ty/eleventy-navigation');
 const EleventyPluginRss = require('@11ty/eleventy-plugin-rss');
 const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
@@ -141,6 +143,9 @@ module.exports = function (eleventyConfig) {
       }
     }
   });
+
+  // migration v3
+  eleventyConfig.addPlugin(UpgradeHelper);
 
   // Filters
   Object.keys(filters).forEach((filterName) => {
