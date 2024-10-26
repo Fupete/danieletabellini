@@ -52,7 +52,7 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
-    // https://github.com/KiwiKilian/eleventy-plugin-og-image#readme // XXX folder error ogImage...
+    // https://github.com/KiwiKilian/eleventy-plugin-og-image#readme
     outputDir: '_site/public/og-images/',
     outputFileExtension: 'png',
     satoriOptions: {
