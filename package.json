@@ -76,6 +76,7 @@
     "@tgwf/co2": "^0.16.1",
     "eleventy-plugin-icons": "^4.4.1",
     "eleventy-plugin-reading-time": "^0.0.1",
+    "globals": "^15.11.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-toc-done-right": "^4.2.0",
     "photoswipe": "^5.3.7",
