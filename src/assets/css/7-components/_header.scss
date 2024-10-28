@@ -1,26 +1,26 @@
 .site-header {
   padding: var(--spacing-medium) var(--spacing-medium); // fallback
-  padding: var(--spacing-medium)
-    clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+  padding: var(--spacing-medium) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
 
-  @media (width >= 47.9375em) {
+  @media (width >=47.9375em) {
     padding: var(--spacing-x-large) var(--spacing-medium); // fallback
-    padding: var(--spacing-x-large)
-      clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
+    padding: var(--spacing-x-large) clamp(var(--spacing-small), 3.75vw, var(--spacing-x-large));
   }
 
   &__container {
     position: relative;
 
-    @media (width >= 47.9375em) {
+    @media (width >=47.9375em) {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
     }
 
-    max-width: var(--container-max-width);
-    margin: 0 auto;
+    & {
+      max-width: var(--container-max-width);
+      margin: 0 auto;
+    }
 
     .nav--primary {
       ul {
@@ -38,7 +38,7 @@
           align-items: center;
           height: 48px;
 
-          @media (width >= 47.9375em) {
+          @media (width >=47.9375em) {
             height: 64px;
           }
 

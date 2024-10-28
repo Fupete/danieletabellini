@@ -1,6 +1,7 @@
 {
   "name": "danieletabellini-11ty-vite",
-  "version": "1.0.0-beta.5",
+  "version": "1.1.1",
+  "type": "module",
   "description": "My personal digital playground",
   "browserslist": [
     "> 0.5%",
