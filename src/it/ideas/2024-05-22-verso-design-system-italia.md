@@ -5,7 +5,7 @@ canonical: https://medium.com/designers-italia/verso-design-system-italia-dalle-
 permalink: /it/idee/verso-design-system-italia/
 image: cover.webp
 tags: [Accessibility, A11y, Design System, Italia, Pubblica Amministrazione]
-lastUpdate: 2024-01-10
+lastUpdate: 2024-05-22
 ---
 
 <p class="lead">Tre generazioni di linee guida, strumenti e processi per portare accessibilità, usabilità e qualità nei servizi pubblici digitali</p>

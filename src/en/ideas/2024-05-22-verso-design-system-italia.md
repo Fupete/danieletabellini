@@ -5,7 +5,7 @@ canonical: https://opensource.net/italy-open-design-public-websites/
 permalink: /en/ideas/verso-design-system-italia/
 image: cover-en.webp
 tags: [Accessibility, A11y, Design System, Italia, Pubblica Amministrazione]
-lastUpdate: 2024-01-10
+lastUpdate: 2024-08-01
 ---
 
 <p class="lead">Three generations of guidelines, tools and processes to enhance accessibility, usability, and quality in Italy’s Public Administration digital services and websites.</p>
