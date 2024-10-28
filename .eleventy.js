@@ -253,7 +253,7 @@ export default function (eleventyConfig) {
 
     const pagefind = await import('pagefind');
     const { index } = await pagefind.createIndex();
-    const { errors, page_count } = await index.addDirectory({
+    const { page_count } = await index.addDirectory({
       path: inputPath,
       glob: '**/*.{html}'
     });
