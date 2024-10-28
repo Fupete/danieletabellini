@@ -17,10 +17,12 @@
       align-items: center;
     }
 
+    /* stylelint-disable no-duplicate-selectors */
     & {
       max-width: var(--container-max-width);
       margin: 0 auto;
     }
+    /* stylelint-enable no-duplicate-selectors */
 
     .nav--primary {
       ul {

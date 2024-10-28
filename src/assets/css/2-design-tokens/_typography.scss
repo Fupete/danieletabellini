@@ -15,6 +15,7 @@
   --fluid-screen: 100vw;
   --fluid-bp: calc((var(--fluid-screen) - ((var(--fluid-min-width) / 16) * 1rem)) / ((var(--fluid-max-width) / 16) - (var(--fluid-min-width) / 16)));
 
+  /* stylelint-disable no-duplicate-selectors */
   & {
     @media screen and (width >=1441px) {
       --fluid-screen: calc(var(--fluid-max-width) * 1px);
@@ -53,5 +54,7 @@
     --fluid-4: calc(((var(--fluid-min-size-4) * 1rem) + (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp)));
     --fluid-5: calc(((var(--fluid-min-size-5) * 1rem) + (var(--fluid-max-size-5) - var(--fluid-min-size-5)) * var(--fluid-bp)));
   }
+
+  /* stylelint-enable no-duplicate-selectors */
   
 }

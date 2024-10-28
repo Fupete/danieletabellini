@@ -77,9 +77,11 @@ ul.links-nextprev {
           align-items: flex-end;
         }
 
+        /* stylelint-disable no-duplicate-selectors */
         & {
           gap: var(--spacing-small);
         }
+        /* stylelint-enable no-duplicate-selectors */
 
         a.speedlify-link {
           text-decoration: none !important;
