@@ -141,7 +141,7 @@ The project fully upholds Open Source principles. This means continuous improvem
 <small>Design system .italia: <a href="https://designers.italia.it/design-system/componenti/">the public board for project management</a></small>
 </div>
 
-This generation shifts the vision of digital accessibility in Italy from compliance to opportunity by integrating ‘accessibility by design‘ into every process and resource of the national Design System. Accessibility is no longer an ideal or just a regulatory response; it’s woven into the very fabric of the Design System: “Every design decision for a digital interface is a choice about who gets to participate. Our choices – from complexity to accessibility features – determine whether someone can use the service based on their background, skills, or even temporary limitations.” 
+This generation shifts the vision of digital accessibility in Italy from compliance to opportunity by integrating ‘accessibility by design‘ into every process and resource of the national Design System. Accessibility is no longer an ideal or just a regulatory response; it’s woven into the very fabric of the Design System: “Every design decision for a digital interface is a choice about who gets to participate. Our choices – from complexity to accessibility features – determine whether someone can use the service based on their background, skills, or even temporary limitations.”
 
 The first few months of **2024** have been busy for the Design System. The [Identity](https://designers.italia.it/design-system/fondamenti/identita/) foundation has been solidified, laying a strong groundwork for future endeavors. The experimentation phase for the new Titillium Sans Pro typeface, detailed in the [Typography](https://designers.italia.it/design-system/fondamenti/tipografia/) foundation, is now underway. Collaboration with the community has yielded new development kits for Angular and React, further expanding the system’s capabilities. Designers Italia has gone a step further by publishing design [models](https://designers.italia.it/modelli/) and templates specifically tailored for Italian Local Health Authorities (ASL) and Civic Museums. This demonstrates the Design System’s flexibility and its potential for even wider adoption.
 
@@ -150,28 +150,32 @@ The first few months of **2024** have been busy for the Design System. The [Iden
 Design System .italia’s third generation has seen explosive growth. The **numbers tell the story**:
 
 #### Learning Resources:
+
 - **Three** “[How to Get Started](https://designers.italia.it/design-system/come-iniziare/)” guides, **four** “[How to Contribute](https://designers.italia.it/design-system/come-contribuire/)” guides cater to projet managers, designers and developers.
 - The system offers **16** “[foundations](https://designers.italia.it/design-system/fondamenti/)” and **54** “[components](https://designers.italia.it/design-system/componenti/)”, plus **a** designer kit and **three** developer frameworks.
 
 #### Community Enganement:
+
 - UI Kit Italia has been used by over **4,000** people in the Figma community within the past year.
 - More than **390** Open Source software projects on GitHub list Bootstrap Italia as a dependency.
 
 #### National Implementation (PNRR):
-- As part of the PNRR initiative, **84**% of Italian local governments and **81**% of Italian schools (over **13,000** administrations in total) have joined to create their websites and digital services based on Design System .italia. 
- - Of these, about **38.5**% have already implemented Design System .italia in their new websites. This translates to roughly **32**% of all Italian local governments and schools.
+
+- As part of the PNRR initiative, **84**% of Italian local governments and **81**% of Italian schools (over **13,000** administrations in total) have joined to create their websites and digital services based on Design System .italia.
+- Of these, about **38.5**% have already implemented Design System .italia in their new websites. This translates to roughly **32**% of all Italian local governments and schools.
 
 #### Website Performance:
-- The new designers.italia.it website, built with Design System .italia, has seen significant growth: 
+
+- The new designers.italia.it website, built with Design System .italia, has seen significant growth:
   - Monthly visits have increased by **56.5**% compared to the same period in 2023, reaching over **10,000** unique visits.
-  - Total visits have risen by **69.4*% to over **16,000**.
+  - Total visits have risen by **69.4\*% to over **16,000\*\*.
   - Pageviews have jumped by **102.7**% to **45,000**.
   - Average visit duration grew by **220.9**% to around **3.5** minutes.
   - The bounce rate decreased by **90**% to just **4**%.
 
 ---
 
-## What’s next 
+## What’s next
 
 With a view to the **continuous improvement** typical of Open Source projects, Design System .italia has entered a new validation phase that involves verifying the accessibility and consistency of the 54 existing components, which will lead to the release of version 1.0.0 of the documentation.
 
@@ -203,7 +207,7 @@ The current resources refer to the third generation.
 
 #### **Third generation .italia (2021–today):**
 
-- [Design system .italia](https://designers.italia.it/design-system/)  lives in a section of the Designers Italia website. To be preferred for creating interfaces consistent in style and user experience as prescribed by the “Linee guida di design” (Design Guidelines) (2022), issued ex Art 53 of the CAD. Versions from `1.0.0-alpha.1` (2022) to `1.0.0-beta.2`of March 29, 2024 ([documentation changelog](https://designers.italia.it/design-system/fondamenti/versionamento/#changelog-documentazione)).
+- [Design system .italia](https://designers.italia.it/design-system/) lives in a section of the Designers Italia website. To be preferred for creating interfaces consistent in style and user experience as prescribed by the “Linee guida di design” (Design Guidelines) (2022), issued ex Art 53 of the CAD. Versions from `1.0.0-alpha.1` (2022) to `1.0.0-beta.2`of March 29, 2024 ([documentation changelog](https://designers.italia.it/design-system/fondamenti/versionamento/#changelog-documentazione)).
 
 #### Second generation (2017–2021):
 
@@ -217,7 +221,7 @@ The current resources refer to the third generation.
 
 #### **Third generation .italia (2021–today):**
 
-- **UI Kit Italia** `v3`, native Figma, is [available from the Figma community](https://www.figma.com/community/file/1105848677422572920/ui-kit-italia-v3-4-0) and, also converted to the open Sketch* format, from the [/italia/design-ui-kit/](https://github.com/italia/design-ui-kit) repository. Versions from `3.0.0-alpha.1` (2023) to `3.4.0` of March 7, 2024 ([UI Kit Italia changelog](https://github.com/italia/design-ui-kit/releases)). _* The conversion is automated, launching the fig2sketch tool on release with a [GitHub action](https://github.com/italia/figma-to-sketch-action) also made available to the community._
+- **UI Kit Italia** `v3`, native Figma, is [available from the Figma community](https://www.figma.com/community/file/1105848677422572920/ui-kit-italia-v3-4-0) and, also converted to the open Sketch* format, from the [/italia/design-ui-kit/](https://github.com/italia/design-ui-kit) repository. Versions from `3.0.0-alpha.1` (2023) to `3.4.0` of March 7, 2024 ([UI Kit Italia changelog](https://github.com/italia/design-ui-kit/releases)). \_* The conversion is automated, launching the fig2sketch tool on release with a [GitHub action](https://github.com/italia/figma-to-sketch-action) also made available to the community.\_
 - **Design Tokens Italia**, exported from UI Kit Italia, the .italia design tokens are published in the [/italia/design-tokens-italia/](https://github.com/italia/design-tokens-italia) repository available to designers and developers. Versione s from `1.0.0` (2023) to `1.2.0` of December 12, 2023 ([Design Tokens Italia changelog](https://github.com/italia/design-tokens-italia/releases)).
 - The high-definition layouts, prototypes, and component libraries of the **Municipalities** `v2` model ([UI Kit Comuni changelog](https://github.com/italia/design-comuni-ui-kit/releases)), and of the **ASL** ([UI Kit ASL changelog](https://github.com/italia/design-asl-ui-kit/releases)) and **Civic Museums** ([UI Kit Civic Museums changelog](https://github.com/italia/design-musei-ui-kit/releases)) `v1` models are released in the Figma community and, also converted to the open Sketch format, in the respective repositories. They use and extend UI Kit Italia `v3`.
 
@@ -253,6 +257,7 @@ The current resources refer to the third generation.
 ---
 
 ## Sources for the history of Design System .italia (Italian language)
+
 ### Third generation .italia (2021–Today):
 
 - Vabanesi, M. & Tabellini D. , Zaia, F. [Dietro le quinte del sito MITD, dalla ricerca alla pubblicazione online (2a parte)](https://medium.com/designers-italia/dietro-le-quinte-del-sito-mitd-dalla-ricerca-alla-pubblicazione-online-2a-parte-da691f8dc063), March 16, 2021, Medium
@@ -276,12 +281,13 @@ The current resources refer to the third generation.
 ### First generation (2015–2017):
 
 - [Online le Linee guida di design per i siti web della PA](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2015/11/21/online-linee-guida-design-i-siti-web-pa), November 21, 2015, AGID
-Maggio, R. [Presentazione del nuovo sito governo.it](https://www.youtube.com/watch?v=nslsOBRthQY), Reggia di Venaria, video on YouTube, November 21, 2015
+  Maggio, R. [Presentazione del nuovo sito governo.it](https://www.youtube.com/watch?v=nslsOBRthQY), Reggia di Venaria, video on YouTube, November 21, 2015
 - Sinni, G. [Un carattere per l’identità italiana](https://medium.com/designers-italia/un-carattere-per-l-identit%C3%A0-italiana-c704f3e4791d), January 18, 2016, Medium
 - Quaratino, F. [Eppur si Muove. Perché non è solo una questione di linee guida e perché è importante avere delle linee guida](https://medium.com/conscious-mana/eppur-si-muove-200e9dfa5def), April 4, 2016, Medium
 - Sinni, G. [La pubblica utilità è open source](https://medium.com/@giannisinni/la-pubblica-utilit%C3%A0-%C3%A8-open-source-85604c13734e), Autumn 2016, magazin Progetto Grafico n. 30 “Tecnologie aperte”
 
 ### Other useful references
+
 - Propaedeutic readings in .italia: the [Principles and Intentions](https://designers.italia.it/design-system/fondamenti/principi-e-intenzioni/) foundation for the whys; [Identity](https://designers.italia.it/design-system/fondamenti/identita/) and [Accessibility](https://designers.italia.it/design-system/fondamenti/accessibilita/) for the minimum references; [How to Get Started](https://designers.italia.it/design-system/come-iniziare/) to get you ahead, especially if you are a designer, developer, and/or project manager for the PA.
 - People are at the center of the project: to create useful and effective experiences always start from research and people’s **needs**. You can use the [Resources for Designing](https://designers.italia.it/risorse-per-progettare/) and the Designers Italia “[Manuale operativo di design](https://designers.italia.it/norme-e-riferimenti/manuale-operativo-di-design/)” (Design Operational Manual) to broaden the horizon to the entire design process, beyond the user experience and interface.
 - The Design System .italia addresses two targets: the people who create experiences, in administrations and their suppliers; the people who use experiences, citizens and public employees, to be considered at the center of the project.
@@ -297,7 +303,7 @@ Translation reviewed and edited by **Nicole Martinelli**.
 
 The original article, as this, is licensed under the [Creative Commons Attribution 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-The translation aims to make the content accessible to a wider, international audience. Some Italian terms and names of official guidelines and plans have been kept in their original form, with English translations provided in parentheses for clarity. 
+The translation aims to make the content accessible to a wider, international audience. Some Italian terms and names of official guidelines and plans have been kept in their original form, with English translations provided in parentheses for clarity.
 
 <span lang="it"><a href="/it/idee/verso-design-system-italia/">Leggi in italiano...</a></span>
 

@@ -50,6 +50,7 @@ Prendendo come riferimento questa definizione di “generazione di un design sys
 ---
 
 ## La nascita del design system: la versione alfa (2015–2017)
+
 _In sintesi: prime linee guida di design, approccio open e sforzi iniziali per la coerenza dei siti web della PA._
 
 Sebbene non fosse ancora un vero e proprio design system, questa generazione fu il primo tentativo di rendere coerenti per identità visiva, usabilità ed esperienza utente migliaia di siti web della Pubblica Amministrazione, ripensando un approccio responsabile e olistico, come si diceva allora, al progetto digitale per la **pubblica utilità**.
@@ -74,6 +75,7 @@ Dal 2016, la governance del progetto passò al Team per la trasformazione digita
 ---
 
 ## Consolidamento e crescita: la seconda generazione (2017–2021)
+
 _In sintesi: rilascio della prima versione stabile delle linee guida di design; consolidamento di Designers Italia; prime versioni di strumenti operativi e modelli._
 
 Con la guida del Team per la trasformazione digitale e la collaborazione di AGID, si consolidarono la community e i progetti Designers Italia e Developers Italia. Nel 2017 fu rilasciata la prima versione stabile delle Linee guida di design per i siti web della PA, dando il via a una riscrittura completa che ne estese la portata all’intero ciclo di progettazione dei servizi digitali, accogliendo fin dalla versione `2018.1` anche il [protocollo eGlu](https://docs.italia.it/italia/designers-italia/manuale-operativo-design-docs/it/versione-corrente/doc/design-research/test-usabilita.html#protocollo-eglu-lg-per-la-realizzazione-di-test-di-usabilita) per i test di usabilità. Le indicazioni e gli strumenti su Designers Italia iniziarono ad essere raccontati come il “**design system** della PA”.
@@ -110,6 +112,7 @@ Nel 2019 fu istituito il [Dipartimento per la trasformazione digitale](https://i
 ---
 
 ## L’innovazione di .italia: la terza generazione (2021–oggi)
+
 _In sintesi: revisione completa per definire il design system nazionale, accessibile by design; nuovo sito Designers Italia e PNRR; rilascio di risorse e modelli aggiornati in collaborazione con la community._
 
 Dopo il redesign di innovazione.gov.it (2021), la casa digitale del Dipartimento per la trasformazione digitale, che mostrò una rinnovata attenzione a usabilità, accessibilità e privacy, questa generazione entrò nel vivo con [l’avvio di una completa revisione delle risorse per le interfacce](https://designers.italia.it/community/notizie/20211223-per-un-2022-ricco-di-sfide/), progetto ambizioso di ammodernamento tecnologico e di accessibilità, ma anche di visione e gestione del progetto, per arrivare a definire e **mettere a sistema** il design system nazionale, accessibile _by design_.
@@ -206,7 +209,7 @@ Le risorse correnti fanno riferimento alla terza generazione.
 
 #### **Terza generazione .italia (2021–oggi):**
 
-- **UI Kit Italia** `v3`, nativo Figma, è [disponibile dalla community Figma](https://www.figma.com/community/file/1105848677422572920/ui-kit-italia-v3-4-0) e, anche convertito nel formato aperto Sketch*, dalla repository [/italia/design-ui-kit/](https://github.com/italia/design-ui-kit). Versioni da `3.0.0-alpha.1` (2023) a `3.4.0` del 7 marzo 2024 ([changelog UI Kit Italia](https://github.com/italia/design-ui-kit/releases)). _* La conversione è automatizzata, lanciando il tool fig2sketch al rilascio con un’[azione GitHub](https://github.com/italia/figma-to-sketch-action) anch’essa messa a disposizione della community._
+- **UI Kit Italia** `v3`, nativo Figma, è [disponibile dalla community Figma](https://www.figma.com/community/file/1105848677422572920/ui-kit-italia-v3-4-0) e, anche convertito nel formato aperto Sketch*, dalla repository [/italia/design-ui-kit/](https://github.com/italia/design-ui-kit). Versioni da `3.0.0-alpha.1` (2023) a `3.4.0` del 7 marzo 2024 ([changelog UI Kit Italia](https://github.com/italia/design-ui-kit/releases)). \_* La conversione è automatizzata, lanciando il tool fig2sketch al rilascio con un’[azione GitHub](https://github.com/italia/figma-to-sketch-action) anch’essa messa a disposizione della community.\_
 - **Design Tokens Italia**, esportati da UI Kit Italia, i design tokens di .italia sono pubblicati nella repository [/italia/design-tokens-italia/](https://github.com/italia/design-tokens-italia) a disposizione di designer e sviluppatori. Versioni da `1.0.0` (2023) a `1.2.0` del 12 dicembre 2023 ([changelog Design Tokens Italia](https://github.com/italia/design-tokens-italia/releases)).
 - I layout ad alta definizione, i prototipi e le librerie componenti del modello **Comuni** `v2` ([changelog UI Kit Comuni](https://github.com/italia/design-comuni-ui-kit/releases)), e dei modelli **ASL** ([changelog UI Kit ASL](https://github.com/italia/design-asl-ui-kit/releases)) e **Musei civici** ([changelog UI Kit Musei civici](https://github.com/italia/design-musei-ui-kit/releases)) `v1` sono rilasciati nella community Figma e, anche convertiti nel formato aperto Sketch, nelle rispettive repository. Usano ed estendono UI Kit Italia `v3`.
 
@@ -242,6 +245,7 @@ Le risorse correnti fanno riferimento alla terza generazione.
 ---
 
 ## Alcune fonti per la storia del design system .italia
+
 ### Terza generazione .italia (2021–oggi):
 
 - Vabanesi, M. & Tabellini D. , Zaia, F. [Dietro le quinte del sito MITD, dalla ricerca alla pubblicazione online (2a parte)](https://medium.com/designers-italia/dietro-le-quinte-del-sito-mitd-dalla-ricerca-alla-pubblicazione-online-2a-parte-da691f8dc063), 16 marzo 2021, Medium
@@ -265,18 +269,19 @@ Le risorse correnti fanno riferimento alla terza generazione.
 ### Prima generazione (2015–2017):
 
 - [Online le Linee guida di design per i siti web della PA](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2015/11/21/online-linee-guida-design-i-siti-web-pa), 21 novembre 2015, AGID
-Maggio, R. [Presentazione del nuovo sito governo.it](https://www.youtube.com/watch?v=nslsOBRthQY), Reggia di Venaria, video su YouTube del 21 novembre 2015
+  Maggio, R. [Presentazione del nuovo sito governo.it](https://www.youtube.com/watch?v=nslsOBRthQY), Reggia di Venaria, video su YouTube del 21 novembre 2015
 - Sinni, G. [Un carattere per l’identità italiana](https://medium.com/designers-italia/un-carattere-per-l-identit%C3%A0-italiana-c704f3e4791d), 18 gennaio 2016, Medium
 - Quaratino, F. [Eppur si Muove. Perché non è solo una questione di linee guida e perché è importante avere delle linee guida](https://medium.com/conscious-mana/eppur-si-muove-200e9dfa5def), 4 aprile 2016, Medium
 - Sinni, G. [La pubblica utilità è open source](https://medium.com/@giannisinni/la-pubblica-utilit%C3%A0-%C3%A8-open-source-85604c13734e), autunno 2016, rivista Progetto Grafico n. 30 “Tecnologie aperte”
 
 ### Altri riferimenti utili
+
 - Letture propedeutiche in .italia: il fondamento [Princìpi e intenzioni](https://designers.italia.it/design-system/fondamenti/principi-e-intenzioni/) per i perché; [Identità](https://designers.italia.it/design-system/fondamenti/identita/) e [Accessibilità](https://designers.italia.it/design-system/fondamenti/accessibilita/) per i riferimenti minimi; [Come iniziare](https://designers.italia.it/design-system/come-iniziare/) per portarti avanti, in particolare se sei designer, sviluppatore e/o responsabile di progetti per la PA.
 - Le persone sono al centro del progetto: per creare esperienze utili ed efficaci si parte sempre dalla ricerca e dai bisogni delle persone. Puoi usare le [Risorse per progettare](https://designers.italia.it/risorse-per-progettare/) e il [Manuale operativo di design](https://designers.italia.it/norme-e-riferimenti/manuale-operativo-di-design/) di Designers Italia per allargare l’orizzonte all’intero processo di progettazione, oltre l’esperienza d’uso e l’interfaccia.
 - Il design system .italia si rivolge a due target: le persone che realizzano esperienze, in amministrazioni e loro fornitori; le persone che fruiscono esperienze, cittadinanza e dipendenti pubblici, da considerare al centro del progetto.
 - La “materia” del digitale è codice, pixel, contenuti, semantica, buone pratiche e rispetto degli standard, da curare costantemente con approccio di **miglioramento continuo**. Design system .italia si occupa proprio di questa materia, fino al codice dei componenti per comporre le interfacce, disponibile per più framework di sviluppo.
 - L’approccio aperto (open) è una scelta di campo: non solo [un obbligo per la PA](https://developers.italia.it/it/riuso), open source, open design e le corrette licenze aperte sono una scelta per trasparenza, condivisione, riuso e apertura ai contributi di tutta la community. Design system .italia è un **bene pubblico**.
-Questa storia è legata a doppio filo a quella di [normativa e riferimenti](https://designers.italia.it/norme-e-riferimenti/): all’evolversi di **Linee guida di design**, Linee guida sull’accessibilità, CAD, European Accessibility Act, GDPR, Piani triennali, indici europei sulla qualità dei servizi pubblici e norme tecniche o standard di riferimento EN, UNI, WCAG.
+  Questa storia è legata a doppio filo a quella di [normativa e riferimenti](https://designers.italia.it/norme-e-riferimenti/): all’evolversi di **Linee guida di design**, Linee guida sull’accessibilità, CAD, European Accessibility Act, GDPR, Piani triennali, indici europei sulla qualità dei servizi pubblici e norme tecniche o standard di riferimento EN, UNI, WCAG.
 
 <span lang="en"><a href="/en/ideas/verso-design-system-italia/">Read in english...</a></span>
 
