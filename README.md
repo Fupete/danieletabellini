@@ -1,10 +1,11 @@
 # Playground portfolio
 
-This is the repository for my new personal portfolio and digital playground. Let's see. Gently.
+I am Daniele Tabellini (@fupete) and this is the repository for my new personal portfolio website and digital playground. Let's see. Gently.
 
-In use: [Vite 5](https://vitejs.dev/), [Eleventy 3](https://www.11ty.dev/), [PhotoSwipe 5](https://photoswipe.com/) and [Inter Font](https://rsms.me/inter/).
+In use: 🍷 [Vite 5](https://vitejs.dev/), 🕚 [Eleventy 3](https://www.11ty.dev/), 🖼️ [PhotoSwipe 5](https://photoswipe.com/) and 🔤 [Inter Font](https://rsms.me/inter/).  
+Ready to use: 🔎 [Pagefind 1](https://pagefind.app/)
 
-The `code foundation` was based on [11ty + Vite starter project](https://github.com/matthiasott/eleventy-plus-vite)
+The `code foundation` was based on [11ty + Vite starter project](https://github.com/matthiasott/eleventy-plus-vite) by [@matthiasott](https://github.com/matthiasott) ([Original MIT License](https://github.com/matthiasott/eleventy-plus-vite/blob/main/LICENSE)).
 
 ---
 
