@@ -1,6 +1,6 @@
-const Image = require('@11ty/eleventy-img');
+import Image from '@11ty/eleventy-img';
 
-module.exports = {
+export default {
   image: async function (
     src,
     alt,

@@ -1,37 +1,37 @@
-const EleventyPluginNavigation = require('@11ty/eleventy-navigation');
-const EleventyPluginRss = require('@11ty/eleventy-plugin-rss');
-const EleventyPluginSyntaxhighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite');
-const { EleventyI18nPlugin } = require('@11ty/eleventy');
-const EleventyPluginIcons = require('eleventy-plugin-icons');
-const EleventyPluginOgImage = require('eleventy-plugin-og-image');
-const EleventyPluginEmoji = require('eleventy-plugin-emoji');
+import EleventyPluginNavigation from '@11ty/eleventy-navigation';
+import EleventyPluginRss from '@11ty/eleventy-plugin-rss';
+import EleventyPluginSyntaxhighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import EleventyVitePlugin from '@11ty/eleventy-plugin-vite';
+import { EleventyI18nPlugin } from '@11ty/eleventy';
+import EleventyPluginIcons from 'eleventy-plugin-icons';
+import EleventyPluginOgImage from 'eleventy-plugin-og-image';
+import EleventyPluginEmoji from 'eleventy-plugin-emoji';
 
-const rollupPluginCritical = require('rollup-plugin-critical').default;
+import rollupPluginCritical from 'rollup-plugin-critical';
 
-const filters = require('./utils/filters.js');
-const transforms = require('./utils/transforms.js');
-const shortcodes = require('./utils/shortcodes.js');
-const pairedShortcodes = require('./utils/paired-shortcodes.js');
+import filters from './utils/filters.js';
+import transforms from './utils/transforms.js';
+import shortcodes from './utils/shortcodes.js';
+import pairedShortcodes from './utils/paired-shortcodes.js';
 
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
 // markdown
-const markdownIt = require('markdown-it');
-const markdownItAnchor = require('markdown-it-anchor');
-const markdownItTocDoneRight = require('markdown-it-toc-done-right');
-const markdownItFootnote = require('markdown-it-footnote');
+import markdownIt from 'markdown-it';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItTocDoneRight from 'markdown-it-toc-done-right';
+import markdownItFootnote from 'markdown-it-footnote';
 // image gallery
-const Image = require('@11ty/eleventy-img');
-const sharp = require('sharp');
+import Image from '@11ty/eleventy-img';
+import sharp from 'sharp';
 const GALLERY_IMAGE_WIDTH = 320;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1440;
 const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 720;
 // others
-const readingTime = require('eleventy-plugin-reading-time');
+import readingTime from 'eleventy-plugin-reading-time';
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('public');
 
   // plugins
@@ -90,7 +90,7 @@ module.exports = function (eleventyConfig) {
         sourcemap: 'true',
         manifest: true,
         rollupOptions: {
-          external: ["/pagefind/pagefind-ui.js"],
+          external: ['/pagefind/pagefind-ui.js'],
           output: {
             assetFileNames: (assetInfo) => {
               var info = assetInfo.name.split('.');
@@ -104,7 +104,7 @@ module.exports = function (eleventyConfig) {
             manualChunks: {
               PhotoSwipe: ['photoswipe'],
               PhotoSwipeLightbox: ['photoswipe/lightbox']
-            },
+            }
           },
           plugins: [
             rollupPluginCritical({
@@ -278,4 +278,4 @@ module.exports = function (eleventyConfig) {
       data: '_data'
     }
   };
-};
+}

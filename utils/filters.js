@@ -1,6 +1,6 @@
-const { DateTime } = require('luxon');
+import { DateTime } from 'luxon';
 
-module.exports = {
+export default {
   dateToFormat: function (date, format) {
     return DateTime.fromJSDate(date, { zone: 'utc' })
       .setLocale(this.page.lang)
