@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://danieletabellini.com/en/">
     <title>Daniele Tabellini</title>
-    <subtitle>Principal Designer / Artist / Adj. Professor in Digital Experience Lab at Design UNIRSM</subtitle>
+    <subtitle>Principal Designer / Artist / Design System Lead / Digital Experience Lab at Design UNIRSM</subtitle>
     <link href="https://danieletabellini.com/en//feed.xml" rel="self" type="application/atom+xml" />
     <link href="https://danieletabellini.com/en/" rel="alternate" type="text/html"/>
     <author>
