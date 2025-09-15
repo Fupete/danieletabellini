@@ -1,5 +1,5 @@
 .skiplink {
-  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: rect(1px, 1px, 1px, 1px);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -8,7 +8,7 @@
 
 .skiplink:focus {
   border-radius: 4px;
-  clip: auto;
+  clip-path: auto;
   color: var(--textColor);
   height: auto;
   padding: 0.5em 1em;
@@ -45,7 +45,7 @@ ol.ideaslist li.ideaslist-item:focus-within {
 
 .visually-hidden:not(:focus, :active) {
   border: 0;
-  clip: rect(0 0 0 0);
+  clip-path: rect(0 0 0 0);
   height: auto;
   margin: 0;
   overflow: hidden;
