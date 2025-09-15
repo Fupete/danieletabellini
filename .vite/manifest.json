@@ -7,15 +7,15 @@
     "file": "assets/js/PhotoSwipeLightbox-l0sNRNKZ.js",
     "name": "PhotoSwipeLightbox"
   },
-  "_main-C_pKOu4O.css": {
-    "file": "css/main-C_pKOu4O.css",
-    "src": "_main-C_pKOu4O.css"
+  "_main-BnbsQSZn.css": {
+    "file": "css/main-BnbsQSZn.css",
+    "src": "_main-BnbsQSZn.css"
   },
-  "_main-NlqQuV5r.js": {
-    "file": "assets/js/main-NlqQuV5r.js",
+  "_main-bzIoMAT1.js": {
+    "file": "assets/js/main-bzIoMAT1.js",
     "name": "main",
     "css": [
-      "css/main-C_pKOu4O.css"
+      "css/main-BnbsQSZn.css"
     ]
   },
   "_pagefind-l0sNRNKZ.js": {
