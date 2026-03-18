@@ -74,7 +74,7 @@
   "dependencies": {
     "@orestbida/iframemanager": "^1.2.5",
     "@tgwf/co2": "^0.16.1",
-    "eleventy-plugin-icons": "^4.4.1",
+    "eleventy-plugin-icons": "^4.5.7",
     "eleventy-plugin-reading-time": "^0.0.1",
     "globals": "^16.0.0",
     "markdown-it-footnote": "^4.0.0",
