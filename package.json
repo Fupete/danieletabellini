@@ -83,7 +83,7 @@
     "speedlify-score": "^4.0.2"
   },
   "overrides": {
-    "fast-xml-parser": "^5.5.6",
+    "fast-xml-parser": "^5.5.11",
     "minimatch": "^9.0.0",
     "@11ty/eleventy-img": {
       "sharp": "^0.34.5"
