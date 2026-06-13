@@ -92,7 +92,13 @@ export default function (eleventyConfig) {
 		rolldownOptions: {       
 	      external: ['/pagefind/pagefind-ui.js'],
 		  output: {
-		    assetFileNames: (assetInfo) => { ... },
+		    assetFileNames: (assetInfo) => {
+			  var info = assetInfo.name.split('.');
+			  var extType = info[info.length - 1];
+			  if (/png|avif|webp|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType))
+			    return `imgs/[name][extname]`;
+			  else return `css/[name]-[hash][extname]`;
+			},
 		    chunkFileNames: 'assets/js/[name]-[hash].js',
 		    entryFileNames: 'assets/js/[name]-[hash].js',
 		    manualChunks(id) {   // funzione, non oggetto
