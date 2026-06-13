@@ -85,27 +85,21 @@ export default function (eleventyConfig) {
       },
       appType: 'custom',
       assetsInclude: ['**/*.xml', '**/*.txt'],
-      build: {
-        mode: 'production',
-        sourcemap: 'true',
-        manifest: true,
-        rollupOptions: {
-          external: ['/pagefind/pagefind-ui.js'],
-          output: {
-            assetFileNames: (assetInfo) => {
-              var info = assetInfo.name.split('.');
-              var extType = info[info.length - 1];
-              if (/png|avif|webp|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType))
-                return `imgs/[name][extname]`;
-              else return `css/[name]-[hash][extname]`;
-            },
-            chunkFileNames: 'assets/js/[name]-[hash].js',
-            entryFileNames: 'assets/js/[name]-[hash].js',
-            manualChunks: {
-              PhotoSwipe: ['photoswipe'],
-              PhotoSwipeLightbox: ['photoswipe/lightbox']
-            }
-          },
+	  build: {
+	    mode: 'production',
+		sourcemap: true,
+		manifest: true,
+		rolldownOptions: {       
+	      external: ['/pagefind/pagefind-ui.js'],
+		  output: {
+		    assetFileNames: (assetInfo) => { ... },
+		    chunkFileNames: 'assets/js/[name]-[hash].js',
+		    entryFileNames: 'assets/js/[name]-[hash].js',
+		    manualChunks(id) {   // funzione, non oggetto
+		      if (id.includes('photoswipe/lightbox')) return 'PhotoSwipeLightbox'
+		      if (id.includes('photoswipe')) return 'PhotoSwipe'
+		    }
+		  },
           plugins: [
             rollupPluginCritical({
               criticalUrl: './_site/',
