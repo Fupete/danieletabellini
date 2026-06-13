@@ -1,26 +1,14 @@
 {
-  "_PhotoSwipe-l0sNRNKZ.js": {
-    "file": "assets/js/PhotoSwipe-l0sNRNKZ.js",
-    "name": "PhotoSwipe"
-  },
-  "_PhotoSwipeLightbox-l0sNRNKZ.js": {
-    "file": "assets/js/PhotoSwipeLightbox-l0sNRNKZ.js",
-    "name": "PhotoSwipeLightbox"
-  },
-  "_main-BBmZliAN.js": {
-    "file": "assets/js/main-BBmZliAN.js",
+  "_main-5kVhfyCb.js": {
+    "file": "assets/js/main-5kVhfyCb.js",
     "name": "main",
     "css": [
-      "css/main-Dr_RPKpa.css"
+      "css/main-DVagLTNv.css"
     ]
   },
-  "_main-Dr_RPKpa.css": {
-    "file": "css/main-Dr_RPKpa.css",
-    "src": "_main-Dr_RPKpa.css"
-  },
-  "_pagefind-l0sNRNKZ.js": {
-    "file": "assets/js/pagefind-l0sNRNKZ.js",
-    "name": "pagefind"
+  "_main-DVagLTNv.css": {
+    "file": "css/main-DVagLTNv.css",
+    "src": "_main-DVagLTNv.css"
   },
   "_site/public/og-images/00b30757.png": {
     "file": "imgs/00b30757.png",
