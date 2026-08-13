@@ -7,6 +7,9 @@ import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import babelParser from '@babel/eslint-parser';
 
 export default [
+  {
+    ignores: ['node_modules/**', '_site/**', '.cache/**', '.11ty-vite/**']
+  },
   js.configs.recommended,
   ...markdown.configs.recommended,
   eslintPluginPrettierRecommended,
@@ -41,7 +44,6 @@ export default [
           presets: ['@babel/preset-env']
         }
       }
-    },
-    ignores: ['node_modules/', '_site/']
+    }
   }
 ];
