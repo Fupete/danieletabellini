@@ -84,6 +84,7 @@
     "speedlify-score": "^4.0.2"
   },
   "overrides": {
+    "nwsapi": "2.2.24",
     "fast-xml-parser": "^5.5.11",
     "minimatch": "^9.0.0"
   },
