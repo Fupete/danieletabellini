@@ -35,5 +35,25 @@ export default {
       else return 1;
     });
     return toReturn;
+  },
+
+  // locale_links riconosce le traduzioni dal file sorgente: per un template
+  // paginato (le pagine dei tag) restituisce tutte le sue pagine, in tutte e
+  // due le lingue. Qui si tengono solo le altre lingue e, se una lingua ha più
+  // di un link, solo quello con lo stesso percorso dopo il prefisso di lingua.
+  alternateLinks: function (links, url, lang) {
+    if (typeof url !== 'string') return []; // bozze: permalink false
+    const resto = (u, l) => u.replace(new RegExp(`^/${l}/`), '/');
+    const qui = resto(url, lang);
+    const perLingua = {};
+    for (const link of links || []) {
+      if (link.lang === lang) continue;
+      (perLingua[link.lang] ||= []).push(link);
+    }
+    return Object.values(perLingua).flatMap((gruppo) =>
+      gruppo.length === 1
+        ? gruppo
+        : gruppo.filter((link) => resto(link.url, link.lang) === qui)
+    );
   }
 };

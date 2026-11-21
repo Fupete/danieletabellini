@@ -2,7 +2,7 @@
 <html lang="{{ page.lang }}">
 
 <head>
-	{% for link in page.url | locale_links %}
+	{% for link in page.url | locale_links | alternateLinks(page.url, page.lang) %}
 	<link rel="alternate" hreflang="{{link.lang}}" href="https://danieletabellini.com{{link.url}}">
 	{% endfor %}
 	<meta charset="UTF-8">

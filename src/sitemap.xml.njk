@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
     <url>
 
       <loc>{{ item.url | url | absoluteUrl(meta.url) }}</loc>
-      {% for link in item.url | locale_links %}
+      {% for link in item.url | locale_links | alternateLinks(item.url, item.data.lang) %}
 
       <xhtml:link rel="alternate" hreflang="{{link.lang}}" href="https://danieletabellini.com{{link.url}}" />
       {% endfor %}
