@@ -7,8 +7,6 @@ import EleventyPluginIcons from 'eleventy-plugin-icons';
 import EleventyPluginOgImage from 'eleventy-plugin-og-image';
 import EleventyPluginEmoji from 'eleventy-plugin-emoji';
 
-import rollupPluginCritical from 'rollup-plugin-critical';
-
 import filters from './utils/filters.js';
 import transforms from './utils/transforms.js';
 import shortcodes from './utils/shortcodes.js';
@@ -107,38 +105,7 @@ export default function (eleventyConfig) {
                 return 'PhotoSwipeLightbox';
               if (id.includes('photoswipe')) return 'PhotoSwipe';
             }
-          },
-          plugins: [
-            rollupPluginCritical({
-              criticalUrl: './_site/',
-              criticalBase: './_site/',
-              criticalPages: [
-                { uri: 'en/index.html', template: 'index' },
-                { uri: 'it/index.html', template: 'index' }
-              ],
-              criticalConfig: {
-                inline: true,
-                strict: true,
-                dimensions: [
-                  {
-                    height: 900,
-                    width: 375
-                  },
-                  {
-                    height: 720,
-                    width: 1280
-                  },
-                  {
-                    height: 1080,
-                    width: 1920
-                  }
-                ],
-                penthouse: {
-                  forceInclude: ['.fonts-loaded-1 body', '.fonts-loaded-2 body']
-                }
-              }
-            })
-          ]
+          }
         }
       }
     }

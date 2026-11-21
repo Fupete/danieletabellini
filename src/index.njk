@@ -1,0 +1,40 @@
+---
+permalink: /index.html
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ meta.title }}</title>
+	<meta name="description" content="{{ meta.description }}">
+	<link rel="alternate" hreflang="it" href="{{ meta.url }}/it/">
+	<link rel="alternate" hreflang="en" href="{{ meta.url }}/en/">
+	<link rel="alternate" hreflang="x-default" href="{{ meta.url }}/">
+	<link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+	<link type="application/atom+xml" rel="alternate" href="{{ meta.url }}/feed.xml" title="{{ meta.title }}">
+	<script>
+		/* Radice: manda alla lingua del browser. GitHub Pages non fa redirect lato server. */
+		(function () {
+			var lingue = navigator.languages || [navigator.language || ''];
+			var it = lingue.some(function (l) { return /^it\b/i.test(l); });
+			location.replace(it ? '/it/' : '/en/');
+		})();
+	</script>
+	<style>
+		body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 15vh auto; padding: 0 1.5rem; line-height: 1.5; }
+		a { color: #0066CC; }
+	</style>
+</head>
+<body>
+	<main>
+		<h1>{{ meta.title }}</h1>
+		<ul>
+			<li><a href="/it/" hreflang="it" lang="it">Italiano</a></li>
+			<li><a href="/en/" hreflang="en" lang="en">English</a></li>
+		</ul>
+	</main>
+</body>
+</html>
