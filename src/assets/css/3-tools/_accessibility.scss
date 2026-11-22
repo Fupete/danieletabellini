@@ -22,7 +22,7 @@
 :active,
 div.project h2 a:focus-visible,
 li.project h2 a:focus-visible,
-li.ideaslist-item h2 a:focus-visible {
+li.ideaslist-item :is(h2, h3) a:focus-visible {
   border: none;
   outline: none;
 }
@@ -32,7 +32,7 @@ li.ideaslist-item h2 a:focus-visible {
     .lty-playbtn,
     div.project h2 a,
     li.project h2 a,
-    li.ideaslist-item h2 a
+    li.ideaslist-item :is(h2, h3) a
   ),
 div.portfolio div.project:focus-within,
 ol.portfolio li.project:focus-within,
